@@ -3,7 +3,10 @@
     "pages/today/today",
     "pages/immerse/immerse",
     "pages/scene/scene",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/listening/listening",
+    "pages/spelling/spelling",
+    "pages/review/review"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
