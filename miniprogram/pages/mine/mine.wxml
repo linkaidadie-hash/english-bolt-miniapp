@@ -1,0 +1,39 @@
+<view class="page">
+  <view class="card profile">
+    <view class="avatar"></view>
+    <view class="meta">
+      <view class="name">英语快充 v2</view>
+      <view class="muted">build: {{buildTag}}</view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">能力进度（阶段七实现真实统计）</view>
+    <view class="stat-row">
+      <view class="stat">
+        <view class="stat-num">{{stats.vocab}}</view>
+        <view class="stat-label">认识词汇</view>
+      </view>
+      <view class="stat">
+        <view class="stat-num">{{stats.listen}}</view>
+        <view class="stat-label">标准听力</view>
+      </view>
+      <view class="stat">
+        <view class="stat-num">{{stats.naturalListen}}</view>
+        <view class="stat-label">自然口语</view>
+      </view>
+      <view class="stat">
+        <view class="stat-num">{{stats.speak}}</view>
+        <view class="stat-label">会说不</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">诊断</view>
+    <view class="menu-row" bindtap="onTapTestAudio">
+      <text>测试音频 (apple.mp3)</text>
+      <text class="muted">›</text>
+    </view>
+  </view>
+</view>
