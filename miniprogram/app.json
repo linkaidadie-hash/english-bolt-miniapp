@@ -4,6 +4,8 @@
     "pages/immerse/immerse",
     "pages/scene/scene",
     "pages/mine/mine",
+    "pages/natural/index",
+    "pages/natural/lesson",
     "pages/listening/listening",
     "pages/spelling/spelling",
     "pages/review/review"
@@ -32,6 +34,12 @@
         "text": "沉浸",
         "iconPath": "assets/tab/immerse-inactive.png",
         "selectedIconPath": "assets/tab/immerse-active.png"
+      },
+      {
+        "pagePath": "pages/natural/index",
+        "text": "自然",
+        "iconPath": "assets/tab/natural-inactive.png",
+        "selectedIconPath": "assets/tab/natural-active.png"
       },
       {
         "pagePath": "pages/scene/scene",
