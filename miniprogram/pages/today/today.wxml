@@ -32,7 +32,7 @@
         bindtap="onPlayTap"
         disabled="{{audioStatus === 'missing' || audioStatus === 'loading' || audioStatus === 'ready_spell' || audioStatus === 'ready_chinese'}}"
       >
-        <text wx:if="{{audioStatus === 'missing'}}">音频缺失</text>
+        <text wx:if="{{audioStatus === 'missing'}}">发音待补充</text>
         <text wx:elif="{{audioStatus === 'loading'}}">加载中…</text>
         <text wx:elif="{{audioStatus === 'playing'}}">停止</text>
         <text wx:elif="{{audioStatus === 'ended'}}">再听一次</text>
@@ -40,7 +40,8 @@
         <text wx:else>播放标准发音</text>
       </button>
       <text class="status muted">
-        <text wx:if="{{audioStatus === 'ready_spell'}}">仅拼读</text>
+        <text wx:if="{{audioStatus === 'missing'}}">无音频</text>
+        <text wx:elif="{{audioStatus === 'ready_spell'}}">仅拼读</text>
         <text wx:elif="{{audioStatus === 'ready_chinese'}}">仅中文</text>
         <text wx:else>{{audioStatus}}</text>
       </text>
@@ -66,6 +67,16 @@
       <button class="plain" bindtap="onPrev" disabled="{{currentIndex <= 0}}">‹ 上一词</button>
       <text class="muted">{{currentIndex + 1}} / {{batch.size}}</text>
       <button class="plain" bindtap="onNext" disabled="{{currentIndex >= batch.size - 1}}">下一词 ›</button>
+    </view>
+  </view>
+
+  <!-- 阶段三：今日训练入口 -->
+  <view class="card training-card">
+    <view class="card-title">今日训练（仅 830 ready 词）</view>
+    <view class="training-row">
+      <button class="training-btn" bindtap="onGoListening" data-type="listening">🎧 听音辨词</button>
+      <button class="training-btn" bindtap="onGoSpelling" data-type="spelling">✏️ 拼写检测</button>
+      <button class="training-btn" bindtap="onGoReview" data-type="review">🔁 错题回炉</button>
     </view>
   </view>
 
@@ -118,7 +129,7 @@
     <view class="check-item">加载 3000 核心词（ECDICT / BNC 词频）</view>
     <view class="check-item">左右切词流畅，无 tts 状态污染</view>
     <view class="check-item">830 ready 词能播放真音频</view>
-    <view class="check-item">2170 missing 词显示「音频缺失」（不假占位）</view>
+    <view class="check-item">2170 missing 词显示「发音待补充」（不假占位、按钮禁用）</view>
     <view class="check-item">形变（过去式/分词/第三人称）正确显示</view>
     <view class="check-item">Collins/Oxford 星级 + 考试标签 (cet4/gk) 显示</view>
     <view class="check-item">设置项持久化（杀进程再进）</view>
