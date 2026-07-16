@@ -48,6 +48,11 @@ const FILES = [
   'docs/PHASE1.md',
   'docs/PHASE1.5.md',
   'docs/PHASE2.md',
+  'docs/PHASE3.md',
+  'docs/PHASE4.md',
+  // 阶段四 自然口语解码 — 数据
+  'data/pronunciation-patterns.json',
+  'data/natural-sentences.json',
   // 数据底层（v2 数据访问层）
   'data/audio-files.txt',
   'data/audio-vps-words.txt',
@@ -71,7 +76,11 @@ const FILES = [
   'miniprogram/utils/user-data.js',
   'miniprogram/utils/audio-cdn.js',
   'miniprogram/utils/data-repository.js',
+  'miniprogram/utils/srs.js',
+  'miniprogram/utils/trainer.js',
+  'miniprogram/utils/natural-data.js',
   'miniprogram/data/words-core.js',
+  'miniprogram/data/natural-sentences.js',
   'miniprogram/pages/today/today.js',
   'miniprogram/pages/today/today.wxml',
   'miniprogram/pages/today/today.wxss',
@@ -88,6 +97,27 @@ const FILES = [
   'miniprogram/pages/mine/mine.wxml',
   'miniprogram/pages/mine/mine.wxss',
   'miniprogram/pages/mine/mine.json',
+  'miniprogram/pages/listening/listening.js',
+  'miniprogram/pages/listening/listening.wxml',
+  'miniprogram/pages/listening/listening.wxss',
+  'miniprogram/pages/listening/listening.json',
+  'miniprogram/pages/spelling/spelling.js',
+  'miniprogram/pages/spelling/spelling.wxml',
+  'miniprogram/pages/spelling/spelling.wxss',
+  'miniprogram/pages/spelling/spelling.json',
+  'miniprogram/pages/review/review.js',
+  'miniprogram/pages/review/review.wxml',
+  'miniprogram/pages/review/review.wxss',
+  'miniprogram/pages/review/review.json',
+  // 阶段四 自然口语解码 — 页面
+  'miniprogram/pages/natural/index.js',
+  'miniprogram/pages/natural/index.wxml',
+  'miniprogram/pages/natural/index.wxss',
+  'miniprogram/pages/natural/index.json',
+  'miniprogram/pages/natural/lesson.js',
+  'miniprogram/pages/natural/lesson.wxml',
+  'miniprogram/pages/natural/lesson.wxss',
+  'miniprogram/pages/natural/lesson.json',
   'miniprogram/assets/tab/today-inactive.png',
   'miniprogram/assets/tab/today-active.png',
   'miniprogram/assets/tab/immerse-inactive.png',
@@ -96,6 +126,9 @@ const FILES = [
   'miniprogram/assets/tab/scene-active.png',
   'miniprogram/assets/tab/mine-inactive.png',
   'miniprogram/assets/tab/mine-active.png',
+  // 阶段四 自然口语解码 — tab 图标
+  'miniprogram/assets/tab/natural-inactive.png',
+  'miniprogram/assets/tab/natural-active.png',
 ];
 
 const GH_API = 'https://api.github.com';
@@ -162,7 +195,32 @@ async function main() {
   await new Promise(r => setTimeout(r, 2000));
 
   let ok = 0, fail = 0, skip = 0;
+  const updated = process.argv.includes('--only');
   for (const rel of FILES) {
+    if (updated && ![
+      'miniprogram/utils/user-data.js',
+      'miniprogram/utils/srs.js',
+      'miniprogram/utils/trainer.js',
+      'miniprogram/pages/today/today.js',
+      'miniprogram/pages/today/today.wxml',
+      'miniprogram/pages/today/today.wxss',
+      'miniprogram/pages/mine/mine.js',
+      'miniprogram/pages/mine/mine.wxml',
+      'miniprogram/pages/mine/mine.wxss',
+      'miniprogram/pages/listening/listening.js',
+      'miniprogram/pages/listening/listening.wxml',
+      'miniprogram/pages/listening/listening.wxss',
+      'miniprogram/pages/listening/listening.json',
+      'miniprogram/pages/spelling/spelling.js',
+      'miniprogram/pages/spelling/spelling.wxml',
+      'miniprogram/pages/spelling/spelling.wxss',
+      'miniprogram/pages/spelling/spelling.json',
+      'miniprogram/pages/review/review.js',
+      'miniprogram/pages/review/review.wxml',
+      'miniprogram/pages/review/review.wxss',
+      'miniprogram/pages/review/review.json',
+      'docs/PHASE3.md',
+    ].includes(rel)) continue;
     const abs = path.join(ROOT, rel);
     if (!fs.existsSync(abs)) {
       console.log(`[skip] ${rel} (not found)`);
