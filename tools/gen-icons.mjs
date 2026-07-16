@@ -132,6 +132,23 @@ const icons = {
       return null;
     };
   },
+  natural: (col) => {
+    // 圆形声波图标 (3 个高低不同的竖条 + 外环) — 代表"自然口语"音频训练
+    return (x, y) => {
+      // 外环（细线圆框）
+      if (inRing(x, y, 40.5, 40.5, 36, 33)) return [col.r, col.g, col.b, 240];
+      // 3 个竖条 (高低不同)
+      const bars = [
+        { x: 28, w: 6, y0: 34, y1: 48 },  // 矮
+        { x: 37, w: 6, y0: 24, y1: 58 },  // 高
+        { x: 46, w: 6, y0: 30, y1: 52 },  // 中
+      ];
+      for (const b of bars) {
+        if (inRect(x, y, b.x, b.y0, b.x + b.w, b.y1)) return [col.r, col.g, col.b, 255];
+      }
+      return null;
+    };
+  },
 };
 
 for (const [name, draw] of Object.entries(icons)) {
