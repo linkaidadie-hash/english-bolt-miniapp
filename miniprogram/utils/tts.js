@@ -73,11 +73,12 @@ function prewarm() {
     try {
       const ctx = _getCtx();
       // 用一个已知的 1-2s 短音频热身。CDN 已有 200 命中的 the.mp3。
-      // 阶段一用绝对 CDN URL；阶段二会让 audioBase 从 app.globalData 注入。
       ctx.src = 'https://english.wujiong.cn/audio/the.mp3';
       // 给 WeChat 内部 pipeline 一点时间（避免首 play 立刻 interrupted）
       setTimeout(() => {
-        try { ctx.play(); } catch (e) { /* 预热失败非阻塞 */ }
+        let p;
+        try { p = ctx.play(); } catch (e) { /* 预热失败非阻塞 */ }
+        if (p && typeof p.catch === 'function') p.catch(() => {});
         setTimeout(() => {
           try { ctx.stop(); } catch (e) {}
           _warmed = true;
@@ -123,14 +124,30 @@ function speak(url, opts = {}) {
   try { ctx.stop(); } catch (e) {}
   ctx.src = url;
   setTimeout(() => {
-    ctx.play().catch(e => {
-      // "interrupted" 是 stop/play 竞态，不是真错；交给 onPlay/onError 流程
-      // 这里不重试，避免和后续 speak 抢
+    // 微信 InnerAudioContext.play() 在不同基础库下可能返回 Promise 或 undefined
+    // 不能直接 .catch() — 先做链式判断
+    let p;
+    try {
+      p = ctx.play();
+    } catch (e) {
+      // 同步抛错（如 src 未设置）— 走 onError 流程
       if (myToken === _state.token) {
-        // 仍保持 loading 态，让 onError 兜底
-        console.warn('[tts] play() rejected:', e?.errMsg || e);
+        _state.phase = 'error';
+        _state.error = e?.errMsg || String(e);
+        _emit({ type: 'error', token: myToken, error: _state.error });
       }
-    });
+      return;
+    }
+    if (p && typeof p.catch === 'function') {
+      p.catch(e => {
+        // "interrupted" 是 stop/play 竞态，不是真错；交给 onPlay/onError 流程
+        if (myToken === _state.token) {
+          // 仍保持 loading 态，让 onError 兜底
+          console.warn('[tts] play() rejected:', e?.errMsg || e);
+        }
+      });
+    }
+    // play() 不返回 Promise (某些基础库) — 不挂回调，靠 onPlay/onError 事件驱动
   }, 0);
 
   return Promise.resolve({ token: myToken });
