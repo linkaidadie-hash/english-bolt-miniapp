@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "version": "phase4-natural-speech-2026-07-17",
+    "title": "英语自然口语 9 类规则",
+    "audience": "中国英语学习者",
+    "constraint": "所有例句只用 830 ready 词 (阶段三训练源子集)",
+    "source": "PROJECT-OUTLINE 阶段四 + 经验归纳",
+    "notation": "ipa = 国际音标；notes = 中文提示变化点"
+  },
+  "lessons": [
+    {
+      "id": "weak-form",
+      "name": "弱读入门",
+      "icon": "💬",
+      "subtitle": "功能词在句中通常不被完整发音",
+      "rule": "在英语口语中，虚词（功能词）通常被弱读 / 简读：can→/kən/、to→/tə/、for→/fɚ/、and→/ən/、of→/əv/。重读位置始终在实词（动词 / 名词 / 形容词）上。",
+      "tip": "听自然语速时，你期待听到 /kæn/，但实际只听到 /kən/ —— 这是弱读，不是错误。",
+      "examples": [
+        { "id": "wf-01", "written": "I can help you", "ipaStandard": "/aɪ kæn hɛlp juː/", "ipaNatural": "/aɪ kən hɛlpju/", "notes": ["can → kən (弱读)", "help + you 连读"], "audioWord": "can" },
+        { "id": "wf-02", "written": "I want to go", "ipaStandard": "/aɪ wɑːnt tuː ɡoʊ/", "ipaNatural": "/aɪ wɑːnə ɡoʊ/", "notes": ["to → ə (弱读)", "want to 连成 wɑːnə"], "audioWord": "want" },
+        { "id": "wf-03", "written": "What do you mean", "ipaStandard": "/wɑːt duː juː miːn/", "ipaNatural": "/wɑːdʒə juː miːn/", "notes": ["do you → dʒə (同化+弱读)", "what → wɑːd (听写常用)"], "audioWord": "what" },
+        { "id": "wf-04", "written": "I think it's good", "ipaStandard": "/aɪ θɪŋk ɪts ɡʊd/", "ipaNatural": "/aɪ θɪŋk ɪts ɡʊd/", "notes": ["think 重读", "it's 弱读 (不重音)"], "audioWord": "think" },
+        { "id": "wf-05", "written": "Do you have a pen", "ipaStandard": "/duː juː hæv ə pɛn/", "ipaNatural": "/dʒə hæv ə pɛn/", "notes": ["do you → dʒə (同化+弱读)"], "audioWord": "have" }
+      ]
+    },
+    {
+      "id": "contraction",
+      "name": "常见缩写",
+      "icon": "✂️",
+      "subtitle": "两个词的连写简写",
+      "rule": "英语口语中，主语 + 助动词的组合常被缩写为一个词：I will→I'll、I am→I'm、do not→don't、I have→I've、would have→would've。注意缩写词里没有空格。",
+      "tip": "缩写发音常常和原写法不一致 —— don't 听起来像 'don' (重音在前) 而非 'do not'。",
+      "examples": [
+        { "id": "ct-01", "written": "I'll be there", "ipaStandard": "/aɪl biː ðɛr/", "ipaNatural": "/aɪl biː ðɛr/", "notes": ["will → 'll (缩写)", "重音在 I'll"], "audioWord": "I" },
+        { "id": "ct-02", "written": "I'm ready", "ipaStandard": "/aɪm rɛdi/", "ipaNatural": "/aɪm rɛdi/", "notes": ["am → 'm (缩写)"], "audioWord": "I" },
+        { "id": "ct-03", "written": "Don't go", "ipaStandard": "/duː nɑːnt ɡoʊ/", "ipaNatural": "/doʊnt ɡoʊ/", "notes": ["do not → don't (t 弱读)", "重音在 don't"], "audioWord": "go" },
+        { "id": "ct-04", "written": "We've seen it", "ipaStandard": "/wiːv siːn ɪt/", "ipaNatural": "/wiːv siːn ɪt/", "notes": ["we have → we've"], "audioWord": "we" },
+        { "id": "ct-05", "written": "It's a good day", "ipaStandard": "/ɪts ə ɡʊd deɪ/", "ipaNatural": "/ɪts ə ɡʊd deɪ/", "notes": ["it is → it's"], "audioWord": "good" }
+      ]
+    },
+    {
+      "id": "linking",
+      "name": "连读入门",
+      "icon": "🔗",
+      "subtitle": "词与词之间跨越停顿",
+      "rule": "前一个词结尾是辅音、下一个词开头是元音时，常连读：turn it on → tur-ni-ton, pick it up → pi-ki-tup。注意：这是跨越词界的连读，不是把两个词合并。",
+      "tip": "连读不是省略 — 是把两个词的发音连起来，但仍能听出两个词的轮廓。",
+      "examples": [
+        { "id": "lk-01", "written": "Turn it on", "ipaStandard": "/tɜːrn ɪt ɑːn/", "ipaNatural": "/tɜːr.nɪ.tɑːn/", "notes": ["turn + it → tur.nit", "it + on → i.ton"], "audioWord": "turn" },
+        { "id": "lk-02", "written": "Pick it up", "ipaStandard": "/pɪk ɪt ʌp/", "ipaNatural": "/pɪ.kɪ.tʌp/", "notes": ["pick + it → pi.kit", "it + up → i.tup"], "audioWord": "pick" },
+        { "id": "lk-03", "written": "Help you out", "ipaStandard": "/hɛlp juː aʊt/", "ipaNatural": "/hɛl.pju aʊt/", "notes": ["help + you → help.pju"], "audioWord": "help" },
+        { "id": "lk-04", "written": "An apple", "ipaStandard": "/æn æpəl/", "ipaNatural": "/ə.næpəl/", "notes": ["an + apple → a.napple (n 跨到下一词)"], "audioWord": "apple" },
+        { "id": "lk-05", "written": "Keep it up", "ipaStandard": "/kiːp ɪt ʌp/", "ipaNatural": "/kiː.pɪ.tʌp/", "notes": ["keep + it → kee.pit"], "audioWord": "keep" }
+      ]
+    },
+    {
+      "id": "assimilation",
+      "name": "同化",
+      "icon": "🌀",
+      "subtitle": "相邻音互相影响",
+      "rule": "前一个词的尾音会变成下一个词开头的音：did you → didja (d+ʒ 同化), could you → couldja, don't you → doncha。这是英语里最常见也最容易让中国学生困惑的连读。",
+      "tip": "did you 听起来像 'didja' 而不是 'did-you' —— 这是同化，是母语者的真实发音。",
+      "examples": [
+        { "id": "as-01", "written": "Did you see it", "ipaStandard": "/dɪd juː siː ɪt/", "ipaNatural": "/dɪdʒə siː ɪt/", "notes": ["did + you → didja (d+ʒ 同化)"], "audioWord": "see" },
+        { "id": "as-02", "written": "Could you help me", "ipaStandard": "/kʊd juː hɛlp miː/", "ipaNatural": "/kʊdʒə hɛlp miː/", "notes": ["could + you → couldja"], "audioWord": "help" },
+        { "id": "as-03", "written": "Don't you know", "ipaStandard": "/doʊnt juː noʊ/", "ipaNatural": "/doʊntʃə noʊ/", "notes": ["don't + you → don'tcha"], "audioWord": "know" },
+        { "id": "as-04", "written": "Would you come", "ipaStandard": "/wʊd juː kʌm/", "ipaNatural": "/wʊdʒə kʌm/", "notes": ["would + you → wouldja"], "audioWord": "come" },
+        { "id": "as-05", "written": "Get me some", "ipaStandard": "/ɡɛt miː sʌm/", "ipaNatural": "/ɡɛt.mi sʌm/", "notes": ["get + me → get.mi (辅音+元音连读)"], "audioWord": "get" }
+      ]
+    },
+    {
+      "id": "elision",
+      "name": "吞音与省音",
+      "icon": "✂️",
+      "subtitle": "省略不重要的音",
+      "rule": "在快速口语中，相邻的辅音或元音会被省略：next day → nex_day, last night → las_night, friendship → fren_ship, most people → mos_people。注意：吞音不是吃字，是为了流畅。",
+      "tip": "英语里 t / d 在两个辅音中间会弱化甚至消失 —— 'next day' 听上去像 'nex day'。",
+      "examples": [
+        { "id": "el-01", "written": "Next day", "ipaStandard": "/nɛkst deɪ/", "ipaNatural": "/nɛks.deɪ/", "notes": ["t 在两辅音间吞掉"], "audioWord": "next" },
+        { "id": "el-02", "written": "Last night", "ipaStandard": "/læst naɪt/", "ipaNatural": "/læs.naɪt/", "notes": ["t 弱化"], "audioWord": "last" },
+        { "id": "el-03", "written": "Friendship", "ipaStandard": "/frɛndʃɪp/", "ipaNatural": "/frɛn.ʃɪp/", "notes": ["d 吞掉"], "audioWord": "friend" },
+        { "id": "el-04", "written": "Most people", "ipaStandard": "/moʊst piːpəl/", "ipaNatural": "/moʊs.piːpəl/", "notes": ["t 弱化"], "audioWord": "most" },
+        { "id": "el-05", "written": "Just one", "ipaStandard": "/dʒʌst wʌn/", "ipaNatural": "/dʒʌs.wʌn/", "notes": ["t 在两辅音间吞掉"], "audioWord": "just" }
+      ]
+    },
+    {
+      "id": "flap",
+      "name": "美式闪音",
+      "icon": "⚡",
+      "subtitle": "t/d 在两元音间闪音化",
+      "rule": "美式英语里，t 或 d 出现在两个元音之间会变成一个快速的闪音 [ɾ]，听起来像轻 'd'：water → wa'er、better → be'er、pretty → pre'y、get it → ge'it。这与英式发音不同。",
+      "tip": "听美剧时如果听到 'better' 听起来像 'bedder'，那就是闪音。这是美式特色，不是错误。",
+      "examples": [
+        { "id": "fl-01", "written": "Water", "ipaStandard": "/ˈwɔːtər/", "ipaNatural": "/ˈwɔːɾər/", "notes": ["t 闪音化 (听起来像 d)"], "audioWord": "water" },
+        { "id": "fl-02", "written": "Better", "ipaStandard": "/ˈbɛtər/", "ipaNatural": "/ˈbɛɾər/", "notes": ["t 闪音化 → be'er"], "audioWord": "better" },
+        { "id": "fl-03", "written": "Pretty", "ipaStandard": "/ˈprɪti/", "ipaNatural": "/ˈprɪɾi/", "notes": ["t 闪音化 → pre'y"], "audioWord": "pretty" },
+        { "id": "fl-04", "written": "Get it", "ipaStandard": "/ɡɛt ɪt/", "ipaNatural": "/ɡɛɾɪt/", "notes": ["t 在两元音间闪音 → ge'it"], "audioWord": "get" },
+        { "id": "fl-05", "written": "City", "ipaStandard": "/ˈsɪti/", "ipaNatural": "/ˈsɪɾi/", "notes": ["t 闪音化 → ci'y"], "audioWord": "city" }
+      ]
+    },
+    {
+      "id": "stress",
+      "name": "句子重音",
+      "icon": "🎯",
+      "subtitle": "重音永远是实词",
+      "rule": "英语句子重音落在**实词**（动词、名词、形容词、副词）上，**功能词**（冠词、介词、连词、助动词）通常不重读。I'm going TO the STORE (重音: going, store; 弱: I'm, to, the)。",
+      "tip": "听英语时，'重音词+弱音词+重音词+弱音词' 像节拍器一样。把握重音就把握了节奏。",
+      "examples": [
+        { "id": "st-01", "written": "I WANT to GO", "ipaStandard": "/aɪ wɑːnt tu ɡoʊ/", "ipaNatural": "/aɪ WAHN-tə GOH/", "notes": ["重音: want, go", "弱读: I, to"], "audioWord": "want" },
+        { "id": "st-02", "written": "The BOOK is on the TABLE", "ipaStandard": "/ðə bʊk ɪz ɑːn ðə teɪbəl/", "ipaNatural": "/ðə BOOK-izɑn-ðə TAY-bəl/", "notes": ["重音: book, table", "弱读: the, is, on, the"], "audioWord": "book" },
+        { "id": "st-03", "written": "I LOVE this SHOW", "ipaStandard": "/aɪ lʌv ðɪs ʃoʊ/", "ipaNatural": "/aɪ LOV-thə SHOW/", "notes": ["重音: love, show", "this 弱读为 thə"], "audioWord": "love" },
+        { "id": "st-04", "written": "He's a GOOD teacher", "ipaStandard": "/hiːz ə ɡʊd tiːtʃər/", "ipaNatural": "/hiːz-ə GOOD TEE-cher/", "notes": ["重音: good, teacher"], "audioWord": "good" },
+        { "id": "st-05", "written": "We WORK and they REST", "ipaStandard": "/wiː wɜːrk ænd ðeɪ rɛst/", "ipaNatural": "/wee WORK-nə-they REST/", "notes": ["重音: work, rest", "and 弱读为 nə"], "audioWord": "work" }
+      ]
+    },
+    {
+      "id": "rhythm",
+      "name": "节奏与意群",
+      "icon": "🎼",
+      "subtitle": "英语是重音节拍语言",
+      "rule": "英语不是按音节等时发音，而是按**重音节拍**。两个重音之间的时间间隔大致相等，重音词读得长且清晰，弱音词被快速带过。意群（thought group）是把意思相关的词连读成一个整体。",
+      "tip": "听英语时，找 '重音-重音' 的等间距。这就是英语的节奏感。",
+      "examples": [
+        { "id": "rh-01", "written": "I need to / talk to him / about it", "ipaStandard": "/aɪ niːd tu tɔːk tu hɪm əbaʊt ɪt/", "ipaNatural": "/ai-NEED-tə / TALK-tə-him / ə-BOUT-it/", "notes": ["3 个意群", "重音: need, talk, bout"], "audioWord": "need" },
+        { "id": "rh-02", "written": "Give me / a cup of / coffee", "ipaStandard": "/ɡɪv miː ə kʌp əv kɔːfi/", "ipaNatural": "/GIV-me / ə-CUP-ə / KAW-fee/", "notes": ["3 个意群", "重音: give, cup, coffee"], "audioWord": "give" },
+        { "id": "rh-03", "written": "Take it / to the / office", "ipaStandard": "/teɪk ɪt tu ðə ɔːfɪs/", "ipaNatural": "/TAY-kit / tə-thə / AW-fis/", "notes": ["3 个意群", "重音: take, office"], "audioWord": "take" },
+        { "id": "rh-04", "written": "Look at / this picture", "ipaStandard": "/lʊk æt ðɪs pɪktʃər/", "ipaNatural": "/LOOK-at / this-PI-cher/", "notes": ["2 个意群", "重音: look, picture"], "audioWord": "look" },
+        { "id": "rh-05", "written": "Tell me / what you / think", "ipaStandard": "/tɛl miː wʌt juː θɪŋk/", "ipaNatural": "/TEL-me / WHATCH-ya / THINK/", "notes": ["3 个意群", "重音: tell, what, think"], "audioWord": "tell" }
+      ]
+    },
+    {
+      "id": "informal",
+      "name": "美剧常见压缩",
+      "icon": "🎬",
+      "subtitle": "want to → wanna",
+      "rule": "在非正式口语中（朋友聊天、电视剧），常用压缩形式：want to → gonna / gonna, going to → gonna, have to → hafta, let me → lemme, give me → gimme。这些压缩**仅用于非正式场合**，正式场合不能用。",
+      "tip": "wanna 听起来像 'wanner' 只有一个 n，是两个词的快读合音。",
+      "examples": [
+        { "id": "if-01", "written": "I wanna go", "ipaStandard": "/aɪ wɑːnt tu ɡoʊ/", "ipaNatural": "/aɪ ˈwɑːnə ɡoʊ/", "notes": ["want to → wanna (非正式)"], "audioWord": "go" },
+        { "id": "if-02", "written": "I'm gonna tell him", "ipaStandard": "/aɪm ɡoʊɪŋ tu tɛl hɪm/", "ipaNatural": "/aɪm ˈɡʌnə tɛl hɪm/", "notes": ["going to → gonna"], "audioWord": "tell" },
+        { "id": "if-03", "written": "I hafta work", "ipaStandard": "/aɪ hæv tu wɜːrk/", "ipaNatural": "/aɪ ˈhæftə wɜːrk/", "notes": ["have to → hafta"], "audioWord": "work" },
+        { "id": "if-04", "written": "Lemme see", "ipaStandard": "/lɛt miː siː/", "ipaNatural": "/ˈlɛmi siː/", "notes": ["let me → lemme"], "audioWord": "see" },
+        { "id": "if-05", "written": "Gimme that", "ipaStandard": "/ɡɪv miː ðæt/", "ipaNatural": "/ˈɡɪmi ðæt/", "notes": ["give me → gimme"], "audioWord": "give" }
+      ]
+    }
+  ],
+  "trainModes": [
+    {
+      "id": "listen-and-guess",
+      "name": "听自然猜原句",
+      "description": "播放自然语速版本，从 4 个选项里选正确原句。训练耳朵对自然口语的辨识力。",
+      "minLessons": ["weak-form", "contraction", "assimilation", "informal"]
+    },
+    {
+      "id": "sound-to-words",
+      "name": "声音切词",
+      "description": "听到一句连读/同化的句子，写下原始拼写。训练拆解连读音。",
+      "minLessons": ["linking", "assimilation", "elision"]
+    },
+    {
+      "id": "mark-changes",
+      "name": "标注变化",
+      "description": "看一句原句，标出哪里被弱读/连读/吞音/闪音。训练对变化点的敏感度。",
+      "minLessons": ["weak-form", "linking", "elision", "flap"]
+    },
+    {
+      "id": "slow-vs-natural",
+      "name": "慢速 vs 自然对比",
+      "description": "同一句话慢速/自然两遍播放，标出哪里是慢速清晰、自然被吃掉的。",
+      "minLessons": ["weak-form", "contraction", "rhythm"]
+    }
+  ]
+}
