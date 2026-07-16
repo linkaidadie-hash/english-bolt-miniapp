@@ -1,22 +1,24 @@
-// utils/tts.js — 英语快充 v2 全局音频管理器
+// utils/tts.js — 英语快充 v2 全局音频管理器（阶段三加固版）
 //
-// 修原项目踩过的三个致命坑（见 memory/agent tail）：
-//   1) InnerAudioContext.onCanplay 不可靠（mp3 已缓存 / 短音频 / wx bug）→ 不要 await onCanplay
-//   2) 第一次 ctx.play() 在新 context 上会 reject "interrupted" → 需要 prewarm
-//   3) 全局 onStop/onEnded 没做 staleness 检查，旧 stop 事件会迟到 clobber 新 state
-//      → 每个事件回调先验 token
+// 修原项目三大坑 + 阶段三加固：
+//   1) InnerAudioContext.onCanplay 不可靠 → 不 await onCanplay
+//   2) 第一次 ctx.play() reject "interrupted" → prewarm
+//   3) 全局 onStop/onEnded 无 staleness 检查 → token 守门
+//   4) ctx.play() 在某些基础库返回 undefined → 链式判断
+//   5) 切前后台 app.onShow 调 tts.reset() 破坏 _ctx → 已移除
+//   6) speak() 时 _ctx 还没就绪 → lazy prewarm + rebuild + retry once
 //
 // 设计原则：
-//   - 单例 _ctx，所有 speak 走同一 context（避免多 context 抢音频焦点）
-//   - 每个 speak 自带 token；事件回调先比对 token 再更新 state
-//   - 不做"完美无瑕"——只确保"能稳定出声 + UI 状态不闪烁"这两件事
-//   - 阶段一只支持 mp3 远程 URL；TTS 生成留给阶段二
+//   - 单例 _ctx（lazy init + prewarm）
+//   - 每个 speak 自带 token；事件回调先验 token
+//   - speak() 失败时自动 rebuild ctx + retry 一次（救回"audiolnstance is not set"）
 
 let _ctx = null;
-let _token = 0;            // 下一个可分配的 token
+let _token = 0;
 let _state = { token: 0, phase: 'idle', error: null };
 let _listeners = new Set();
 let _warmed = false;
+let _prewarmPromise = null;   // 单次 prewarm 共享 promise（避免并发重建）
 
 function _emit(evt) {
   for (const fn of _listeners) {
@@ -26,15 +28,23 @@ function _emit(evt) {
 
 function _getCtx() {
   if (_ctx) return _ctx;
-  // 注意：require 在小程序里要顶层。这里 app.js 顶层 require('./utils/tts.js')，
-  // 调用 _getCtx() 一定在 Page onLoad 之后，所以 wx 是可用的。
-  _ctx = wx.createInnerAudioContext();
-  _ctx.useWebAudioImplement = false; // 兼容性优先
-  _ctx.obeyMuteSwitch = false;      // 静音模式下也出声（学习场景需要）
+  try {
+    _ctx = wx.createInnerAudioContext();
+  } catch (e) {
+    console.warn('[tts] createInnerAudioContext 失败:', e?.message || e);
+    _ctx = null;
+    return null;
+  }
+  if (!_ctx) {
+    console.warn('[tts] createInnerAudioContext 返回 null');
+    return null;
+  }
+  _ctx.useWebAudioImplement = false;
+  _ctx.obeyMuteSwitch = false;
   _ctx.autoplay = false;
 
   _ctx.onPlay(() => {
-    if (_state.token !== _token) return; // stale, 丢弃
+    if (_state.token !== _token) return;
     _state.phase = 'playing';
     _emit({ type: 'play', token: _state.token });
   });
@@ -64,17 +74,30 @@ function _getCtx() {
 }
 
 /**
- * 预热 InnerAudioContext：app.onLaunch 调用一次，让首个 play() 不被 "interrupted" 拒掉。
- * 不 await，让它在后台跑。
+ * 销毁并重建 ctx（speak 失败后兜底用）
+ */
+function _rebuild() {
+  if (_ctx) {
+    try { _ctx.destroy(); } catch (e) {}
+    _ctx = null;
+  }
+  _warmed = false;
+  // _listeners 保留（page 端订阅不变）
+  return _getCtx();
+}
+
+/**
+ * 预热：app.onLaunch 调用一次。 idempotent + 共享 promise。
+ * 不在 onShow 调用（避免破坏 ctx）。
  */
 function prewarm() {
-  if (_warmed) return Promise.resolve();
-  return new Promise((resolve) => {
+  if (_warmed && _ctx) return Promise.resolve();
+  if (_prewarmPromise) return _prewarmPromise;
+  _prewarmPromise = new Promise((resolve) => {
     try {
       const ctx = _getCtx();
-      // 用一个已知的 1-2s 短音频热身。CDN 已有 200 命中的 the.mp3。
+      if (!ctx) { _prewarmPromise = null; resolve(); return; }
       ctx.src = 'https://english.wujiong.cn/audio/the.mp3';
-      // 给 WeChat 内部 pipeline 一点时间（避免首 play 立刻 interrupted）
       setTimeout(() => {
         let p;
         try { p = ctx.play(); } catch (e) { /* 预热失败非阻塞 */ }
@@ -82,32 +105,36 @@ function prewarm() {
         setTimeout(() => {
           try { ctx.stop(); } catch (e) {}
           _warmed = true;
+          _prewarmPromise = null;
           resolve();
         }, 600);
       }, 60);
     } catch (e) {
-      // 整个 prewarm 失败也不能阻塞 app 启动
       console.warn('[tts] prewarm 异常:', e?.message || e);
+      _prewarmPromise = null;
       resolve();
     }
   });
+  return _prewarmPromise;
 }
 
 /**
  * 播一个远程 mp3 url。
- * @param {string} url 必填
+ * 失败自动 rebuild + retry 一次（救回 audiolnstance is not set 场景）。
+ *
+ * @param {string} url
  * @param {object} opts { onPlay, onEnded, onError }
- * @returns {Promise<{token:number}>} 立即 resolve；播放结果通过 opts 回调
+ * @returns {Promise<{token:number}>}
  */
 function speak(url, opts = {}) {
   if (!url) {
     return Promise.reject(new Error('tts.speak: url 必填'));
   }
-  const ctx = _getCtx();
+
   const myToken = ++_token;
   _state = { token: myToken, phase: 'loading', error: null };
 
-  // 注册一次性 listener（不破坏 _listeners 集合）
+  // 注册一次性 listener
   const handler = (evt) => {
     if (evt.token !== myToken) return;
     if (evt.type === 'play' && opts.onPlay) opts.onPlay(evt);
@@ -119,76 +146,97 @@ function speak(url, opts = {}) {
   };
   _listeners.add(handler);
 
-  // 关键：先 stop 上一个（如果有），再设 src，再 play。
-  // 中间留 0ms 让 WeChat 内部 pipeline 走完（参考原项目调试结论）
-  try { ctx.stop(); } catch (e) {}
-  ctx.src = url;
-  setTimeout(() => {
-    // 微信 InnerAudioContext.play() 在不同基础库下可能返回 Promise 或 undefined
-    // 不能直接 .catch() — 先做链式判断
-    let p;
-    try {
-      p = ctx.play();
-    } catch (e) {
-      // 同步抛错（如 src 未设置）— 走 onError 流程
-      if (myToken === _state.token) {
-        _state.phase = 'error';
-        _state.error = e?.errMsg || String(e);
-        _emit({ type: 'error', token: myToken, error: _state.error });
+  // 内部 retry once：ctx 不存在 / play 抛 audiolnstance 错时重建再播
+  const doSpeak = (attempt = 1) => {
+    const ctx = _getCtx();
+    if (!ctx) {
+      if (attempt === 1) {
+        // 第一次：ctx 不存在 → rebuild + retry
+        _rebuild();
+        return setTimeout(() => doSpeak(2), 50);
       }
+      if (opts.onError) opts.onError({ type: 'error', token: myToken, error: 'audioContext 不可用' });
       return;
     }
-    if (p && typeof p.catch === 'function') {
-      p.catch(e => {
-        // "interrupted" 是 stop/play 竞态，不是真错；交给 onPlay/onError 流程
-        if (myToken === _state.token) {
-          // 仍保持 loading 态，让 onError 兜底
-          console.warn('[tts] play() rejected:', e?.errMsg || e);
-        }
-      });
+    try { ctx.stop(); } catch (e) {}
+    try {
+      ctx.src = url;
+    } catch (e) {
+      if (attempt === 1) {
+        _rebuild();
+        return setTimeout(() => doSpeak(2), 50);
+      }
+      if (opts.onError) opts.onError({ type: 'error', token: myToken, error: e?.errMsg || String(e) });
+      return;
     }
-    // play() 不返回 Promise (某些基础库) — 不挂回调，靠 onPlay/onError 事件驱动
-  }, 0);
+    setTimeout(() => {
+      let p;
+      try {
+        p = ctx.play();
+      } catch (e) {
+        if (attempt === 1) {
+          // audiolnstance is not set 等：rebuild + retry
+          console.warn('[tts] play 抛错，rebuild + retry:', e?.errMsg || e);
+          _rebuild();
+          return setTimeout(() => doSpeak(2), 100);
+        }
+        if (opts.onError) opts.onError({ type: 'error', token: myToken, error: e?.errMsg || String(e) });
+        return;
+      }
+      if (p && typeof p.catch === 'function') {
+        p.catch(e => {
+          if (myToken !== _state.token) return;
+          // "interrupted" 是 stop/play 竞态，忽略；其他 error 透传
+          if (e?.errMsg && !String(e.errMsg).includes('interrupted')) {
+            if (attempt === 1) {
+              console.warn('[tts] play() rejected, rebuild + retry:', e.errMsg);
+              _rebuild();
+              return setTimeout(() => doSpeak(2), 100);
+            }
+            console.warn('[tts] play() rejected (final):', e.errMsg);
+          }
+        });
+      }
+      // play() 不返回 Promise — 靠 onPlay/onError 事件驱动
+    }, 0);
+  };
+
+  // 先确保 prewarm 完成（lazy await）
+  if (!_warmed) {
+    prewarm().finally(() => doSpeak(1));
+  } else {
+    doSpeak(1);
+  }
 
   return Promise.resolve({ token: myToken });
 }
 
-/**
- * 主动停止当前播放。
- */
 function stop() {
   const ctx = _getCtx();
-  try { ctx.stop(); } catch (e) {}
-  _token++; // 让任何 in-flight 事件全部 stale
+  if (ctx) {
+    try { ctx.stop(); } catch (e) {}
+  }
+  _token++;
   _state = { token: _token, phase: 'idle', error: null };
 }
 
-/**
- * 重置 audio context（app.onShow / 异常恢复用）。
- */
 function reset() {
   if (_ctx) {
     try { _ctx.destroy(); } catch (e) {}
     _ctx = null;
   }
   _warmed = false;
+  _prewarmPromise = null;
   _token++;
   _state = { token: _token, phase: 'idle', error: null };
   _listeners.clear();
 }
 
-/**
- * 监听全局音频事件（play/pause/stop/ended/error）。
- * 返回取消订阅函数。
- */
 function onEvent(fn) {
   _listeners.add(fn);
   return () => _listeners.delete(fn);
 }
 
-/**
- * 当前 state 快照。
- */
 function getState() {
   return { ..._state };
 }
