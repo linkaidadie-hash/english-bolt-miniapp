@@ -1,0 +1,13 @@
+<view class="page">
+  <view class="card">
+    <view class="card-title">16 个首发场景</view>
+    <view class="group" wx:for="{{groups}}" wx:key="id"
+          bindtap="onSceneTap" data-id="{{item.id}}">
+      <view>
+        <view class="g-name">{{item.name}}</view>
+        <view class="g-count muted">{{item.count}} 个场景</view>
+      </view>
+      <text class="muted">›</text>
+    </view>
+  </view>
+</view>
