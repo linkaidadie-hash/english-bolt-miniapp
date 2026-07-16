@@ -1,0 +1,20 @@
+<view class="page">
+  <view class="placeholder">
+    <view>
+      <view class="ph-title">沉浸频道</view>
+      <view class="ph-sub muted">阶段一骨架：tabBar 跳转 + 数据流通</view>
+      <view class="ph-sub muted">实际播放逻辑在阶段五（后台/前台音频焦点）</view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">规划频道</view>
+    <view class="channel" wx:for="{{channels}}" wx:key="id">
+      <view>
+        <view class="ch-name">{{item.name}}</view>
+        <view class="ch-desc muted">{{item.desc}}</view>
+      </view>
+      <text class="ch-status muted">未开始</text>
+    </view>
+  </view>
+</view>
