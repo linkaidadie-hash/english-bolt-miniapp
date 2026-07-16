@@ -87,21 +87,20 @@ Page({
 
   // === 播放 ===
   onPlayTap() {
-    if (this.data.audioStatus === 'missing' || this.data.audioStatus === 'ready_spell' || this.data.audioStatus === 'ready_chinese') {
-      // ready_spell / ready_chinese 也可播（虽然不是标准音，但有音频可听）
-      if (this.data.audioStatus === 'missing') {
-        wx.showToast({ title: '音频缺失', icon: 'none' });
-        return;
-      }
+    if (this.data.audioStatus === 'missing') {
+      wx.showToast({ title: '发音待补充', icon: 'none' });
+      return;
     }
     if (this.data.audioStatus === 'playing') {
       tts.stop();
       this.setData({ audioStatus: this._idleStatus() });
       return;
     }
+    // 兜底：cdn 再查一次 + exists 守门
     const audio = cdn.wordAudio(this.data.currentWord);
-    if (!audio.exists) {
-      wx.showToast({ title: '音频缺失', icon: 'none' });
+    if (!audio || !audio.exists || !audio.url) {
+      wx.showToast({ title: '发音待补充', icon: 'none' });
+      this.setData({ audioStatus: 'missing' });
       return;
     }
     this.setData({ audioStatus: 'loading', audioError: '' });
@@ -135,5 +134,17 @@ Page({
     tts.stop();
     this.setData({ currentIndex: idx, currentWord: this.data.batch.words[idx] });
     this._refreshCurrentAudio();
+  },
+
+  // === 阶段三：训练入口 ===
+  onGoListening() {
+    tts.stop();
+    wx.navigateTo({ url: '/pages/listening/listening' });
+  },
+  onGoSpelling() {
+    wx.navigateTo({ url: '/pages/spelling/spelling' });
+  },
+  onGoReview() {
+    wx.navigateTo({ url: '/pages/review/review' });
   },
 });
