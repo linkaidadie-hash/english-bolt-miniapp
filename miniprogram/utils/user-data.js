@@ -32,16 +32,29 @@ const DEFAULTS = {
   [KEYS.sceneProgress]:    {},
 };
 
+// 微信基础库 (3.16.x 之前) 没有原生 structuredClone，用 JSON deep clone 兜底
+function _clone(v) {
+  if (v === null || v === undefined) return v;
+  try {
+    return JSON.parse(JSON.stringify(v));
+  } catch (e) {
+    // 兜底：基础对象/数组足够
+    if (Array.isArray(v)) return v.slice();
+    if (typeof v === 'object') return Object.assign({}, v);
+    return v;
+  }
+}
+
 function get(key) {
   try {
     const v = wx.getStorageSync(key);
     if (v === '' || v === null || v === undefined) {
-      return structuredClone(DEFAULTS[key] ?? null);
+      return _clone(DEFAULTS[key] ?? null);
     }
     return v;
   } catch (e) {
     console.warn('[user-data] get fail:', key, e?.message);
-    return structuredClone(DEFAULTS[key] ?? null);
+    return _clone(DEFAULTS[key] ?? null);
   }
 }
 
