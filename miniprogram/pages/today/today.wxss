@@ -2,6 +2,21 @@
   padding: 24rpx 0 64rpx;
 }
 
+.meta-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+  font-size: 22rpx;
+  padding: 0 32rpx 16rpx;
+}
+.meta-bar .dot { color: var(--c-text-faint); }
+.meta-bar .ok  { color: #10b981; }
+.meta-bar .warn{ color: #f59e0b; }
+
+.word-card .counter {
+  font-size: 24rpx;
+  margin-bottom: 12rpx;
+}
 .word-card .word-row {
   display: flex;
   align-items: baseline;
@@ -12,6 +27,7 @@
   font-weight: 700;
   color: var(--c-text);
   letter-spacing: 1rpx;
+  word-break: break-all;
 }
 .pos {
   font-size: 26rpx;
@@ -25,19 +41,21 @@
   font-family: "Charis SIL", "Doulos SIL", "Times New Roman", serif;
 }
 .meaning {
-  font-size: 32rpx;
+  font-size: 30rpx;
   color: var(--c-text);
   margin-top: 16rpx;
   font-weight: 500;
+  line-height: 1.5;
 }
 .meta {
   display: flex;
   gap: 12rpx;
   margin-top: 16rpx;
+  flex-wrap: wrap;
 }
 .tag {
   font-size: 22rpx;
-  color: var(--c-text-faint);
+  color: var(--c-text-dim);
   background: #f2f2f2;
   padding: 4rpx 14rpx;
   border-radius: 6rpx;
@@ -65,6 +83,63 @@
   color: #d35454;
   font-size: 24rpx;
 }
+
+.exchange {
+  margin-top: 24rpx;
+  padding-top: 16rpx;
+  border-top: 1rpx solid var(--c-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+  font-size: 22rpx;
+}
+.exch-label { font-size: 22rpx; }
+.exch-val {
+  color: var(--c-text-dim);
+  background: #fafafa;
+  padding: 2rpx 12rpx;
+  border-radius: 4rpx;
+}
+
+.nav-card { padding: 16rpx 24rpx; }
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-row .muted {
+  font-size: 28rpx;
+  font-weight: 500;
+}
+
+.word-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+  margin-top: 8rpx;
+}
+.word-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6rpx;
+  padding: 8rpx 16rpx;
+  background: #f7f7f7;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  color: var(--c-text);
+  border: 2rpx solid transparent;
+}
+.word-pill.active {
+  background: var(--c-primary);
+  color: #fff;
+  border-color: var(--c-primary);
+}
+.word-pill.missing .pill-word { color: var(--c-text-faint); }
+.word-pill .pill-status {
+  font-size: 18rpx;
+  opacity: 0.7;
+}
+.word-pill.active .pill-status { opacity: 1; }
 
 .card-title {
   font-size: 28rpx;
