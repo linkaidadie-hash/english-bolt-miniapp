@@ -1,0 +1,21 @@
+.profile { display: flex; align-items: center; gap: 24rpx; }
+.avatar {
+  width: 96rpx; height: 96rpx; border-radius: 50%;
+  background: linear-gradient(135deg, #4A90E2, #357ABD);
+}
+.meta { display: flex; flex-direction: column; }
+.name { font-size: 32rpx; font-weight: 600; }
+.meta .muted { font-size: 22rpx; margin-top: 6rpx; }
+
+.card-title { font-size: 28rpx; font-weight: 600; margin-bottom: 16rpx; }
+.stat-row { display: flex; justify-content: space-around; }
+.stat { text-align: center; }
+.stat-num { font-size: 44rpx; font-weight: 700; color: var(--c-primary); }
+.stat-label { font-size: 22rpx; color: var(--c-text-faint); margin-top: 4rpx; }
+
+.menu-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 24rpx 0; border-bottom: 1rpx solid var(--c-border);
+  font-size: 28rpx;
+}
+.menu-row:last-child { border-bottom: none; }
