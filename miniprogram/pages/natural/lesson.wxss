@@ -1,0 +1,101 @@
+.page { padding: 24rpx 32rpx 80rpx; }
+
+.lesson-hero {
+  display: flex; flex-direction: column; align-items: center;
+  background: #fff; padding: 32rpx 24rpx; border-radius: 20rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.04);
+  margin-bottom: 24rpx;
+}
+.lesson-hero-icon { font-size: 80rpx; line-height: 1; }
+.lesson-hero-name { font-size: 36rpx; font-weight: 700; margin-top: 8rpx; color: #1f2937; }
+.lesson-hero-sub { font-size: 24rpx; margin-top: 4rpx; }
+.lesson-hero-meta { display: flex; gap: 12rpx; margin-top: 16rpx; }
+.meta-pill {
+  font-size: 22rpx; padding: 6rpx 16rpx; border-radius: 999rpx;
+  background: #E8F1FC; color: #4A90E2;
+}
+.meta-pill.meta-ok { background: #d1fae5; color: #10b981; }
+.meta-pill.meta-pending { background: #FEF3C7; color: #d97706; }
+
+.card { background: #fff; padding: 24rpx; border-radius: 16rpx; margin-bottom: 16rpx; }
+.rule-card { border-left: 6rpx solid #4A90E2; }
+.tip-card { border-left: 6rpx solid #d97706; }
+.card-label { font-size: 24rpx; font-weight: 600; color: #4A90E2; margin-bottom: 8rpx; }
+.tip-card .card-label { color: #d97706; }
+.card-text { font-size: 26rpx; line-height: 1.6; color: #374151; }
+
+.stage-banner {
+  background: #FEF3C7; border: 2rpx solid #F59E0B;
+  border-radius: 12rpx; padding: 20rpx 24rpx;
+  margin-bottom: 24rpx;
+  display: flex; flex-direction: column; gap: 6rpx;
+}
+.stage-banner-title { font-size: 24rpx; font-weight: 700; color: #92400E; }
+.stage-banner-text { font-size: 22rpx; color: #78350F; line-height: 1.5; }
+
+.section-title {
+  font-size: 28rpx; font-weight: 700; color: #333;
+  margin: 8rpx 0 16rpx;
+}
+
+.sentence-list { display: flex; flex-direction: column; gap: 16rpx; }
+.sentence-card {
+  background: #fff; padding: 24rpx; border-radius: 16rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.04);
+}
+.s-head { display: flex; align-items: center; gap: 12rpx; margin-bottom: 12rpx; }
+.s-idx {
+  font-size: 22rpx; font-weight: 700; color: #fff;
+  background: #4A90E2; min-width: 40rpx; height: 40rpx;
+  border-radius: 8rpx; display: flex; align-items: center; justify-content: center;
+  padding: 0 8rpx;
+}
+.s-id { font-size: 20rpx; font-family: monospace; flex: 1; }
+.s-audio-badge {
+  font-size: 20rpx; padding: 4rpx 12rpx; border-radius: 999rpx;
+}
+.s-audio-badge.ok { background: #d1fae5; color: #10b981; }
+.s-audio-badge.pending { background: #FEF3C7; color: #d97706; }
+
+.s-written { font-size: 32rpx; font-weight: 600; color: #1f2937; line-height: 1.4; }
+.s-translation { font-size: 24rpx; margin-top: 4rpx; line-height: 1.5; }
+
+.s-row { display: flex; align-items: flex-start; gap: 16rpx; margin-top: 16rpx; }
+.s-row-stress { align-items: center; flex-wrap: wrap; }
+.s-row-chunks { align-items: flex-start; flex-wrap: wrap; }
+.s-label {
+  font-size: 22rpx; color: #6b7280; min-width: 64rpx;
+  font-weight: 600;
+}
+.s-text { font-size: 26rpx; color: #1f2937; flex: 1; line-height: 1.5; }
+.s-text-natural { color: #4A90E2; font-weight: 500; }
+
+.s-ipa-block {
+  background: #f9fafb; border-radius: 12rpx; padding: 16rpx;
+  margin-top: 12rpx;
+}
+.s-ipa-row { display: flex; gap: 12rpx; align-items: baseline; margin-bottom: 4rpx; }
+.s-ipa-row:last-child { margin-bottom: 0; }
+.s-ipa-label { font-size: 20rpx; min-width: 56rpx; }
+.s-ipa { font-size: 22rpx; font-family: 'Doulos SIL', 'Charis SIL', monospace; color: #1f2937; }
+.s-ipa-natural { color: #4A90E2; }
+
+.s-stress { display: flex; flex-wrap: wrap; gap: 8rpx; flex: 1; }
+.stress-tag {
+  font-size: 22rpx; padding: 4rpx 12rpx; border-radius: 8rpx;
+  background: #FEF3C7; color: #92400E; font-weight: 600;
+}
+.s-chunks { display: flex; flex-wrap: wrap; gap: 8rpx; flex: 1; font-size: 24rpx; }
+.s-chunks text {
+  background: #E8F1FC; color: #1e40af; padding: 4rpx 12rpx; border-radius: 6rpx;
+}
+
+.s-notes {
+  margin-top: 16rpx; padding-top: 16rpx;
+  border-top: 1rpx dashed #e5e7eb;
+}
+.s-notes-label { font-size: 22rpx; color: #6b7280; font-weight: 600; margin-bottom: 6rpx; }
+.s-note-line { font-size: 24rpx; color: #374151; line-height: 1.6; }
+
+.muted { color: #6b7280; }
+.footer-note { font-size: 22rpx; text-align: center; margin-top: 40rpx; }
