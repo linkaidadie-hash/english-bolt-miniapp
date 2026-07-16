@@ -1,0 +1,15 @@
+.card-title {
+  font-size: 28rpx;
+  font-weight: 600;
+  margin-bottom: 12rpx;
+}
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24rpx 0;
+  border-bottom: 1rpx solid var(--c-border);
+}
+.group:last-child { border-bottom: none; }
+.g-name { font-size: 30rpx; font-weight: 500; }
+.g-count { font-size: 22rpx; margin-top: 4rpx; }
