@@ -8,10 +8,10 @@
   </view>
 
   <view class="card">
-    <view class="card-title">能力进度（阶段七实现真实统计）</view>
-    <view class="stat-row">
+    <view class="card-title">能力进度（5 维度）</view>
+    <view class="stat-grid">
       <view class="stat">
-        <view class="stat-num">{{stats.vocab}}</view>
+        <view class="stat-num">{{stats.known}}</view>
         <view class="stat-label">认识词汇</view>
       </view>
       <view class="stat">
@@ -19,20 +19,47 @@
         <view class="stat-label">标准听力</view>
       </view>
       <view class="stat">
+        <view class="stat-num">{{stats.spell}}</view>
+        <view class="stat-label">拼写</view>
+      </view>
+      <view class="stat">
+        <view class="stat-num">{{stats.speak}}</view>
+        <view class="stat-label">会说</view>
+      </view>
+      <view class="stat">
         <view class="stat-num">{{stats.naturalListen}}</view>
         <view class="stat-label">自然口语</view>
       </view>
       <view class="stat">
-        <view class="stat-num">{{stats.speak}}</view>
-        <view class="stat-label">会说不</view>
+        <view class="stat-num">{{stats.mastered}}</view>
+        <view class="stat-label">已掌握</view>
+      </view>
+    </view>
+    <view class="muted small">答对一次计入对应维度；间隔复习按 SRS 自动调度</view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">训练统计</view>
+    <view class="stat-row">
+      <view class="stat">
+        <view class="stat-num">{{trainingCount}}</view>
+        <view class="stat-label">总答题数</view>
+      </view>
+      <view class="stat">
+        <view class="stat-num">{{stats.total}}</view>
+        <view class="stat-label">已学词数</view>
       </view>
     </view>
   </view>
 
   <view class="card">
     <view class="card-title">诊断</view>
-    <view class="menu-row" bindtap="onTapTestAudio">
+    <view class="menu-row" bindtap="onTestAudio">
       <text>测试音频 (apple.mp3)</text>
+      <text class="muted">›</text>
+    </view>
+    <view class="menu-row" bindtap="onReset">
+      <text class="danger">重置学习进度</text>
       <text class="muted">›</text>
     </view>
   </view>
