@@ -1,0 +1,58 @@
+<view class="page">
+  <view class="meta-bar muted">
+    <text wx:if="{{!summary}}">{{currentIndex + 1}} / {{quiz.length}}</text>
+    <text wx:else>训练完成</text>
+  </view>
+
+  <block wx:if="{{!summary}}">
+    <view class="card" wx:if="{{quiz.length > 0}}">
+      <view class="quiz-meta muted">拼写检测 · 根据释义拼单词</view>
+
+      <view class="hint-block">
+        <text class="hint-meaning">{{quiz[currentIndex].hint}}</text>
+      </view>
+
+      <input
+        class="spell-input {{showFeedback ? (isCorrect ? 'correct' : 'wrong') : ''}}"
+        type="text"
+        value="{{inputValue}}"
+        bindinput="onInput"
+        placeholder="请输入单词"
+        placeholder-class="placeholder"
+        disabled="{{showFeedback}}"
+        confirm-type="done"
+        bindconfirm="onSubmit"
+      />
+
+      <view class="action-row">
+        <button wx:if="{{!showFeedback}}" class="primary" bindtap="onSubmit" disabled="{{!inputValue}}">提交</button>
+        <button wx:else class="primary" bindtap="onNext">下一题</button>
+      </view>
+
+      <view class="feedback" wx:if="{{showFeedback}}">
+        <text class="muted">{{quality === 'remembered' ? '✅ 拼写正确' : (quality === 'vague' ? '⚠️ 接近正确（1 字符内）' : '❌ 拼错了')}}</text>
+        <text class="muted">正确: <text class="ok">{{quiz[currentIndex].expected}}</text></text>
+        <text class="muted">释义: {{quiz[currentIndex].hint}}</text>
+      </view>
+    </view>
+  </block>
+
+  <block wx:else>
+    <view class="card">
+      <view class="card-title">拼写训练完成</view>
+      <view class="stat-row">
+        <view class="stat">
+          <view class="stat-num">{{summary.total}}</view>
+          <view class="stat-label">题数</view>
+        </view>
+        <view class="stat">
+          <view class="stat-num">{{summary.durationMs/1000}}s</view>
+          <view class="stat-label">耗时</view>
+        </view>
+      </view>
+      <view class="action-row" style="margin-top: 32rpx;">
+        <button class="primary" bindtap="onBack">完成</button>
+      </view>
+    </view>
+  </block>
+</view>
