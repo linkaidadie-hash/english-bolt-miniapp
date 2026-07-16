@@ -1,0 +1,45 @@
+.page { padding: 24rpx 32rpx 80rpx; }
+
+.hero {
+  background: linear-gradient(135deg, #4A90E2 0%, #6B5BFF 100%);
+  color: #fff; padding: 40rpx 32rpx; border-radius: 24rpx;
+  margin-bottom: 32rpx;
+}
+.hero-title { font-size: 40rpx; font-weight: 700; }
+.hero-sub { font-size: 24rpx; opacity: 0.85; margin-top: 8rpx; }
+.hero-pill {
+  display: inline-block; margin-top: 20rpx; padding: 8rpx 20rpx;
+  border-radius: 999rpx; font-size: 24rpx; font-weight: 600;
+  background: rgba(255,255,255,0.95); color: #4A90E2;
+}
+.hero-pill.ready { color: #10b981; }
+.hero-pill.pending { color: #d97706; }
+.hero-note {
+  margin-top: 16rpx; padding: 12rpx 16rpx; border-radius: 8rpx;
+  background: rgba(255,255,255,0.18); font-size: 22rpx; line-height: 1.5;
+}
+
+.section-title {
+  font-size: 28rpx; font-weight: 700; color: #333;
+  margin: 8rpx 0 16rpx;
+}
+
+.lesson-list { display: flex; flex-direction: column; gap: 16rpx; }
+.lesson-card {
+  display: flex; align-items: center; gap: 20rpx;
+  background: #fff; padding: 28rpx 24rpx; border-radius: 16rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.04);
+}
+.lesson-icon { font-size: 56rpx; min-width: 80rpx; text-align: center; }
+.lesson-body { flex: 1; min-width: 0; }
+.lesson-name { font-size: 30rpx; font-weight: 600; color: #1f2937; }
+.lesson-sub { font-size: 24rpx; margin-top: 4rpx; line-height: 1.4; }
+.lesson-meta { font-size: 22rpx; margin-top: 8rpx; display: flex; gap: 8rpx; align-items: center; }
+.meta-item { color: #6b7280; }
+.meta-dot { color: #d1d5db; }
+.meta-ok { color: #10b981; font-weight: 600; }
+.meta-pending { color: #d97706; }
+.lesson-arrow { font-size: 40rpx; color: #cbd5e1; line-height: 1; }
+
+.muted { color: #6b7280; }
+.footer-note { font-size: 22rpx; text-align: center; margin-top: 40rpx; }
