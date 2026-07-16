@@ -1,0 +1,32 @@
+.page { padding: 24rpx 0 64rpx; }
+.meta-bar { display: flex; gap: 12rpx; font-size: 22rpx; padding: 0 32rpx 16rpx; }
+.quiz-meta { font-size: 24rpx; margin-bottom: 24rpx; text-align: center; }
+
+.audio-zone { display: flex; flex-direction: column; align-items: center; gap: 12rpx; padding: 32rpx 0; }
+.play-btn { min-width: 320rpx; min-height: 88rpx; font-size: 32rpx; }
+.audio-tip { font-size: 22rpx; }
+
+.choices { display: flex; flex-direction: column; gap: 16rpx; margin-top: 24rpx; }
+.choice {
+  display: flex; align-items: center; gap: 16rpx;
+  padding: 24rpx; background: #f7f7f7; border-radius: 12rpx;
+  font-size: 30rpx; border: 2rpx solid transparent;
+}
+.choice.selected { border-color: #4A90E2; background: #E8F1FC; }
+.choice.correct { border-color: #10b981; background: #d1fae5; }
+.choice.wrong   { border-color: #ef4444; background: #fee2e2; }
+.choice-letter { font-weight: 700; color: #999; font-size: 32rpx; min-width: 48rpx; }
+.choice-word { flex: 1; }
+
+.action-row { display: flex; gap: 16rpx; justify-content: center; margin-top: 32rpx; }
+.action-row button { flex: 1; max-width: 320rpx; }
+
+.feedback { margin-top: 24rpx; padding-top: 24rpx; border-top: 1rpx solid #eee; display: flex; flex-direction: column; gap: 8rpx; font-size: 26rpx; }
+
+.card-title { font-size: 32rpx; font-weight: 600; margin-bottom: 24rpx; }
+.stat-row { display: flex; justify-content: space-around; }
+.stat { text-align: center; }
+.stat-num { font-size: 56rpx; font-weight: 700; color: #4A90E2; }
+.stat-label { font-size: 22rpx; color: #999; margin-top: 4rpx; }
+.muted { color: #999; }
+.ok { color: #10b981; font-weight: 600; }
