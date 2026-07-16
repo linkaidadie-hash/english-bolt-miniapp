@@ -1,0 +1,62 @@
+<view class="page">
+  <view class="card word-card">
+    <view class="word-row">
+      <text class="word">{{word.word}}</text>
+      <text class="pos">{{word.pos}}</text>
+    </view>
+    <view class="ipa" wx:if="{{settings.showIpa}}">{{word.ipa}}</view>
+    <view class="meaning">{{word.meaning}}</view>
+    <view class="meta">
+      <text class="tag">场景：{{word.scene}}</text>
+      <text class="tag">难度：{{word.difficulty}}</text>
+    </view>
+
+    <view class="play-row">
+      <button
+        class="play-btn {{audioStatus === 'playing' ? 'playing' : ''}}"
+        bindtap="onPlayTap"
+        disabled="{{audioStatus === 'missing' || audioStatus === 'loading'}}"
+      >
+        <text wx:if="{{audioStatus === 'missing'}}">音频缺失</text>
+        <text wx:elif="{{audioStatus === 'loading'}}">加载中…</text>
+        <text wx:elif="{{audioStatus === 'playing'}}">停止</text>
+        <text wx:elif="{{audioStatus === 'ended'}}">再听一次</text>
+        <text wx:elif="{{audioStatus === 'error'}}">重试</text>
+        <text wx:else>播放标准发音</text>
+      </button>
+      <text class="status muted">{{audioStatus}}</text>
+    </view>
+
+    <view class="error" wx:if="{{audioStatus === 'error'}}">
+      <text>{{audioError}}</text>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">发音辅助设置（阶段一灰度预览）</view>
+    <view class="setting-row" bindtap="onToggleSetting" data-key="showIpa">
+      <text>标准音标</text>
+      <text class="switch {{settings.showIpa ? 'on' : 'off'}}">{{settings.showIpa ? '开' : '关'}}</text>
+    </view>
+    <view class="setting-row" bindtap="onToggleSetting" data-key="showNaturalChanges">
+      <text>自然口语变化</text>
+      <text class="switch {{settings.showNaturalChanges ? 'on' : 'off'}}">{{settings.showNaturalChanges ? '开' : '关'}}</text>
+    </view>
+    <view class="setting-row" bindtap="onToggleSetting" data-key="showStress">
+      <text>句子重音</text>
+      <text class="switch {{settings.showStress ? 'on' : 'off'}}">{{settings.showStress ? '开' : '关'}}</text>
+    </view>
+    <view class="setting-row" bindtap="onToggleSetting" data-key="showChineseHint">
+      <text>中文近似音</text>
+      <text class="switch {{settings.showChineseHint ? 'on' : 'off'}}">{{settings.showChineseHint ? '开' : '关'}}</text>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">阶段一验收</view>
+    <view class="check-item">点击播放，听到标准美式 apple 发音</view>
+    <view class="check-item">点"停止"按钮能立即中断</view>
+    <view class="check-item">切到后台再切回，状态不卡"加载中"</view>
+    <view class="check-item">设置项开关持久化（杀进程再进还在）</view>
+  </view>
+</view>
