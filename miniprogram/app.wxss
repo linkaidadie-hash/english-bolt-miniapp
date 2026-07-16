@@ -1,0 +1,67 @@
+/* app.wxss — 英语快充 v2 全局样式
+ * 阶段一：reset + 基础 token。后续阶段会拆出 theme.wxss。
+ */
+
+page {
+  --c-primary: #4A90E2;
+  --c-primary-dim: #E8F1FC;
+  --c-text: #222222;
+  --c-text-dim: #666666;
+  --c-text-faint: #999999;
+  --c-bg: #f7f7f7;
+  --c-card: #ffffff;
+  --c-border: #eeeeee;
+  --r-card: 12rpx;
+  --gap: 24rpx;
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-size: 28rpx;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+view, text, button, image, scroll-view, swiper, swiper-item, navigator {
+  box-sizing: border-box;
+}
+
+button {
+  background: var(--c-primary);
+  color: #fff;
+  border: none;
+  border-radius: 8rpx;
+  font-size: 30rpx;
+  line-height: 1;
+  padding: 20rpx 32rpx;
+}
+button[disabled] {
+  background: #cccccc;
+  color: #ffffff;
+}
+button.plain {
+  background: transparent;
+  color: var(--c-primary);
+  border: 1rpx solid var(--c-primary);
+}
+
+.card {
+  background: var(--c-card);
+  border-radius: var(--r-card);
+  padding: var(--gap);
+  margin: 0 var(--gap) var(--gap);
+  box-shadow: 0 1rpx 4rpx rgba(0,0,0,0.04);
+}
+
+.muted { color: var(--c-text-faint); }
+.dim   { color: var(--c-text-dim); }
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  color: var(--c-text-faint);
+  font-size: 30rpx;
+  padding: 0 64rpx;
+  text-align: center;
+}
