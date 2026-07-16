@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/today/today",
+    "pages/immerse/immerse",
+    "pages/scene/scene",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "英语快充",
+    "backgroundColor": "#f7f7f7",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4A90E2",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/today/today",
+        "text": "今日",
+        "iconPath": "assets/tab/today-inactive.png",
+        "selectedIconPath": "assets/tab/today-active.png"
+      },
+      {
+        "pagePath": "pages/immerse/immerse",
+        "text": "沉浸",
+        "iconPath": "assets/tab/immerse-inactive.png",
+        "selectedIconPath": "assets/tab/immerse-active.png"
+      },
+      {
+        "pagePath": "pages/scene/scene",
+        "text": "场景",
+        "iconPath": "assets/tab/scene-inactive.png",
+        "selectedIconPath": "assets/tab/scene-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "assets/tab/mine-inactive.png",
+        "selectedIconPath": "assets/tab/mine-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
