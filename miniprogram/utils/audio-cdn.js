@@ -1,26 +1,41 @@
-// utils/audio-cdn.js — CDN URL 构造 + 资产查询
+// utils/audio-cdn.js — v2 音频 URL 构造 + 资产查询
 //
-// 阶段一固定指向 https://english.wujiong.cn/audio/
-// 阶段二会引入 "本地资产优先 / CDN 兜底" 策略。
+// 阶段二：通过 data-repository 查 audio 元数据
+// 阶段四扩展：sentence 三档音频 (audioSegmented / audioClear / audioNatural)
 //
-// 重要约定：找不到的音频**绝不**返回假 URL（user 红线）。
-//   → getWordAudio() 返回 { url, exists }
-//   → page 拿到 exists=false 时显示 "missing" 占位 + 跳过播放
+// 重要约定（user 红线）：
+//   - 找不到的音频**绝不**返回假 URL
+//   - 返回 { url, exists, status, kind }，exists=false 时 page 标 missing
+//   - 用户在 page 自己处理 missing 提示
+
+const repo = require('./data-repository.js');
 
 const BASE = 'https://english.wujiong.cn/audio/';
 
-function wordAudioUrl(word) {
-  if (!word) return { url: null, exists: false };
+function wordAudio(wordOrId) {
+  if (!wordOrId) return { url: null, exists: false, status: 'missing', kind: null };
+
+  // 支持 id 查
+  let word = (typeof wordOrId === 'object' && wordOrId.word) ? wordOrId.word : wordOrId;
+  let entry = (typeof wordOrId === 'object') ? wordOrId : repo.getWordByText(word);
+
+  if (!entry) {
+    return { url: null, exists: false, status: 'missing', kind: null };
+  }
+  if (!entry.audio || !entry.audio.url) {
+    return { url: null, exists: false, status: 'missing', kind: entry.audio?.kind || null };
+  }
   return {
-    url: BASE + encodeURIComponent(word) + '.mp3',
-    exists: true, // 阶段一不验证；阶段二用 data/audio-audit.jsonl 校验
+    url: entry.audio.url,
+    exists: true,
+    status: entry.audio.status,  // 'ready' | 'ready_spell' | 'ready_chinese' | 'missing'
+    kind: entry.audio.kind,      // 'standard' | 'spell' | 'chinese'
   };
 }
 
-// 阶段二会扩展为：sentence 三档音频 (audioSegmented / audioClear / audioNatural)
-function sentenceAudioUrl(sentenceId, variant /* 'segmented'|'clear'|'natural' */) {
-  // 阶段一 stub：还没生成。返回 null，让 page 标 missing。
-  return { url: null, exists: false, variant };
+// 阶段二 stub：sentence 三档音频尚未生成
+function sentenceAudio(sentenceId, variant) {
+  return { url: null, exists: false, status: 'missing', kind: null, variant };
 }
 
-module.exports = { BASE, wordAudioUrl, sentenceAudioUrl };
+module.exports = { BASE, wordAudio, sentenceAudio };
