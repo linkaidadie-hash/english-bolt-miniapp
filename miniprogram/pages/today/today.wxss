@@ -1,0 +1,105 @@
+.page {
+  padding: 24rpx 0 64rpx;
+}
+
+.word-card .word-row {
+  display: flex;
+  align-items: baseline;
+  gap: 16rpx;
+}
+.word {
+  font-size: 64rpx;
+  font-weight: 700;
+  color: var(--c-text);
+  letter-spacing: 1rpx;
+}
+.pos {
+  font-size: 26rpx;
+  color: var(--c-text-faint);
+  font-style: italic;
+}
+.ipa {
+  font-size: 30rpx;
+  color: var(--c-text-dim);
+  margin-top: 8rpx;
+  font-family: "Charis SIL", "Doulos SIL", "Times New Roman", serif;
+}
+.meaning {
+  font-size: 32rpx;
+  color: var(--c-text);
+  margin-top: 16rpx;
+  font-weight: 500;
+}
+.meta {
+  display: flex;
+  gap: 12rpx;
+  margin-top: 16rpx;
+}
+.tag {
+  font-size: 22rpx;
+  color: var(--c-text-faint);
+  background: #f2f2f2;
+  padding: 4rpx 14rpx;
+  border-radius: 6rpx;
+}
+.play-row {
+  display: flex;
+  align-items: center;
+  gap: 20rpx;
+  margin-top: 32rpx;
+}
+.play-btn {
+  flex: 0 0 auto;
+  min-width: 240rpx;
+}
+.play-btn.playing {
+  background: #d35454;
+}
+.status {
+  font-size: 22rpx;
+  text-transform: uppercase;
+  letter-spacing: 1rpx;
+}
+.error {
+  margin-top: 16rpx;
+  color: #d35454;
+  font-size: 24rpx;
+}
+
+.card-title {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: var(--c-text);
+  margin-bottom: 16rpx;
+}
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid var(--c-border);
+}
+.setting-row:last-child { border-bottom: none; }
+.switch {
+  font-size: 24rpx;
+  padding: 4rpx 16rpx;
+  border-radius: 24rpx;
+}
+.switch.on  { color: #fff; background: var(--c-primary); }
+.switch.off { color: var(--c-text-faint); background: #eee; }
+
+.check-item {
+  font-size: 26rpx;
+  color: var(--c-text-dim);
+  padding: 10rpx 0;
+  padding-left: 28rpx;
+  position: relative;
+}
+.check-item::before {
+  content: "·";
+  position: absolute;
+  left: 8rpx;
+  color: var(--c-primary);
+  font-size: 36rpx;
+  line-height: 1;
+}
