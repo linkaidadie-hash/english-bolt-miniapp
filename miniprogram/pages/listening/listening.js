@@ -70,7 +70,8 @@ Page({
     const quality = isCorrect ? 'remembered' : 'forgot';
     const result = srs.score(quality, userData.getWordProgress(cur.word.id));
     userData.setWordProgress(cur.word.id, {
-      ...result.increment,
+      ...result.increment,           // exposure + recall
+      listen: isCorrect ? 1 : 0,      // 听音维度增量
       status: result.status,
       dueAt: result.dueAt,
     });
