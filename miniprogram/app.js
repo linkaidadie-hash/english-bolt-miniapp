@@ -8,7 +8,7 @@ const tts = require('./utils/tts.js');
 
 App({
   globalData: {
-    buildTag: 'phase1-skeleton-2026-07-16',
+    buildTag: 'phase2-data-layer-2026-07-16',
     // v2 阶段二会替换为正式 audio base + 完整 word/sentence 库
     audioBase: 'https://english.wujiong.cn/audio/',
   },
