@@ -1,0 +1,19 @@
+.ph-title { font-size: 36rpx; font-weight: 600; margin-bottom: 12rpx; }
+.ph-sub { font-size: 26rpx; line-height: 1.7; }
+
+.card-title {
+  font-size: 28rpx;
+  font-weight: 600;
+  margin-bottom: 12rpx;
+}
+.channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid var(--c-border);
+}
+.channel:last-child { border-bottom: none; }
+.ch-name { font-size: 30rpx; font-weight: 500; }
+.ch-desc { font-size: 22rpx; margin-top: 4rpx; }
+.ch-status { font-size: 22rpx; }
