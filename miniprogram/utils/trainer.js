@@ -57,12 +57,13 @@ function buildListeningQuiz(count = 10) {
 /**
  * 拼写训练题：给一个 word + 中文释义 + IPA 提示
  * @param {number} count
- * @returns {Array<{ word, hint, expected }>}
+ * @returns {Array<{ wordId, word, hint, expected }>}
  */
 function buildSpellingQuiz(count = 10) {
   const pool = getReadyWords(200);
   const shuffled = pool.slice().sort(() => Math.random() - 0.5);
   return shuffled.slice(0, count).map(w => ({
+    wordId: w.id,                 // 关键：让 review 能拉到错题
     word: w.word,
     hint: `${w.meaning} · ${w.ipa || ''}`,
     expected: w.word,
