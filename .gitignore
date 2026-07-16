@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+*.log
+miniprogram_npm/
+.idea/
+.vscode/
+*.tmp
+*.swp
+data/audio-audit.jsonl
+data/audio-audit.csv
+tools/_test-*
