@@ -1,0 +1,90 @@
+<view class="page" wx:if="{{lesson}}">
+  <!-- 课程头部 -->
+  <view class="lesson-hero">
+    <view class="lesson-hero-icon">{{lesson.icon}}</view>
+    <view class="lesson-hero-name">{{lesson.name}}</view>
+    <view class="lesson-hero-sub muted">{{lesson.subtitle}}</view>
+    <view class="lesson-hero-meta">
+      <text class="meta-pill">{{sentences.length}} 条</text>
+      <text class="meta-pill {{audioReadyCount === sentences.length ? 'meta-ok' : 'meta-pending'}}">
+        {{audioReadyCount === sentences.length ? '音频已就绪' : '音频待生成 ' + audioReadyCount + '/' + sentences.length}}
+      </text>
+    </view>
+  </view>
+
+  <!-- 规则说明 -->
+  <view class="card rule-card">
+    <view class="card-label">规则</view>
+    <view class="card-text">{{lesson.rule}}</view>
+  </view>
+  <view class="card tip-card">
+    <view class="card-label">💡 小贴士</view>
+    <view class="card-text">{{lesson.tip}}</view>
+  </view>
+
+  <!-- 阶段四 A 提示 -->
+  <view class="stage-banner" wx:if="{{audioReadyCount < sentences.length}}">
+    <text class="stage-banner-title">阶段四 A · 内容骨架</text>
+    <text class="stage-banner-text">真实音频待阶段四 B 生成后开放播放与训练,本阶段仅展示内容与变化规则。</text>
+  </view>
+
+  <!-- 20 条重点句 -->
+  <view class="section-title">{{sentences.length}} 条重点句</view>
+  <view class="sentence-list">
+    <view wx:for="{{sentences}}" wx:key="id" wx:for-item="s" class="sentence-card">
+      <view class="s-head">
+        <text class="s-idx">{{index + 1}}</text>
+        <text class="s-id muted">{{s.id}}</text>
+        <view class="s-audio-badge {{s.audioClear.status === 'ready' ? 'ok' : 'pending'}}">
+          {{s.audioClear.status === 'ready' ? '✅ 音频就绪' : '⏳ 音频 pending'}}
+        </view>
+      </view>
+
+      <view class="s-written">{{s.writtenText}}</view>
+      <view class="s-translation muted">{{s.translation}}</view>
+
+      <view class="s-row">
+        <view class="s-label">慢速</view>
+        <view class="s-text">{{s.clearText}}</view>
+      </view>
+      <view class="s-row">
+        <view class="s-label">自然</view>
+        <view class="s-text s-text-natural">{{s.naturalText}}</view>
+      </view>
+
+      <view class="s-ipa-block">
+        <view class="s-ipa-row">
+          <text class="s-ipa-label muted">标准</text>
+          <text class="s-ipa">{{s.standardIpa}}</text>
+        </view>
+        <view class="s-ipa-row">
+          <text class="s-ipa-label muted">自然</text>
+          <text class="s-ipa s-ipa-natural">{{s.naturalIpa}}</text>
+        </view>
+      </view>
+
+      <view class="s-row s-row-stress" wx:if="{{s.stressWords && s.stressWords.length}}">
+        <view class="s-label">重音</view>
+        <view class="s-stress">
+          <text wx:for="{{s.stressWords}}" wx:key="*this" wx:for-item="sw" class="stress-tag">{{sw}}</text>
+        </view>
+      </view>
+
+      <view class="s-row s-row-chunks" wx:if="{{s.speechChunks && s.speechChunks.length}}">
+        <view class="s-label">意群</view>
+        <view class="s-chunks muted">
+          <text wx:for="{{s.speechChunks}}" wx:key="*this" wx:for-item="c">{{c}}</text>
+        </view>
+      </view>
+
+      <view class="s-notes" wx:if="{{s.pronunciationNotes && s.pronunciationNotes.length}}">
+        <view class="s-notes-label">变化点</view>
+        <view wx:for="{{s.pronunciationNotes}}" wx:key="*this" wx:for-item="n" class="s-note-line">• {{n}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="footer-note muted">
+    通用 lesson 详情页 · 阶段四 A 不含训练入口
+  </view>
+</view>
