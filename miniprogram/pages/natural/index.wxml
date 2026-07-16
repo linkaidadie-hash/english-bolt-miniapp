@@ -1,0 +1,47 @@
+<view class="page">
+  <!-- 顶部状态 -->
+  <view class="hero" wx:if="{{summary}}">
+    <view class="hero-title">自然口语解码</view>
+    <view class="hero-sub">9 类规则 · {{summary.total}} 条重点句</view>
+    <view class="hero-pill {{summary.audioReady === summary.total ? 'ready' : 'pending'}}">
+      <text wx:if="{{summary.audioReady === summary.total}}">✅ 音频已就绪 {{summary.audioReady}}/{{summary.total}}</text>
+      <text wx:else>⏳ 待音频 {{summary.audioReady}}/{{summary.total}} ({{summary.audioReadyPct}}%)</text>
+    </view>
+    <view class="hero-note" wx:if="{{summary.audioReady === 0}}">
+      阶段四 A：内容与规则骨架,真实音频待阶段四 B 生成。
+    </view>
+    <view class="hero-note" wx:elif="{{summary.audioReady < summary.total}}">
+      阶段四 A：部分音频就绪,训练模式待全部就绪后开启。
+    </view>
+  </view>
+
+  <!-- 9 课卡片 -->
+  <view class="section-title">9 类自然口语规则</view>
+  <view class="lesson-list">
+    <view
+      wx:for="{{lessons}}"
+      wx:key="id"
+      class="lesson-card"
+      bindtap="onOpenLesson"
+      data-id="{{item.id}}"
+    >
+      <view class="lesson-icon">{{item.icon}}</view>
+      <view class="lesson-body">
+        <view class="lesson-name">{{item.name}}</view>
+        <view class="lesson-sub muted">{{item.subtitle}}</view>
+        <view class="lesson-meta">
+          <text class="meta-item">{{item.sentenceCount}} 条</text>
+          <text class="meta-dot">·</text>
+          <text class="meta-item {{item.audioReady === item.sentenceCount ? 'meta-ok' : 'meta-pending'}}">
+            {{item.audioReady === item.sentenceCount ? '音频已就绪' : '音频待生成'}}
+          </text>
+        </view>
+      </view>
+      <view class="lesson-arrow">›</view>
+    </view>
+  </view>
+
+  <view class="footer-note muted">
+    阶段四 A: 仅内容骨架 · 无训练入口
+  </view>
+</view>
