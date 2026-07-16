@@ -112,6 +112,19 @@
   font-weight: 500;
 }
 
+.training-card { padding: 24rpx; }
+.training-card .card-title { font-size: 28rpx; font-weight: 600; margin-bottom: 16rpx; }
+.training-row {
+  display: flex; gap: 12rpx; justify-content: space-between;
+}
+.training-btn {
+  flex: 1; min-height: 80rpx; font-size: 26rpx;
+  background: var(--c-primary-dim); color: var(--c-primary);
+  border: 1rpx solid var(--c-primary);
+  padding: 12rpx 8rpx;
+}
+.training-btn:active { opacity: 0.7; }
+
 .word-list {
   display: flex;
   flex-wrap: wrap;
