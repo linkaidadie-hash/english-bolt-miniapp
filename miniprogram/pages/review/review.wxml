@@ -1,0 +1,62 @@
+<view class="page">
+  <view class="meta-bar muted">
+    <text wx:if="{{!summary}}">{{currentIndex + 1}} / {{quiz.length}}</text>
+    <text wx:else>回炉完成</text>
+  </view>
+
+  <block wx:if="{{!summary}}">
+    <view class="card" wx:if="{{quiz.length > 0}}">
+      <view class="quiz-meta muted">错题回炉 · 听音重答</view>
+      <view class="audio-zone">
+        <button class="play-btn" bindtap="onPlayAudio">
+          <text wx:if="{{audioStatus === 'loading'}}">加载中…</text>
+          <text wx:elif="{{audioStatus === 'playing'}}">停止</text>
+          <text wx:elif="{{audioStatus === 'ended'}}">再听</text>
+          <text wx:else>播放发音</text>
+        </button>
+        <text class="audio-tip muted">这是你之前答错的词，再听一遍</text>
+      </view>
+      <view class="choices">
+        <view
+          wx:for="{{quiz[currentIndex].choices}}"
+          wx:key="index"
+          class="choice {{selectedChoice === index ? (showFeedback ? (index === quiz[currentIndex].correctIndex ? 'correct' : 'wrong') : 'selected') : ''}}"
+          bindtap="onSelectChoice"
+          data-idx="{{index}}"
+        >
+          <text class="choice-letter">{{['A','B','C','D'][index]}}</text>
+          <text class="choice-word">{{item}}</text>
+        </view>
+      </view>
+      <view class="action-row">
+        <button wx:if="{{!showFeedback}}" class="primary" bindtap="onSubmit" disabled="{{selectedChoice === -1}}">提交</button>
+        <button wx:else class="primary" bindtap="onNext">下一题</button>
+      </view>
+      <view class="feedback" wx:if="{{showFeedback}}">
+        <text class="muted">{{isCorrect ? '✅ 这次答对' : '❌ 又错了'}}</text>
+        <text class="muted">正确: <text class="ok">{{quiz[currentIndex].word.word}}</text></text>
+        <text class="muted">释义: {{quiz[currentIndex].word.meaning}}</text>
+      </view>
+    </view>
+  </block>
+
+  <block wx:else>
+    <view class="card">
+      <view wx:if="{{summary.empty}}" class="card-title">还没有错题</view>
+      <view wx:else class="card-title">回炉完成</view>
+      <view wx:if="{{!summary.empty}}" class="stat-row">
+        <view class="stat">
+          <view class="stat-num">{{summary.total}}</view>
+          <view class="stat-label">题数</view>
+        </view>
+        <view class="stat">
+          <view class="stat-num">{{summary.durationMs/1000}}s</view>
+          <view class="stat-label">耗时</view>
+        </view>
+      </view>
+      <view class="action-row" style="margin-top: 32rpx;">
+        <button class="primary" bindtap="onBack">完成</button>
+      </view>
+    </view>
+  </block>
+</view>
