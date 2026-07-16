@@ -1,21 +1,36 @@
 <view class="page">
-  <view class="card word-card">
+  <!-- 数据元信息（阶段二新加） -->
+  <view class="meta-bar muted">
+    <text>{{meta.source}} · v{{meta.version}}</text>
+    <text class="dot">·</text>
+    <text>共 {{audioStats.total}} 词</text>
+    <text class="dot">·</text>
+    <text class="ok">已就绪 {{audioStats.ready}}</text>
+    <text class="dot">·</text>
+    <text class="warn">缺失 {{audioStats.missing}}</text>
+  </view>
+
+  <!-- 当前词卡 -->
+  <view class="card word-card" wx:if="{{currentWord}}">
+    <view class="counter muted">{{currentIndex + 1}} / {{batch.size}}</view>
     <view class="word-row">
-      <text class="word">{{word.word}}</text>
-      <text class="pos">{{word.pos}}</text>
+      <text class="word">{{currentWord.word}}</text>
+      <text class="pos">{{currentWord.pos}}</text>
     </view>
-    <view class="ipa" wx:if="{{settings.showIpa}}">{{word.ipa}}</view>
-    <view class="meaning">{{word.meaning}}</view>
+    <view class="ipa" wx:if="{{settings.showIpa && currentWord.ipa}}">{{currentWord.ipa}}</view>
+    <view class="meaning">{{currentWord.meaning}}</view>
     <view class="meta">
-      <text class="tag">场景：{{word.scene}}</text>
-      <text class="tag">难度：{{word.difficulty}}</text>
+      <text class="tag" wx:if="{{currentWord.collins >= 1}}">Collins {{currentWord.collins}}★</text>
+      <text class="tag" wx:if="{{currentWord.oxford >= 1}}">Oxford {{currentWord.oxford}}★</text>
+      <text class="tag">Level {{currentWord.level}}</text>
+      <text class="tag" wx:if="{{currentWord.tag}}">{{currentWord.tag}}</text>
     </view>
 
     <view class="play-row">
       <button
         class="play-btn {{audioStatus === 'playing' ? 'playing' : ''}}"
         bindtap="onPlayTap"
-        disabled="{{audioStatus === 'missing' || audioStatus === 'loading'}}"
+        disabled="{{audioStatus === 'missing' || audioStatus === 'loading' || audioStatus === 'ready_spell' || audioStatus === 'ready_chinese'}}"
       >
         <text wx:if="{{audioStatus === 'missing'}}">音频缺失</text>
         <text wx:elif="{{audioStatus === 'loading'}}">加载中…</text>
@@ -24,14 +39,59 @@
         <text wx:elif="{{audioStatus === 'error'}}">重试</text>
         <text wx:else>播放标准发音</text>
       </button>
-      <text class="status muted">{{audioStatus}}</text>
+      <text class="status muted">
+        <text wx:if="{{audioStatus === 'ready_spell'}}">仅拼读</text>
+        <text wx:elif="{{audioStatus === 'ready_chinese'}}">仅中文</text>
+        <text wx:else>{{audioStatus}}</text>
+      </text>
     </view>
 
     <view class="error" wx:if="{{audioStatus === 'error'}}">
       <text>{{audioError}}</text>
     </view>
+
+    <!-- 阶段二：形变 -->
+    <view class="exchange" wx:if="{{currentWord.exchange.p || currentWord.exchange.d || currentWord.exchange.i}}">
+      <text class="exch-label muted">形变：</text>
+      <text class="exch-val" wx:if="{{currentWord.exchange.p}}">过去式 {{currentWord.exchange.p}}</text>
+      <text class="exch-val" wx:if="{{currentWord.exchange.d}}">过去分词 {{currentWord.exchange.d}}</text>
+      <text class="exch-val" wx:if="{{currentWord.exchange.i}}">现在分词 {{currentWord.exchange.i}}</text>
+      <text class="exch-val" wx:if="{{currentWord.exchange['3']}}">第三人称单数 {{currentWord.exchange['3']}}</text>
+    </view>
   </view>
 
+  <!-- 阶段二：左右切词 -->
+  <view class="card nav-card">
+    <view class="nav-row">
+      <button class="plain" bindtap="onPrev" disabled="{{currentIndex <= 0}}">‹ 上一词</button>
+      <text class="muted">{{currentIndex + 1}} / {{batch.size}}</text>
+      <button class="plain" bindtap="onNext" disabled="{{currentIndex >= batch.size - 1}}">下一词 ›</button>
+    </view>
+  </view>
+
+  <!-- 阶段二：词列表（点击跳） -->
+  <view class="card">
+    <view class="card-title">今日 {{batch.size}} 词（按 BNC 词频）</view>
+    <view class="word-list">
+      <view
+        wx:for="{{batch.words}}"
+        wx:key="id"
+        class="word-pill {{index === currentIndex ? 'active' : ''}} {{item.audio.status === 'missing' ? 'missing' : ''}}"
+        bindtap="onJumpTo"
+        data-idx="{{index}}"
+      >
+        <text class="pill-word">{{item.word}}</text>
+        <text class="pill-status">
+          <text wx:if="{{item.audio.status === 'ready'}}">●</text>
+          <text wx:elif="{{item.audio.status === 'ready_spell'}}">S</text>
+          <text wx:elif="{{item.audio.status === 'ready_chinese'}}">中</text>
+          <text wx:else>—</text>
+        </text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 设置（阶段一保留） -->
   <view class="card">
     <view class="card-title">发音辅助设置（阶段一灰度预览）</view>
     <view class="setting-row" bindtap="onToggleSetting" data-key="showIpa">
@@ -52,11 +112,15 @@
     </view>
   </view>
 
+  <!-- 阶段二验收清单 -->
   <view class="card">
-    <view class="card-title">阶段一验收</view>
-    <view class="check-item">点击播放，听到标准美式 apple 发音</view>
-    <view class="check-item">点"停止"按钮能立即中断</view>
-    <view class="check-item">切到后台再切回，状态不卡"加载中"</view>
-    <view class="check-item">设置项开关持久化（杀进程再进还在）</view>
+    <view class="card-title">阶段二验收清单</view>
+    <view class="check-item">加载 3000 核心词（ECDICT / BNC 词频）</view>
+    <view class="check-item">左右切词流畅，无 tts 状态污染</view>
+    <view class="check-item">830 ready 词能播放真音频</view>
+    <view class="check-item">2170 missing 词显示「音频缺失」（不假占位）</view>
+    <view class="check-item">形变（过去式/分词/第三人称）正确显示</view>
+    <view class="check-item">Collins/Oxford 星级 + 考试标签 (cet4/gk) 显示</view>
+    <view class="check-item">设置项持久化（杀进程再进）</view>
   </view>
 </view>
