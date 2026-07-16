@@ -24,10 +24,9 @@ App({
   },
 
   onShow() {
-    // 切前台：兜底重置 audio state（防止后台被微信音频焦点打断后状态错乱）
-    if (typeof tts.reset === 'function') {
-      tts.reset();
-    }
+    // 切前台：不再 reset tts（reset 会 destroy _ctx，导致训练页 speak 报
+    // "operateAudio:fail audiolnstance is not set"）。 _ctx 单例在 onLaunch
+    // 已 prewarm，全局复用。 仅在用户显式重置时重建（mine 页"重置"按钮）。
   },
 
   onError(err) {
