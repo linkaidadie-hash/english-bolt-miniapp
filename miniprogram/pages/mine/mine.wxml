@@ -53,14 +53,18 @@
   </view>
 
   <view class="card">
-    <view class="card-title">诊断</view>
-    <view class="menu-row" bindtap="onTestAudio">
-      <text>测试音频 (apple.mp3)</text>
-      <text class="muted">›</text>
+    <view class="card-title">数据</view>
+    <view class="data-row">
+      <text>词库来源</text>
+      <text class="muted">ECDICT 1.0.3 (CC-BY-SA 4.0) · BNC 词频</text>
     </view>
-    <view class="menu-row" bindtap="onReset">
-      <text class="danger">重置学习进度</text>
-      <text class="muted">›</text>
+    <view class="data-row">
+      <text>音频</text>
+      <text class="muted">已就绪 830 / 缺失 2170</text>
+    </view>
+    <view class="data-row">
+      <text>训练源</text>
+      <text class="muted">仅 830 ready 词（阶段三）</text>
     </view>
   </view>
 </view>
