@@ -1,4 +1,4 @@
-// utils/tts.js — 英语快充 v2 全局音频管理器（阶段三加固版）
+// utils/tts.js — 英语快充 v2 全局音频管理器（阶段三加固版 v2）
 //
 // 修原项目三大坑 + 阶段三加固：
 //   1) InnerAudioContext.onCanplay 不可靠 → 不 await onCanplay
@@ -6,21 +6,30 @@
 //   3) 全局 onStop/onEnded 无 staleness 检查 → token 守门
 //   4) ctx.play() 在某些基础库返回 undefined → 链式判断
 //   5) 切前后台 app.onShow 调 tts.reset() 破坏 _ctx → 已移除
-//   6) speak() 时 _ctx 还没就绪 → lazy prewarm + rebuild + retry once
+//   6) ctx.play() 静默失败（不抛错不 fire onPlay）→ 800ms 兜底 timeout
+//   7) speak() 时 _ctx 还没就绪 → lazy prewarm + rebuild + retry once
+//   8) listen all missing audio → 立即 emit error 不卡 loading
 //
 // 设计原则：
 //   - 单例 _ctx（lazy init + prewarm）
 //   - 每个 speak 自带 token；事件回调先验 token
-//   - speak() 失败时自动 rebuild ctx + retry 一次（救回"audiolnstance is not set"）
+//   - speak() 失败时自动 rebuild + retry + 兜底 timeout
+//   - 800ms 内 onPlay 不 fire → 强制 error（救回"静默失败"）
 
 let _ctx = null;
 let _token = 0;
 let _state = { token: 0, phase: 'idle', error: null };
 let _listeners = new Set();
 let _warmed = false;
-let _prewarmPromise = null;   // 单次 prewarm 共享 promise（避免并发重建）
+let _prewarmPromise = null;
+let _playTimeouts = new Map();   // token -> timeoutId (800ms onPlay 兜底)
 
 function _emit(evt) {
+  // onPlay / onEnded / onError / onStop 都清掉该 token 的 800ms 兜底 timeout
+  if (evt.type === 'play' || evt.type === 'ended' || evt.type === 'error' || evt.type === 'stop') {
+    const t = _playTimeouts.get(evt.token);
+    if (t) { clearTimeout(t); _playTimeouts.delete(evt.token); }
+  }
   for (const fn of _listeners) {
     try { fn(evt); } catch (e) { console.warn('[tts] listener err:', e); }
   }
@@ -73,23 +82,30 @@ function _getCtx() {
   return _ctx;
 }
 
-/**
- * 销毁并重建 ctx（speak 失败后兜底用）
- */
 function _rebuild() {
   if (_ctx) {
     try { _ctx.destroy(); } catch (e) {}
     _ctx = null;
   }
   _warmed = false;
-  // _listeners 保留（page 端订阅不变）
   return _getCtx();
 }
 
-/**
- * 预热：app.onLaunch 调用一次。 idempotent + 共享 promise。
- * 不在 onShow 调用（避免破坏 ctx）。
- */
+function _armPlayTimeout(myToken) {
+  // 800ms 内 onPlay 不 fire → 强制 emit error（救回静默失败）
+  if (_playTimeouts.has(myToken)) clearTimeout(_playTimeouts.get(myToken));
+  const t = setTimeout(() => {
+    _playTimeouts.delete(myToken);
+    if (_state.token !== myToken) return;
+    if (_state.phase !== 'loading') return;
+    console.warn('[tts] onPlay 800ms 未 fire — 兜底 emit error, myToken=', myToken);
+    _state.phase = 'error';
+    _state.error = 'audio play 静默失败 (onPlay timeout)';
+    _emit({ type: 'error', token: myToken, error: _state.error });
+  }, 800);
+  _playTimeouts.set(myToken, t);
+}
+
 function prewarm() {
   if (_warmed && _ctx) return Promise.resolve();
   if (_prewarmPromise) return _prewarmPromise;
@@ -100,7 +116,7 @@ function prewarm() {
       ctx.src = 'https://english.wujiong.cn/audio/the.mp3';
       setTimeout(() => {
         let p;
-        try { p = ctx.play(); } catch (e) { /* 预热失败非阻塞 */ }
+        try { p = ctx.play(); } catch (e) {}
         if (p && typeof p.catch === 'function') p.catch(() => {});
         setTimeout(() => {
           try { ctx.stop(); } catch (e) {}
@@ -118,14 +134,6 @@ function prewarm() {
   return _prewarmPromise;
 }
 
-/**
- * 播一个远程 mp3 url。
- * 失败自动 rebuild + retry 一次（救回 audiolnstance is not set 场景）。
- *
- * @param {string} url
- * @param {object} opts { onPlay, onEnded, onError }
- * @returns {Promise<{token:number}>}
- */
 function speak(url, opts = {}) {
   if (!url) {
     return Promise.reject(new Error('tts.speak: url 必填'));
@@ -133,8 +141,9 @@ function speak(url, opts = {}) {
 
   const myToken = ++_token;
   _state = { token: myToken, phase: 'loading', error: null };
+  _armPlayTimeout(myToken);  // 800ms onPlay 兜底
 
-  // 注册一次性 listener
+  // 一次性 listener
   const handler = (evt) => {
     if (evt.token !== myToken) return;
     if (evt.type === 'play' && opts.onPlay) opts.onPlay(evt);
@@ -146,14 +155,14 @@ function speak(url, opts = {}) {
   };
   _listeners.add(handler);
 
-  // 内部 retry once：ctx 不存在 / play 抛 audiolnstance 错时重建再播
-  const doSpeak = (attempt = 1) => {
+  const doSpeak = (attempt) => {
+    if (_state.token !== myToken) return;  // stale
     const ctx = _getCtx();
     if (!ctx) {
       if (attempt === 1) {
-        // 第一次：ctx 不存在 → rebuild + retry
+        console.warn('[tts] _getCtx 返回 null，rebuild + retry');
         _rebuild();
-        return setTimeout(() => doSpeak(2), 50);
+        return setTimeout(() => doSpeak(2), 80);
       }
       if (opts.onError) opts.onError({ type: 'error', token: myToken, error: 'audioContext 不可用' });
       return;
@@ -164,18 +173,18 @@ function speak(url, opts = {}) {
     } catch (e) {
       if (attempt === 1) {
         _rebuild();
-        return setTimeout(() => doSpeak(2), 50);
+        return setTimeout(() => doSpeak(2), 100);
       }
       if (opts.onError) opts.onError({ type: 'error', token: myToken, error: e?.errMsg || String(e) });
       return;
     }
     setTimeout(() => {
+      if (_state.token !== myToken) return;
       let p;
       try {
         p = ctx.play();
       } catch (e) {
         if (attempt === 1) {
-          // audiolnstance is not set 等：rebuild + retry
           console.warn('[tts] play 抛错，rebuild + retry:', e?.errMsg || e);
           _rebuild();
           return setTimeout(() => doSpeak(2), 100);
@@ -185,8 +194,7 @@ function speak(url, opts = {}) {
       }
       if (p && typeof p.catch === 'function') {
         p.catch(e => {
-          if (myToken !== _state.token) return;
-          // "interrupted" 是 stop/play 竞态，忽略；其他 error 透传
+          if (_state.token !== myToken) return;
           if (e?.errMsg && !String(e.errMsg).includes('interrupted')) {
             if (attempt === 1) {
               console.warn('[tts] play() rejected, rebuild + retry:', e.errMsg);
@@ -197,11 +205,10 @@ function speak(url, opts = {}) {
           }
         });
       }
-      // play() 不返回 Promise — 靠 onPlay/onError 事件驱动
+      // play() 不返回 Promise — 靠 800ms 兜底 timeout 救回
     }, 0);
   };
 
-  // 先确保 prewarm 完成（lazy await）
   if (!_warmed) {
     prewarm().finally(() => doSpeak(1));
   } else {
@@ -218,6 +225,9 @@ function stop() {
   }
   _token++;
   _state = { token: _token, phase: 'idle', error: null };
+  // 清掉所有兜底 timeout
+  for (const t of _playTimeouts.values()) clearTimeout(t);
+  _playTimeouts.clear();
 }
 
 function reset() {
@@ -230,6 +240,8 @@ function reset() {
   _token++;
   _state = { token: _token, phase: 'idle', error: null };
   _listeners.clear();
+  for (const t of _playTimeouts.values()) clearTimeout(t);
+  _playTimeouts.clear();
 }
 
 function onEvent(fn) {
