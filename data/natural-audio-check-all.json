@@ -1,0 +1,3250 @@
+{
+  "checkedAt": "2026-07-17T08:47:08.880Z",
+  "base": "https://english.wujiong.cn/audio/natural",
+  "total": 360,
+  "passed": 359,
+  "failed": 1,
+  "duration": 491963,
+  "items": [
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-01/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-01/natural.mp3",
+      "status": 200,
+      "size": 20422,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-02",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-02/clear.mp3",
+      "status": 200,
+      "size": 29062,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-02",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-02/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-03",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-03/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-03",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-03/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-04/clear.mp3",
+      "status": 200,
+      "size": 26758,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-04/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-05",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-05/clear.mp3",
+      "status": 200,
+      "size": 25030,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-05",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-05/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-06",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-06/clear.mp3",
+      "status": 200,
+      "size": 29062,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-06",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-06/natural.mp3",
+      "status": 200,
+      "size": 20422,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-07",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-07/clear.mp3",
+      "status": 200,
+      "size": 27334,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-07",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-07/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-08/clear.mp3",
+      "status": 200,
+      "size": 27334,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-08/natural.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-09",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-09/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-09",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-09/natural.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-10",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-10/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-10/natural.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-11",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-11/clear.mp3",
+      "status": 200,
+      "size": 31366,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-11",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-11/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-12",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-12/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-12",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-12/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-13",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-13/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-13",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-13/natural.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-14",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-14/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-14",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-14/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-15",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-15/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-15",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-15/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-16",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-16/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-16",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-16/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-17",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-17/clear.mp3",
+      "status": 200,
+      "size": 22726,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-17",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-17/natural.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-18",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-18/clear.mp3",
+      "status": 200,
+      "size": 29062,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-18",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-18/natural.mp3",
+      "status": 200,
+      "size": 25606,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-19",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-19/clear.mp3",
+      "status": 200,
+      "size": 22726,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-19",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-19/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-20",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-20/clear.mp3",
+      "status": 200,
+      "size": 27334,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-20",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-20/natural.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-01/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-01/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-02",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-02/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-02",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-02/natural.mp3",
+      "status": 200,
+      "size": 14086,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-03",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-03/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-03",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-03/natural.mp3",
+      "status": 200,
+      "size": 14086,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-04/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-04/natural.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-05",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-05/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-05",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-05/natural.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-06",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-06/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-06",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-06/natural.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-07",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-07/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-07",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-07/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-08/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-08/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-09",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-09/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-09",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-09/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-10",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-10/clear.mp3",
+      "status": 200,
+      "size": 25606,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-10/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-11",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-11/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-11",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-11/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-12",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-12/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-12",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-12/natural.mp3",
+      "status": 200,
+      "size": 14086,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-13",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-13/clear.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-13",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-13/natural.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-14",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-14/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-14",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-14/natural.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-15",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-15/clear.mp3",
+      "status": 200,
+      "size": 27910,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-15",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-15/natural.mp3",
+      "status": 200,
+      "size": 20422,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-16",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-16/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-16",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-16/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-17",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-17/clear.mp3",
+      "status": "EXCEPTION",
+      "size": null,
+      "error": "fetch failed"
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-17",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-17/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-18",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-18/clear.mp3",
+      "status": 200,
+      "size": 25030,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-18",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-18/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-19",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-19/clear.mp3",
+      "status": 200,
+      "size": 25606,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-19",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-19/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-20",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-20/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-20",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/contraction/ct-20/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-01/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-01/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-02",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-02/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-02",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-02/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-03",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-03/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-03",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-03/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-04/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-04/natural.mp3",
+      "status": 200,
+      "size": 14662,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-05",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-05/clear.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-05",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-05/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-06",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-06/clear.mp3",
+      "status": 200,
+      "size": 16966,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-06",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-06/natural.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-07",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-07/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-07",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-07/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-08/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-08/natural.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-09",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-09/clear.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-09",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-09/natural.mp3",
+      "status": 200,
+      "size": 13510,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-10",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-10/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-10/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-11",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-11/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-11",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-11/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-12",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-12/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-12",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-12/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-13",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-13/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-13",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-13/natural.mp3",
+      "status": 200,
+      "size": 25030,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-14",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-14/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-14",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-14/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-15",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-15/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-15",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-15/natural.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-16",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-16/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-16",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-16/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-17",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-17/clear.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-17",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-17/natural.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-18",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-18/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-18",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-18/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-19",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-19/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-19",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-19/natural.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-20",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-20/clear.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-20",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-20/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-01/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-01/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-02",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-02/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-02",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-02/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-03",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-03/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-03",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-03/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-04/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-04/natural.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-05",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-05/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-05",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-05/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-06",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-06/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-06",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-06/natural.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-07",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-07/clear.mp3",
+      "status": 200,
+      "size": 29062,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-07",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-07/natural.mp3",
+      "status": 200,
+      "size": 29062,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-08/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-08/natural.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-09",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-09/clear.mp3",
+      "status": 200,
+      "size": 16966,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-09",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-09/natural.mp3",
+      "status": 200,
+      "size": 14662,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-10",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-10/clear.mp3",
+      "status": 200,
+      "size": 26758,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-10/natural.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-11",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-11/clear.mp3",
+      "status": 200,
+      "size": 25030,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-11",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-11/natural.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-12",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-12/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-12",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-12/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-13",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-13/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-13",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-13/natural.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-14",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-14/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-14",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-14/natural.mp3",
+      "status": 200,
+      "size": 29062,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-15",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-15/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-15",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-15/natural.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-16",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-16/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-16",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-16/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-17",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-17/clear.mp3",
+      "status": 200,
+      "size": 26758,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-17",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-17/natural.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-18",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-18/clear.mp3",
+      "status": 200,
+      "size": 25606,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-18",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-18/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-19",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-19/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-19",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-19/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-20",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-20/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-20",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-20/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-01/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-01/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-02",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-02/clear.mp3",
+      "status": 200,
+      "size": 22726,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-02",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-02/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-03",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-03/clear.mp3",
+      "status": 200,
+      "size": 16966,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-03",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-03/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-04/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-04/natural.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-05",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-05/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-05",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-05/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-06",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-06/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-06",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-06/natural.mp3",
+      "status": 200,
+      "size": 14662,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-07",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-07/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-07",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-07/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-08/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-08/natural.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-09",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-09/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-09",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-09/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-10",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-10/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-10/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-11",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-11/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-11",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-11/natural.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-12",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-12/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-12",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-12/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-13",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-13/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-13",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-13/natural.mp3",
+      "status": 200,
+      "size": 23878,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-14",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-14/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-14",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-14/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-15",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-15/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-15",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-15/natural.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-16",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-16/clear.mp3",
+      "status": 200,
+      "size": 25030,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-16",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-16/natural.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-17",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-17/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-17",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-17/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-18",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-18/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-18",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-18/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-19",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-19/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-19",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-19/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-20",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-20/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-20",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-20/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-01/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-01/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-02",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-02/clear.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-02",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-02/natural.mp3",
+      "status": 200,
+      "size": 12934,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-03",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-03/clear.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-03",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-03/natural.mp3",
+      "status": 200,
+      "size": 12934,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-04/clear.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-04/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-05",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-05/clear.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-05",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-05/natural.mp3",
+      "status": 200,
+      "size": 13510,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-06",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-06/clear.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-06",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-06/natural.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-07",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-07/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-07",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-07/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-08/clear.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-08/natural.mp3",
+      "status": 200,
+      "size": 14086,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-09",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-09/clear.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-09",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-09/natural.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-10",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-10/clear.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-10/natural.mp3",
+      "status": 200,
+      "size": 14662,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-11",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-11/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-11",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-11/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-12",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-12/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-12",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-12/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-13",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-13/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-13",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-13/natural.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-14",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-14/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-14",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-14/natural.mp3",
+      "status": 200,
+      "size": 14086,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-15",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-15/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-15",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-15/natural.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-16",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-16/clear.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-16",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-16/natural.mp3",
+      "status": 200,
+      "size": 14086,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-17",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-17/clear.mp3",
+      "status": 200,
+      "size": 22726,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-17",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-17/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-18",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-18/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-18",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-18/natural.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-19",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-19/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-19",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-19/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-20",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-20/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-20",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-20/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-01/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-01/natural.mp3",
+      "status": 200,
+      "size": 25606,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-02",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-02/clear.mp3",
+      "status": 200,
+      "size": 31942,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-02",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-02/natural.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-03",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-03/clear.mp3",
+      "status": 200,
+      "size": 31366,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-03",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-03/natural.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-04/clear.mp3",
+      "status": 200,
+      "size": 27910,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-04/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-05",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-05/clear.mp3",
+      "status": 200,
+      "size": 31942,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-05",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-05/natural.mp3",
+      "status": 200,
+      "size": 27910,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-06",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-06/clear.mp3",
+      "status": 200,
+      "size": 31366,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-06",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-06/natural.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-07",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-07/clear.mp3",
+      "status": 200,
+      "size": 22726,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-07",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-07/natural.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-08/clear.mp3",
+      "status": 200,
+      "size": 34822,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-08/natural.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-09",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-09/clear.mp3",
+      "status": 200,
+      "size": 22726,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-09",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-09/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-10",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-10/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-10/natural.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-11",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-11/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-11",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-11/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-12",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-12/clear.mp3",
+      "status": 200,
+      "size": 39430,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-12",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-12/natural.mp3",
+      "status": 200,
+      "size": 25030,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-13",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-13/clear.mp3",
+      "status": 200,
+      "size": 30214,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-13",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-13/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-14",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-14/clear.mp3",
+      "status": 200,
+      "size": 27334,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-14",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-14/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-15",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-15/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-15",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-15/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-16",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-16/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-16",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-16/natural.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-17",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-17/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-17",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-17/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-18",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-18/clear.mp3",
+      "status": 200,
+      "size": 22726,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-18",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-18/natural.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-19",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-19/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-19",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-19/natural.mp3",
+      "status": 200,
+      "size": 27910,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-20",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-20/clear.mp3",
+      "status": 200,
+      "size": 27334,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-20",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-20/natural.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-01/clear.mp3",
+      "status": 200,
+      "size": 31942,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-01/natural.mp3",
+      "status": 200,
+      "size": 28486,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-02",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-02/clear.mp3",
+      "status": 200,
+      "size": 31942,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-02",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-02/natural.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-03",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-03/clear.mp3",
+      "status": 200,
+      "size": 26758,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-03",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-03/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-04/clear.mp3",
+      "status": 200,
+      "size": 25606,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-04/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-05",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-05/clear.mp3",
+      "status": 200,
+      "size": 25030,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-05",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-05/natural.mp3",
+      "status": 200,
+      "size": 23878,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-06",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-06/clear.mp3",
+      "status": 200,
+      "size": 34822,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-06",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-06/natural.mp3",
+      "status": 200,
+      "size": 31366,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-07",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-07/clear.mp3",
+      "status": 200,
+      "size": 35974,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-07",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-07/natural.mp3",
+      "status": 200,
+      "size": 26182,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-08/clear.mp3",
+      "status": 200,
+      "size": 27910,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-08/natural.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-09",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-09/clear.mp3",
+      "status": 200,
+      "size": 38278,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-09",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-09/natural.mp3",
+      "status": 200,
+      "size": 26182,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-10",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-10/clear.mp3",
+      "status": 200,
+      "size": 29638,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-10/natural.mp3",
+      "status": 200,
+      "size": 23878,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-11",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-11/clear.mp3",
+      "status": 200,
+      "size": 25606,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-11",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-11/natural.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-12",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-12/clear.mp3",
+      "status": 200,
+      "size": 35398,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-12",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-12/natural.mp3",
+      "status": 200,
+      "size": 25606,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-13",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-13/clear.mp3",
+      "status": 200,
+      "size": 34822,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-13",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-13/natural.mp3",
+      "status": 200,
+      "size": 26758,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-14",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-14/clear.mp3",
+      "status": 200,
+      "size": 31366,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-14",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-14/natural.mp3",
+      "status": 200,
+      "size": 23878,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-15",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-15/clear.mp3",
+      "status": 200,
+      "size": 33094,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-15",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-15/natural.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-16",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-16/clear.mp3",
+      "status": 200,
+      "size": 37702,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-16",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-16/natural.mp3",
+      "status": 200,
+      "size": 26182,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-17",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-17/clear.mp3",
+      "status": 200,
+      "size": 29638,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-17",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-17/natural.mp3",
+      "status": 200,
+      "size": 31366,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-18",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-18/clear.mp3",
+      "status": 200,
+      "size": 29638,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-18",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-18/natural.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-19",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-19/clear.mp3",
+      "status": 200,
+      "size": 34822,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-19",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-19/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-20",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-20/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-20",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-20/natural.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-01/clear.mp3",
+      "status": 200,
+      "size": 25030,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-01/natural.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-02",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-02/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-02",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-02/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-03",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-03/clear.mp3",
+      "status": 200,
+      "size": 26758,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-03",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-03/natural.mp3",
+      "status": 200,
+      "size": 23878,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-04/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-04/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-05",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-05/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-05",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-05/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-06",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-06/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-06",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-06/natural.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-07",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-07/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-07",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-07/natural.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-08/clear.mp3",
+      "status": 200,
+      "size": 16966,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-08/natural.mp3",
+      "status": 200,
+      "size": 12934,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-09",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-09/clear.mp3",
+      "status": 200,
+      "size": 27910,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-09",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-09/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-10",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-10/clear.mp3",
+      "status": 200,
+      "size": 25030,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-10/natural.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-11",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-11/clear.mp3",
+      "status": 200,
+      "size": 23302,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-11",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-11/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-12",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-12/clear.mp3",
+      "status": 200,
+      "size": 26758,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-12",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-12/natural.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-13",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-13/clear.mp3",
+      "status": 200,
+      "size": 26758,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-13",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-13/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-14",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-14/clear.mp3",
+      "status": 200,
+      "size": 16966,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-14",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-14/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-15",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-15/clear.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-15",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-15/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-16",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-16/clear.mp3",
+      "status": 200,
+      "size": 35398,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-16",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-16/natural.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-17",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-17/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-17",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-17/natural.mp3",
+      "status": 200,
+      "size": 23878,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-18",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-18/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-18",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-18/natural.mp3",
+      "status": 200,
+      "size": 16390,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-19",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-19/clear.mp3",
+      "status": 200,
+      "size": 16966,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-19",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-19/natural.mp3",
+      "status": 200,
+      "size": 14086,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-20",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-20/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-20",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/informal/if-20/natural.mp3",
+      "status": 200,
+      "size": 14662,
+      "error": null
+    }
+  ]
+}
