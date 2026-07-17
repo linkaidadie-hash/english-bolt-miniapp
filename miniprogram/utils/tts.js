@@ -1,4 +1,4 @@
-// utils/tts.js — 英语快充 v2 全局音频管理器（阶段三加固版 v2）
+// utils/tts.js — 英语快充 v2 全局音频管理器（阶段三加固版 v3）
 //
 // 修原项目三大坑 + 阶段三加固：
 //   1) InnerAudioContext.onCanplay 不可靠 → 不 await onCanplay
@@ -6,15 +6,22 @@
 //   3) 全局 onStop/onEnded 无 staleness 检查 → token 守门
 //   4) ctx.play() 在某些基础库返回 undefined → 链式判断
 //   5) 切前后台 app.onShow 调 tts.reset() 破坏 _ctx → 已移除
-//   6) ctx.play() 静默失败（不抛错不 fire onPlay）→ 800ms 兜底 timeout
+//   6) ctx.play() 静默失败（不抛错不 fire onPlay）→ 兜底 timeout
 //   7) speak() 时 _ctx 还没就绪 → lazy prewarm + rebuild + retry once
 //   8) listen all missing audio → 立即 emit error 不卡 loading
+//
+// 阶段四 B (2026-07-17) 调整：
+//   - onPlay 兜底 timeout 从 800ms 提到 2000ms
+//   - 原因：12 条样板验收时偶发"播放失败 + 实际又播了"，是首次 HTTPS 下载
+//     + 微信 audio context 冷启动需要 1-2s，800ms 太紧
+//   - 2000ms 仍能覆盖静默失败 (真失败 onPlay 永不 fire)，
+//     同时兼顾冷缓存的正常延迟
 //
 // 设计原则：
 //   - 单例 _ctx（lazy init + prewarm）
 //   - 每个 speak 自带 token；事件回调先验 token
 //   - speak() 失败时自动 rebuild + retry + 兜底 timeout
-//   - 800ms 内 onPlay 不 fire → 强制 error（救回"静默失败"）
+//   - 2000ms 内 onPlay 不 fire → 强制 error（救回"静默失败"）
 
 let _ctx = null;
 let _token = 0;
@@ -92,17 +99,18 @@ function _rebuild() {
 }
 
 function _armPlayTimeout(myToken) {
-  // 800ms 内 onPlay 不 fire → 强制 emit error（救回静默失败）
+  // 2000ms 内 onPlay 不 fire → 强制 emit error（救回静默失败）
+  // 注: 800ms 太紧, 首次 HTTPS 下载 + 微信 audio context 冷启动常 1-2s
   if (_playTimeouts.has(myToken)) clearTimeout(_playTimeouts.get(myToken));
   const t = setTimeout(() => {
     _playTimeouts.delete(myToken);
     if (_state.token !== myToken) return;
     if (_state.phase !== 'loading') return;
-    console.warn('[tts] onPlay 800ms 未 fire — 兜底 emit error, myToken=', myToken);
+    console.warn('[tts] onPlay 2000ms 未 fire — 兜底 emit error, myToken=', myToken);
     _state.phase = 'error';
-    _state.error = 'audio play 静默失败 (onPlay timeout)';
+    _state.error = 'audio play 静默失败 (onPlay timeout 2000ms)';
     _emit({ type: 'error', token: myToken, error: _state.error });
-  }, 800);
+  }, 2000);
   _playTimeouts.set(myToken, t);
 }
 
