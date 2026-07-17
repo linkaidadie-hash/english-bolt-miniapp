@@ -21,7 +21,7 @@ const MODES = {
   'sound-to-words': {
     name: '声音切词',
     icon: '🔪',
-    desc: '听慢速分段音频, 把听到的词拼回原句。训练意群分割与单词识别。',
+    desc: '听自然版, 把听到的慢速分段按正确顺序拼成原句。训练意群分割 + 单词识别。',
   },
   'slow-vs-natural': {
     name: '慢速 vs 自然',
@@ -31,29 +31,32 @@ const MODES = {
 };
 
 const STORAGE_KEY = 'natural-train-progress-v1';
-const POOL_SIZE = 10;        // 每次训练的句子池大小
-const PASS_THRESHOLD = 0.7;  // 通过率阈值 (v1: 只统计, 不卡通过)
+const WRONG_KEY = 'natural-train-wrong-v1';  // 错题记录
+const POOL_SIZE = 10;
+const PASS_THRESHOLD = 0.7;
 
 Page({
   data: {
     mode: null,
     modeMeta: null,
-    lessonId: null,         // null = 全部 180 句
-    pool: [],               // 当前训练的句子池
-    idx: 0,                 // 当前题号
+    lessonId: null,
+    pool: [],
+    idx: 0,
     progress: { done: 0, total: 0, correct: 0, passRate: 0 },
     finished: false,
 
     // listen-and-guess state
-    options: [],            // 4 选 1 的 options (含正确答案标记)
-    picked: null,           // 用户选的下标
-    correctIdx: null,       // 正确答案下标
-    guessResult: null,      // 'correct' | 'wrong' | null
+    options: [],
+    picked: null,
+    correctIdx: null,
+    guessResult: null,
 
     // sound-to-words state
-    chunks: [],             // 当前句的 audioSegmented (clear chunks)
-    selectedWords: [],      // 用户按顺序选中的 chunk index
-    wordResult: null,       // 'correct' | 'wrong' | null
+    chunks: [],
+    selectedWords: [],
+    wordResult: null,
+    correctOrder: [],   // 正确顺序下标 (init 时锁定, 提交后用来标记错位)
+    wrongPositions: [], // 提交后标记错位的下标 [userIdxInSelected]
 
     // slow-vs-natural state
     audioReady: false,
@@ -67,13 +70,8 @@ Page({
       return;
     }
     const lessonId = options.lesson || null;
-    this.setData({
-      mode,
-      modeMeta: MODES[mode],
-      lessonId,
-    });
+    this.setData({ mode, modeMeta: MODES[mode], lessonId });
     wx.setNavigationBarTitle({ title: MODES[mode].name });
-
     this._buildPool();
     this._loadCurrent();
   },
@@ -108,7 +106,6 @@ Page({
       this.setData({ pool: [], audioReady: false });
       return;
     }
-    // 随机抽样 (Fisher-Yates 部分洗)
     const shuffled = this._shuffle([...allSentences]);
     const poolSize = Math.min(POOL_SIZE, allSentences.length);
     this.setData({
@@ -118,12 +115,45 @@ Page({
     });
   },
 
+  /**
+   * Fisher-Yates 洗牌
+   * - 不使用 sort(Math.random) (这种实现有偏)
+   * - 保证洗牌结果不等于原顺序
+   * - 2 个块时必互换
+   * - 3+ 个块时至少 2 位置变化
+   */
   _shuffle(arr) {
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
+    const n = arr.length;
+    if (n <= 1) return arr;
+    const original = [...arr];
+    for (let attempt = 0; attempt < 20; attempt++) {
+      for (let i = n - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      if (this._shuffleValid(original, arr)) {
+        return arr;
+      }
     }
+    // 兜底: 旋转一位 (n>=2 时必变化)
+    arr.push(arr.shift());
+    if (n === 1) arr[0] = arr[0];
     return arr;
+  },
+
+  _shuffleValid(original, shuffled) {
+    const n = original.length;
+    if (n === 1) return false;
+    if (n === 2) {
+      // 2 块: 必互换
+      return shuffled[0] !== original[0] && shuffled[1] !== original[1];
+    }
+    // n >= 3: 至少 2 位置变化
+    let diffCount = 0;
+    for (let i = 0; i < n; i++) {
+      if (original[i] !== shuffled[i]) diffCount++;
+    }
+    return diffCount >= 2;
   },
 
   _loadCurrent() {
@@ -137,6 +167,7 @@ Page({
       guessResult: null,
       selectedWords: [],
       wordResult: null,
+      wrongPositions: [],
     });
     switch (this.data.mode) {
       case 'listen-and-guess': return this._setupGuess(s);
@@ -148,7 +179,6 @@ Page({
   // ============== mode 1: listen-and-guess ==============
 
   _setupGuess(s) {
-    // 4 选 1: 1 正确 + 3 干扰 (同 lesson 的其他句子)
     const lesson = naturalData.getLesson(s.lessonId);
     const others = (lesson ? lesson.sentences : []).filter(x => x.id !== s.id);
     const distractors = this._shuffle([...others]).slice(0, 3);
@@ -165,7 +195,7 @@ Page({
   },
 
   onPickOption(e) {
-    if (this.data.picked !== null) return;  // 已选过
+    if (this.data.picked !== null) return;
     const idx = e.currentTarget.dataset.idx;
     const isCorrect = idx === this.data.correctIdx;
     this.setData({
@@ -173,7 +203,6 @@ Page({
       guessResult: isCorrect ? 'correct' : 'wrong',
     });
     this._updateProgress(isCorrect);
-    // 自动播自然音 (听完选项后)
     const s = this.data.pool[this.data.idx];
     setTimeout(() => this._playAudio(s.audioNatural.url, `n:${s.id}`), 400);
   },
@@ -190,56 +219,161 @@ Page({
 
   // ============== mode 2: sound-to-words ==============
 
+  /**
+   * 关键修复:
+   *   - chunks 顺序打乱 (Fisher-Yates, 不等于原顺序, 至少 2 位置变化)
+   *   - selectedWords 初始为空 (用户从未"按原顺序"展示)
+   *   - correctOrder 锁住, 提交后用来标记错位
+   */
   _setupWords(s) {
-    // 拆 chunks, 让用户按顺序点选 chunk 拼成原句
-    const chunks = (s.audioSegmented || []).map((c, i) => ({
-      idx: i,
+    // 1. 准备所有 chunks (按 audioSegmented 数组)
+    const segs = s.audioSegmented || [];
+    const allChunks = segs.map((c, i) => ({
+      idx: i,             // 原始下标 (0, 1, 2, ...) — 用于判断顺序
       text: c.clearText,
       audioUrl: c.clearUrl,
+      naturalUrl: c.naturalUrl,
       used: false,
     }));
+
+    // 2. 打乱 chunk 显示顺序 (洗牌, 至少 2 位置变化)
+    const shuffled = this._shuffle([...allChunks]);
+    // shuffled 现在是打乱后的 chunk 数组
+    // 但是 selectedWords 用"原始下标"标识, 所以原 idx 不变, 只换显示位置
+
+    // 3. 锁定正确顺序
+    const correctOrder = allChunks.map((_, i) => i);
+
+    this.setData({
+      chunks: shuffled,
+      correctOrder,
+    });
+  },
+
+  /**
+   * 撤回: 弹出最后选的一个
+   */
+  onUndoWord() {
+    if (this.data.wordResult !== null) return;  // 已提交, 不让改
+    if (this.data.selectedWords.length === 0) return;
+    const selected = [...this.data.selectedWords];
+    const lastOriginalIdx = selected.pop();
+    this.setData({ selectedWords: selected });
+    const chunks = this.data.chunks.map(c => c.idx === lastOriginalIdx ? { ...c, used: false } : c);
     this.setData({ chunks });
   },
 
-  onPlayWord(e) {
-    const idx = e.currentTarget.dataset.idx;
+  /**
+   * 清空: 重置所有 selected
+   */
+  onClearWords() {
+    if (this.data.wordResult !== null) return;
+    this.setData({ selectedWords: [] });
+    const chunks = this.data.chunks.map(c => ({ ...c, used: false }));
+    this.setData({ chunks });
+  },
+
+  /**
+   * 提交: 检查顺序
+   *   - 正确: wordResult = 'correct', 推进 progress
+   *   - 错误: 标记每个错位 (selectedWords[i] !== correctOrder[i])
+   *   - 错题写入 storage
+   *   - 错题时自动播 natural + 显示变化点 (在 wxml 中根据 wordResult === 'wrong' 显示)
+   */
+  onConfirmWords() {
+    if (this.data.wordResult !== null) return;
+    if (this.data.selectedWords.length !== this.data.chunks.length) return;
+
+    const s = this.data.pool[this.data.idx];
+    const correctOrder = this.data.correctOrder;
+    const selected = this.data.selectedWords;
+    const wrongPositions = [];
+    for (let i = 0; i < selected.length; i++) {
+      if (selected[i] !== correctOrder[i]) wrongPositions.push(i);
+    }
+    const isCorrect = wrongPositions.length === 0;
+    this.setData({
+      wordResult: isCorrect ? 'correct' : 'wrong',
+      wrongPositions,
+    });
+    this._updateProgress(isCorrect);
+    if (!isCorrect) {
+      this._recordWrong(s);
+    }
+  },
+
+  _recordWrong(s) {
+    try {
+      const all = wx.getStorageSync(WRONG_KEY) || {};
+      const key = `${this.data.mode}:${this.data.lessonId || 'all'}`;
+      const cur = all[key] || { items: [] };
+      // 去重: 同一句只记一次
+      if (!cur.items.find(x => x.sentenceId === s.id)) {
+        cur.items.push({
+          lessonId: s.lessonId,
+          sentenceId: s.id,
+          clearText: s.clearText,
+          naturalText: s.naturalText,
+          wrongAt: new Date().toISOString(),
+        });
+        all[key] = cur;
+        wx.setStorageSync(WRONG_KEY, all);
+      }
+    } catch (e) {
+      console.warn('[train] recordWrong failed:', e);
+    }
+  },
+
+  /**
+   * 单块点击: 点选 + 标记 used + 播这段
+   * 关键改进:
+   *   1. _pickingGuard 防快速重复点击
+   *   2. 同步 setData 视觉反馈 (不等 audio)
+   *   3. 第一次点选前 await prewarm (避免 interrupted)
+   */
+  onPickWord(e) {
+    if (this.data.wordResult !== null) return;  // 已提交, 不让改
+    if (this._pickingGuard) return;  // 防抖
+    this._pickingGuard = true;
+    setTimeout(() => { this._pickingGuard = false; }, 80);  // 80ms 解锁
+
+    const idx = parseInt(e.currentTarget.dataset.idx, 10);
+    if (isNaN(idx)) return;
+    const c = this.data.chunks[idx];
+    if (!c || c.used) return;  // 已用
+
+    // 1) 同步视觉反馈 (不等 audio) — 让 user 立即看到点中
+    const selected = [...this.data.selectedWords, idx];
+    this.setData({ selectedWords: selected });
+    const chunks = this.data.chunks.map((cc, i) => i === idx ? { ...cc, used: true } : cc);
+    this.setData({ chunks });
+
+    // 2) 异步播该段, 不阻塞
+    if (c.audioUrl) {
+      // 第一次点选前先确保 prewarm 完成 (避免第一次 interrupted)
+      if (!this._prewarmed) {
+        this._prewarmed = true;
+        tts.prewarm().finally(() => this._playAudio(c.audioUrl, `wp:${idx}`));
+      } else {
+        this._playAudio(c.audioUrl, `wp:${idx}`);
+      }
+    }
+  },
+
+  /**
+   * 长按 chunk: 单独听该段, 不点选
+   */
+  onPlayWordOnly(e) {
+    const idx = parseInt(e.currentTarget.dataset.idx, 10);
     const c = this.data.chunks[idx];
     if (!c || !c.audioUrl) return;
     this._playAudio(c.audioUrl, `w:${idx}`);
   },
 
-  onPickWord(e) {
-    if (this.data.wordResult !== null) return;  // 已确认过
-    const idx = e.currentTarget.dataset.idx;
-    const selected = [...this.data.selectedWords, idx];
-    this.setData({ selectedWords: selected });
-    // 标记 chunk 已用
-    const chunks = this.data.chunks.map(c => c.idx === idx ? { ...c, used: true } : c);
-    this.setData({ chunks });
-    // 自动播这个 chunk
-    const c = chunks[idx];
-    if (c) this._playAudio(c.audioUrl, `wp:${idx}`);
-  },
-
-  onUndoWord() {
-    if (this.data.selectedWords.length === 0) return;
-    const selected = [...this.data.selectedWords];
-    const lastIdx = selected.pop();
-    this.setData({ selectedWords: selected });
-    const chunks = this.data.chunks.map(c => c.idx === lastIdx ? { ...c, used: false } : c);
-    this.setData({ chunks });
-  },
-
-  onConfirmWords() {
-    if (this.data.wordResult !== null) return;
-    const s = this.data.pool[this.data.idx];
-    const expectedOrder = (s.audioSegmented || []).map((_, i) => i);
-    const isCorrect = JSON.stringify(this.data.selectedWords) === JSON.stringify(expectedOrder);
-    this.setData({ wordResult: isCorrect ? 'correct' : 'wrong' });
-    this._updateProgress(isCorrect);
-  },
-
-  onReplayWordsFull() {
+  /**
+   * 自然整句 + 变化点 (sound-to-words 完成后)
+   */
+  onReplayNatural() {
     const s = this.data.pool[this.data.idx];
     this._playAudio(s.audioNatural.url, `nf:${s.id}`);
   },
@@ -247,7 +381,7 @@ Page({
   // ============== mode 3: slow-vs-natural ==============
 
   _setupSlowNatural(s) {
-    // 仅展示, 不需要 setData 特殊内容 (audio 按钮 + 文本对比在 wxml)
+    // 仅展示, 不需要 setData 特殊内容
   },
 
   onPlayClear() {
@@ -278,7 +412,6 @@ Page({
     if (correct) p.correct += 1;
     p.passRate = p.done === 0 ? 0 : Math.round(p.correct / p.done * 100);
     this.setData({ progress: p });
-    // 存到 storage
     this._saveProgress(correct);
   },
 
