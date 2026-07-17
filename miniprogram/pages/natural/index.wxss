@@ -58,3 +58,19 @@
   background: #f3f4f6; border-radius: 8rpx;
   font-size: 22rpx; color: #4b5563; border: 2rpx dashed #d1d5db;
 }
+
+.hero-train-entries {
+  display: flex; gap: 12rpx; margin-top: 24rpx;
+}
+.hero-train-btn {
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 6rpx;
+  background: rgba(255,255,255,0.95); color: #1f2937;
+  border: none; border-radius: 12rpx; padding: 16rpx 8rpx;
+  font-weight: 600;
+}
+.hero-train-btn::after { border: none; }
+.htb-icon { font-size: 36rpx; }
+.htb-label { font-size: 22rpx; }
+.hero-train-listen { background: #d1fae5; color: #065f46; }
+.hero-train-words { background: #fef3c7; color: #92400e; }
+.hero-train-slow { background: #e8f1fc; color: #1e40af; }
