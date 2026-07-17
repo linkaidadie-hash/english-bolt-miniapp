@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "version": "phase4b-samples-12-2026-07-17",
+    "title": "阶段四 B — 首批 12 条音频样板 (验收用)",
+    "rule": "从 6 类自然口语规则各选 2 条, 共 12 条, 24 个 mp3 (12 clear + 12 natural)",
+    "stopGate": "12 条音频经人工验收前, 不生成剩余 336 条"
+  },
+  "provider": {
+    "name": "MiniMax-tts",
+    "model": "speech-01",
+    "outputFormat": "mp3",
+    "clearVoice": "English_Trustworthy_Man",
+    "naturalVoice": "English_Diligent_Man",
+    "clearSpeed": 0.85,
+    "naturalSpeed": 1.05,
+    "emotion": "neutral",
+    "pitch": 0
+  },
+  "samples": [
+    {
+      "no": 1, "lessonId": "weak-form", "sentenceId": "wf-01",
+      "category": "弱读",
+      "writtenText": "I can help you",
+      "naturalText": "I c'n help ya",
+      "clearText": "I can help you",
+      "expectedChanges": ["can → c'n (弱读)", "you → ya (弱读)"],
+      "ttsHint": "natural: 'c-n' 发成 'kən', 'ya' 发成 'jə', 中间跨词连读"
+    },
+    {
+      "no": 2, "lessonId": "weak-form", "sentenceId": "wf-08",
+      "category": "弱读",
+      "writtenText": "I have to leave",
+      "naturalText": "I hafta leave",
+      "clearText": "I have to leave",
+      "expectedChanges": ["have to → hafta (合并)"],
+      "ttsHint": "natural: 'hafta' 作为整体, hæftə 一次读出, 不拆 'have to'"
+    },
+    {
+      "no": 3, "lessonId": "linking", "sentenceId": "lk-01",
+      "category": "连读",
+      "writtenText": "Turn it on",
+      "naturalText": "Turn it on",
+      "clearText": "Turn it on",
+      "expectedChanges": ["turn + it → tur.nit", "it + on → i.ton"],
+      "ttsHint": "natural: 'turn it on' 三个词连读为一个节奏组, 句首 'turn' 重读"
+    },
+    {
+      "no": 4, "lessonId": "linking", "sentenceId": "lk-04",
+      "category": "连读",
+      "writtenText": "An apple",
+      "naturalText": "An apple",
+      "clearText": "An apple",
+      "expectedChanges": ["an + apple → a.napple (n 跨词)"],
+      "ttsHint": "natural: 'a' 弱读为 'ə', n 跨到 apple 起音, 'apple' 重读"
+    },
+    {
+      "no": 5, "lessonId": "elision", "sentenceId": "el-01",
+      "category": "吞音",
+      "writtenText": "Next day",
+      "naturalText": "Nex day",
+      "clearText": "Next day",
+      "expectedChanges": ["next 中 t 在 k 和 d 之间消失"],
+      "ttsHint": "natural: 'nex' 末尾不送气, 'day' 重读"
+    },
+    {
+      "no": 6, "lessonId": "elision", "sentenceId": "el-08",
+      "category": "吞音",
+      "writtenText": "I don't know",
+      "naturalText": "I don' know",
+      "clearText": "I don't know",
+      "expectedChanges": ["don't 中 t 在 n 之后不爆破"],
+      "ttsHint": "natural: 'don' 末尾舌尖抵上颚但不送气, 'know' 重读"
+    },
+    {
+      "no": 7, "lessonId": "flap", "sentenceId": "fl-01",
+      "category": "闪音",
+      "writtenText": "Water",
+      "naturalText": "Water",
+      "clearText": "Water",
+      "expectedChanges": ["t 闪音化 (听起来像 d)"],
+      "ttsHint": "natural: 'wa' 后面跟快速浊闪音 ɾ, 不要送气 t"
+    },
+    {
+      "no": 8, "lessonId": "flap", "sentenceId": "fl-04",
+      "category": "闪音",
+      "writtenText": "Get it",
+      "naturalText": "Get it",
+      "clearText": "Get it",
+      "expectedChanges": ["t 在两元音间闪音 → ge'it"],
+      "ttsHint": "natural: 'ge' 后面快速浊闪音, 'it' 短促不重读"
+    },
+    {
+      "no": 9, "lessonId": "assimilation", "sentenceId": "as-01",
+      "category": "同化",
+      "writtenText": "Did you see it",
+      "naturalText": "Didja see it",
+      "clearText": "Did you see it",
+      "expectedChanges": ["did + you → didja (d+ʒ 同化)"],
+      "ttsHint": "natural: 'didja' 作为整体读, 不拆 'did you', 收尾的 ʃ/ʒ 音清晰"
+    },
+    {
+      "no": 10, "lessonId": "assimilation", "sentenceId": "as-09",
+      "category": "同化",
+      "writtenText": "Meet you",
+      "naturalText": "Meetcha",
+      "clearText": "Meet you",
+      "expectedChanges": ["meet + you → meetcha (t+ʃ 同化)"],
+      "ttsHint": "natural: 'meetcha' 整体读, 'meet' 末尾 t 直接接到 'cha' 的 ʃ"
+    },
+    {
+      "no": 11, "lessonId": "stress", "sentenceId": "st-01",
+      "category": "句子重音",
+      "writtenText": "I want to go",
+      "naturalText": "I WANna go",
+      "clearText": "I want to go",
+      "expectedChanges": ["重音: want, go", "弱读: I, to"],
+      "ttsHint": "natural: 'WANT' 重音清晰突出, 'I' 几乎消失, 'go' 尾音清晰"
+    },
+    {
+      "no": 12, "lessonId": "rhythm", "sentenceId": "rh-01",
+      "category": "节奏与意群",
+      "writtenText": "I need to talk to him about it",
+      "naturalText": "I NEEDta TALKta him aBOUT it",
+      "clearText": "I need to talk to him about it",
+      "expectedChanges": ["3 个意群: I need to | talk to him | about it", "重音: need, talk, about"],
+      "ttsHint": "natural: 三个节奏组, 'NEED' 'TALK' 'BOUT' 三重音等间距, 中间快带过"
+    }
+  ]
+}
