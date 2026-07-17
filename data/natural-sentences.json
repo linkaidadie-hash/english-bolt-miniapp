@@ -103,16 +103,16 @@
             "to 几乎听不见"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-02/clear.mp3",
+            "duration": 1.82,
+            "size": 29062
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-02/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -136,16 +136,16 @@
             "what → wʌd (尾音弱化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-03/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-03/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -171,16 +171,16 @@
             "a 几乎消失"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-04/clear.mp3",
+            "duration": 1.67,
+            "size": 26758
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-04/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         },
@@ -205,16 +205,16 @@
             "it's 不重读 (弱)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-05/clear.mp3",
+            "duration": 1.56,
+            "size": 25030
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-05/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -240,16 +240,16 @@
             "give me → ˈɡɪmi (合音)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-06/clear.mp3",
+            "duration": 1.82,
+            "size": 29062
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-06/natural.mp3",
+            "duration": 1.28,
+            "size": 20422
           },
           "audioSegmented": null
         },
@@ -276,16 +276,16 @@
             "should 重读 (助动词虽为功能词但表询问时重读)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-07/clear.mp3",
+            "duration": 1.71,
+            "size": 27334
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-07/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -341,16 +341,16 @@
             "are 在句首仍轻微重读"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-09/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-09/natural.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioSegmented": null
         },
@@ -375,16 +375,16 @@
             "about 弱读为 'bout"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-10/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-10/natural.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioSegmented": null
         },
@@ -410,16 +410,16 @@
             "looking 的 ing 弱化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-11/clear.mp3",
+            "duration": 1.96,
+            "size": 31366
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-11/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -444,16 +444,16 @@
             "后半 do 仍保留完整发音"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-12/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-12/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -478,16 +478,16 @@
             "later 在美式常闪音化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-13/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-13/natural.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioSegmented": null
         },
@@ -510,16 +510,16 @@
             "has to → ˈhæstə (合并)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-14/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-14/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -542,16 +542,16 @@
             "me → mi (句末轻微弱化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-15/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-15/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -574,16 +574,16 @@
             "we → wi (弱读)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-16/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-16/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -606,16 +606,16 @@
             "was → wəz (弱读)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-17/clear.mp3",
+            "duration": 1.42,
+            "size": 22726
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-17/natural.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioSegmented": null
         },
@@ -640,16 +640,16 @@
             "to the 中 to 弱读几乎消失"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-18/clear.mp3",
+            "duration": 1.82,
+            "size": 29062
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-18/natural.mp3",
+            "duration": 1.6,
+            "size": 25606
           },
           "audioSegmented": null
         },
@@ -673,16 +673,16 @@
             "doing 进一步弱化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-19/clear.mp3",
+            "duration": 1.42,
+            "size": 22726
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-19/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -706,16 +706,16 @@
             "some → səm (句首非重读位置)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-20/clear.mp3",
+            "duration": 1.71,
+            "size": 27334
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-20/natural.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioSegmented": null
         }
@@ -749,16 +749,16 @@
             "I'll 作为一个词重读"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-01/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-01/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -781,16 +781,16 @@
             "am → 'm (缩写)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-02/clear.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-02/natural.mp3",
+            "duration": 0.88,
+            "size": 14086
           },
           "audioSegmented": null
         },
@@ -815,16 +815,16 @@
             "重音在 don't 而非 go"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-03/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-03/natural.mp3",
+            "duration": 0.88,
+            "size": 14086
           },
           "audioSegmented": null
         },
@@ -847,16 +847,16 @@
             "we have → we've"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-04/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-04/natural.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioSegmented": null
         },
@@ -880,16 +880,16 @@
             "it is → it's"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-05/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-05/natural.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioSegmented": null
         },
@@ -912,16 +912,16 @@
             "are not → aren't"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-06/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-06/natural.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioSegmented": null
         },
@@ -945,16 +945,16 @@
             "t 几乎不发音"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-07/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-07/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -979,16 +979,16 @@
             "you → jə"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-08/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-08/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -1011,16 +1011,16 @@
             "I would → I'd"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-09/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-09/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -1046,16 +1046,16 @@
             "me → mi"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-10/clear.mp3",
+            "duration": 1.6,
+            "size": 25606
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-10/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -1078,16 +1078,16 @@
             "there is → there's"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-11/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-11/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -1110,16 +1110,16 @@
             "we are → we're"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-12/clear.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-12/natural.mp3",
+            "duration": 0.88,
+            "size": 14086
           },
           "audioSegmented": null
         },
@@ -1142,16 +1142,16 @@
             "that is → that's"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-13/clear.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-13/natural.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioSegmented": null
         },
@@ -1174,16 +1174,16 @@
             "will not → won't"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-14/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-14/natural.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioSegmented": null
         },
@@ -1206,16 +1206,16 @@
             "cannot → can't"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-15/clear.mp3",
+            "duration": 1.74,
+            "size": 27910
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-15/natural.mp3",
+            "duration": 1.28,
+            "size": 20422
           },
           "audioSegmented": null
         },
@@ -1240,16 +1240,16 @@
             "him → ɪm (弱)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-16/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-16/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -1273,16 +1273,16 @@
             "you → jə"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-17/clear.mp3",
+            "duration": 1.6,
+            "size": 25606
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-17/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -1305,16 +1305,16 @@
             "here is → here's"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-18/clear.mp3",
+            "duration": 1.56,
+            "size": 25030
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-18/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         },
@@ -1337,16 +1337,16 @@
             "am not 缩写为 'm not (而非 amn't)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-19/clear.mp3",
+            "duration": 1.6,
+            "size": 25606
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-19/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -1369,16 +1369,16 @@
             "where is → where's"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-20/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/contraction/ct-20/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         }
@@ -1445,16 +1445,16 @@
             "it + up → i.tup"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-02/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-02/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -1477,16 +1477,16 @@
             "help + you → hel.pju (p 跨到 you)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-03/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-03/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -1541,16 +1541,16 @@
             "keep + it → kee.pit (p 跨到 it)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-05/clear.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-05/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -1574,16 +1574,16 @@
             "it + out → i.tout"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-06/clear.mp3",
+            "duration": 1.06,
+            "size": 16966
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-06/natural.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioSegmented": null
         },
@@ -1608,16 +1608,16 @@
             "on + a → o.na"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-07/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-07/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -1643,16 +1643,16 @@
             "at + it → a.tit"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-08/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-08/natural.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioSegmented": null
         },
@@ -1675,16 +1675,16 @@
             "come + in → co.min (m 跨到 in)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-09/clear.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-09/natural.mp3",
+            "duration": 0.84,
+            "size": 13510
           },
           "audioSegmented": null
         },
@@ -1709,16 +1709,16 @@
             "up + your → u.pyour"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-10/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-10/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -1742,16 +1742,16 @@
             "at + all → a.tall"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-11/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-11/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         },
@@ -1774,16 +1774,16 @@
             "far + away → fa.ra.way"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-12/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-12/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -1808,16 +1808,16 @@
             "it + down → i.tdown"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-13/clear.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-13/natural.mp3",
+            "duration": 1.56,
+            "size": 25030
           },
           "audioSegmented": null
         },
@@ -1843,16 +1843,16 @@
             "of + here → o.vhere"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-14/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-14/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -1878,16 +1878,16 @@
             "a + story → a.story"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-15/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-15/natural.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioSegmented": null
         },
@@ -1910,16 +1910,16 @@
             "mix + it → mik.sit (x→s 音同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-16/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-16/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -1942,16 +1942,16 @@
             "all + of → al.lof (l 跨到 of)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-17/clear.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-17/natural.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioSegmented": null
         },
@@ -1976,16 +1976,16 @@
             "in + a → i.na"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-18/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-18/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -2010,16 +2010,16 @@
             "over + there → o.ver.there"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-19/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-19/natural.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioSegmented": null
         },
@@ -2042,16 +2042,16 @@
             "stand + up → stan.dup (d 跨到 up)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-20/clear.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/linking/lk-20/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         }
@@ -2116,16 +2116,16 @@
             "could + you → couldja (d+ʒ 同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-02/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-02/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -2148,16 +2148,16 @@
             "don't + you → don'tcha (t+ʃ 同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-03/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-03/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -2180,16 +2180,16 @@
             "would + you → wouldja (d+ʒ 同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-04/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-04/natural.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioSegmented": null
         },
@@ -2213,16 +2213,16 @@
             "have + you → haveyou (v+j 滑连)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-05/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-05/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -2246,16 +2246,16 @@
             "did + you → didja"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-06/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-06/natural.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioSegmented": null
         },
@@ -2280,16 +2280,16 @@
             "did + you → didja"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-07/clear.mp3",
+            "duration": 1.82,
+            "size": 29062
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-07/natural.mp3",
+            "duration": 1.82,
+            "size": 29062
           },
           "audioSegmented": null
         },
@@ -2312,16 +2312,16 @@
             "miss + you → mishu (s+ʃ 同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-08/clear.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-08/natural.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioSegmented": null
         },
@@ -2378,16 +2378,16 @@
             "to 弱读"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-10/clear.mp3",
+            "duration": 1.67,
+            "size": 26758
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-10/natural.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioSegmented": null
         },
@@ -2410,16 +2410,16 @@
             "won't + you → won'tcha (t+ʃ 同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-11/clear.mp3",
+            "duration": 1.56,
+            "size": 25030
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-11/natural.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioSegmented": null
         },
@@ -2442,16 +2442,16 @@
             "can't + you → can'tcha"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-12/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-12/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -2474,16 +2474,16 @@
             "hasn't + he → hasn'ti (t+i 滑连)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-13/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-13/natural.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioSegmented": null
         },
@@ -2507,16 +2507,16 @@
             "you → yu (弱)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-14/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-14/natural.mp3",
+            "duration": 1.82,
+            "size": 29062
           },
           "audioSegmented": null
         },
@@ -2539,16 +2539,16 @@
             "should + have → shoulda (d+v→d+ə 同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-15/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-15/natural.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioSegmented": null
         },
@@ -2572,16 +2572,16 @@
             "you → jə"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-16/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-16/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -2604,16 +2604,16 @@
             "could + have → coulda"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-17/clear.mp3",
+            "duration": 1.67,
+            "size": 26758
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-17/natural.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioSegmented": null
         },
@@ -2636,16 +2636,16 @@
             "would + have → woulda"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-18/clear.mp3",
+            "duration": 1.6,
+            "size": 25606
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-18/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -2669,16 +2669,16 @@
             "t 闪音化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-19/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-19/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -2701,16 +2701,16 @@
             "would + have → woulda"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-20/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/assimilation/as-20/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         }
@@ -2775,16 +2775,16 @@
             "t 在 s 之后弱化甚至消失"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-02/clear.mp3",
+            "duration": 1.42,
+            "size": 22726
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-02/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -2807,16 +2807,16 @@
             "d 在 n 和 ʃ 之间消失"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-03/clear.mp3",
+            "duration": 1.06,
+            "size": 16966
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-03/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -2839,16 +2839,16 @@
             "t 在 s 之后弱化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-04/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-04/natural.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioSegmented": null
         },
@@ -2871,16 +2871,16 @@
             "t 在 s 和 w 之间消失"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-05/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-05/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -2903,16 +2903,16 @@
             "d 在 n 和 s 之间消失"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-06/clear.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-06/natural.mp3",
+            "duration": 0.92,
+            "size": 14662
           },
           "audioSegmented": null
         },
@@ -2935,16 +2935,16 @@
             "d 在 l 之后弱化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-07/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-07/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -3000,16 +3000,16 @@
             "let + me → lemme (t+m→m 合音)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-09/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-09/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -3032,16 +3032,16 @@
             "t 在词末、下一个词以 d 开头时几乎不爆破"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-10/clear.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-10/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -3065,16 +3065,16 @@
             "t 在词末、下一个词以 b 开头时几乎不爆破"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-11/clear.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-11/natural.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioSegmented": null
         },
@@ -3098,16 +3098,16 @@
             "两词皆实词,基本无吞音"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-12/clear.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-12/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -3130,16 +3130,16 @@
             "at + the → a' the (t 在两个辅音间消失)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-13/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-13/natural.mp3",
+            "duration": 1.49,
+            "size": 23878
           },
           "audioSegmented": null
         },
@@ -3162,16 +3162,16 @@
             "and + the → an' the (d 在两个辅音间消失)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-14/clear.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-14/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         },
@@ -3195,16 +3195,16 @@
             "sh + th 间无明显吞音,但 the 弱读为 thə"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-15/clear.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-15/natural.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioSegmented": null
         },
@@ -3228,16 +3228,16 @@
             "sh + th 间无明显吞音"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-16/clear.mp3",
+            "duration": 1.56,
+            "size": 25030
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-16/natural.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioSegmented": null
         },
@@ -3260,16 +3260,16 @@
             "miss + you → mishu (s+ʃ 同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-17/clear.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-17/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         },
@@ -3292,16 +3292,16 @@
             "he's 中 s 仍可辨 (z 音)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-18/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-18/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -3324,16 +3324,16 @@
             "that's 中 t 在 s 之后弱化(美式)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-19/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-19/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -3356,16 +3356,16 @@
             "what's 中 t 在 s 之后弱化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-20/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/elision/el-20/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         }
@@ -3430,16 +3430,16 @@
             "t 闪音化 → be'er"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-02/clear.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-02/natural.mp3",
+            "duration": 0.81,
+            "size": 12934
           },
           "audioSegmented": null
         },
@@ -3462,16 +3462,16 @@
             "t 闪音化 → pre'y"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-03/clear.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-03/natural.mp3",
+            "duration": 0.81,
+            "size": 12934
           },
           "audioSegmented": null
         },
@@ -3526,16 +3526,16 @@
             "t 闪音化 → ci'y"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-05/clear.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-05/natural.mp3",
+            "duration": 0.84,
+            "size": 13510
           },
           "audioSegmented": null
         },
@@ -3558,16 +3558,16 @@
             "t 闪音化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-06/clear.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-06/natural.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioSegmented": null
         },
@@ -3590,16 +3590,16 @@
             "t 闪音化 → ma'er"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-07/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-07/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         },
@@ -3622,16 +3622,16 @@
             "t 闪音化 → li'tle (注意:有些 RP 也闪)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-08/clear.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-08/natural.mp3",
+            "duration": 0.88,
+            "size": 14086
           },
           "audioSegmented": null
         },
@@ -3654,16 +3654,16 @@
             "t 闪音化 → bo'tle"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-09/clear.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-09/natural.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioSegmented": null
         },
@@ -3686,16 +3686,16 @@
             "t 闪音化 → ti'tle"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-10/clear.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-10/natural.mp3",
+            "duration": 0.92,
+            "size": 14662
           },
           "audioSegmented": null
         },
@@ -3718,16 +3718,16 @@
             "t 闪音化 → for'y"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-11/clear.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-11/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -3751,16 +3751,16 @@
             "第一个 t 闪音化 → sa'turday"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-12/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-12/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -3785,16 +3785,16 @@
             "at 中 t 闪音化 → a'"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-13/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-13/natural.mp3",
+            "duration": 0.95,
+            "size": 15238
           },
           "audioSegmented": null
         },
@@ -3820,16 +3820,16 @@
             "it 几乎听不见"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-14/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-14/natural.mp3",
+            "duration": 0.88,
+            "size": 14086
           },
           "audioSegmented": null
         },
@@ -3854,16 +3854,16 @@
             "to 几乎消失"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-15/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-15/natural.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioSegmented": null
         },
@@ -3886,16 +3886,16 @@
             "bet + you → betcha (t+ʃ 同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-16/clear.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-16/natural.mp3",
+            "duration": 0.88,
+            "size": 14086
           },
           "audioSegmented": null
         },
@@ -3920,16 +3920,16 @@
             "t 闪音化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-17/clear.mp3",
+            "duration": 1.42,
+            "size": 22726
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-17/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -3954,16 +3954,16 @@
             "forget 词尾 t 词末弱化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-18/clear.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-18/natural.mp3",
+            "duration": 1.1,
+            "size": 17542
           },
           "audioSegmented": null
         },
@@ -3987,16 +3987,16 @@
             "there 词尾 r 美式后接元音/停顿时微发"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-19/clear.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-19/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         },
@@ -4022,16 +4022,16 @@
             "is + it → i'sit (闪音+合音)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-20/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/flap/fl-20/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         }
@@ -4102,16 +4102,16 @@
             "弱读:the, is, on"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-02/clear.mp3",
+            "duration": 2,
+            "size": 31942
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-02/natural.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioSegmented": null
         },
@@ -4137,16 +4137,16 @@
             "this 弱读为 ðə"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-03/clear.mp3",
+            "duration": 1.96,
+            "size": 31366
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-03/natural.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioSegmented": null
         },
@@ -4172,16 +4172,16 @@
             "a 不重读"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-04/clear.mp3",
+            "duration": 1.74,
+            "size": 27910
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-04/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -4207,16 +4207,16 @@
             "and 弱读为 nə"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-05/clear.mp3",
+            "duration": 2,
+            "size": 31942
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-05/natural.mp3",
+            "duration": 1.74,
+            "size": 27910
           },
           "audioSegmented": null
         },
@@ -4243,16 +4243,16 @@
             "in 弱读"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-06/clear.mp3",
+            "duration": 1.96,
+            "size": 31366
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-06/natural.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioSegmented": null
         },
@@ -4278,16 +4278,16 @@
             "I, it 不重读"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-07/clear.mp3",
+            "duration": 1.42,
+            "size": 22726
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-07/natural.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioSegmented": null
         },
@@ -4313,16 +4313,16 @@
             "really 副词但表程度,可重读"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-08/clear.mp3",
+            "duration": 2.18,
+            "size": 34822
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-08/natural.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioSegmented": null
         },
@@ -4347,16 +4347,16 @@
             "重音:like, lot"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-09/clear.mp3",
+            "duration": 1.42,
+            "size": 22726
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-09/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -4381,16 +4381,16 @@
             "重音:think, great"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-10/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-10/natural.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioSegmented": null
         },
@@ -4413,16 +4413,16 @@
             "重音:important (主重音在 -por-)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-11/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-11/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -4447,16 +4447,16 @@
             "对比重音:coffee, tea (在 not 后特别强调)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-12/clear.mp3",
+            "duration": 2.46,
+            "size": 39430
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-12/natural.mp3",
+            "duration": 1.56,
+            "size": 25030
           },
           "audioSegmented": null
         },
@@ -4481,16 +4481,16 @@
             "重音:leave, morrow (tomorrow 的第二音节)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-13/clear.mp3",
+            "duration": 1.89,
+            "size": 30214
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-13/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -4515,16 +4515,16 @@
             "重音:call, back"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-14/clear.mp3",
+            "duration": 1.71,
+            "size": 27334
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-14/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -4547,16 +4547,16 @@
             "重音:China 的第一音节 Chi"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-15/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-15/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -4581,16 +4581,16 @@
             "重音:live, Paris 第一音节"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-16/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-16/natural.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioSegmented": null
         },
@@ -4615,16 +4615,16 @@
             "重音:have, seen"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-17/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-17/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -4649,16 +4649,16 @@
             "重音:won, game"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-18/clear.mp3",
+            "duration": 1.42,
+            "size": 22726
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-18/natural.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioSegmented": null
         },
@@ -4683,16 +4683,16 @@
             "重音:did, do (双重读强调否定)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-19/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-19/natural.mp3",
+            "duration": 1.74,
+            "size": 27910
           },
           "audioSegmented": null
         },
@@ -4716,16 +4716,16 @@
             "重音:don't, understand 的 -stand"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-20/clear.mp3",
+            "duration": 1.71,
+            "size": 27334
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/stress/st-20/natural.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioSegmented": null
         }
@@ -4798,16 +4798,16 @@
             "重音:give, cup, coffee"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-02/clear.mp3",
+            "duration": 2,
+            "size": 31942
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-02/natural.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioSegmented": null
         },
@@ -4833,16 +4833,16 @@
             "重音:take, office"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-03/clear.mp3",
+            "duration": 1.67,
+            "size": 26758
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-03/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -4867,16 +4867,16 @@
             "重音:look, picture"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-04/clear.mp3",
+            "duration": 1.6,
+            "size": 25606
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-04/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -4903,16 +4903,16 @@
             "重音:tell, what, think"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-05/clear.mp3",
+            "duration": 1.56,
+            "size": 25030
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-05/natural.mp3",
+            "duration": 1.49,
+            "size": 23878
           },
           "audioSegmented": null
         },
@@ -4938,16 +4938,16 @@
             "重音:went, store, yesterday 第一音节"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-06/clear.mp3",
+            "duration": 2.18,
+            "size": 34822
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-06/natural.mp3",
+            "duration": 1.96,
+            "size": 31366
           },
           "audioSegmented": null
         },
@@ -4974,16 +4974,16 @@
             "重音:working, new, project 第一音节"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-07/clear.mp3",
+            "duration": 2.25,
+            "size": 35974
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-07/natural.mp3",
+            "duration": 1.64,
+            "size": 26182
           },
           "audioSegmented": null
         },
@@ -5008,16 +5008,16 @@
             "重音:want, doctor 第一音节"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-08/clear.mp3",
+            "duration": 1.74,
+            "size": 27910
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-08/natural.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioSegmented": null
         },
@@ -5043,16 +5043,16 @@
             "重音:small, town"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-09/clear.mp3",
+            "duration": 2.39,
+            "size": 38278
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-09/natural.mp3",
+            "duration": 1.64,
+            "size": 26182
           },
           "audioSegmented": null
         },
@@ -5078,16 +5078,16 @@
             "重音:meet, airport 第一音节"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-10/clear.mp3",
+            "duration": 1.85,
+            "size": 29638
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-10/natural.mp3",
+            "duration": 1.49,
+            "size": 23878
           },
           "audioSegmented": null
         },
@@ -5114,16 +5114,16 @@
             "重音:had, great, time (都是实词)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-11/clear.mp3",
+            "duration": 1.6,
+            "size": 25606
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-11/natural.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioSegmented": null
         },
@@ -5150,16 +5150,16 @@
             "重音:looking, new, job"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-12/clear.mp3",
+            "duration": 2.21,
+            "size": 35398
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-12/natural.mp3",
+            "duration": 1.6,
+            "size": 25606
           },
           "audioSegmented": null
         },
@@ -5185,16 +5185,16 @@
             "重音:got, vacation 第二音节"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-13/clear.mp3",
+            "duration": 2.18,
+            "size": 34822
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-13/natural.mp3",
+            "duration": 1.67,
+            "size": 26758
           },
           "audioSegmented": null
         },
@@ -5221,16 +5221,16 @@
             "重音:live, big, house (都是实词)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-14/clear.mp3",
+            "duration": 1.96,
+            "size": 31366
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-14/natural.mp3",
+            "duration": 1.49,
+            "size": 23878
           },
           "audioSegmented": null
         },
@@ -5256,16 +5256,16 @@
             "重音:read, book, last"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-15/clear.mp3",
+            "duration": 2.07,
+            "size": 33094
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-15/natural.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioSegmented": null
         },
@@ -5292,16 +5292,16 @@
             "重音:plays, piano 第二音节, very, well"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-16/clear.mp3",
+            "duration": 2.36,
+            "size": 37702
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-16/natural.mp3",
+            "duration": 1.64,
+            "size": 26182
           },
           "audioSegmented": null
         },
@@ -5328,16 +5328,16 @@
             "重音:want, ice, cream"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-17/clear.mp3",
+            "duration": 1.85,
+            "size": 29638
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-17/natural.mp3",
+            "duration": 1.96,
+            "size": 31366
           },
           "audioSegmented": null
         },
@@ -5364,16 +5364,16 @@
             "at + a → atta"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-18/clear.mp3",
+            "duration": 1.85,
+            "size": 29638
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-18/natural.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioSegmented": null
         },
@@ -5398,16 +5398,16 @@
             "重音:gonna, movies 第一音节"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-19/clear.mp3",
+            "duration": 2.18,
+            "size": 34822
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-19/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -5432,16 +5432,16 @@
             "重音:see, Monday 第一音节"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-20/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-20/natural.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioSegmented": null
         }
@@ -5476,16 +5476,16 @@
             "want to → wanna (非正式合音)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-01/clear.mp3",
+            "duration": 1.56,
+            "size": 25030
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-01/natural.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioSegmented": null
         },
@@ -5509,16 +5509,16 @@
             "going to → gonna"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-02/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-02/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -5543,16 +5543,16 @@
             "have to → hafta"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-03/clear.mp3",
+            "duration": 1.67,
+            "size": 26758
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-03/natural.mp3",
+            "duration": 1.49,
+            "size": 23878
           },
           "audioSegmented": null
         },
@@ -5576,16 +5576,16 @@
             "let me → lemme"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-04/clear.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-04/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -5609,16 +5609,16 @@
             "give me → gimme (v+m→m 合音)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-05/clear.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-05/natural.mp3",
+            "duration": 0.99,
+            "size": 15814
           },
           "audioSegmented": null
         },
@@ -5642,16 +5642,16 @@
             "what are you → whatcha (合音+同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-06/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-06/natural.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioSegmented": null
         },
@@ -5674,16 +5674,16 @@
             "do you → d'you (缩写+同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-07/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-07/natural.mp3",
+            "duration": 1.31,
+            "size": 20998
           },
           "audioSegmented": null
         },
@@ -5705,16 +5705,16 @@
             "got you → gotcha (t+ʃ 同化)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-08/clear.mp3",
+            "duration": 1.06,
+            "size": 16966
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-08/natural.mp3",
+            "duration": 0.81,
+            "size": 12934
           },
           "audioSegmented": null
         },
@@ -5737,16 +5737,16 @@
             "don't know → dunno (吞音+合音)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-09/clear.mp3",
+            "duration": 1.74,
+            "size": 27910
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-09/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -5769,16 +5769,16 @@
             "could you → couldja"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-10/clear.mp3",
+            "duration": 1.56,
+            "size": 25030
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-10/natural.mp3",
+            "duration": 1.17,
+            "size": 18694
           },
           "audioSegmented": null
         },
@@ -5804,16 +5804,16 @@
             "what are you going to → whatcha gonna"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-11/clear.mp3",
+            "duration": 1.46,
+            "size": 23302
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-11/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -5838,16 +5838,16 @@
             "you all → y'all (合写)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-12/clear.mp3",
+            "duration": 1.67,
+            "size": 26758
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-12/natural.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioSegmented": null
         },
@@ -5869,16 +5869,16 @@
             "what you may call it → whatchamacallit (多词合音)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-13/clear.mp3",
+            "duration": 1.67,
+            "size": 26758
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-13/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -5902,16 +5902,16 @@
             "got 中 t 闪音化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-14/clear.mp3",
+            "duration": 1.06,
+            "size": 16966
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-14/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         },
@@ -5935,16 +5935,16 @@
             "problem + o (拉美式俏皮说法,美国年轻人常用)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-15/clear.mp3",
+            "duration": 1.53,
+            "size": 24454
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-15/natural.mp3",
+            "duration": 1.13,
+            "size": 18118
           },
           "audioSegmented": null
         },
@@ -5969,16 +5969,16 @@
             "have got to → gotta (合并)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-16/clear.mp3",
+            "duration": 2.21,
+            "size": 35398
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-16/natural.mp3",
+            "duration": 1.35,
+            "size": 21574
           },
           "audioSegmented": null
         },
@@ -6003,16 +6003,16 @@
             "later 中 t 闪音化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-17/clear.mp3",
+            "duration": 1.2,
+            "size": 19270
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-17/natural.mp3",
+            "duration": 1.49,
+            "size": 23878
           },
           "audioSegmented": null
         },
@@ -6036,16 +6036,16 @@
             "it 闪音化"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-18/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-18/natural.mp3",
+            "duration": 1.02,
+            "size": 16390
           },
           "audioSegmented": null
         },
@@ -6067,16 +6067,16 @@
             "what's 中 t 弱化 (wha's up)"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-19/clear.mp3",
+            "duration": 1.06,
+            "size": 16966
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-19/natural.mp3",
+            "duration": 0.88,
+            "size": 14086
           },
           "audioSegmented": null
         },
@@ -6099,16 +6099,16 @@
             "年轻人讲故事时, 用 I'm like 引出原话"
           ],
           "audioClear": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-20/clear.mp3",
+            "duration": 1.24,
+            "size": 19846
           },
           "audioNatural": {
-            "status": "pending",
-            "url": null,
-            "duration": null,
-            "size": null
+            "status": "ready",
+            "url": "https://english.wujiong.cn/audio/natural/informal/if-20/natural.mp3",
+            "duration": 0.92,
+            "size": 14662
           },
           "audioSegmented": null
         }
