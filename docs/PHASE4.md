@@ -300,3 +300,67 @@ TTSProvider (abstract)
 **stage**: A (内容与规则骨架,无音频)
 **next gate**: 180 条内容经 user 审核通过
 **status**: ✅ A 阶段完成,等待 user 评审
+
+---
+
+## 阶段四 B — 全量音频 + 训练模式 v1 (2026-07-17 收尾)
+
+### Part 1 — 360 全量句音频
+
+- **180 句 × 2 (clear + natural) = 360 mp3 全量就位**
+- 部署路径: `https://english.wujiong.cn/audio/natural/{lessonId}/{sentenceId}/{clear|natural}.mp3`
+- 字符数: clear 2688 + natural 2547 = 5235 chars
+- 成本: ¥0.10-0.18 (speech-2.8-turbo 2元/万字符 / hd 3.5元/万字符)
+- TTS 重试: 1 批 7 fail (限流), 单个 synthesize_speech retry 即可
+- HTTP HEAD 验证: 360/360 通过
+- 数据层: `data/natural-sentences.json` audioClear/audioNatural 全部回填 `status: 'ready'`
+- inline require 119KB, node --check OK
+
+### Part 2 — 810 segmented audio (405 chunks × 2)
+
+- 405 chunks: 1-chunk 3 句 / 2-chunk 129 句 / 3-chunk 48 句
+- 路径: `https://english.wujiong.cn/audio/natural/{lessonId}/{sentenceId}/{clear|natural}-seg{N}.mp3`
+- TTS 102 批 × 8 file, **8 batch 并发** 全部成功
+- 修补: 8 + 10 = 18 个 file 被 TTS 静默吞掉 (rhythm 3-chunk 句子 / lk-01 等), 单个 synthesize_speech 补
+- 部署: scp 按 9 lesson dir 分批, 验证 810/810
+- schema 新字段 `audioSegmented: Array<{chunkIndex, text, clearText, naturalText, clearUrl, naturalUrl, clearStatus, naturalStatus, ...}>`
+- 数据层 180/180 全 filled, 0 partial, 0 missing
+- inline require 重新生成 OK
+
+### Part 3 — 3 个核心训练模式 (1 generic + ?mode=)
+
+- 新增 `pages/natural/train.{js,wxml,wxss,json}`
+- 3 模式 (1 个 ?mode= 区分):
+  1. **listen-and-guess** (听自然猜原句 4选1)
+  2. **sound-to-words** (声音切词: 听 segmented clear chunks, 拼回原句)
+  3. **slow-vs-natural** (慢速 vs 自然对比 + IPA + 变化点)
+- 每轮 10 句, 答完显示进度 (done/correct/passRate)
+- 进度存 `wx.storage` key `natural-train-progress-v1` (per mode per lesson)
+- lesson 页面: 加 audio 播放按钮 (▶ 慢速 / ▶ 自然) + 训练入口 (3 按钮)
+- index 页面: 音频全部就绪时, 顶部加 3 个训练入口按钮
+- 内部验收页 (sample-review) 保留, 标注为"内部使用"
+- app.json 注册 train 页面 (11 pages 总)
+
+### TTS 工具链
+
+- MiniMax TTS (`batch_synthesize_speech` + `synthesize_speech`)
+- Voice: `English_Trustworthy_Man` (clear) + `English_Diligent_Man` (natural)
+- Speed: 0.85 / 1.05
+- 失败兜底: 单个 synthesize_speech 重试 (不重 batch)
+- 限流: 1 批 7 fail 是偶发, **不要** 8 batch 并发跑太多批, 实测 8 batch/turn 仍稳
+- workspace → D:\english-bolt-miniapp\audio\ → scp → ai-supervisor:/var/www/english-trainer/audio/natural/
+
+### 已知 TTS 限制 (在 user 已接受的范围内)
+
+- 不支持 IPA 输入, 自然语速靠 naturalText 拼写压缩 (didja/wanna/lemme) + speed
+- 不支持 instructions 驱动, shoulda/woulda 听起来不一定像真 shoulda
+- 3-chunk 句子的 chunk 切分靠 speechChunks 字符串 (已存)
+- rhythm 句子的 natural chunks 用 / 表示弱读, TTS 不读 /, 已手动改用整句
+
+### 状态总览
+
+- 数据: 180 句 + 360 全量音频 + 810 segmented audio = **1170 个 mp3**
+- 训练: 3 模式可点, lesson 页面有 audio 按钮, index 页面有训练入口
+- buildTag: `phase4b-part2-segments-2026-07-17`
+- stage: B 阶段 v1 完成, 等待 user 试玩 + 反馈
+- status: ✅ Part 1+2+3 全部完成
