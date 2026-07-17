@@ -1,0 +1,77 @@
+{
+  "filledAt": "2026-07-17T10:11:49.928Z",
+  "totalSentences": 180,
+  "totalChunks": 405,
+  "clearReady": 405,
+  "naturalReady": 405,
+  "partialFilled": 0,
+  "missing": 0,
+  "perLesson": {
+    "weak-form": {
+      "sentences": 20,
+      "chunks": 46,
+      "clearReady": 46,
+      "naturalReady": 46,
+      "missing": 0
+    },
+    "contraction": {
+      "sentences": 20,
+      "chunks": 41,
+      "clearReady": 41,
+      "naturalReady": 41,
+      "missing": 0
+    },
+    "linking": {
+      "sentences": 20,
+      "chunks": 40,
+      "clearReady": 40,
+      "naturalReady": 40,
+      "missing": 0
+    },
+    "assimilation": {
+      "sentences": 20,
+      "chunks": 40,
+      "clearReady": 40,
+      "naturalReady": 40,
+      "missing": 0
+    },
+    "elision": {
+      "sentences": 20,
+      "chunks": 40,
+      "clearReady": 40,
+      "naturalReady": 40,
+      "missing": 0
+    },
+    "flap": {
+      "sentences": 20,
+      "chunks": 47,
+      "clearReady": 47,
+      "naturalReady": 47,
+      "missing": 0
+    },
+    "stress": {
+      "sentences": 20,
+      "chunks": 57,
+      "clearReady": 57,
+      "naturalReady": 57,
+      "missing": 0
+    },
+    "rhythm": {
+      "sentences": 20,
+      "chunks": 53,
+      "clearReady": 53,
+      "naturalReady": 53,
+      "missing": 0
+    },
+    "informal": {
+      "sentences": 20,
+      "chunks": 41,
+      "clearReady": 41,
+      "naturalReady": 41,
+      "missing": 0
+    }
+  },
+  "missingItems": [],
+  "filled": 180,
+  "durationMs": 452
+}
