@@ -64,6 +64,8 @@ const FILES = [
   'data/natural-audio-check-all.json',
   'data/natural-audio-check-fast.json',
   'data/natural-audio-backfill-all.json',
+  'data/natural-segmented-batch-list.json',
+  'data/natural-audio-backfill-segmented.json',
   // 数据底层（v2 数据访问层）
   'data/audio-files.txt',
   'data/audio-vps-words.txt',
@@ -87,6 +89,8 @@ const FILES = [
   'tools/check-natural-audio-fast.mjs',
   'tools/gen-part1-batch-list.mjs',
   'tools/backfill-natural-audio-all.mjs',
+  'tools/backfill-natural-segmented.mjs',
+  'tools/gen-part2-segmented-batch-list.mjs',
   'tools/top100-words.txt',
   // 小程序源代码
   'miniprogram/app.js',
@@ -143,6 +147,11 @@ const FILES = [
   'miniprogram/pages/natural/sample-review.wxml',
   'miniprogram/pages/natural/sample-review.wxss',
   'miniprogram/pages/natural/sample-review.json',
+  // 阶段四 B 训练模式 (1 generic + ?mode=)
+  'miniprogram/pages/natural/train.js',
+  'miniprogram/pages/natural/train.wxml',
+  'miniprogram/pages/natural/train.wxss',
+  'miniprogram/pages/natural/train.json',
   'miniprogram/assets/tab/today-inactive.png',
   'miniprogram/assets/tab/today-active.png',
   'miniprogram/assets/tab/immerse-inactive.png',
