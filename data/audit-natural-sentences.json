@@ -1,0 +1,220 @@
+{
+  "generatedAt": "2026-07-17T05:38:01.851Z",
+  "dataFile": "data\\natural-sentences.json",
+  "summary": {
+    "totalLessons": 9,
+    "totalSentences": 180,
+    "perLesson": {
+      "weak-form": 20,
+      "contraction": 20,
+      "linking": 20,
+      "assimilation": 20,
+      "elision": 20,
+      "flap": 20,
+      "stress": 20,
+      "rhythm": 20,
+      "informal": 20
+    },
+    "byIssueType": {
+      "chunks_dont_join": 24,
+      "stressWord_not_in_written": 6
+    },
+    "totals": {
+      "duplicateId": 0,
+      "fieldsMissing": 0,
+      "writtenEmpty": 0,
+      "translationEmpty": 0,
+      "clearEmpty": 0,
+      "naturalEmpty": 0,
+      "standardIpaEmpty": 0,
+      "naturalIpaEmpty": 0,
+      "pronunciationNotesEmpty": 0,
+      "stressWordNotInWritten": 6,
+      "chunksDontJoin": 24,
+      "audioNotPending": 0,
+      "ipaFormatBad": 0
+    }
+  },
+  "issues": [
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "linking",
+      "sentenceId": "lk-12",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 33%: \"Far a way\" vs \"Far away\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "elision",
+      "sentenceId": "el-03",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Friend ship\" vs \"Friendship\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "elision",
+      "sentenceId": "el-06",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Hand some\" vs \"Handsome\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-01",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Wa ter\" vs \"Water\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-02",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Bet ter\" vs \"Better\""
+    },
+    {
+      "type": "stressWord_not_in_written",
+      "lessonId": "flap",
+      "sentenceId": "fl-03",
+      "detail": "stressWords[\"prít\"] 不在 writtenText 中"
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-03",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Pri tty\" vs \"Pretty\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-04",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Ge tit\" vs \"Get it\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-05",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Ci ty\" vs \"City\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-06",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Let ter\" vs \"Letter\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-07",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Mat ter\" vs \"Matter\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-08",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Li ttle\" vs \"Little\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-09",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Bot tle\" vs \"Bottle\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-10",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Ti tle\" vs \"Title\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-11",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"For ty\" vs \"Forty\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-12",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Sat tur day\" vs \"Saturday\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-13",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 33%: \"No tat all\" vs \"Not at all\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-14",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 33%: \"Pu tit down\" vs \"Put it down\""
+    },
+    {
+      "type": "stressWord_not_in_written",
+      "lessonId": "flap",
+      "sentenceId": "fl-15",
+      "detail": "stressWords[\"gon\"] 不在 writtenText 中"
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-15",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 33%: \"I'm gon na\" vs \"I'm going to\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-16",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 50%: \"Bet cha\" vs \"Bet you\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-17",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 50%: \"I got ta go\" vs \"I gotta go\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-18",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 0%: \"Don 't for get\" vs \"Don't forget\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-19",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 50%: \"Righ there\" vs \"Right there\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "flap",
+      "sentenceId": "fl-20",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 25%: \"Wha time i sit\" vs \"What time is it\""
+    },
+    {
+      "type": "chunks_dont_join",
+      "lessonId": "stress",
+      "sentenceId": "st-13",
+      "detail": "speechChunks 拼接后与 writtenText 重叠率仅 50%: \"We leave to morrow\" vs \"We leave tomorrow\""
+    },
+    {
+      "type": "stressWord_not_in_written",
+      "lessonId": "rhythm",
+      "sentenceId": "rh-19",
+      "detail": "stressWords[\"gon\"] 不在 writtenText 中"
+    },
+    {
+      "type": "stressWord_not_in_written",
+      "lessonId": "informal",
+      "sentenceId": "if-11",
+      "detail": "stressWords[\"what\"] 不在 writtenText 中"
+    },
+    {
+      "type": "stressWord_not_in_written",
+      "lessonId": "informal",
+      "sentenceId": "if-12",
+      "detail": "stressWords[\"yall\"] 不在 writtenText 中"
+    },
+    {
+      "type": "stressWord_not_in_written",
+      "lessonId": "informal",
+      "sentenceId": "if-15",
+      "detail": "stressWords[\"blee\"] 不在 writtenText 中"
+    }
+  ]
+}
