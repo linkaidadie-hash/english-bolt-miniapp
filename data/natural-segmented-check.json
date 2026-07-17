@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-07-17T12:24:53.656Z",
+  "base": "https://english.wujiong.cn/audio/natural",
+  "total": 786,
+  "passed": 786,
+  "failed": 0,
+  "durationMs": 101633,
+  "concurrency": 16,
+  "failures": []
+}
