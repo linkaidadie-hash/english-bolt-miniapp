@@ -1,0 +1,82 @@
+<view class="page">
+  <view class="hero">
+    <view class="hero-title">🔧 内部样板验收</view>
+    <view class="hero-sub">阶段四 B · 12 条样板 · 仅供开发验收, 不对外开放</view>
+    <view class="hero-progress">
+      <view class="prog-pill pass">{{progress.pass}} 通过</view>
+      <view class="prog-pill redo">{{progress.redo}} 需重做</view>
+      <view class="prog-pill pending">{{progress.pending}} 待审</view>
+    </view>
+    <view class="hero-meta">
+      <text wx:if="{{lastSaveAt}}">最近保存: {{lastSaveAt}}</text>
+      <text wx:else>尚未保存</text>
+    </view>
+  </view>
+
+  <view class="action-row">
+    <button class="plain" bindtap="onClear">清空结果</button>
+    <button class="plain" bindtap="onExport">导出 JSON</button>
+    <button class="primary" bindtap="onSave">保存到本地</button>
+  </view>
+
+  <view class="sample-list">
+    <view wx:for="{{samples}}" wx:key="sentenceId" wx:for-item="s" class="sample-card">
+      <view class="s-head">
+        <text class="s-idx">{{index + 1}}</text>
+        <text class="s-cat">{{s.category}} {{s.categoryName}}</text>
+        <view class="s-status {{reviewMap[s.sentenceId].status || 'pending'}}">
+          {{reviewMap[s.sentenceId].status === 'pass' ? '✅ 通过' : (reviewMap[s.sentenceId].status === 'need-redo' ? '🔄 需重做' : '⏳ 待审')}}
+        </view>
+      </view>
+
+      <view class="s-text-block">
+        <view class="s-row">
+          <text class="s-label">原文</text>
+          <text class="s-written">{{s.writtenText}}</text>
+        </view>
+        <view class="s-row">
+          <text class="s-label">自然</text>
+          <text class="s-natural">{{s.naturalText}}</text>
+        </view>
+        <view class="s-row s-row-notes" wx:if="{{s.pronunciationNotes && s.pronunciationNotes.length}}">
+          <text class="s-label">变化</text>
+          <view class="s-notes">
+            <text wx:for="{{s.pronunciationNotes}}" wx:key="*this" wx:for-item="n" class="note-line">· {{n}}</text>
+          </view>
+        </view>
+      </view>
+
+      <view class="s-audio-row">
+        <button class="play-btn" bindtap="onPlayClear" data-id="{{s.sentenceId}}">▶ 慢速</button>
+        <button class="play-btn" bindtap="onPlayNatural" data-id="{{s.sentenceId}}">▶ 自然</button>
+        <button class="play-btn compare" bindtap="onTogglePlay" data-id="{{s.sentenceId}}">⇄ 切换</button>
+      </view>
+
+      <view class="s-meta-row muted">
+        <text>clear: {{s.audioClearSize}} bytes</text>
+        <text>natural: {{s.audioNaturalSize}} bytes</text>
+      </view>
+
+      <view class="s-verify-row">
+        <button class="verify-btn pass {{reviewMap[s.sentenceId].status === 'pass' ? 'active' : ''}}" data-id="{{s.sentenceId}}" data-status="pass" bindtap="onSetStatus">✅ 通过</button>
+        <button class="verify-btn redo {{reviewMap[s.sentenceId].status === 'need-redo' ? 'active' : ''}}" data-id="{{s.sentenceId}}" data-status="need-redo" bindtap="onSetStatus">🔄 需重做</button>
+        <button class="verify-btn pending {{(reviewMap[s.sentenceId].status || 'pending') === 'pending' ? 'active' : ''}}" data-id="{{s.sentenceId}}" data-status="pending" bindtap="onSetStatus">⏳ 待审</button>
+      </view>
+
+      <view class="s-notes-input">
+        <textarea
+          class="notes-area"
+          placeholder="备注 (可选, 如: 'natural 版 shoulda 听起来不像 shoulda')"
+          value="{{reviewMap[s.sentenceId].notes || ''}}"
+          data-id="{{s.sentenceId}}"
+          bindinput="onNotesInput"
+          auto-height
+        />
+      </view>
+    </view>
+  </view>
+
+  <view class="footer-note muted">
+    内部验收页 · 数据存本地 wx.storage
+  </view>
+</view>
