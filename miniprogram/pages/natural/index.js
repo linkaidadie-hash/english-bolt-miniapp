@@ -5,18 +5,34 @@
 //   - 音频未就绪, 顶部明确标记 "⏳ 待音频 (0/180)"
 //   - 点击课程 → 进入通用 lesson 详情页 (id 参数)
 
-const naturalData = require('../../utils/natural-data.js');
+let _naturalData = null;
+try {
+  _naturalData = require('../../utils/natural-data.js');
+} catch (e) {
+  console.error('[natural/index] require natural-data FAILED:', e?.message || e, e?.stack);
+}
 
 Page({
   data: {
     summary: null,
     lessons: [],
+    loadError: null,
   },
 
   onShow() {
-    const summary = naturalData.getAudioStatusSummary();
-    const lessons = naturalData.getLessonList();
-    this.setData({ summary, lessons });
+    if (!_naturalData) {
+      this.setData({ loadError: 'utils/natural-data.js 加载失败' });
+      return;
+    }
+    try {
+      const summary = _naturalData.getAudioStatusSummary();
+      const lessons = _naturalData.getLessonList();
+      this.setData({ summary, lessons, loadError: null });
+      console.log('[natural/index] loaded', lessons.length, 'lessons, audio', summary.audioReady + '/' + summary.total);
+    } catch (e) {
+      console.error('[natural/index] onShow FAILED:', e?.message || e, e?.stack);
+      this.setData({ loadError: 'onShow 失败: ' + (e?.message || e) });
+    }
   },
 
   onOpenLesson(e) {
