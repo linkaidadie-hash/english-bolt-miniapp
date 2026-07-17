@@ -1,0 +1,161 @@
+{
+  "computedAt": "2026-07-17T05:54:21.898Z",
+  "pricingSource": "https://platform.minimaxi.com/docs/guides/pricing-paygo (查询于 2026-07-17)",
+  "pricingUnit": "元/万字符 (人民币)",
+  "retryCount": 0,
+  "perItem": [
+    {
+      "sentenceId": "wf-01",
+      "category": "弱读",
+      "clearText": "I can help you",
+      "clearChars": 14,
+      "naturalText": "I c'n help ya",
+      "naturalChars": 13,
+      "totalChars": 27
+    },
+    {
+      "sentenceId": "wf-08",
+      "category": "弱读",
+      "clearText": "I have to leave",
+      "clearChars": 15,
+      "naturalText": "I hafta leave",
+      "naturalChars": 13,
+      "totalChars": 28
+    },
+    {
+      "sentenceId": "lk-01",
+      "category": "连读",
+      "clearText": "Turn it on",
+      "clearChars": 10,
+      "naturalText": "Turn it on",
+      "naturalChars": 10,
+      "totalChars": 20
+    },
+    {
+      "sentenceId": "lk-04",
+      "category": "连读",
+      "clearText": "An apple",
+      "clearChars": 8,
+      "naturalText": "An apple",
+      "naturalChars": 8,
+      "totalChars": 16
+    },
+    {
+      "sentenceId": "el-01",
+      "category": "吞音",
+      "clearText": "Next day",
+      "clearChars": 8,
+      "naturalText": "Nex day",
+      "naturalChars": 7,
+      "totalChars": 15
+    },
+    {
+      "sentenceId": "el-08",
+      "category": "吞音",
+      "clearText": "I don't know",
+      "clearChars": 12,
+      "naturalText": "I don' know",
+      "naturalChars": 11,
+      "totalChars": 23
+    },
+    {
+      "sentenceId": "fl-01",
+      "category": "闪音",
+      "clearText": "Water",
+      "clearChars": 5,
+      "naturalText": "Water",
+      "naturalChars": 5,
+      "totalChars": 10
+    },
+    {
+      "sentenceId": "fl-04",
+      "category": "闪音",
+      "clearText": "Get it",
+      "clearChars": 6,
+      "naturalText": "Get it",
+      "naturalChars": 6,
+      "totalChars": 12
+    },
+    {
+      "sentenceId": "as-01",
+      "category": "同化",
+      "clearText": "Did you see it",
+      "clearChars": 14,
+      "naturalText": "Didja see it",
+      "naturalChars": 12,
+      "totalChars": 26
+    },
+    {
+      "sentenceId": "as-09",
+      "category": "同化",
+      "clearText": "Meet you",
+      "clearChars": 8,
+      "naturalText": "Meetcha",
+      "naturalChars": 7,
+      "totalChars": 15
+    },
+    {
+      "sentenceId": "st-01",
+      "category": "句子重音",
+      "clearText": "I want to go",
+      "clearChars": 12,
+      "naturalText": "I WANna go",
+      "naturalChars": 10,
+      "totalChars": 22
+    },
+    {
+      "sentenceId": "rh-01",
+      "category": "节奏与意群",
+      "clearText": "I need to talk to him about it",
+      "clearChars": 30,
+      "naturalText": "I NEEDta TALKta him aBOUT it",
+      "naturalChars": 28,
+      "totalChars": 58
+    }
+  ],
+  "totals": {
+    "items": 12,
+    "files": 24,
+    "totalChars": 272,
+    "totalCharsClear": 142,
+    "totalCharsNatural": 130
+  },
+  "costByModel": {
+    "speech-2.8-turbo": {
+      "ratePer10kChars": 2,
+      "costTotal": 0.0544,
+      "costPerItem": 0.0045,
+      "costPerFile": 0.0023
+    },
+    "speech-2.8-hd": {
+      "ratePer10kChars": 3.5,
+      "costTotal": 0.0952,
+      "costPerItem": 0.0079,
+      "costPerFile": 0.004
+    },
+    "speech-02-turbo": {
+      "ratePer10kChars": 2,
+      "costTotal": 0.0544,
+      "costPerItem": 0.0045,
+      "costPerFile": 0.0023
+    },
+    "speech-02-hd": {
+      "ratePer10kChars": 3.5,
+      "costTotal": 0.0952,
+      "costPerItem": 0.0079,
+      "costPerFile": 0.004
+    },
+    "speech-2.6-turbo": {
+      "ratePer10kChars": 2,
+      "costTotal": 0.0544,
+      "costPerItem": 0.0045,
+      "costPerFile": 0.0023
+    },
+    "speech-2.6-hd": {
+      "ratePer10kChars": 3.5,
+      "costTotal": 0.0952,
+      "costPerItem": 0.0079,
+      "costPerFile": 0.004
+    }
+  }
+}
