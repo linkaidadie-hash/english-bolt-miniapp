@@ -1,9 +1,4 @@
 <view class="page">
-  <!-- 调试标记: 永远显示, 确认页面是否渲染 -->
-  <view style="background:#000;color:#0f0;padding:20rpx;font-size:24rpx;">
-    [DEBUG] 页面渲染中... summary={{summary ? 'YES' : 'null'}} lessons={{lessons.length}} loadError={{loadError || 'null'}}
-  </view>
-
   <!-- 错误显示 -->
   <view class="error-box" wx:if="{{loadError}}">
     <text class="error-title">⚠️ 加载失败</text>
@@ -24,6 +19,22 @@
     </view>
     <view class="hero-note" wx:elif="{{summary.audioReady < summary.total}}">
       阶段四 A：部分音频就绪,训练模式待全部就绪后开启。
+    </view>
+
+    <!-- 训练入口 (全部音频就绪时显示) -->
+    <view wx:if="{{summary.audioReady === summary.total}}" class="hero-train-entries">
+      <button class="hero-train-btn hero-train-listen" bindtap="onOpenTrain" data-mode="listen-and-guess">
+        <text class="htb-icon">👂</text>
+        <text class="htb-label">听自然猜原句</text>
+      </button>
+      <button class="hero-train-btn hero-train-words" bindtap="onOpenTrain" data-mode="sound-to-words">
+        <text class="htb-icon">🔪</text>
+        <text class="htb-label">声音切词</text>
+      </button>
+      <button class="hero-train-btn hero-train-slow" bindtap="onOpenTrain" data-mode="slow-vs-natural">
+        <text class="htb-icon">⚖️</text>
+        <text class="htb-label">慢速 vs 自然</text>
+      </button>
     </view>
   </view>
 
