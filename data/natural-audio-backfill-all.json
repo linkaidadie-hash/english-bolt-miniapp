@@ -1,0 +1,2591 @@
+{
+  "filledAt": "2026-07-17T08:55:24.661Z",
+  "provider": "MiniMax-tts",
+  "model": "speech-01",
+  "total": 360,
+  "filled": 360,
+  "missing": 0,
+  "totalSize": 7618032,
+  "totalDuration": 476.08999999999975,
+  "perLesson": {
+    "weak-form": {
+      "filled": 40,
+      "missing": 0,
+      "items": [
+        {
+          "sentenceId": "wf-01",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-01/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "wf-01",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-01/natural.mp3",
+          "size": 20422,
+          "duration": 1.28
+        },
+        {
+          "sentenceId": "wf-02",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-02/clear.mp3",
+          "size": 29062,
+          "duration": 1.82
+        },
+        {
+          "sentenceId": "wf-02",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-02/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "wf-03",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-03/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "wf-03",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-03/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "wf-04",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-04/clear.mp3",
+          "size": 26758,
+          "duration": 1.67
+        },
+        {
+          "sentenceId": "wf-04",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-04/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        },
+        {
+          "sentenceId": "wf-05",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-05/clear.mp3",
+          "size": 25030,
+          "duration": 1.56
+        },
+        {
+          "sentenceId": "wf-05",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-05/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "wf-06",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-06/clear.mp3",
+          "size": 29062,
+          "duration": 1.82
+        },
+        {
+          "sentenceId": "wf-06",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-06/natural.mp3",
+          "size": 20422,
+          "duration": 1.28
+        },
+        {
+          "sentenceId": "wf-07",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-07/clear.mp3",
+          "size": 27334,
+          "duration": 1.71
+        },
+        {
+          "sentenceId": "wf-07",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-07/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "wf-08",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-08/clear.mp3",
+          "size": 27334,
+          "duration": 1.71
+        },
+        {
+          "sentenceId": "wf-08",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-08/natural.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "wf-09",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-09/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "wf-09",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-09/natural.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "wf-10",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-10/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "wf-10",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-10/natural.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "wf-11",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-11/clear.mp3",
+          "size": 31366,
+          "duration": 1.96
+        },
+        {
+          "sentenceId": "wf-11",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-11/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "wf-12",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-12/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "wf-12",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-12/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "wf-13",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-13/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "wf-13",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-13/natural.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "wf-14",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-14/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "wf-14",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-14/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "wf-15",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-15/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "wf-15",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-15/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "wf-16",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-16/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "wf-16",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-16/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "wf-17",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-17/clear.mp3",
+          "size": 22726,
+          "duration": 1.42
+        },
+        {
+          "sentenceId": "wf-17",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-17/natural.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "wf-18",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-18/clear.mp3",
+          "size": 29062,
+          "duration": 1.82
+        },
+        {
+          "sentenceId": "wf-18",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-18/natural.mp3",
+          "size": 25606,
+          "duration": 1.6
+        },
+        {
+          "sentenceId": "wf-19",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-19/clear.mp3",
+          "size": 22726,
+          "duration": 1.42
+        },
+        {
+          "sentenceId": "wf-19",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-19/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "wf-20",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-20/clear.mp3",
+          "size": 27334,
+          "duration": 1.71
+        },
+        {
+          "sentenceId": "wf-20",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-20/natural.mp3",
+          "size": 19270,
+          "duration": 1.2
+        }
+      ]
+    },
+    "contraction": {
+      "filled": 40,
+      "missing": 0,
+      "items": [
+        {
+          "sentenceId": "ct-01",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-01/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "ct-01",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-01/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "ct-02",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-02/clear.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "ct-02",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-02/natural.mp3",
+          "size": 14086,
+          "duration": 0.88
+        },
+        {
+          "sentenceId": "ct-03",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-03/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "ct-03",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-03/natural.mp3",
+          "size": 14086,
+          "duration": 0.88
+        },
+        {
+          "sentenceId": "ct-04",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-04/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "ct-04",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-04/natural.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "ct-05",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-05/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "ct-05",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-05/natural.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "ct-06",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-06/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "ct-06",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-06/natural.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "ct-07",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-07/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "ct-07",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-07/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "ct-08",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-08/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "ct-08",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-08/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "ct-09",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-09/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "ct-09",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-09/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "ct-10",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-10/clear.mp3",
+          "size": 25606,
+          "duration": 1.6
+        },
+        {
+          "sentenceId": "ct-10",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-10/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "ct-11",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-11/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "ct-11",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-11/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "ct-12",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-12/clear.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "ct-12",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-12/natural.mp3",
+          "size": 14086,
+          "duration": 0.88
+        },
+        {
+          "sentenceId": "ct-13",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-13/clear.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "ct-13",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-13/natural.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "ct-14",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-14/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "ct-14",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-14/natural.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "ct-15",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-15/clear.mp3",
+          "size": 27910,
+          "duration": 1.74
+        },
+        {
+          "sentenceId": "ct-15",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-15/natural.mp3",
+          "size": 20422,
+          "duration": 1.28
+        },
+        {
+          "sentenceId": "ct-16",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-16/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "ct-16",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-16/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "ct-17",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-17/clear.mp3",
+          "size": 25606,
+          "duration": 1.6
+        },
+        {
+          "sentenceId": "ct-17",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-17/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "ct-18",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-18/clear.mp3",
+          "size": 25030,
+          "duration": 1.56
+        },
+        {
+          "sentenceId": "ct-18",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-18/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        },
+        {
+          "sentenceId": "ct-19",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-19/clear.mp3",
+          "size": 25606,
+          "duration": 1.6
+        },
+        {
+          "sentenceId": "ct-19",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-19/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "ct-20",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-20/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "ct-20",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/contraction/ct-20/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        }
+      ]
+    },
+    "linking": {
+      "filled": 40,
+      "missing": 0,
+      "items": [
+        {
+          "sentenceId": "lk-01",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-01/clear.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "lk-01",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-01/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "lk-02",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-02/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "lk-02",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-02/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "lk-03",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-03/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "lk-03",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-03/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "lk-04",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-04/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "lk-04",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-04/natural.mp3",
+          "size": 14662,
+          "duration": 0.92
+        },
+        {
+          "sentenceId": "lk-05",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-05/clear.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "lk-05",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-05/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "lk-06",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-06/clear.mp3",
+          "size": 16966,
+          "duration": 1.06
+        },
+        {
+          "sentenceId": "lk-06",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-06/natural.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "lk-07",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-07/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "lk-07",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-07/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "lk-08",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-08/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "lk-08",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-08/natural.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "lk-09",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-09/clear.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "lk-09",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-09/natural.mp3",
+          "size": 13510,
+          "duration": 0.84
+        },
+        {
+          "sentenceId": "lk-10",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-10/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "lk-10",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-10/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "lk-11",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-11/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "lk-11",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-11/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        },
+        {
+          "sentenceId": "lk-12",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-12/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "lk-12",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-12/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "lk-13",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-13/clear.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "lk-13",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-13/natural.mp3",
+          "size": 25030,
+          "duration": 1.56
+        },
+        {
+          "sentenceId": "lk-14",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-14/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "lk-14",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-14/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "lk-15",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-15/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "lk-15",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-15/natural.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "lk-16",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-16/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "lk-16",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-16/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "lk-17",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-17/clear.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "lk-17",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-17/natural.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "lk-18",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-18/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "lk-18",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-18/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "lk-19",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-19/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "lk-19",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-19/natural.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "lk-20",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-20/clear.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "lk-20",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/linking/lk-20/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        }
+      ]
+    },
+    "assimilation": {
+      "filled": 40,
+      "missing": 0,
+      "items": [
+        {
+          "sentenceId": "as-01",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-01/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "as-01",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-01/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "as-02",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-02/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "as-02",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-02/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "as-03",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-03/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "as-03",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-03/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "as-04",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-04/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "as-04",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-04/natural.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "as-05",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-05/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "as-05",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-05/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "as-06",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-06/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "as-06",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-06/natural.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "as-07",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-07/clear.mp3",
+          "size": 29062,
+          "duration": 1.82
+        },
+        {
+          "sentenceId": "as-07",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-07/natural.mp3",
+          "size": 29062,
+          "duration": 1.82
+        },
+        {
+          "sentenceId": "as-08",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-08/clear.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "as-08",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-08/natural.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "as-09",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-09/clear.mp3",
+          "size": 16966,
+          "duration": 1.06
+        },
+        {
+          "sentenceId": "as-09",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-09/natural.mp3",
+          "size": 14662,
+          "duration": 0.92
+        },
+        {
+          "sentenceId": "as-10",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-10/clear.mp3",
+          "size": 26758,
+          "duration": 1.67
+        },
+        {
+          "sentenceId": "as-10",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-10/natural.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "as-11",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-11/clear.mp3",
+          "size": 25030,
+          "duration": 1.56
+        },
+        {
+          "sentenceId": "as-11",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-11/natural.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "as-12",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-12/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "as-12",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-12/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "as-13",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-13/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "as-13",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-13/natural.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "as-14",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-14/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "as-14",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-14/natural.mp3",
+          "size": 29062,
+          "duration": 1.82
+        },
+        {
+          "sentenceId": "as-15",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-15/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "as-15",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-15/natural.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "as-16",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-16/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "as-16",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-16/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "as-17",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-17/clear.mp3",
+          "size": 26758,
+          "duration": 1.67
+        },
+        {
+          "sentenceId": "as-17",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-17/natural.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "as-18",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-18/clear.mp3",
+          "size": 25606,
+          "duration": 1.6
+        },
+        {
+          "sentenceId": "as-18",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-18/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "as-19",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-19/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "as-19",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-19/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "as-20",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-20/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "as-20",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/assimilation/as-20/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        }
+      ]
+    },
+    "elision": {
+      "filled": 40,
+      "missing": 0,
+      "items": [
+        {
+          "sentenceId": "el-01",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-01/clear.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "el-01",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-01/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "el-02",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-02/clear.mp3",
+          "size": 22726,
+          "duration": 1.42
+        },
+        {
+          "sentenceId": "el-02",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-02/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "el-03",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-03/clear.mp3",
+          "size": 16966,
+          "duration": 1.06
+        },
+        {
+          "sentenceId": "el-03",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-03/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "el-04",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-04/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "el-04",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-04/natural.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "el-05",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-05/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "el-05",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-05/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "el-06",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-06/clear.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "el-06",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-06/natural.mp3",
+          "size": 14662,
+          "duration": 0.92
+        },
+        {
+          "sentenceId": "el-07",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-07/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "el-07",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-07/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "el-08",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-08/clear.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "el-08",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-08/natural.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "el-09",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-09/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "el-09",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-09/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "el-10",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-10/clear.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "el-10",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-10/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "el-11",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-11/clear.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "el-11",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-11/natural.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "el-12",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-12/clear.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "el-12",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-12/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "el-13",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-13/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "el-13",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-13/natural.mp3",
+          "size": 23878,
+          "duration": 1.49
+        },
+        {
+          "sentenceId": "el-14",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-14/clear.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "el-14",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-14/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        },
+        {
+          "sentenceId": "el-15",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-15/clear.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "el-15",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-15/natural.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "el-16",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-16/clear.mp3",
+          "size": 25030,
+          "duration": 1.56
+        },
+        {
+          "sentenceId": "el-16",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-16/natural.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "el-17",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-17/clear.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "el-17",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-17/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        },
+        {
+          "sentenceId": "el-18",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-18/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "el-18",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-18/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "el-19",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-19/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "el-19",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-19/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "el-20",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-20/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "el-20",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/elision/el-20/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        }
+      ]
+    },
+    "flap": {
+      "filled": 40,
+      "missing": 0,
+      "items": [
+        {
+          "sentenceId": "fl-01",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-01/clear.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "fl-01",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-01/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "fl-02",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-02/clear.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "fl-02",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-02/natural.mp3",
+          "size": 12934,
+          "duration": 0.81
+        },
+        {
+          "sentenceId": "fl-03",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-03/clear.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "fl-03",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-03/natural.mp3",
+          "size": 12934,
+          "duration": 0.81
+        },
+        {
+          "sentenceId": "fl-04",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-04/clear.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "fl-04",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-04/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "fl-05",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-05/clear.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "fl-05",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-05/natural.mp3",
+          "size": 13510,
+          "duration": 0.84
+        },
+        {
+          "sentenceId": "fl-06",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-06/clear.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "fl-06",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-06/natural.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "fl-07",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-07/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "fl-07",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-07/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        },
+        {
+          "sentenceId": "fl-08",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-08/clear.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "fl-08",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-08/natural.mp3",
+          "size": 14086,
+          "duration": 0.88
+        },
+        {
+          "sentenceId": "fl-09",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-09/clear.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "fl-09",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-09/natural.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "fl-10",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-10/clear.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "fl-10",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-10/natural.mp3",
+          "size": 14662,
+          "duration": 0.92
+        },
+        {
+          "sentenceId": "fl-11",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-11/clear.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "fl-11",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-11/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "fl-12",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-12/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "fl-12",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-12/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "fl-13",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-13/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "fl-13",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-13/natural.mp3",
+          "size": 15238,
+          "duration": 0.95
+        },
+        {
+          "sentenceId": "fl-14",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-14/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "fl-14",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-14/natural.mp3",
+          "size": 14086,
+          "duration": 0.88
+        },
+        {
+          "sentenceId": "fl-15",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-15/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "fl-15",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-15/natural.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "fl-16",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-16/clear.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "fl-16",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-16/natural.mp3",
+          "size": 14086,
+          "duration": 0.88
+        },
+        {
+          "sentenceId": "fl-17",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-17/clear.mp3",
+          "size": 22726,
+          "duration": 1.42
+        },
+        {
+          "sentenceId": "fl-17",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-17/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "fl-18",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-18/clear.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "fl-18",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-18/natural.mp3",
+          "size": 17542,
+          "duration": 1.1
+        },
+        {
+          "sentenceId": "fl-19",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-19/clear.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "fl-19",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-19/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        },
+        {
+          "sentenceId": "fl-20",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-20/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "fl-20",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/flap/fl-20/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        }
+      ]
+    },
+    "stress": {
+      "filled": 40,
+      "missing": 0,
+      "items": [
+        {
+          "sentenceId": "st-01",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-01/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "st-01",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-01/natural.mp3",
+          "size": 25606,
+          "duration": 1.6
+        },
+        {
+          "sentenceId": "st-02",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-02/clear.mp3",
+          "size": 31942,
+          "duration": 2
+        },
+        {
+          "sentenceId": "st-02",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-02/natural.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "st-03",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-03/clear.mp3",
+          "size": 31366,
+          "duration": 1.96
+        },
+        {
+          "sentenceId": "st-03",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-03/natural.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "st-04",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-04/clear.mp3",
+          "size": 27910,
+          "duration": 1.74
+        },
+        {
+          "sentenceId": "st-04",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-04/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "st-05",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-05/clear.mp3",
+          "size": 31942,
+          "duration": 2
+        },
+        {
+          "sentenceId": "st-05",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-05/natural.mp3",
+          "size": 27910,
+          "duration": 1.74
+        },
+        {
+          "sentenceId": "st-06",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-06/clear.mp3",
+          "size": 31366,
+          "duration": 1.96
+        },
+        {
+          "sentenceId": "st-06",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-06/natural.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "st-07",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-07/clear.mp3",
+          "size": 22726,
+          "duration": 1.42
+        },
+        {
+          "sentenceId": "st-07",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-07/natural.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "st-08",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-08/clear.mp3",
+          "size": 34822,
+          "duration": 2.18
+        },
+        {
+          "sentenceId": "st-08",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-08/natural.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "st-09",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-09/clear.mp3",
+          "size": 22726,
+          "duration": 1.42
+        },
+        {
+          "sentenceId": "st-09",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-09/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "st-10",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-10/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "st-10",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-10/natural.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "st-11",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-11/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "st-11",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-11/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "st-12",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-12/clear.mp3",
+          "size": 39430,
+          "duration": 2.46
+        },
+        {
+          "sentenceId": "st-12",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-12/natural.mp3",
+          "size": 25030,
+          "duration": 1.56
+        },
+        {
+          "sentenceId": "st-13",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-13/clear.mp3",
+          "size": 30214,
+          "duration": 1.89
+        },
+        {
+          "sentenceId": "st-13",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-13/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "st-14",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-14/clear.mp3",
+          "size": 27334,
+          "duration": 1.71
+        },
+        {
+          "sentenceId": "st-14",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-14/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "st-15",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-15/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "st-15",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-15/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "st-16",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-16/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "st-16",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-16/natural.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "st-17",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-17/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "st-17",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-17/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "st-18",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-18/clear.mp3",
+          "size": 22726,
+          "duration": 1.42
+        },
+        {
+          "sentenceId": "st-18",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-18/natural.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "st-19",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-19/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "st-19",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-19/natural.mp3",
+          "size": 27910,
+          "duration": 1.74
+        },
+        {
+          "sentenceId": "st-20",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-20/clear.mp3",
+          "size": 27334,
+          "duration": 1.71
+        },
+        {
+          "sentenceId": "st-20",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/stress/st-20/natural.mp3",
+          "size": 21574,
+          "duration": 1.35
+        }
+      ]
+    },
+    "rhythm": {
+      "filled": 40,
+      "missing": 0,
+      "items": [
+        {
+          "sentenceId": "rh-01",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-01/clear.mp3",
+          "size": 31942,
+          "duration": 2
+        },
+        {
+          "sentenceId": "rh-01",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-01/natural.mp3",
+          "size": 28486,
+          "duration": 1.78
+        },
+        {
+          "sentenceId": "rh-02",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-02/clear.mp3",
+          "size": 31942,
+          "duration": 2
+        },
+        {
+          "sentenceId": "rh-02",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-02/natural.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "rh-03",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-03/clear.mp3",
+          "size": 26758,
+          "duration": 1.67
+        },
+        {
+          "sentenceId": "rh-03",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-03/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "rh-04",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-04/clear.mp3",
+          "size": 25606,
+          "duration": 1.6
+        },
+        {
+          "sentenceId": "rh-04",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-04/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "rh-05",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-05/clear.mp3",
+          "size": 25030,
+          "duration": 1.56
+        },
+        {
+          "sentenceId": "rh-05",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-05/natural.mp3",
+          "size": 23878,
+          "duration": 1.49
+        },
+        {
+          "sentenceId": "rh-06",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-06/clear.mp3",
+          "size": 34822,
+          "duration": 2.18
+        },
+        {
+          "sentenceId": "rh-06",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-06/natural.mp3",
+          "size": 31366,
+          "duration": 1.96
+        },
+        {
+          "sentenceId": "rh-07",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-07/clear.mp3",
+          "size": 35974,
+          "duration": 2.25
+        },
+        {
+          "sentenceId": "rh-07",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-07/natural.mp3",
+          "size": 26182,
+          "duration": 1.64
+        },
+        {
+          "sentenceId": "rh-08",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-08/clear.mp3",
+          "size": 27910,
+          "duration": 1.74
+        },
+        {
+          "sentenceId": "rh-08",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-08/natural.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "rh-09",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-09/clear.mp3",
+          "size": 38278,
+          "duration": 2.39
+        },
+        {
+          "sentenceId": "rh-09",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-09/natural.mp3",
+          "size": 26182,
+          "duration": 1.64
+        },
+        {
+          "sentenceId": "rh-10",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-10/clear.mp3",
+          "size": 29638,
+          "duration": 1.85
+        },
+        {
+          "sentenceId": "rh-10",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-10/natural.mp3",
+          "size": 23878,
+          "duration": 1.49
+        },
+        {
+          "sentenceId": "rh-11",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-11/clear.mp3",
+          "size": 25606,
+          "duration": 1.6
+        },
+        {
+          "sentenceId": "rh-11",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-11/natural.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "rh-12",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-12/clear.mp3",
+          "size": 35398,
+          "duration": 2.21
+        },
+        {
+          "sentenceId": "rh-12",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-12/natural.mp3",
+          "size": 25606,
+          "duration": 1.6
+        },
+        {
+          "sentenceId": "rh-13",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-13/clear.mp3",
+          "size": 34822,
+          "duration": 2.18
+        },
+        {
+          "sentenceId": "rh-13",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-13/natural.mp3",
+          "size": 26758,
+          "duration": 1.67
+        },
+        {
+          "sentenceId": "rh-14",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-14/clear.mp3",
+          "size": 31366,
+          "duration": 1.96
+        },
+        {
+          "sentenceId": "rh-14",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-14/natural.mp3",
+          "size": 23878,
+          "duration": 1.49
+        },
+        {
+          "sentenceId": "rh-15",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-15/clear.mp3",
+          "size": 33094,
+          "duration": 2.07
+        },
+        {
+          "sentenceId": "rh-15",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-15/natural.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "rh-16",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-16/clear.mp3",
+          "size": 37702,
+          "duration": 2.36
+        },
+        {
+          "sentenceId": "rh-16",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-16/natural.mp3",
+          "size": 26182,
+          "duration": 1.64
+        },
+        {
+          "sentenceId": "rh-17",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-17/clear.mp3",
+          "size": 29638,
+          "duration": 1.85
+        },
+        {
+          "sentenceId": "rh-17",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-17/natural.mp3",
+          "size": 31366,
+          "duration": 1.96
+        },
+        {
+          "sentenceId": "rh-18",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-18/clear.mp3",
+          "size": 29638,
+          "duration": 1.85
+        },
+        {
+          "sentenceId": "rh-18",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-18/natural.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "rh-19",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-19/clear.mp3",
+          "size": 34822,
+          "duration": 2.18
+        },
+        {
+          "sentenceId": "rh-19",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-19/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "rh-20",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-20/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "rh-20",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-20/natural.mp3",
+          "size": 23302,
+          "duration": 1.46
+        }
+      ]
+    },
+    "informal": {
+      "filled": 40,
+      "missing": 0,
+      "items": [
+        {
+          "sentenceId": "if-01",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-01/clear.mp3",
+          "size": 25030,
+          "duration": 1.56
+        },
+        {
+          "sentenceId": "if-01",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-01/natural.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "if-02",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-02/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "if-02",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-02/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "if-03",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-03/clear.mp3",
+          "size": 26758,
+          "duration": 1.67
+        },
+        {
+          "sentenceId": "if-03",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-03/natural.mp3",
+          "size": 23878,
+          "duration": 1.49
+        },
+        {
+          "sentenceId": "if-04",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-04/clear.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "if-04",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-04/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "if-05",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-05/clear.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "if-05",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-05/natural.mp3",
+          "size": 15814,
+          "duration": 0.99
+        },
+        {
+          "sentenceId": "if-06",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-06/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "if-06",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-06/natural.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "if-07",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-07/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "if-07",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-07/natural.mp3",
+          "size": 20998,
+          "duration": 1.31
+        },
+        {
+          "sentenceId": "if-08",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-08/clear.mp3",
+          "size": 16966,
+          "duration": 1.06
+        },
+        {
+          "sentenceId": "if-08",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-08/natural.mp3",
+          "size": 12934,
+          "duration": 0.81
+        },
+        {
+          "sentenceId": "if-09",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-09/clear.mp3",
+          "size": 27910,
+          "duration": 1.74
+        },
+        {
+          "sentenceId": "if-09",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-09/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "if-10",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-10/clear.mp3",
+          "size": 25030,
+          "duration": 1.56
+        },
+        {
+          "sentenceId": "if-10",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-10/natural.mp3",
+          "size": 18694,
+          "duration": 1.17
+        },
+        {
+          "sentenceId": "if-11",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-11/clear.mp3",
+          "size": 23302,
+          "duration": 1.46
+        },
+        {
+          "sentenceId": "if-11",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-11/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "if-12",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-12/clear.mp3",
+          "size": 26758,
+          "duration": 1.67
+        },
+        {
+          "sentenceId": "if-12",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-12/natural.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "if-13",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-13/clear.mp3",
+          "size": 26758,
+          "duration": 1.67
+        },
+        {
+          "sentenceId": "if-13",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-13/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "if-14",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-14/clear.mp3",
+          "size": 16966,
+          "duration": 1.06
+        },
+        {
+          "sentenceId": "if-14",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-14/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        },
+        {
+          "sentenceId": "if-15",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-15/clear.mp3",
+          "size": 24454,
+          "duration": 1.53
+        },
+        {
+          "sentenceId": "if-15",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-15/natural.mp3",
+          "size": 18118,
+          "duration": 1.13
+        },
+        {
+          "sentenceId": "if-16",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-16/clear.mp3",
+          "size": 35398,
+          "duration": 2.21
+        },
+        {
+          "sentenceId": "if-16",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-16/natural.mp3",
+          "size": 21574,
+          "duration": 1.35
+        },
+        {
+          "sentenceId": "if-17",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-17/clear.mp3",
+          "size": 19270,
+          "duration": 1.2
+        },
+        {
+          "sentenceId": "if-17",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-17/natural.mp3",
+          "size": 23878,
+          "duration": 1.49
+        },
+        {
+          "sentenceId": "if-18",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-18/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "if-18",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-18/natural.mp3",
+          "size": 16390,
+          "duration": 1.02
+        },
+        {
+          "sentenceId": "if-19",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-19/clear.mp3",
+          "size": 16966,
+          "duration": 1.06
+        },
+        {
+          "sentenceId": "if-19",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-19/natural.mp3",
+          "size": 14086,
+          "duration": 0.88
+        },
+        {
+          "sentenceId": "if-20",
+          "version": "clear",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-20/clear.mp3",
+          "size": 19846,
+          "duration": 1.24
+        },
+        {
+          "sentenceId": "if-20",
+          "version": "natural",
+          "url": "https://english.wujiong.cn/audio/natural/informal/if-20/natural.mp3",
+          "size": 14662,
+          "duration": 0.92
+        }
+      ]
+    }
+  },
+  "avgSize": 21161,
+  "avgDuration": 1.32,
+  "totalSizeMB": 7.265,
+  "missingItems": [],
+  "durationMs": 196
+}
