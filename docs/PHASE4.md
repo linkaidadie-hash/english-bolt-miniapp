@@ -170,6 +170,120 @@
 
 ---
 
+## 阶段四 B — 音频样板验收 (2026-07-17 user 启动)
+
+### B 阶段硬规则 (user 2026-07-17 决策)
+
+1. ❌ **禁止直接批量生成 360 条音频**, 必须先做"音频样板验收"
+2. ✅ 只生成 12 条样板 (6 类各 2 条, 24 个 mp3)
+3. ✅ 音频生成服务**不得写死**, 必须建统一 provider 抽象层
+4. ✅ 实际成本不能用估算, 必须按 180 条真实字符数 + 官方定价 + 重试量重算
+5. ✅ 12 条样板经人工验收前, **不**生成剩余 336 条
+
+### B 阶段交付清单
+
+| # | 交付物 | 状态 |
+|---|--------|------|
+| 1 | 180 条机械审计报告 (`docs/AUDIT-natural-sentences.md`) | ✅ 真异常=0, 30 条音节层教学标注为设计需要 |
+| 2 | 可替换 TTS 适配层 (`tools/natural-tts-provider.mjs`) | ✅ 13 字段元数据固定顺序, provider 可换 |
+| 3 | 12 条样板选择 (`data/natural-samples-12.json`) | ✅ 6 类各 2, 24 个 mp3 |
+| 4 | 12 条 clear + natural 音频 | ✅ 24/24 成功 |
+| 5 | 音频元数据 (24 份 per-file `*.meta.json` + 1 份汇总) | ✅ |
+| 6 | 部署到 VPS (`scp` → `/var/www/english-trainer/audio/natural/`) | ✅ |
+| 7 | HTTP 200 校验 (`tools/check-natural-audio.mjs`) | ✅ 24/24 通过 |
+| 8 | 12 条 audio 字段回填 (`tools/backfill-natural-audio.mjs`) | ✅ 12 ready, 168 pending |
+| 9 | 内部样板验收页 (`pages/natural/sample-review.{js,wxml,wxss,json}`) | ✅ 12 卡片, 4 状态 |
+| 10 | 实际成本报告 (`docs/AUDIO-COST-12.md`) | ✅ 重算, 不复用旧估 |
+
+### 12 条样板选择
+
+| # | 课程 | 句 id | 类别 | 验证的变化 |
+|---|---|---|---|---|
+| 1 | weak-form | wf-01 | 弱读 | can → c'n, you → ya |
+| 2 | weak-form | wf-08 | 弱读 | have to → hafta |
+| 3 | linking | lk-01 | 连读 | turn+it+on 跨词连读 |
+| 4 | linking | lk-04 | 连读 | an+apple n 跨词 |
+| 5 | elision | el-01 | 吞音 | next 中 t 在 k/d 间消失 |
+| 6 | elision | el-08 | 吞音 | don't 中 t 不爆破 |
+| 7 | flap | fl-01 | 闪音 | water t 闪音化 (单词级) |
+| 8 | flap | fl-04 | 闪音 | get it t 闪音化 (词组级) |
+| 9 | assimilation | as-01 | 同化 | did+you → didja |
+| 10 | assimilation | as-09 | 同化 | meet+you → meetcha |
+| 11 | stress | st-01 | 句子重音 | want, go 重音 |
+| 12 | rhythm | rh-01 | 节奏与意群 | need, talk, about 三重音 |
+
+### TTS 适配层 (provider 可替换)
+
+```
+TTSProvider (abstract)
+├── MiniMaxTTSProvider       (当前用, 走 MiniMax MCP batch_synthesize_speech)
+│   - voice: English_Trustworthy_Man (clear) / English_Diligent_Man (natural)
+│   - speed: 0.85 (clear) / 1.05 (natural)
+│   - emotion: neutral
+│   - model: speech-2.8-turbo (or hd, 实际走哪个未确认)
+│
+└── OpenAITTSProvider        (占位, 需 vault 配 OPENAI_API_KEY)
+    - 切换 provider 只需改 buildMeta 的 provider 字段, 数据 + 页面无影响
+```
+
+**已知限制 (MiniMax TTS)**:
+- ❌ 不支持 IPA 输入, "自然语速" 只能靠 naturalText 的拼写压缩 (didja/wanna/lemme) + speed 调整
+- ❌ 不支持 instructions 驱动, "shoulda" 听起来不一定像真 shoulda
+- ✅ 支持多语种 / 多 voice, 6 个英文 voice 可选
+- ✅ 成本极低 (12 条仅 ¥0.05-0.10)
+
+### 实际成本 (12 条实测)
+
+| 模型 | 单价 | 12 条总成本 | 180 条外推 |
+|---|---|---|---|
+| speech-2.8-turbo | 2 元/万字符 | ¥0.0544 | ¥0.82 |
+| speech-2.8-hd | 3.5 元/万字符 | ¥0.0952 | ¥1.43 |
+
+- 字符数: 12 条 272 字符 (clear 142 + natural 130)
+- 重试: 0 次 (24/24 一次成功)
+- 旧估 (PHASE4.md) "$0.32" 对应 OpenAI TTS-1, **与 MiniMax 不可比**, 已废弃
+
+### 内部验收页 (sample-review)
+
+- 路由: `/pages/natural/sample-review` (从自然首页底部 "🔧 内部验收" 链接进入)
+- 12 卡片, 每条:
+  - 显示原文/自然/变化
+  - ▶ 慢速 / ▶ 自然 / ⇄ 切换 三个播放按钮
+  - ✅ 通过 / 🔄 需重做 / ⏳ 待审 三状态
+  - 备注 textarea
+- 数据存 `wx.storage` key `natural-samples-review-v1`
+- 一键导出 JSON (剪贴板)
+
+### B 阶段停止点 (user 指令)
+
+完成下列后**不**继续批量生产, 等 user 人工验收样板音频:
+
+- [x] 180 条数据机械审计报告
+- [x] 12 条 clear + 12 条 natural 音频 (24 个 mp3, 24/24 HTTP 200)
+- [x] 24 份音频元数据
+- [x] 内部样板验收页
+- [x] 实际成本报告 (不重用旧估)
+
+**等 user 验收样板声音后, 再确定**:
+- 最终 voice (English_Trustworthy_Man / Diligent_Man / 换人声)
+- 最终 provider (MiniMax / OpenAI / ElevenLabs)
+- 剩余 336 条的批量生产方案 (单批 size / 重试策略 / 部署流水线)
+- audioSegmented 是否需要生成
+
+**B 阶段不做的**:
+- ❌ 训练模式页面 (留到 B 阶段全部音频就绪后)
+- ❌ 跟读录音 (留到 B 阶段)
+- ❌ 任何把 12 条当成"完整训练"对外开放的改动
+
+---
+
+**buildTag**: `phase4a-skeleton-2026-07-17` (A 已确认) + `phase4b-samples-12-2026-07-17` (B 进行中)
+**stage**: B 阶段 12 条样板已就绪, 等 user 人工验收
+**next gate**: user 验收 12 条样板音频 (听 + 给 pass/redo/notes)
+**status**: ⏸  B 阶段 12 条样板完成, **停止等待人工验收**
+
+---
+
 ## 给 user 的问题 (启动 B 阶段前需澄清)
 
 1. **180 条内容** — 措辞、IPA、变化点是否需要调整? 哪几类需要补充更多例子?
