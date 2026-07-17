@@ -98,19 +98,62 @@ function _rebuild() {
   return _getCtx();
 }
 
-function _armPlayTimeout(myToken) {
-  // 2000ms 内 onPlay 不 fire → 强制 emit error（救回静默失败）
-  // 注: 800ms 太紧, 首次 HTTPS 下载 + 微信 audio context 冷启动常 1-2s
+function _armPlayTimeout(myToken, opts) {
+  // onPlay 兜底超时 + 自动 retry 机制 (阶段四 B 加)
+  //
+  // 历史:
+  //   - 阶段三: 800ms 太紧, 冷启动首播误报
+  //   - 阶段四 B 第一次: 2000ms 还不够, dev tools 模拟器/HTTPS 慢
+  //   - 阶段四 B 第二次 (当前): 2000ms 内不 fire → 自动 rebuild + retry 1 次
+  //
+  // 原理:
+  //   - onPlay 在 2000ms 内没 fire 大概率是 ctx 状态坏了 (真静默失败)
+  //   - 直接 fail 体验差, 不如 rebuild + 重试
+  //   - retry 时 ctx 是新建的, 通常 200-500ms 就能 fire
+  //   - 重试也失败 (timeout * 2) 才报 error
+  //
+  // opts: { onRetry: (newToken) => void, url: string }
+  const timeoutMs = (opts && opts.timeoutMs) || 2000;
+  const isRetry = opts && opts.isRetry;
+  const onRetry = opts && opts.onRetry;
+  const url = opts && opts.url;
+
   if (_playTimeouts.has(myToken)) clearTimeout(_playTimeouts.get(myToken));
   const t = setTimeout(() => {
     _playTimeouts.delete(myToken);
-    if (_state.token !== myToken) return;
-    if (_state.phase !== 'loading') return;
-    console.warn('[tts] onPlay 2000ms 未 fire — 兜底 emit error, myToken=', myToken);
-    _state.phase = 'error';
-    _state.error = 'audio play 静默失败 (onPlay timeout 2000ms)';
-    _emit({ type: 'error', token: myToken, error: _state.error });
-  }, 2000);
+    if (_state.token !== myToken) return;  // 已 stale, 忽略
+    if (_state.phase !== 'loading') return;  // 已 ended/error, 忽略
+    if (!isRetry) {
+      // 第一次超时 → 重建 ctx + 重试 (新 token, 旧 token 事件自动失效)
+      console.warn('[tts] onPlay ' + timeoutMs + 'ms 未 fire — rebuild + retry, myToken=', myToken);
+      _state.phase = 'retrying';
+      const retryToken = ++_token;
+      _state = { token: retryToken, phase: 'loading', error: null };
+      _rebuild();
+      // 在新 ctx 上重发 url
+      setTimeout(() => {
+        const ctx = _getCtx();
+        if (ctx && url) {
+          try { ctx.stop(); } catch (e) {}
+          try { ctx.src = url; } catch (e) {}
+          setTimeout(() => {
+            try { ctx.play(); } catch (e) {}
+            _armPlayTimeout(retryToken, { timeoutMs, isRetry: true, url });
+          }, 50);
+        } else {
+          _state.phase = 'error';
+          _state.error = 'rebuild 后 ctx 仍不可用';
+          _emit({ type: 'error', token: retryToken, error: _state.error });
+        }
+      }, 0);
+    } else {
+      // 重试也超时 → 真失败
+      console.warn('[tts] onPlay retry ' + timeoutMs + 'ms 仍未 fire — 真失败, myToken=', myToken);
+      _state.phase = 'error';
+      _state.error = 'audio play 静默失败 (onPlay timeout ' + timeoutMs + 'ms × 2)';
+      _emit({ type: 'error', token: myToken, error: _state.error });
+    }
+  }, timeoutMs);
   _playTimeouts.set(myToken, t);
 }
 
@@ -122,12 +165,16 @@ function prewarm() {
       const ctx = _getCtx();
       if (!ctx) { _prewarmPromise = null; resolve(); return; }
       ctx.src = 'https://english.wujiong.cn/audio/the.mp3';
+      // 阶段四 B 改: 静音 prewarm, 不让 "the" 声音每次重启都响
+      const savedVolume = (typeof ctx.volume === 'number') ? ctx.volume : 1;
+      try { ctx.volume = 0; } catch (e) {}
       setTimeout(() => {
         let p;
         try { p = ctx.play(); } catch (e) {}
         if (p && typeof p.catch === 'function') p.catch(() => {});
         setTimeout(() => {
           try { ctx.stop(); } catch (e) {}
+          try { ctx.volume = savedVolume; } catch (e) {}
           _warmed = true;
           _prewarmPromise = null;
           resolve();
@@ -149,7 +196,7 @@ function speak(url, opts = {}) {
 
   const myToken = ++_token;
   _state = { token: myToken, phase: 'loading', error: null };
-  _armPlayTimeout(myToken);  // 800ms onPlay 兜底
+  _armPlayTimeout(myToken, { url, timeoutMs: 2000, isRetry: false });  // 2000ms onPlay 兜底 + 超时自动 retry
 
   // 一次性 listener
   const handler = (evt) => {
