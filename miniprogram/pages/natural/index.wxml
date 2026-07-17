@@ -1,4 +1,9 @@
 <view class="page">
+  <!-- 调试标记: 永远显示, 确认页面是否渲染 -->
+  <view style="background:#000;color:#0f0;padding:20rpx;font-size:24rpx;">
+    [DEBUG] 页面渲染中... summary={{summary ? 'YES' : 'null'}} lessons={{lessons.length}} loadError={{loadError || 'null'}}
+  </view>
+
   <!-- 错误显示 -->
   <view class="error-box" wx:if="{{loadError}}">
     <text class="error-title">⚠️ 加载失败</text>
