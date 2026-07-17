@@ -49,6 +49,11 @@ Page({
     });
   },
 
+  onOpenTrain(e) {
+    const mode = e.currentTarget.dataset.mode;
+    wx.navigateTo({ url: `/pages/natural/train?mode=${mode}` });
+  },
+
   onShareAppMessage() {
     return {
       title: '英语快充 · 自然口语解码',
