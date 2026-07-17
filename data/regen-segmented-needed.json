@@ -1,0 +1,1677 @@
+{
+  "generatedAt": "2026-07-17T11:50:44.640Z",
+  "totalRequests": 276,
+  "byLesson": {
+    "weak-form": [],
+    "contraction": [],
+    "linking": [
+      {
+        "sentenceId": "lk-12",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Far"
+      },
+      {
+        "sentenceId": "lk-12",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Far"
+      },
+      {
+        "sentenceId": "lk-12",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "away"
+      },
+      {
+        "sentenceId": "lk-12",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "away"
+      }
+    ],
+    "assimilation": [],
+    "elision": [
+      {
+        "sentenceId": "el-03",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Friendship"
+      },
+      {
+        "sentenceId": "el-03",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Friendship"
+      },
+      {
+        "sentenceId": "el-06",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Handsome"
+      },
+      {
+        "sentenceId": "el-06",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Handsome"
+      }
+    ],
+    "flap": [
+      {
+        "sentenceId": "fl-01",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Water"
+      },
+      {
+        "sentenceId": "fl-01",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Water"
+      },
+      {
+        "sentenceId": "fl-02",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Better"
+      },
+      {
+        "sentenceId": "fl-02",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Better"
+      },
+      {
+        "sentenceId": "fl-03",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Pretty"
+      },
+      {
+        "sentenceId": "fl-03",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Pretty"
+      },
+      {
+        "sentenceId": "fl-04",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Get"
+      },
+      {
+        "sentenceId": "fl-04",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Get"
+      },
+      {
+        "sentenceId": "fl-04",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "it"
+      },
+      {
+        "sentenceId": "fl-04",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "it"
+      },
+      {
+        "sentenceId": "fl-05",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "City"
+      },
+      {
+        "sentenceId": "fl-05",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "City"
+      },
+      {
+        "sentenceId": "fl-06",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Letter"
+      },
+      {
+        "sentenceId": "fl-06",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Letter"
+      },
+      {
+        "sentenceId": "fl-07",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Matter"
+      },
+      {
+        "sentenceId": "fl-07",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Matter"
+      },
+      {
+        "sentenceId": "fl-08",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Little"
+      },
+      {
+        "sentenceId": "fl-08",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Little"
+      },
+      {
+        "sentenceId": "fl-09",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Bottle"
+      },
+      {
+        "sentenceId": "fl-09",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Bottle"
+      },
+      {
+        "sentenceId": "fl-10",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Title"
+      },
+      {
+        "sentenceId": "fl-10",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Title"
+      },
+      {
+        "sentenceId": "fl-11",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Forty"
+      },
+      {
+        "sentenceId": "fl-11",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Forty"
+      },
+      {
+        "sentenceId": "fl-12",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Saturday"
+      },
+      {
+        "sentenceId": "fl-12",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Saturday"
+      },
+      {
+        "sentenceId": "fl-13",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Not"
+      },
+      {
+        "sentenceId": "fl-13",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Not"
+      },
+      {
+        "sentenceId": "fl-13",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "at"
+      },
+      {
+        "sentenceId": "fl-13",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "at"
+      },
+      {
+        "sentenceId": "fl-13",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "all"
+      },
+      {
+        "sentenceId": "fl-13",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "all"
+      },
+      {
+        "sentenceId": "fl-14",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Put"
+      },
+      {
+        "sentenceId": "fl-14",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Put"
+      },
+      {
+        "sentenceId": "fl-14",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "it"
+      },
+      {
+        "sentenceId": "fl-14",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "it"
+      },
+      {
+        "sentenceId": "fl-14",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "down"
+      },
+      {
+        "sentenceId": "fl-14",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "down"
+      },
+      {
+        "sentenceId": "fl-15",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I'm"
+      },
+      {
+        "sentenceId": "fl-15",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I'm"
+      },
+      {
+        "sentenceId": "fl-15",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "going"
+      },
+      {
+        "sentenceId": "fl-15",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "going"
+      },
+      {
+        "sentenceId": "fl-15",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "to"
+      },
+      {
+        "sentenceId": "fl-15",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "to"
+      },
+      {
+        "sentenceId": "fl-16",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Bet"
+      },
+      {
+        "sentenceId": "fl-16",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Bet"
+      },
+      {
+        "sentenceId": "fl-16",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "you"
+      },
+      {
+        "sentenceId": "fl-16",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "you"
+      },
+      {
+        "sentenceId": "fl-17",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I"
+      },
+      {
+        "sentenceId": "fl-17",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I"
+      },
+      {
+        "sentenceId": "fl-17",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "gotta"
+      },
+      {
+        "sentenceId": "fl-17",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "gotta"
+      },
+      {
+        "sentenceId": "fl-17",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "go"
+      },
+      {
+        "sentenceId": "fl-17",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "go"
+      },
+      {
+        "sentenceId": "fl-18",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Don't"
+      },
+      {
+        "sentenceId": "fl-18",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Don't"
+      },
+      {
+        "sentenceId": "fl-18",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "forget"
+      },
+      {
+        "sentenceId": "fl-18",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "forget"
+      },
+      {
+        "sentenceId": "fl-19",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Right"
+      },
+      {
+        "sentenceId": "fl-19",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Right"
+      },
+      {
+        "sentenceId": "fl-19",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "there"
+      },
+      {
+        "sentenceId": "fl-19",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "there"
+      },
+      {
+        "sentenceId": "fl-20",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "What"
+      },
+      {
+        "sentenceId": "fl-20",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "What"
+      },
+      {
+        "sentenceId": "fl-20",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "time"
+      },
+      {
+        "sentenceId": "fl-20",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "time"
+      },
+      {
+        "sentenceId": "fl-20",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "is"
+      },
+      {
+        "sentenceId": "fl-20",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "is"
+      },
+      {
+        "sentenceId": "fl-20",
+        "chunkIndex": 3,
+        "version": "clear",
+        "text": "it"
+      },
+      {
+        "sentenceId": "fl-20",
+        "chunkIndex": 3,
+        "version": "natural",
+        "text": "it"
+      }
+    ],
+    "stress": [
+      {
+        "sentenceId": "st-13",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "We"
+      },
+      {
+        "sentenceId": "st-13",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "We"
+      },
+      {
+        "sentenceId": "st-13",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "leave"
+      },
+      {
+        "sentenceId": "st-13",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "leave"
+      },
+      {
+        "sentenceId": "st-13",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "tomorrow"
+      },
+      {
+        "sentenceId": "st-13",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "tomorrow"
+      }
+    ],
+    "rhythm": [
+      {
+        "sentenceId": "rh-01",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I need to"
+      },
+      {
+        "sentenceId": "rh-01",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I need to"
+      },
+      {
+        "sentenceId": "rh-01",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "talk to him"
+      },
+      {
+        "sentenceId": "rh-01",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "talk to him"
+      },
+      {
+        "sentenceId": "rh-01",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "about it"
+      },
+      {
+        "sentenceId": "rh-01",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "about it"
+      },
+      {
+        "sentenceId": "rh-02",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Give me"
+      },
+      {
+        "sentenceId": "rh-02",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Give me"
+      },
+      {
+        "sentenceId": "rh-02",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "a cup of"
+      },
+      {
+        "sentenceId": "rh-02",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "a cup of"
+      },
+      {
+        "sentenceId": "rh-02",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "coffee"
+      },
+      {
+        "sentenceId": "rh-02",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "coffee"
+      },
+      {
+        "sentenceId": "rh-03",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Take it"
+      },
+      {
+        "sentenceId": "rh-03",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Take it"
+      },
+      {
+        "sentenceId": "rh-03",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "to the"
+      },
+      {
+        "sentenceId": "rh-03",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "to the"
+      },
+      {
+        "sentenceId": "rh-03",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "office"
+      },
+      {
+        "sentenceId": "rh-03",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "office"
+      },
+      {
+        "sentenceId": "rh-04",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Look at"
+      },
+      {
+        "sentenceId": "rh-04",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Look at"
+      },
+      {
+        "sentenceId": "rh-04",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "this picture"
+      },
+      {
+        "sentenceId": "rh-04",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "this picture"
+      },
+      {
+        "sentenceId": "rh-05",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Tell me"
+      },
+      {
+        "sentenceId": "rh-05",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Tell me"
+      },
+      {
+        "sentenceId": "rh-05",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "what you"
+      },
+      {
+        "sentenceId": "rh-05",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "what you"
+      },
+      {
+        "sentenceId": "rh-05",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "think"
+      },
+      {
+        "sentenceId": "rh-05",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "think"
+      },
+      {
+        "sentenceId": "rh-06",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I went to the store"
+      },
+      {
+        "sentenceId": "rh-06",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I went to the store"
+      },
+      {
+        "sentenceId": "rh-06",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "yesterday"
+      },
+      {
+        "sentenceId": "rh-06",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "yesterday"
+      },
+      {
+        "sentenceId": "rh-07",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "He's working"
+      },
+      {
+        "sentenceId": "rh-07",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "He's working"
+      },
+      {
+        "sentenceId": "rh-07",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "on a new"
+      },
+      {
+        "sentenceId": "rh-07",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "on a new"
+      },
+      {
+        "sentenceId": "rh-07",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "project"
+      },
+      {
+        "sentenceId": "rh-07",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "project"
+      },
+      {
+        "sentenceId": "rh-08",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I want to be a"
+      },
+      {
+        "sentenceId": "rh-08",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I want to be a"
+      },
+      {
+        "sentenceId": "rh-08",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "doctor"
+      },
+      {
+        "sentenceId": "rh-08",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "doctor"
+      },
+      {
+        "sentenceId": "rh-09",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "She's from"
+      },
+      {
+        "sentenceId": "rh-09",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "She's from"
+      },
+      {
+        "sentenceId": "rh-09",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "a small"
+      },
+      {
+        "sentenceId": "rh-09",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "a small"
+      },
+      {
+        "sentenceId": "rh-09",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "town"
+      },
+      {
+        "sentenceId": "rh-09",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "town"
+      },
+      {
+        "sentenceId": "rh-10",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I'll meet you"
+      },
+      {
+        "sentenceId": "rh-10",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I'll meet you"
+      },
+      {
+        "sentenceId": "rh-10",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "at the"
+      },
+      {
+        "sentenceId": "rh-10",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "at the"
+      },
+      {
+        "sentenceId": "rh-10",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "airport"
+      },
+      {
+        "sentenceId": "rh-10",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "airport"
+      },
+      {
+        "sentenceId": "rh-11",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "We had a"
+      },
+      {
+        "sentenceId": "rh-11",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "We had a"
+      },
+      {
+        "sentenceId": "rh-11",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "great"
+      },
+      {
+        "sentenceId": "rh-11",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "great"
+      },
+      {
+        "sentenceId": "rh-11",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "time"
+      },
+      {
+        "sentenceId": "rh-11",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "time"
+      },
+      {
+        "sentenceId": "rh-12",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I'm looking"
+      },
+      {
+        "sentenceId": "rh-12",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I'm looking"
+      },
+      {
+        "sentenceId": "rh-12",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "for a new"
+      },
+      {
+        "sentenceId": "rh-12",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "for a new"
+      },
+      {
+        "sentenceId": "rh-12",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "job"
+      },
+      {
+        "sentenceId": "rh-12",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "job"
+      },
+      {
+        "sentenceId": "rh-13",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I just"
+      },
+      {
+        "sentenceId": "rh-13",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I just"
+      },
+      {
+        "sentenceId": "rh-13",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "got back"
+      },
+      {
+        "sentenceId": "rh-13",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "got back"
+      },
+      {
+        "sentenceId": "rh-13",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "from vacation"
+      },
+      {
+        "sentenceId": "rh-13",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "from vacation"
+      },
+      {
+        "sentenceId": "rh-14",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "They live in"
+      },
+      {
+        "sentenceId": "rh-14",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "They live in"
+      },
+      {
+        "sentenceId": "rh-14",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "a big"
+      },
+      {
+        "sentenceId": "rh-14",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "a big"
+      },
+      {
+        "sentenceId": "rh-14",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "house"
+      },
+      {
+        "sentenceId": "rh-14",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "house"
+      },
+      {
+        "sentenceId": "rh-15",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I read a book"
+      },
+      {
+        "sentenceId": "rh-15",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I read a book"
+      },
+      {
+        "sentenceId": "rh-15",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "last night"
+      },
+      {
+        "sentenceId": "rh-15",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "last night"
+      },
+      {
+        "sentenceId": "rh-16",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "She plays the piano"
+      },
+      {
+        "sentenceId": "rh-16",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "She plays the piano"
+      },
+      {
+        "sentenceId": "rh-16",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "very well"
+      },
+      {
+        "sentenceId": "rh-16",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "very well"
+      },
+      {
+        "sentenceId": "rh-17",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I want"
+      },
+      {
+        "sentenceId": "rh-17",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I want"
+      },
+      {
+        "sentenceId": "rh-17",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "some"
+      },
+      {
+        "sentenceId": "rh-17",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "some"
+      },
+      {
+        "sentenceId": "rh-17",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "ice cream"
+      },
+      {
+        "sentenceId": "rh-17",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "ice cream"
+      },
+      {
+        "sentenceId": "rh-18",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "He works"
+      },
+      {
+        "sentenceId": "rh-18",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "He works"
+      },
+      {
+        "sentenceId": "rh-18",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "at a"
+      },
+      {
+        "sentenceId": "rh-18",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "at a"
+      },
+      {
+        "sentenceId": "rh-18",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "bank"
+      },
+      {
+        "sentenceId": "rh-18",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "bank"
+      },
+      {
+        "sentenceId": "rh-19",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I'm going to the"
+      },
+      {
+        "sentenceId": "rh-19",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I'm going to the"
+      },
+      {
+        "sentenceId": "rh-19",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "movies"
+      },
+      {
+        "sentenceId": "rh-19",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "movies"
+      },
+      {
+        "sentenceId": "rh-20",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I'll see you"
+      },
+      {
+        "sentenceId": "rh-20",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I'll see you"
+      },
+      {
+        "sentenceId": "rh-20",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "on Monday"
+      },
+      {
+        "sentenceId": "rh-20",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "on Monday"
+      }
+    ],
+    "informal": [
+      {
+        "sentenceId": "if-01",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I"
+      },
+      {
+        "sentenceId": "if-01",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I"
+      },
+      {
+        "sentenceId": "if-01",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "want to"
+      },
+      {
+        "sentenceId": "if-01",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "want to"
+      },
+      {
+        "sentenceId": "if-01",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "go"
+      },
+      {
+        "sentenceId": "if-01",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "go"
+      },
+      {
+        "sentenceId": "if-02",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I'm"
+      },
+      {
+        "sentenceId": "if-02",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I'm"
+      },
+      {
+        "sentenceId": "if-02",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "going to"
+      },
+      {
+        "sentenceId": "if-02",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "going to"
+      },
+      {
+        "sentenceId": "if-02",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "tell him"
+      },
+      {
+        "sentenceId": "if-02",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "tell him"
+      },
+      {
+        "sentenceId": "if-03",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I"
+      },
+      {
+        "sentenceId": "if-03",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I"
+      },
+      {
+        "sentenceId": "if-03",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "have to"
+      },
+      {
+        "sentenceId": "if-03",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "have to"
+      },
+      {
+        "sentenceId": "if-03",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "work"
+      },
+      {
+        "sentenceId": "if-03",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "work"
+      },
+      {
+        "sentenceId": "if-04",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Let me"
+      },
+      {
+        "sentenceId": "if-04",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Let me"
+      },
+      {
+        "sentenceId": "if-04",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "see"
+      },
+      {
+        "sentenceId": "if-04",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "see"
+      },
+      {
+        "sentenceId": "if-05",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Give me"
+      },
+      {
+        "sentenceId": "if-05",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Give me"
+      },
+      {
+        "sentenceId": "if-05",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "that"
+      },
+      {
+        "sentenceId": "if-05",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "that"
+      },
+      {
+        "sentenceId": "if-06",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "What are you"
+      },
+      {
+        "sentenceId": "if-06",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "What are you"
+      },
+      {
+        "sentenceId": "if-06",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "doing"
+      },
+      {
+        "sentenceId": "if-06",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "doing"
+      },
+      {
+        "sentenceId": "if-07",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Do you"
+      },
+      {
+        "sentenceId": "if-07",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Do you"
+      },
+      {
+        "sentenceId": "if-07",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "know what"
+      },
+      {
+        "sentenceId": "if-07",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "know what"
+      },
+      {
+        "sentenceId": "if-08",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Got you"
+      },
+      {
+        "sentenceId": "if-08",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Got you"
+      },
+      {
+        "sentenceId": "if-09",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I"
+      },
+      {
+        "sentenceId": "if-09",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I"
+      },
+      {
+        "sentenceId": "if-09",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "don't"
+      },
+      {
+        "sentenceId": "if-09",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "don't"
+      },
+      {
+        "sentenceId": "if-09",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "know"
+      },
+      {
+        "sentenceId": "if-09",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "know"
+      },
+      {
+        "sentenceId": "if-10",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Could you"
+      },
+      {
+        "sentenceId": "if-10",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Could you"
+      },
+      {
+        "sentenceId": "if-10",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "help me"
+      },
+      {
+        "sentenceId": "if-10",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "help me"
+      },
+      {
+        "sentenceId": "if-11",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "What are you"
+      },
+      {
+        "sentenceId": "if-11",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "What are you"
+      },
+      {
+        "sentenceId": "if-11",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "going to"
+      },
+      {
+        "sentenceId": "if-11",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "going to"
+      },
+      {
+        "sentenceId": "if-11",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "do"
+      },
+      {
+        "sentenceId": "if-11",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "do"
+      },
+      {
+        "sentenceId": "if-12",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "You all"
+      },
+      {
+        "sentenceId": "if-12",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "You all"
+      },
+      {
+        "sentenceId": "if-12",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "come back"
+      },
+      {
+        "sentenceId": "if-12",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "come back"
+      },
+      {
+        "sentenceId": "if-13",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "What you may call it"
+      },
+      {
+        "sentenceId": "if-13",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "What you may call it"
+      },
+      {
+        "sentenceId": "if-14",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "You"
+      },
+      {
+        "sentenceId": "if-14",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "You"
+      },
+      {
+        "sentenceId": "if-14",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "got it"
+      },
+      {
+        "sentenceId": "if-14",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "got it"
+      },
+      {
+        "sentenceId": "if-15",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "No"
+      },
+      {
+        "sentenceId": "if-15",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "No"
+      },
+      {
+        "sentenceId": "if-15",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "problem"
+      },
+      {
+        "sentenceId": "if-15",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "problem"
+      },
+      {
+        "sentenceId": "if-16",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I"
+      },
+      {
+        "sentenceId": "if-16",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I"
+      },
+      {
+        "sentenceId": "if-16",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "have got to"
+      },
+      {
+        "sentenceId": "if-16",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "have got to"
+      },
+      {
+        "sentenceId": "if-16",
+        "chunkIndex": 2,
+        "version": "clear",
+        "text": "run"
+      },
+      {
+        "sentenceId": "if-16",
+        "chunkIndex": 2,
+        "version": "natural",
+        "text": "run"
+      },
+      {
+        "sentenceId": "if-17",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "See you"
+      },
+      {
+        "sentenceId": "if-17",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "See you"
+      },
+      {
+        "sentenceId": "if-17",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "later"
+      },
+      {
+        "sentenceId": "if-17",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "later"
+      },
+      {
+        "sentenceId": "if-18",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "Take it"
+      },
+      {
+        "sentenceId": "if-18",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "Take it"
+      },
+      {
+        "sentenceId": "if-18",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "easy"
+      },
+      {
+        "sentenceId": "if-18",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "easy"
+      },
+      {
+        "sentenceId": "if-19",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "What is up"
+      },
+      {
+        "sentenceId": "if-19",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "What is up"
+      },
+      {
+        "sentenceId": "if-20",
+        "chunkIndex": 0,
+        "version": "clear",
+        "text": "I"
+      },
+      {
+        "sentenceId": "if-20",
+        "chunkIndex": 0,
+        "version": "natural",
+        "text": "I"
+      },
+      {
+        "sentenceId": "if-20",
+        "chunkIndex": 1,
+        "version": "clear",
+        "text": "said"
+      },
+      {
+        "sentenceId": "if-20",
+        "chunkIndex": 1,
+        "version": "natural",
+        "text": "said"
+      }
+    ]
+  }
+}
