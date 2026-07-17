@@ -3138,8 +3138,8 @@
             "away"
           ],
           "speechChunks": [
-            "Far a",
-            "way"
+            "Far",
+            "away"
           ],
           "pronunciationNotes": [
             "far + away → fa.ra.way"
@@ -3159,27 +3159,27 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Far a",
-              "clearText": "Far a",
-              "naturalText": "Far a",
+              "text": "Far",
+              "clearText": "Far",
+              "naturalText": "Far",
               "clearUrl": "https://english.wujiong.cn/audio/natural/linking/lk-12/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/linking/lk-12/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.53,
-              "naturalDuration": 1.31
+              "clearDuration": 1.35,
+              "naturalDuration": 0.92
             },
             {
               "chunkIndex": 1,
-              "text": "way",
-              "clearText": "way",
-              "naturalText": "way",
+              "text": "away",
+              "clearText": "away",
+              "naturalText": "away",
               "clearUrl": "https://english.wujiong.cn/audio/natural/linking/lk-12/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/linking/lk-12/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.06,
-              "naturalDuration": 0.92
+              "naturalDuration": 0.74
             }
           ]
         },
@@ -4946,8 +4946,7 @@
             "friend"
           ],
           "speechChunks": [
-            "Friend",
-            "ship"
+            "Friendship"
           ],
           "pronunciationNotes": [
             "d 在 n 和 ʃ 之间消失"
@@ -4967,27 +4966,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Friend",
-              "clearText": "Friend",
-              "naturalText": "Friend",
+              "text": "Friendship",
+              "clearText": "Friendship",
+              "naturalText": "Friendship",
               "clearUrl": "https://english.wujiong.cn/audio/natural/elision/el-03/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/elision/el-03/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.95,
-              "naturalDuration": 1.02
-            },
-            {
-              "chunkIndex": 1,
-              "text": "ship",
-              "clearText": "ship",
-              "naturalText": "ship",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/elision/el-03/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/elision/el-03/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 1.1,
-              "naturalDuration": 1.24
+              "clearDuration": 1.2,
+              "naturalDuration": 0.88
             }
           ]
         },
@@ -5117,8 +5104,7 @@
             "hand"
           ],
           "speechChunks": [
-            "Hand",
-            "some"
+            "Handsome"
           ],
           "pronunciationNotes": [
             "d 在 n 和 s 之间消失"
@@ -5138,27 +5124,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Hand",
-              "clearText": "Hand",
-              "naturalText": "Hand",
+              "text": "Handsome",
+              "clearText": "Handsome",
+              "naturalText": "Handsome",
               "clearUrl": "https://english.wujiong.cn/audio/natural/elision/el-06/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/elision/el-06/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.99,
-              "naturalDuration": 0.99
-            },
-            {
-              "chunkIndex": 1,
-              "text": "some",
-              "clearText": "some",
-              "naturalText": "some",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/elision/el-06/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/elision/el-06/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 0.88
+              "clearDuration": 1.17,
+              "naturalDuration": 0.92
             }
           ]
         },
@@ -5987,8 +5961,7 @@
             "water"
           ],
           "speechChunks": [
-            "Wa",
-            "ter"
+            "Water"
           ],
           "pronunciationNotes": [
             "t 闪音化 (听起来像 d)"
@@ -6008,27 +5981,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Wa",
-              "clearText": "Wa",
-              "naturalText": "Wa",
+              "text": "Water",
+              "clearText": "Water",
+              "naturalText": "Water",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-01/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-01/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.99,
-              "naturalDuration": 0.88
-            },
-            {
-              "chunkIndex": 1,
-              "text": "ter",
-              "clearText": "ter",
-              "naturalText": "ter",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-01/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-01/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 0.99,
-              "naturalDuration": 0.84
+              "clearDuration": 1.35,
+              "naturalDuration": 1.13
             }
           ]
         },
@@ -6044,8 +6005,7 @@
             "bet"
           ],
           "speechChunks": [
-            "Bet",
-            "ter"
+            "Better"
           ],
           "pronunciationNotes": [
             "t 闪音化 → be'er"
@@ -6065,27 +6025,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Bet",
-              "clearText": "Bet",
-              "naturalText": "Bet",
+              "text": "Better",
+              "clearText": "Better",
+              "naturalText": "Better",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-02/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-02/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.95,
-              "naturalDuration": 0.95
-            },
-            {
-              "chunkIndex": 1,
-              "text": "ter",
-              "clearText": "ter",
-              "naturalText": "ter",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-02/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-02/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
               "clearDuration": 1.06,
-              "naturalDuration": 0.88
+              "naturalDuration": 1.02
             }
           ]
         },
@@ -6101,8 +6049,7 @@
             "prít"
           ],
           "speechChunks": [
-            "Pri",
-            "tty"
+            "Pretty"
           ],
           "pronunciationNotes": [
             "t 闪音化 → pre'y"
@@ -6122,27 +6069,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Pri",
-              "clearText": "Pri",
-              "naturalText": "Pri",
+              "text": "Pretty",
+              "clearText": "Pretty",
+              "naturalText": "Pretty",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-03/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-03/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 0.95
-            },
-            {
-              "chunkIndex": 1,
-              "text": "tty",
-              "clearText": "tty",
-              "naturalText": "tty",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-03/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-03/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 0.92,
-              "naturalDuration": 0.81
+              "clearDuration": 0.95,
+              "naturalDuration": 1.13
             }
           ]
         },
@@ -6158,8 +6093,8 @@
             "get"
           ],
           "speechChunks": [
-            "Ge",
-            "tit"
+            "Get",
+            "it"
           ],
           "pronunciationNotes": [
             "t 在两元音间闪音 → ge'it"
@@ -6179,27 +6114,27 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Ge",
-              "clearText": "Ge",
-              "naturalText": "Ge",
+              "text": "Get",
+              "clearText": "Get",
+              "naturalText": "Get",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-04/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-04/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 0.81
+              "clearDuration": 1.2,
+              "naturalDuration": 1.02
             },
             {
               "chunkIndex": 1,
-              "text": "tit",
-              "clearText": "tit",
-              "naturalText": "tit",
+              "text": "it",
+              "clearText": "it",
+              "naturalText": "it",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-04/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-04/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.67,
-              "naturalDuration": 1.13
+              "clearDuration": 0.99,
+              "naturalDuration": 0.84
             }
           ]
         },
@@ -6215,8 +6150,7 @@
             "cit"
           ],
           "speechChunks": [
-            "Ci",
-            "ty"
+            "City"
           ],
           "pronunciationNotes": [
             "t 闪音化 → ci'y"
@@ -6236,27 +6170,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Ci",
-              "clearText": "Ci",
-              "naturalText": "Ci",
+              "text": "City",
+              "clearText": "City",
+              "naturalText": "City",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-05/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-05/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.24,
-              "naturalDuration": 1.17
-            },
-            {
-              "chunkIndex": 1,
-              "text": "ty",
-              "clearText": "ty",
-              "naturalText": "ty",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-05/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-05/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 1.42,
-              "naturalDuration": 0.84
+              "clearDuration": 1.1,
+              "naturalDuration": 0.99
             }
           ]
         },
@@ -6272,8 +6194,7 @@
             "let"
           ],
           "speechChunks": [
-            "Let",
-            "ter"
+            "Letter"
           ],
           "pronunciationNotes": [
             "t 闪音化"
@@ -6293,27 +6214,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Let",
-              "clearText": "Let",
-              "naturalText": "Let",
+              "text": "Letter",
+              "clearText": "Letter",
+              "naturalText": "Letter",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-06/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-06/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 0.84
-            },
-            {
-              "chunkIndex": 1,
-              "text": "ter",
-              "clearText": "ter",
-              "naturalText": "ter",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-06/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-06/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 0.88
+              "clearDuration": 1.24,
+              "naturalDuration": 0.99
             }
           ]
         },
@@ -6329,8 +6238,7 @@
             "mat"
           ],
           "speechChunks": [
-            "Mat",
-            "ter"
+            "Matter"
           ],
           "pronunciationNotes": [
             "t 闪音化 → ma'er"
@@ -6350,27 +6258,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Mat",
-              "clearText": "Mat",
-              "naturalText": "Mat",
+              "text": "Matter",
+              "clearText": "Matter",
+              "naturalText": "Matter",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-07/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-07/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.92,
-              "naturalDuration": 0.81
-            },
-            {
-              "chunkIndex": 1,
-              "text": "ter",
-              "clearText": "ter",
-              "naturalText": "ter",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-07/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-07/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 1.35,
-              "naturalDuration": 0.81
+              "clearDuration": 1.06,
+              "naturalDuration": 0.99
             }
           ]
         },
@@ -6386,8 +6282,7 @@
             "lit"
           ],
           "speechChunks": [
-            "Li",
-            "ttle"
+            "Little"
           ],
           "pronunciationNotes": [
             "t 闪音化 → li'tle (注意:有些 RP 也闪)"
@@ -6407,27 +6302,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Li",
-              "clearText": "Li",
-              "naturalText": "Li",
+              "text": "Little",
+              "clearText": "Little",
+              "naturalText": "Little",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-08/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-08/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.99,
-              "naturalDuration": 0.84
-            },
-            {
-              "chunkIndex": 1,
-              "text": "ttle",
-              "clearText": "ttle",
-              "naturalText": "ttle",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-08/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-08/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
               "clearDuration": 0.95,
-              "naturalDuration": 0.81
+              "naturalDuration": 0.95
             }
           ]
         },
@@ -6443,8 +6326,7 @@
             "bot"
           ],
           "speechChunks": [
-            "Bot",
-            "tle"
+            "Bottle"
           ],
           "pronunciationNotes": [
             "t 闪音化 → bo'tle"
@@ -6464,27 +6346,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Bot",
-              "clearText": "Bot",
-              "naturalText": "Bot",
+              "text": "Bottle",
+              "clearText": "Bottle",
+              "naturalText": "Bottle",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-09/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-09/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.06,
-              "naturalDuration": 0.99
-            },
-            {
-              "chunkIndex": 1,
-              "text": "tle",
-              "clearText": "tle",
-              "naturalText": "tle",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-09/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-09/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 1.53,
-              "naturalDuration": 0.84
+              "naturalDuration": 0.92
             }
           ]
         },
@@ -6500,8 +6370,7 @@
             "ti"
           ],
           "speechChunks": [
-            "Ti",
-            "tle"
+            "Title"
           ],
           "pronunciationNotes": [
             "t 闪音化 → ti'tle"
@@ -6521,27 +6390,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Ti",
-              "clearText": "Ti",
-              "naturalText": "Ti",
+              "text": "Title",
+              "clearText": "Title",
+              "naturalText": "Title",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-10/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-10/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 0.74
-            },
-            {
-              "chunkIndex": 1,
-              "text": "tle",
-              "clearText": "tle",
-              "naturalText": "tle",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-10/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-10/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 1.53,
-              "naturalDuration": 0.88
+              "clearDuration": 1.06,
+              "naturalDuration": 0.81
             }
           ]
         },
@@ -6557,8 +6414,7 @@
             "for"
           ],
           "speechChunks": [
-            "For",
-            "ty"
+            "Forty"
           ],
           "pronunciationNotes": [
             "t 闪音化 → for'y"
@@ -6578,27 +6434,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "For",
-              "clearText": "For",
-              "naturalText": "For",
+              "text": "Forty",
+              "clearText": "Forty",
+              "naturalText": "Forty",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-11/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-11/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.2,
-              "naturalDuration": 1.74
-            },
-            {
-              "chunkIndex": 1,
-              "text": "ty",
-              "clearText": "ty",
-              "naturalText": "ty",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-11/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-11/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 1.42,
-              "naturalDuration": 0.84
+              "naturalDuration": 1.02
             }
           ]
         },
@@ -6614,9 +6458,7 @@
             "sat"
           ],
           "speechChunks": [
-            "Sat",
-            "tur",
-            "day"
+            "Saturday"
           ],
           "pronunciationNotes": [
             "第一个 t 闪音化 → sa'turday"
@@ -6636,39 +6478,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Sat",
-              "clearText": "Sat",
-              "naturalText": "Sat",
+              "text": "Saturday",
+              "clearText": "Saturday",
+              "naturalText": "Saturday",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-12/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-12/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
-              "naturalDuration": 0.92
-            },
-            {
-              "chunkIndex": 1,
-              "text": "tur",
-              "clearText": "tur",
-              "naturalText": "tur",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-12/clear-seg1.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-12/natural-seg1.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 0.92,
-              "naturalDuration": 0.88
-            },
-            {
-              "chunkIndex": 2,
-              "text": "day",
-              "clearText": "day",
-              "naturalText": "day",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-12/clear-seg2.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-12/natural-seg2.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 0.84
+              "clearDuration": 1.42,
+              "naturalDuration": 0.99
             }
           ]
         },
@@ -6684,8 +6502,8 @@
             "all"
           ],
           "speechChunks": [
-            "No",
-            "tat",
+            "Not",
+            "at",
             "all"
           ],
           "pronunciationNotes": [
@@ -6707,27 +6525,27 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "No",
-              "clearText": "No",
-              "naturalText": "No",
+              "text": "Not",
+              "clearText": "Not",
+              "naturalText": "Not",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-13/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-13/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.95,
-              "naturalDuration": 0.81
+              "clearDuration": 1.17,
+              "naturalDuration": 0.99
             },
             {
               "chunkIndex": 1,
-              "text": "tat",
-              "clearText": "tat",
-              "naturalText": "tat",
+              "text": "at",
+              "clearText": "at",
+              "naturalText": "at",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-13/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-13/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 1.28
+              "clearDuration": 1.06,
+              "naturalDuration": 0.95
             },
             {
               "chunkIndex": 2,
@@ -6738,8 +6556,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-13/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 1.35
+              "clearDuration": 0.99,
+              "naturalDuration": 0.88
             }
           ]
         },
@@ -6756,8 +6574,8 @@
             "down"
           ],
           "speechChunks": [
-            "Pu",
-            "tit",
+            "Put",
+            "it",
             "down"
           ],
           "pronunciationNotes": [
@@ -6779,27 +6597,27 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Pu",
-              "clearText": "Pu",
-              "naturalText": "Pu",
+              "text": "Put",
+              "clearText": "Put",
+              "naturalText": "Put",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-14/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-14/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.84,
-              "naturalDuration": 0.74
+              "clearDuration": 0.99,
+              "naturalDuration": 0.81
             },
             {
               "chunkIndex": 1,
-              "text": "tit",
-              "clearText": "tit",
-              "naturalText": "tit",
+              "text": "it",
+              "clearText": "it",
+              "naturalText": "it",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-14/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-14/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 2.1,
-              "naturalDuration": 0.81
+              "clearDuration": 1.06,
+              "naturalDuration": 0.74
             },
             {
               "chunkIndex": 2,
@@ -6810,8 +6628,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-14/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.99,
-              "naturalDuration": 0.88
+              "clearDuration": 0.95,
+              "naturalDuration": 0.99
             }
           ]
         },
@@ -6828,8 +6646,8 @@
           ],
           "speechChunks": [
             "I'm",
-            "gon",
-            "na"
+            "going",
+            "to"
           ],
           "pronunciationNotes": [
             "going to → gonna (合并)",
@@ -6857,32 +6675,32 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-15/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 0.88
+              "clearDuration": 1.06,
+              "naturalDuration": 0.95
             },
             {
               "chunkIndex": 1,
-              "text": "gon",
-              "clearText": "gon",
-              "naturalText": "gon",
+              "text": "going",
+              "clearText": "going",
+              "naturalText": "going",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-15/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-15/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.99,
-              "naturalDuration": 1.28
+              "clearDuration": 1.1,
+              "naturalDuration": 0.88
             },
             {
               "chunkIndex": 2,
-              "text": "na",
-              "clearText": "na",
-              "naturalText": "na",
+              "text": "to",
+              "clearText": "to",
+              "naturalText": "to",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-15/clear-seg2.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-15/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 0.95
+              "clearDuration": 1.17,
+              "naturalDuration": 0.81
             }
           ]
         },
@@ -6899,7 +6717,7 @@
           ],
           "speechChunks": [
             "Bet",
-            "cha"
+            "you"
           ],
           "pronunciationNotes": [
             "bet + you → betcha (t+ʃ 同化)"
@@ -6926,20 +6744,20 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-16/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.95,
-              "naturalDuration": 0.99
+              "clearDuration": 1.1,
+              "naturalDuration": 1.02
             },
             {
               "chunkIndex": 1,
-              "text": "cha",
-              "clearText": "cha",
-              "naturalText": "cha",
+              "text": "you",
+              "clearText": "you",
+              "naturalText": "you",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-16/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-16/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 0.81
+              "clearDuration": 0.95,
+              "naturalDuration": 0.88
             }
           ]
         },
@@ -6956,8 +6774,8 @@
           ],
           "speechChunks": [
             "I",
-            "got",
-            "ta go"
+            "gotta",
+            "go"
           ],
           "pronunciationNotes": [
             "got + to → gotta (合并)",
@@ -6986,31 +6804,31 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 0.95,
-              "naturalDuration": 0.84
+              "naturalDuration": 0.99
             },
             {
               "chunkIndex": 1,
-              "text": "got",
-              "clearText": "got",
-              "naturalText": "got",
+              "text": "gotta",
+              "clearText": "gotta",
+              "naturalText": "gotta",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-17/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-17/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 0.81
+              "clearDuration": 1.06,
+              "naturalDuration": 1.13
             },
             {
               "chunkIndex": 2,
-              "text": "ta go",
-              "clearText": "ta go",
-              "naturalText": "ta go",
+              "text": "go",
+              "clearText": "go",
+              "naturalText": "go",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-17/clear-seg2.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-17/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.95,
-              "naturalDuration": 1.38
+              "clearDuration": 1.06,
+              "naturalDuration": 0.88
             }
           ]
         },
@@ -7026,9 +6844,8 @@
             "forget"
           ],
           "speechChunks": [
-            "Don",
-            "'t for",
-            "get"
+            "Don't",
+            "forget"
           ],
           "pronunciationNotes": [
             "don't 中 t 不爆破",
@@ -7049,39 +6866,27 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Don",
-              "clearText": "Don",
-              "naturalText": "Don",
+              "text": "Don't",
+              "clearText": "Don't",
+              "naturalText": "Don't",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-18/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-18/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.1,
-              "naturalDuration": 0.92
+              "naturalDuration": 0.88
             },
             {
               "chunkIndex": 1,
-              "text": "'t for",
-              "clearText": "'t for",
-              "naturalText": "'t for",
+              "text": "forget",
+              "clearText": "forget",
+              "naturalText": "forget",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-18/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-18/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.1,
-              "naturalDuration": 0.92
-            },
-            {
-              "chunkIndex": 2,
-              "text": "get",
-              "clearText": "get",
-              "naturalText": "get",
-              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-18/clear-seg2.mp3",
-              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-18/natural-seg2.mp3",
-              "clearStatus": "ready",
-              "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 0.99
+              "naturalDuration": 0.88
             }
           ]
         },
@@ -7097,7 +6902,7 @@
             "right"
           ],
           "speechChunks": [
-            "Righ",
+            "Right",
             "there"
           ],
           "pronunciationNotes": [
@@ -7119,15 +6924,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Righ",
-              "clearText": "Righ",
-              "naturalText": "Righ",
+              "text": "Right",
+              "clearText": "Right",
+              "naturalText": "Right",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-19/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-19/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 0.95
+              "clearDuration": 1.1,
+              "naturalDuration": 0.88
             },
             {
               "chunkIndex": 1,
@@ -7138,8 +6943,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-19/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 1.02
+              "clearDuration": 1.2,
+              "naturalDuration": 0.88
             }
           ]
         },
@@ -7155,9 +6960,10 @@
             "time"
           ],
           "speechChunks": [
-            "Wha",
-            "time i",
-            "sit"
+            "What",
+            "time",
+            "is",
+            "it"
           ],
           "pronunciationNotes": [
             "what 中 t 闪音化 → wha'",
@@ -7179,39 +6985,51 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Wha",
-              "clearText": "Wha",
-              "naturalText": "Wha",
+              "text": "What",
+              "clearText": "What",
+              "naturalText": "What",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-20/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-20/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.92,
-              "naturalDuration": 0.84
+              "clearDuration": 0.95,
+              "naturalDuration": 0.92
             },
             {
               "chunkIndex": 1,
-              "text": "time i",
-              "clearText": "time i",
-              "naturalText": "time i",
+              "text": "time",
+              "clearText": "time",
+              "naturalText": "time",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-20/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-20/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 2,
-              "naturalDuration": 1.35
+              "clearDuration": 1.06,
+              "naturalDuration": 0.81
             },
             {
               "chunkIndex": 2,
-              "text": "sit",
-              "clearText": "sit",
-              "naturalText": "sit",
+              "text": "is",
+              "clearText": "is",
+              "naturalText": "is",
               "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-20/clear-seg2.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-20/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
-              "naturalDuration": 1.24
+              "clearDuration": 1.2,
+              "naturalDuration": 0.84
+            },
+            {
+              "chunkIndex": 3,
+              "text": "it",
+              "clearText": "it",
+              "naturalText": "it",
+              "clearUrl": "https://english.wujiong.cn/audio/natural/flap/fl-20/clear-seg3.mp3",
+              "naturalUrl": "https://english.wujiong.cn/audio/natural/flap/fl-20/natural-seg3.mp3",
+              "clearStatus": "ready",
+              "naturalStatus": "ready",
+              "clearDuration": 1.35,
+              "naturalDuration": 0.81
             }
           ]
         }
@@ -8086,8 +7904,8 @@
           ],
           "speechChunks": [
             "We",
-            "leave to",
-            "morrow"
+            "leave",
+            "tomorrow"
           ],
           "pronunciationNotes": [
             "重音:leave, morrow (tomorrow 的第二音节)"
@@ -8114,32 +7932,32 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/stress/st-13/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
+              "clearDuration": 0.99,
               "naturalDuration": 0.88
             },
             {
               "chunkIndex": 1,
-              "text": "leave to",
-              "clearText": "leave to",
-              "naturalText": "leave to",
+              "text": "leave",
+              "clearText": "leave",
+              "naturalText": "leave",
               "clearUrl": "https://english.wujiong.cn/audio/natural/stress/st-13/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/stress/st-13/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 1.46
+              "clearDuration": 1.1,
+              "naturalDuration": 0.92
             },
             {
               "chunkIndex": 2,
-              "text": "morrow",
-              "clearText": "morrow",
-              "naturalText": "morrow",
+              "text": "tomorrow",
+              "clearText": "tomorrow",
+              "naturalText": "tomorrow",
               "clearUrl": "https://english.wujiong.cn/audio/natural/stress/st-13/clear-seg2.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/stress/st-13/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 2.18
+              "clearDuration": 1.31,
+              "naturalDuration": 0.84
             }
           ]
         },
@@ -8627,7 +8445,7 @@
           "id": "rh-01",
           "writtenText": "I need to talk to him about it",
           "translation": "我得跟他谈谈",
-          "clearText": "I need to / talk to him / about it",
+          "clearText": "I need to talk to him about it",
           "naturalText": "I NEEDta / TALKta him / aBOUT it",
           "standardIpa": "/aɪ niːd tu tɔːk tu hɪm əbaʊt ɪt/",
           "naturalIpa": "/aɪ ˈniːdtə ˈtɔːktə hɪm əˈbaʊt ɪt/",
@@ -8667,8 +8485,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-01/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.71,
-              "naturalDuration": 2.07
+              "clearDuration": 1.67,
+              "naturalDuration": 1.74
             },
             {
               "chunkIndex": 1,
@@ -8679,8 +8497,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-01/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.42,
-              "naturalDuration": 2.07
+              "clearDuration": 1.53,
+              "naturalDuration": 1.74
             },
             {
               "chunkIndex": 2,
@@ -8691,8 +8509,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-01/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 1.92
+              "clearDuration": 1.2,
+              "naturalDuration": 1.6
             }
           ]
         },
@@ -8700,7 +8518,7 @@
           "id": "rh-02",
           "writtenText": "Give me a cup of coffee",
           "translation": "给我一杯咖啡",
-          "clearText": "Give me / a cup of / coffee",
+          "clearText": "Give me a cup of coffee",
           "naturalText": "GIVme / a CUPa / COFfee",
           "standardIpa": "/ɡɪv miː ə kʌp əv ˈkɔːfi/",
           "naturalIpa": "/ˈɡɪvmi ə ˈkʌpə ˈkɔːfi/",
@@ -8740,8 +8558,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-02/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.31,
-              "naturalDuration": 2.32
+              "clearDuration": 1.24,
+              "naturalDuration": 2.14
             },
             {
               "chunkIndex": 1,
@@ -8752,8 +8570,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-02/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 2
+              "clearDuration": 1.53,
+              "naturalDuration": 1.89
             },
             {
               "chunkIndex": 2,
@@ -8764,8 +8582,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-02/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 2.1
+              "clearDuration": 0.95,
+              "naturalDuration": 1.92
             }
           ]
         },
@@ -8773,7 +8591,7 @@
           "id": "rh-03",
           "writtenText": "Take it to the office",
           "translation": "拿到办公室去",
-          "clearText": "Take it / to the / office",
+          "clearText": "Take it to the office",
           "naturalText": "TAYkit / ta the / AWfis",
           "standardIpa": "/teɪk ɪt tu ðə ˈɔːfɪs/",
           "naturalIpa": "/ˈteɪkɪt tə ðə ˈɔːfɪs/",
@@ -8812,8 +8630,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-03/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
-              "naturalDuration": 3.08
+              "clearDuration": 1.06,
+              "naturalDuration": 2.43
             },
             {
               "chunkIndex": 1,
@@ -8824,8 +8642,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-03/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.53,
-              "naturalDuration": 2.82
+              "clearDuration": 1.06,
+              "naturalDuration": 2.46
             },
             {
               "chunkIndex": 2,
@@ -8836,8 +8654,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-03/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.31,
-              "naturalDuration": 1.53
+              "clearDuration": 1.2,
+              "naturalDuration": 3.65
             }
           ]
         },
@@ -8845,7 +8663,7 @@
           "id": "rh-04",
           "writtenText": "Look at this picture",
           "translation": "看这张照片",
-          "clearText": "Look at / this picture",
+          "clearText": "Look at this picture",
           "naturalText": "LOOKat / this PICcher",
           "standardIpa": "/lʊk æt ðɪs ˈpɪktʃər/",
           "naturalIpa": "/ˈlʊkæt ðɪs ˈpɪktʃər/",
@@ -8883,8 +8701,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-04/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 1.17
+              "clearDuration": 1.06,
+              "naturalDuration": 1.13
             },
             {
               "chunkIndex": 1,
@@ -8895,8 +8713,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-04/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.56,
-              "naturalDuration": 1.38
+              "clearDuration": 1.2,
+              "naturalDuration": 1.49
             }
           ]
         },
@@ -8904,7 +8722,7 @@
           "id": "rh-05",
           "writtenText": "Tell me what you think",
           "translation": "告诉我你怎么想",
-          "clearText": "Tell me / what you / think",
+          "clearText": "Tell me what you think",
           "naturalText": "TELme / WACHya / THINK",
           "standardIpa": "/tɛl miː wʌt juː θɪŋk/",
           "naturalIpa": "/ˈtɛlmi ˈwʌtʃə ˈθɪŋk/",
@@ -8945,7 +8763,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.1,
-              "naturalDuration": 2.57
+              "naturalDuration": 3.18
             },
             {
               "chunkIndex": 1,
@@ -8956,8 +8774,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-05/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 2.1,
-              "naturalDuration": 2.39
+              "clearDuration": 1.35,
+              "naturalDuration": 2.32
             },
             {
               "chunkIndex": 2,
@@ -8968,8 +8786,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-05/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.95,
-              "naturalDuration": 2.75
+              "clearDuration": 1.06,
+              "naturalDuration": 2.39
             }
           ]
         },
@@ -8977,7 +8795,7 @@
           "id": "rh-06",
           "writtenText": "I went to the store yesterday",
           "translation": "我昨天去商店了",
-          "clearText": "I went to the store / yesterday",
+          "clearText": "I went to the store yesterday",
           "naturalText": "I WENta the STORE / YESterday",
           "standardIpa": "/aɪ wɛnt tu ðə stɔːr ˈjɛstərdeɪ/",
           "naturalIpa": "/aɪ ˈwɛntə ðə ˈstɔːr ˈjɛstərdeɪ/",
@@ -9016,8 +8834,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-06/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.71,
-              "naturalDuration": 3.22
+              "clearDuration": 1.56,
+              "naturalDuration": 2.97
             },
             {
               "chunkIndex": 1,
@@ -9028,8 +8846,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-06/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.82,
-              "naturalDuration": 2.1
+              "clearDuration": 1.35,
+              "naturalDuration": 3.69
             }
           ]
         },
@@ -9037,7 +8855,7 @@
           "id": "rh-07",
           "writtenText": "He's working on a new project",
           "translation": "他在做新项目",
-          "clearText": "He's working / on a new / project",
+          "clearText": "He's working on a new project",
           "naturalText": "He's WORKing / onna NEW / PROject",
           "standardIpa": "/hiːz ˈwɜːrkɪŋ ɑːn ə nuː ˈprɑːdʒɛkt/",
           "naturalIpa": "/hiːz ˈwɜːrkɪn ɑːnə nuː ˈprɑːdʒɛkt/",
@@ -9077,8 +8895,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-07/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.24,
-              "naturalDuration": 1.85
+              "clearDuration": 1.42,
+              "naturalDuration": 2.97
             },
             {
               "chunkIndex": 1,
@@ -9090,7 +8908,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.35,
-              "naturalDuration": 2.68
+              "naturalDuration": 2.32
             },
             {
               "chunkIndex": 2,
@@ -9101,8 +8919,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-07/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.35,
-              "naturalDuration": 2.18
+              "clearDuration": 1.2,
+              "naturalDuration": 1.85
             }
           ]
         },
@@ -9110,7 +8928,7 @@
           "id": "rh-08",
           "writtenText": "I want to be a doctor",
           "translation": "我想当医生",
-          "clearText": "I want to / be a / doctor",
+          "clearText": "I want to be a doctor",
           "naturalText": "I WANna be a / DOCtor",
           "standardIpa": "/aɪ wɑːnt tu biː ə ˈdɑːktər/",
           "naturalIpa": "/aɪ ˈwɑːnə bi ə ˈdɑːktər/",
@@ -9148,8 +8966,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-08/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 2.1,
-              "naturalDuration": 1.35
+              "clearDuration": 1.74,
+              "naturalDuration": 1.31
             },
             {
               "chunkIndex": 1,
@@ -9160,8 +8978,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-08/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
-              "naturalDuration": 1.24
+              "clearDuration": 1.17,
+              "naturalDuration": 1.53
             }
           ]
         },
@@ -9169,7 +8987,7 @@
           "id": "rh-09",
           "writtenText": "She's from a small town",
           "translation": "她来自小镇",
-          "clearText": "She's from / a small / town",
+          "clearText": "She's from a small town",
           "naturalText": "She's from / a SMALL / TOWN",
           "standardIpa": "/ʃiːz frʌm ə smɔːl taʊn/",
           "naturalIpa": "/ʃiːz frəm ə ˈsmɔːl ˈtaʊn/",
@@ -9209,7 +9027,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.42,
-              "naturalDuration": 1.24
+              "naturalDuration": 2.46
             },
             {
               "chunkIndex": 1,
@@ -9220,8 +9038,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-09/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.31,
-              "naturalDuration": 1.56
+              "clearDuration": 1.35,
+              "naturalDuration": 1.74
             },
             {
               "chunkIndex": 2,
@@ -9232,8 +9050,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-09/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.99,
-              "naturalDuration": 1.89
+              "clearDuration": 1.1,
+              "naturalDuration": 2.21
             }
           ]
         },
@@ -9241,7 +9059,7 @@
           "id": "rh-10",
           "writtenText": "I'll meet you at the airport",
           "translation": "我去机场接你",
-          "clearText": "I'll meet you / at the / airport",
+          "clearText": "I'll meet you at the airport",
           "naturalText": "I'll MEETcha / at the / AIRport",
           "standardIpa": "/aɪl miːt juː æt ði ˈɛrpɔːrt/",
           "naturalIpa": "/aɪl ˈmiːtʃu ət ðə ˈɛrpɔːrt/",
@@ -9280,8 +9098,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-10/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 1.6
+              "clearDuration": 1.2,
+              "naturalDuration": 1.53
             },
             {
               "chunkIndex": 1,
@@ -9292,8 +9110,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-10/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.24,
-              "naturalDuration": 2.18
+              "clearDuration": 1.35,
+              "naturalDuration": 3.69
             },
             {
               "chunkIndex": 2,
@@ -9304,8 +9122,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-10/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 1.56
+              "clearDuration": 1.35,
+              "naturalDuration": 1.6
             }
           ]
         },
@@ -9313,7 +9131,7 @@
           "id": "rh-11",
           "writtenText": "We had a great time",
           "translation": "我们玩得很开心",
-          "clearText": "We had a / great / time",
+          "clearText": "We had a great time",
           "naturalText": "We HAda / GREAT / TIME",
           "standardIpa": "/wiː hæd ə ɡreɪt taɪm/",
           "naturalIpa": "/wi ˈhædə ˈɡreɪt ˈtaɪm/",
@@ -9353,8 +9171,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-11/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.35,
-              "naturalDuration": 1.28
+              "clearDuration": 1.67,
+              "naturalDuration": 1.13
             },
             {
               "chunkIndex": 1,
@@ -9365,8 +9183,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-11/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 1.46
+              "clearDuration": 1.1,
+              "naturalDuration": 1.28
             },
             {
               "chunkIndex": 2,
@@ -9377,8 +9195,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-11/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.31,
-              "naturalDuration": 1.31
+              "clearDuration": 1.1,
+              "naturalDuration": 1.49
             }
           ]
         },
@@ -9386,7 +9204,7 @@
           "id": "rh-12",
           "writtenText": "I'm looking for a new job",
           "translation": "我在找新工作",
-          "clearText": "I'm looking / for a new / job",
+          "clearText": "I'm looking for a new job",
           "naturalText": "I'm LOOKing / fora NEW / JOB",
           "standardIpa": "/aɪm ˈlʊkɪŋ fɔːr ə nuː dʒɑːb/",
           "naturalIpa": "/aɪm ˈlʊkɪŋ fɚə nuː ˈdʒɑːb/",
@@ -9426,8 +9244,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-12/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.24,
-              "naturalDuration": 2.57
+              "clearDuration": 1.35,
+              "naturalDuration": 1.56
             },
             {
               "chunkIndex": 1,
@@ -9438,8 +9256,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-12/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.56,
-              "naturalDuration": 1.49
+              "clearDuration": 1.35,
+              "naturalDuration": 1.56
             },
             {
               "chunkIndex": 2,
@@ -9450,7 +9268,7 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-12/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
+              "clearDuration": 1.24,
               "naturalDuration": 1.6
             }
           ]
@@ -9459,7 +9277,7 @@
           "id": "rh-13",
           "writtenText": "I just got back from vacation",
           "translation": "我刚度假回来",
-          "clearText": "I just / got back / from vacation",
+          "clearText": "I just got back from vacation",
           "naturalText": "I just / GOT back / from vaCAtion",
           "standardIpa": "/aɪ dʒʌst ɡɑːt bæk frʌm veɪˈkeɪʃən/",
           "naturalIpa": "/aɪ dʒəst ˈɡɑːt bæk frəm veɪˈkeɪʃən/",
@@ -9498,8 +9316,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-13/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.24,
-              "naturalDuration": 2.14
+              "clearDuration": 1.6,
+              "naturalDuration": 1.85
             },
             {
               "chunkIndex": 1,
@@ -9510,8 +9328,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-13/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.31,
-              "naturalDuration": 1.82
+              "clearDuration": 1.35,
+              "naturalDuration": 2.68
             },
             {
               "chunkIndex": 2,
@@ -9522,8 +9340,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-13/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.56,
-              "naturalDuration": 3.87
+              "clearDuration": 1.6,
+              "naturalDuration": 2.68
             }
           ]
         },
@@ -9531,7 +9349,7 @@
           "id": "rh-14",
           "writtenText": "They live in a big house",
           "translation": "他们住大房子",
-          "clearText": "They live in / a big / house",
+          "clearText": "They live in a big house",
           "naturalText": "They LIVE in / a BIG / HOUSE",
           "standardIpa": "/ðeɪ lɪv ɪn ə bɪɡ haʊs/",
           "naturalIpa": "/ðeɪ ˈlɪvɪn ə ˈbɪɡ ˈhaʊs/",
@@ -9571,8 +9389,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-14/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.35,
-              "naturalDuration": 2.21
+              "clearDuration": 1.2,
+              "naturalDuration": 1.49
             },
             {
               "chunkIndex": 1,
@@ -9583,8 +9401,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-14/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.49,
-              "naturalDuration": 1.49
+              "clearDuration": 1.35,
+              "naturalDuration": 1.6
             },
             {
               "chunkIndex": 2,
@@ -9595,7 +9413,7 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-14/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
+              "clearDuration": 1.2,
               "naturalDuration": 1.49
             }
           ]
@@ -9604,7 +9422,7 @@
           "id": "rh-15",
           "writtenText": "I read a book last night",
           "translation": "我昨晚看了本书",
-          "clearText": "I read a book / last night",
+          "clearText": "I read a book last night",
           "naturalText": "I REada BOOK / LAST night",
           "standardIpa": "/aɪ riːd ə bʊk læst naɪt/",
           "naturalIpa": "/aɪ ˈriːdə ˈbʊk ˈlæsˈnaɪt/",
@@ -9643,7 +9461,7 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-15/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.42,
+              "clearDuration": 1.35,
               "naturalDuration": 1.74
             },
             {
@@ -9656,7 +9474,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.2,
-              "naturalDuration": 2.64
+              "naturalDuration": 1.49
             }
           ]
         },
@@ -9664,7 +9482,7 @@
           "id": "rh-16",
           "writtenText": "She plays the piano very well",
           "translation": "她钢琴弹得很好",
-          "clearText": "She plays the piano / very well",
+          "clearText": "She plays the piano very well",
           "naturalText": "She PLAYS the piANno / VERY well",
           "standardIpa": "/ʃiː pleɪz ðə piˈænoʊ ˈvɛri wɛl/",
           "naturalIpa": "/ʃi ˈpleɪzðə piˈænoʊ ˈvɛri ˈwɛl/",
@@ -9704,8 +9522,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-16/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.89,
-              "naturalDuration": 1.96
+              "clearDuration": 1.96,
+              "naturalDuration": 1.85
             },
             {
               "chunkIndex": 1,
@@ -9716,8 +9534,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-16/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
-              "naturalDuration": 2.18
+              "clearDuration": 1.35,
+              "naturalDuration": 1.82
             }
           ]
         },
@@ -9725,7 +9543,7 @@
           "id": "rh-17",
           "writtenText": "I want some ice cream",
           "translation": "我想要点冰淇淋",
-          "clearText": "I want / some / ice cream",
+          "clearText": "I want some ice cream",
           "naturalText": "I want / some / ICE cream",
           "standardIpa": "/aɪ wɑːnt sʌm aɪs kriːm/",
           "naturalIpa": "/aɪ ˈwɑːnt səm ˈaɪs ˈkriːm/",
@@ -9765,8 +9583,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-17/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.56,
-              "naturalDuration": 0.99
+              "clearDuration": 1.46,
+              "naturalDuration": 3.36
             },
             {
               "chunkIndex": 1,
@@ -9778,7 +9596,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.2,
-              "naturalDuration": 1.35
+              "naturalDuration": 1.53
             },
             {
               "chunkIndex": 2,
@@ -9789,8 +9607,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-17/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 1.35
+              "clearDuration": 1.53,
+              "naturalDuration": 1.28
             }
           ]
         },
@@ -9798,7 +9616,7 @@
           "id": "rh-18",
           "writtenText": "He works at a bank",
           "translation": "他在银行工作",
-          "clearText": "He works / at a / bank",
+          "clearText": "He works at a bank",
           "naturalText": "He WORKS / atta / BANK",
           "standardIpa": "/hiː wɜːrks æt ə bæŋk/",
           "naturalIpa": "/hi ˈwɜːrks ˈæɾə ˈbæŋk/",
@@ -9839,7 +9657,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.35,
-              "naturalDuration": 0.99
+              "naturalDuration": 0
             },
             {
               "chunkIndex": 1,
@@ -9850,8 +9668,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-18/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.96,
-              "naturalDuration": 1.78
+              "clearDuration": 0.04,
+              "naturalDuration": 0
             },
             {
               "chunkIndex": 2,
@@ -9862,8 +9680,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-18/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 1.74
+              "clearDuration": 0.04,
+              "naturalDuration": 0.95
             }
           ]
         },
@@ -9871,7 +9689,7 @@
           "id": "rh-19",
           "writtenText": "I'm going to the movies",
           "translation": "我去看电影",
-          "clearText": "I'm going to the / movies",
+          "clearText": "I'm going to the movies",
           "naturalText": "I'm GONna the / MOVies",
           "standardIpa": "/aɪm ˈɡoʊɪŋ tu ðə ˈmuːviz/",
           "naturalIpa": "/aɪm ˈɡʌnə ðə ˈmuːviz/",
@@ -9909,8 +9727,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-19/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.67,
-              "naturalDuration": 1.96
+              "clearDuration": 1.89,
+              "naturalDuration": 1.5
             },
             {
               "chunkIndex": 1,
@@ -9921,8 +9739,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-19/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.35,
-              "naturalDuration": 2.18
+              "clearDuration": 0.13,
+              "naturalDuration": 0.04
             }
           ]
         },
@@ -9930,7 +9748,7 @@
           "id": "rh-20",
           "writtenText": "I'll see you on Monday",
           "translation": "周一见",
-          "clearText": "I'll see you / on Monday",
+          "clearText": "I'll see you on Monday",
           "naturalText": "I'll SEEya / on MONday",
           "standardIpa": "/aɪl siː juː ɑːn ˈmʌndeɪ/",
           "naturalIpa": "/aɪl ˈsiːjə ɑːn ˈmʌndeɪ/",
@@ -9968,7 +9786,7 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/rhythm/rh-20/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
+              "clearDuration": 0,
               "naturalDuration": 1.13
             },
             {
@@ -9981,7 +9799,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.35,
-              "naturalDuration": 1.64
+              "naturalDuration": 1.24
             }
           ]
         }
@@ -10009,7 +9827,7 @@
           ],
           "speechChunks": [
             "I",
-            "wanna",
+            "want to",
             "go"
           ],
           "pronunciationNotes": [
@@ -10038,19 +9856,19 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.06,
-              "naturalDuration": 0.88
+              "naturalDuration": 0.31
             },
             {
               "chunkIndex": 1,
-              "text": "wanna",
-              "clearText": "wanna",
-              "naturalText": "wanna",
+              "text": "want to",
+              "clearText": "want to",
+              "naturalText": "want to",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-01/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-01/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 0.99
+              "clearDuration": 0.99,
+              "naturalDuration": 1.13
             },
             {
               "chunkIndex": 2,
@@ -10061,8 +9879,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-01/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.95,
-              "naturalDuration": 0.95
+              "clearDuration": 0.92,
+              "naturalDuration": 1.1
             }
           ]
         },
@@ -10080,7 +9898,8 @@
           ],
           "speechChunks": [
             "I'm",
-            "gonna tell him"
+            "going to",
+            "tell him"
           ],
           "pronunciationNotes": [
             "going to → gonna"
@@ -10107,20 +9926,32 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-02/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.99,
+              "clearDuration": 1.17,
               "naturalDuration": 0.88
             },
             {
               "chunkIndex": 1,
-              "text": "gonna tell him",
-              "clearText": "gonna tell him",
-              "naturalText": "gonna tell him",
+              "text": "going to",
+              "clearText": "going to",
+              "naturalText": "going to",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-02/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-02/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.67,
-              "naturalDuration": 1.35
+              "clearDuration": 1.35,
+              "naturalDuration": 1.31
+            },
+            {
+              "chunkIndex": 2,
+              "text": "tell him",
+              "clearText": "tell him",
+              "naturalText": "tell him",
+              "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-02/clear-seg2.mp3",
+              "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-02/natural-seg2.mp3",
+              "clearStatus": "ready",
+              "naturalStatus": "ready",
+              "clearDuration": 1.35,
+              "naturalDuration": 1.49
             }
           ]
         },
@@ -10138,7 +9969,7 @@
           ],
           "speechChunks": [
             "I",
-            "hafta",
+            "have to",
             "work"
           ],
           "pronunciationNotes": [
@@ -10166,20 +9997,20 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-03/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.99,
-              "naturalDuration": 0.99
+              "clearDuration": 1.1,
+              "naturalDuration": 0.92
             },
             {
               "chunkIndex": 1,
-              "text": "hafta",
-              "clearText": "hafta",
-              "naturalText": "hafta",
+              "text": "have to",
+              "clearText": "have to",
+              "naturalText": "have to",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-03/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-03/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 1.24
+              "clearDuration": 1.24,
+              "naturalDuration": 1.02
             },
             {
               "chunkIndex": 2,
@@ -10190,8 +10021,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-03/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
-              "naturalDuration": 2.68
+              "clearDuration": 1.56,
+              "naturalDuration": 1.2
             }
           ]
         },
@@ -10208,7 +10039,7 @@
             "see"
           ],
           "speechChunks": [
-            "Lemme",
+            "Let me",
             "see"
           ],
           "pronunciationNotes": [
@@ -10229,15 +10060,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Lemme",
-              "clearText": "Lemme",
-              "naturalText": "Lemme",
+              "text": "Let me",
+              "clearText": "Let me",
+              "naturalText": "Let me",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-04/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-04/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 1.6
+              "clearDuration": 1.31,
+              "naturalDuration": 0.88
             },
             {
               "chunkIndex": 1,
@@ -10248,8 +10079,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-04/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.35,
-              "naturalDuration": 0.95
+              "clearDuration": 1.17,
+              "naturalDuration": 0.84
             }
           ]
         },
@@ -10266,7 +10097,7 @@
             "that"
           ],
           "speechChunks": [
-            "Gimme",
+            "Give me",
             "that"
           ],
           "pronunciationNotes": [
@@ -10287,15 +10118,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Gimme",
-              "clearText": "Gimme",
-              "naturalText": "Gimme",
+              "text": "Give me",
+              "clearText": "Give me",
+              "naturalText": "Give me",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-05/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-05/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 0.84
+              "clearDuration": 2.25,
+              "naturalDuration": 0.74
             },
             {
               "chunkIndex": 1,
@@ -10307,7 +10138,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 0.95,
-              "naturalDuration": 0.95
+              "naturalDuration": 0.92
             }
           ]
         },
@@ -10324,7 +10155,7 @@
             "do"
           ],
           "speechChunks": [
-            "Whatcha",
+            "What are you",
             "doing"
           ],
           "pronunciationNotes": [
@@ -10345,15 +10176,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Whatcha",
-              "clearText": "Whatcha",
-              "naturalText": "Whatcha",
+              "text": "What are you",
+              "clearText": "What are you",
+              "naturalText": "What are you",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-06/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-06/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.99,
-              "naturalDuration": 1.92
+              "clearDuration": 1.53,
+              "naturalDuration": 1.17
             },
             {
               "chunkIndex": 1,
@@ -10364,8 +10195,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-06/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.31,
-              "naturalDuration": 1.35
+              "clearDuration": 1.2,
+              "naturalDuration": 1.13
             }
           ]
         },
@@ -10381,7 +10212,7 @@
             "know"
           ],
           "speechChunks": [
-            "D'you",
+            "Do you",
             "know what"
           ],
           "pronunciationNotes": [
@@ -10402,15 +10233,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "D'you",
-              "clearText": "D'you",
-              "naturalText": "D'you",
+              "text": "Do you",
+              "clearText": "Do you",
+              "naturalText": "Do you",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-07/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-07/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.35,
-              "naturalDuration": 0.74
+              "clearDuration": 1.24,
+              "naturalDuration": 1.28
             },
             {
               "chunkIndex": 1,
@@ -10421,8 +10252,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-07/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.53,
-              "naturalDuration": 1.13
+              "clearDuration": 1.24,
+              "naturalDuration": 1.24
             }
           ]
         },
@@ -10438,7 +10269,7 @@
             "got"
           ],
           "speechChunks": [
-            "Gotcha"
+            "Got you"
           ],
           "pronunciationNotes": [
             "got you → gotcha (t+ʃ 同化)"
@@ -10458,14 +10289,14 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Gotcha",
-              "clearText": "Gotcha",
-              "naturalText": "Gotcha",
+              "text": "Got you",
+              "clearText": "Got you",
+              "naturalText": "Got you",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-08/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-08/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
+              "clearDuration": 1.2,
               "naturalDuration": 0.88
             }
           ]
@@ -10483,7 +10314,8 @@
           ],
           "speechChunks": [
             "I",
-            "dunno"
+            "don't",
+            "know"
           ],
           "pronunciationNotes": [
             "don't know → dunno (吞音+合音)"
@@ -10510,20 +10342,32 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-09/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 0.81
+              "clearDuration": 1.2,
+              "naturalDuration": 0.84
             },
             {
               "chunkIndex": 1,
-              "text": "dunno",
-              "clearText": "dunno",
-              "naturalText": "dunno",
+              "text": "don't",
+              "clearText": "don't",
+              "naturalText": "don't",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-09/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-09/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.17,
-              "naturalDuration": 1.1
+              "naturalDuration": 1.13
+            },
+            {
+              "chunkIndex": 2,
+              "text": "know",
+              "clearText": "know",
+              "naturalText": "know",
+              "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-09/clear-seg2.mp3",
+              "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-09/natural-seg2.mp3",
+              "clearStatus": "ready",
+              "naturalStatus": "ready",
+              "clearDuration": 0.99,
+              "naturalDuration": 0.88
             }
           ]
         },
@@ -10539,7 +10383,7 @@
             "help"
           ],
           "speechChunks": [
-            "Couldja",
+            "Could you",
             "help me"
           ],
           "pronunciationNotes": [
@@ -10560,15 +10404,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Couldja",
-              "clearText": "Couldja",
-              "naturalText": "Couldja",
+              "text": "Could you",
+              "clearText": "Could you",
+              "naturalText": "Could you",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-10/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-10/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 1.1
+              "clearDuration": 1.2,
+              "naturalDuration": 0.81
             },
             {
               "chunkIndex": 1,
@@ -10579,8 +10423,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-10/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 1.1
+              "clearDuration": 1.06,
+              "naturalDuration": 0.88
             }
           ]
         },
@@ -10598,8 +10442,8 @@
             "do"
           ],
           "speechChunks": [
-            "Watcha",
-            "gonna",
+            "What are you",
+            "going to",
             "do"
           ],
           "pronunciationNotes": [
@@ -10620,27 +10464,27 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Watcha",
-              "clearText": "Watcha",
-              "naturalText": "Watcha",
+              "text": "What are you",
+              "clearText": "What are you",
+              "naturalText": "What are you",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-11/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-11/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
+              "clearDuration": 1.56,
               "naturalDuration": 0.99
             },
             {
               "chunkIndex": 1,
-              "text": "gonna",
-              "clearText": "gonna",
-              "naturalText": "gonna",
+              "text": "going to",
+              "clearText": "going to",
+              "naturalText": "going to",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-11/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-11/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 1.24
+              "clearDuration": 1.67,
+              "naturalDuration": 1.31
             },
             {
               "chunkIndex": 2,
@@ -10652,7 +10496,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 0.95,
-              "naturalDuration": 1.13
+              "naturalDuration": 1.17
             }
           ]
         },
@@ -10670,7 +10514,7 @@
             "back"
           ],
           "speechChunks": [
-            "Y'all",
+            "You all",
             "come back"
           ],
           "pronunciationNotes": [
@@ -10691,15 +10535,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Y'all",
-              "clearText": "Y'all",
-              "naturalText": "Y'all",
+              "text": "You all",
+              "clearText": "You all",
+              "naturalText": "You all",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-12/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-12/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.2,
-              "naturalDuration": 1.13
+              "clearDuration": 1.42,
+              "naturalDuration": 1.24
             },
             {
               "chunkIndex": 1,
@@ -10710,8 +10554,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-12/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 1.17
+              "clearDuration": 1.2,
+              "naturalDuration": 1.24
             }
           ]
         },
@@ -10727,7 +10571,7 @@
             "what"
           ],
           "speechChunks": [
-            "Whatchamacallit"
+            "What you may call it"
           ],
           "pronunciationNotes": [
             "what you may call it → whatchamacallit (多词合音)"
@@ -10747,15 +10591,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "Whatchamacallit",
-              "clearText": "Whatchamacallit",
-              "naturalText": "Whatchamacallit",
+              "text": "What you may call it",
+              "clearText": "What you may call it",
+              "naturalText": "What you may call it",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-13/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-13/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.35,
-              "naturalDuration": 1.28
+              "clearDuration": 1.67,
+              "naturalDuration": 1.24
             }
           ]
         },
@@ -10800,8 +10644,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-14/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 1.02
+              "clearDuration": 0.95,
+              "naturalDuration": 0.88
             },
             {
               "chunkIndex": 1,
@@ -10813,7 +10657,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 0.99,
-              "naturalDuration": 1.02
+              "naturalDuration": 0.88
             }
           ]
         },
@@ -10831,7 +10675,7 @@
           ],
           "speechChunks": [
             "No",
-            "problemo"
+            "problem"
           ],
           "pronunciationNotes": [
             "problem + o (拉美式俏皮说法,美国年轻人常用)"
@@ -10858,20 +10702,20 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-15/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.06,
-              "naturalDuration": 0.74
+              "clearDuration": 0.95,
+              "naturalDuration": 0.7
             },
             {
               "chunkIndex": 1,
-              "text": "problemo",
-              "clearText": "problemo",
-              "naturalText": "problemo",
+              "text": "problem",
+              "clearText": "problem",
+              "naturalText": "problem",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-15/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-15/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.99,
-              "naturalDuration": 0.92
+              "clearDuration": 1.06,
+              "naturalDuration": 1.1
             }
           ]
         },
@@ -10889,7 +10733,7 @@
           ],
           "speechChunks": [
             "I",
-            "gotta",
+            "have got to",
             "run"
           ],
           "pronunciationNotes": [
@@ -10917,20 +10761,20 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-16/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.17,
-              "naturalDuration": 0.92
+              "clearDuration": 1.2,
+              "naturalDuration": 0.84
             },
             {
               "chunkIndex": 1,
-              "text": "gotta",
-              "clearText": "gotta",
-              "naturalText": "gotta",
+              "text": "have got to",
+              "clearText": "have got to",
+              "naturalText": "have got to",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-16/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-16/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.24,
-              "naturalDuration": 1.85
+              "clearDuration": 1.53,
+              "naturalDuration": 1.13
             },
             {
               "chunkIndex": 2,
@@ -10941,8 +10785,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-16/natural-seg2.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.35,
-              "naturalDuration": 1.24
+              "clearDuration": 0.84,
+              "naturalDuration": 1.13
             }
           ]
         },
@@ -10959,7 +10803,7 @@
             "la"
           ],
           "speechChunks": [
-            "See ya",
+            "See you",
             "later"
           ],
           "pronunciationNotes": [
@@ -10981,15 +10825,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "See ya",
-              "clearText": "See ya",
-              "naturalText": "See ya",
+              "text": "See you",
+              "clearText": "See you",
+              "naturalText": "See you",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-17/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-17/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.95,
-              "naturalDuration": 0.81
+              "clearDuration": 1.2,
+              "naturalDuration": 0.88
             },
             {
               "chunkIndex": 1,
@@ -11000,8 +10844,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-17/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
-              "naturalDuration": 0.99
+              "clearDuration": 1.2,
+              "naturalDuration": 1.13
             }
           ]
         },
@@ -11046,8 +10890,8 @@
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-18/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 0.95,
-              "naturalDuration": 0.95
+              "clearDuration": 0.99,
+              "naturalDuration": 0.99
             },
             {
               "chunkIndex": 1,
@@ -11059,7 +10903,7 @@
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.17,
-              "naturalDuration": 0.84
+              "naturalDuration": 0.88
             }
           ]
         },
@@ -11067,7 +10911,7 @@
           "id": "if-19",
           "writtenText": "What's up",
           "translation": "怎么了 / 你好",
-          "clearText": "What's up",
+          "clearText": "What is up",
           "naturalText": "What's up",
           "standardIpa": "/wʌts ʌp/",
           "naturalIpa": "/wʌs ʌp/",
@@ -11075,7 +10919,7 @@
             "up"
           ],
           "speechChunks": [
-            "What's up"
+            "What is up"
           ],
           "pronunciationNotes": [
             "what's 中 t 弱化 (wha's up)"
@@ -11095,15 +10939,15 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "What's up",
-              "clearText": "What's up",
-              "naturalText": "What's up",
+              "text": "What is up",
+              "clearText": "What is up",
+              "naturalText": "What is up",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-19/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-19/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
-              "clearDuration": 1.1,
-              "naturalDuration": 0.7
+              "clearDuration": 1.53,
+              "naturalDuration": 2.1
             }
           ]
         },
@@ -11119,8 +10963,8 @@
             "like"
           ],
           "speechChunks": [
-            "I'm",
-            "like"
+            "I",
+            "said"
           ],
           "pronunciationNotes": [
             "年轻人讲故事时, 用 I'm like 引出原话"
@@ -11140,27 +10984,27 @@
           "audioSegmented": [
             {
               "chunkIndex": 0,
-              "text": "I'm",
-              "clearText": "I'm",
-              "naturalText": "I'm",
+              "text": "I",
+              "clearText": "I",
+              "naturalText": "I",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-20/clear-seg0.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-20/natural-seg0.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.17,
-              "naturalDuration": 0.95
+              "naturalDuration": 0.92
             },
             {
               "chunkIndex": 1,
-              "text": "like",
-              "clearText": "like",
-              "naturalText": "like",
+              "text": "said",
+              "clearText": "said",
+              "naturalText": "said",
               "clearUrl": "https://english.wujiong.cn/audio/natural/informal/if-20/clear-seg1.mp3",
               "naturalUrl": "https://english.wujiong.cn/audio/natural/informal/if-20/natural-seg1.mp3",
               "clearStatus": "ready",
               "naturalStatus": "ready",
               "clearDuration": 1.06,
-              "naturalDuration": 0.81
+              "naturalDuration": 0.88
             }
           ]
         }
