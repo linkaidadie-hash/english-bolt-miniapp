@@ -1,0 +1,672 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-17T05:46:27.753Z",
+    "provider": "MiniMax-tts",
+    "model": "speech-01",
+    "outputFormat": "mp3",
+    "note": "阶段四 B 12 条样板, 24 个 mp3。duration 为按文件大小估算的近似值。"
+  },
+  "totalSamples": 12,
+  "totalFiles": 24,
+  "successCount": 24,
+  "failedCount": 0,
+  "totalSize": 482640,
+  "totalDuration": 30.169999999999998,
+  "samples": [
+    {
+      "no": 1,
+      "lessonId": "weak-form",
+      "sentenceId": "wf-01",
+      "category": "弱读",
+      "writtenText": "I can help you",
+      "naturalText": "I c'n help ya",
+      "clearText": "I can help you",
+      "expectedChanges": [
+        "can → c'n (弱读)",
+        "you → ya (弱读)"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\weak-form\\wf-01\\clear.mp3",
+          "metaRelPath": "audio\\natural\\weak-form\\wf-01\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "I can help you",
+            "generatedAt": "2026-07-17T05:40:26.359Z",
+            "contentHash": "b24ee416f55910bcbb03f96558d0091163158a269fbd5aec6dec39d1ff7c0eea",
+            "fileHash": "98d33e8397d9581361b1b7b9cca55009798c7e80a5cfd9e8a71e9c603896e2e8",
+            "duration": 1.24,
+            "size": 19846,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\weak-form\\wf-01\\natural.mp3",
+          "metaRelPath": "audio\\natural\\weak-form\\wf-01\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "I c'n help ya",
+            "generatedAt": "2026-07-17T05:40:26.410Z",
+            "contentHash": "09098aa9fd85e34bcf2576b1330cb63922333e7b513f2216459ecbf7e3459118",
+            "fileHash": "c3ee7c34d2feeb371294e5987dc1640f4b32b8392c72670286154a41a8e19d19",
+            "duration": 1.28,
+            "size": 20422,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 2,
+      "lessonId": "weak-form",
+      "sentenceId": "wf-08",
+      "category": "弱读",
+      "writtenText": "I have to leave",
+      "naturalText": "I hafta leave",
+      "clearText": "I have to leave",
+      "expectedChanges": [
+        "have to → hafta (合并)"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\weak-form\\wf-08\\clear.mp3",
+          "metaRelPath": "audio\\natural\\weak-form\\wf-08\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "I have to leave",
+            "generatedAt": "2026-07-17T05:40:26.446Z",
+            "contentHash": "f8e7ad73fcf446e855d6b08997eb3681e2b28648642354c5b9a37ca9eae53a80",
+            "fileHash": "d4557e7dc01bc0dc8d9993196c09569ccd7813c1f53091fd6ac4902e76290568",
+            "duration": 1.71,
+            "size": 27334,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\weak-form\\wf-08\\natural.mp3",
+          "metaRelPath": "audio\\natural\\weak-form\\wf-08\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "I hafta leave",
+            "generatedAt": "2026-07-17T05:40:26.471Z",
+            "contentHash": "26f5ec6ef44e1684bdcd88d3cd98f9926852edcadcf685009c77d6e9edbaa888",
+            "fileHash": "1f41214331d5d43e06bf19039656d95072cfe5984878c29a4cb8eb55471d5d1c",
+            "duration": 1.53,
+            "size": 24454,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 3,
+      "lessonId": "linking",
+      "sentenceId": "lk-01",
+      "category": "连读",
+      "writtenText": "Turn it on",
+      "naturalText": "Turn it on",
+      "clearText": "Turn it on",
+      "expectedChanges": [
+        "turn + it → tur.nit",
+        "it + on → i.ton"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\linking\\lk-01\\clear.mp3",
+          "metaRelPath": "audio\\natural\\linking\\lk-01\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "Turn it on",
+            "generatedAt": "2026-07-17T05:40:26.496Z",
+            "contentHash": "e679ca0953315c3170645705ad8ba98d66bbd7c52ac755782172e75c37e2dad6",
+            "fileHash": "c5c419c2952f34db9273c19ddaee96cd50ad3be99c537932de68c7e032ce2e72",
+            "duration": 1.17,
+            "size": 18694,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\linking\\lk-01\\natural.mp3",
+          "metaRelPath": "audio\\natural\\linking\\lk-01\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "Turn it on",
+            "generatedAt": "2026-07-17T05:40:26.538Z",
+            "contentHash": "e679ca0953315c3170645705ad8ba98d66bbd7c52ac755782172e75c37e2dad6",
+            "fileHash": "478d68495e4f3694af5ba1d27844af30bce9bb04b6bd7f6d4c5af7f4c2366134",
+            "duration": 0.99,
+            "size": 15814,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 4,
+      "lessonId": "linking",
+      "sentenceId": "lk-04",
+      "category": "连读",
+      "writtenText": "An apple",
+      "naturalText": "An apple",
+      "clearText": "An apple",
+      "expectedChanges": [
+        "an + apple → a.napple (n 跨词)"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\linking\\lk-04\\clear.mp3",
+          "metaRelPath": "audio\\natural\\linking\\lk-04\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "An apple",
+            "generatedAt": "2026-07-17T05:40:26.580Z",
+            "contentHash": "d4c559cc6c566538e2ac96851b652141cf835730b940f8459be4a6fb8c7017c7",
+            "fileHash": "936a929a8d07260a7a5b77d75d10bda2eafe18f13dab69b3f5be892ed55b2c2b",
+            "duration": 1.35,
+            "size": 21574,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\linking\\lk-04\\natural.mp3",
+          "metaRelPath": "audio\\natural\\linking\\lk-04\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "An apple",
+            "generatedAt": "2026-07-17T05:40:26.642Z",
+            "contentHash": "d4c559cc6c566538e2ac96851b652141cf835730b940f8459be4a6fb8c7017c7",
+            "fileHash": "defd55dec2f1b898c623a5f0bfa7a32fbffa99842417ad430c8ee1f496537807",
+            "duration": 0.92,
+            "size": 14662,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 5,
+      "lessonId": "elision",
+      "sentenceId": "el-01",
+      "category": "吞音",
+      "writtenText": "Next day",
+      "naturalText": "Nex day",
+      "clearText": "Next day",
+      "expectedChanges": [
+        "next 中 t 在 k 和 d 之间消失"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\elision\\el-01\\clear.mp3",
+          "metaRelPath": "audio\\natural\\elision\\el-01\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "Next day",
+            "generatedAt": "2026-07-17T05:45:19.554Z",
+            "contentHash": "2b6a38b89f9c7b30fdd546953e48371ae0c66e655c6e75757da39806eed69958",
+            "fileHash": "d375947dceefc3689dd52f1cbd2ed3c4f7b982562c36885a34edcf215d8c210f",
+            "duration": 1.2,
+            "size": 19270,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\elision\\el-01\\natural.mp3",
+          "metaRelPath": "audio\\natural\\elision\\el-01\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "Nex day",
+            "generatedAt": "2026-07-17T05:45:19.581Z",
+            "contentHash": "55e85b52ac27abf235ededccf2e632f01bec06ba695e05fd92e65a6ded6a3135",
+            "fileHash": "9d02cffba4b1acfdb1be0def01570c01e910eea254c396c7f224f311470ffb38",
+            "duration": 1.13,
+            "size": 18118,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 6,
+      "lessonId": "elision",
+      "sentenceId": "el-08",
+      "category": "吞音",
+      "writtenText": "I don't know",
+      "naturalText": "I don' know",
+      "clearText": "I don't know",
+      "expectedChanges": [
+        "don't 中 t 在 n 之后不爆破"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\elision\\el-08\\clear.mp3",
+          "metaRelPath": "audio\\natural\\elision\\el-08\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "I don't know",
+            "generatedAt": "2026-07-17T05:45:19.654Z",
+            "contentHash": "807a4f302e7bbba11532101d40190ff6b4b1fea91a52a4eeb9982c06614bca62",
+            "fileHash": "2fd3b140b42a1487ae2306328449bd605677c0795f4f0e5df22e885213d52401",
+            "duration": 1.2,
+            "size": 19270,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\elision\\el-08\\natural.mp3",
+          "metaRelPath": "audio\\natural\\elision\\el-08\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "I don' know",
+            "generatedAt": "2026-07-17T05:45:19.683Z",
+            "contentHash": "6738c47e06fda4339e6ad29a86f8d7d1fe2fac9ac6d6ab5d65141cbb3077a0a6",
+            "fileHash": "cf61f7389a57d5f2a7f01c36d309cbbdd70a3129f08d0464b78209944fb18d6f",
+            "duration": 0.95,
+            "size": 15238,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 7,
+      "lessonId": "flap",
+      "sentenceId": "fl-01",
+      "category": "闪音",
+      "writtenText": "Water",
+      "naturalText": "Water",
+      "clearText": "Water",
+      "expectedChanges": [
+        "t 闪音化 (听起来像 d)"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\flap\\fl-01\\clear.mp3",
+          "metaRelPath": "audio\\natural\\flap\\fl-01\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "Water",
+            "generatedAt": "2026-07-17T05:45:19.711Z",
+            "contentHash": "7ca7dea906800f87091b819132ecf2aa2b7ea14c9841fa18b9db121d3bbe82dc",
+            "fileHash": "ed857670e6d8565e6cd922b71cc0f969055594aa45cae7f1bec14bdd541938cf",
+            "duration": 1.17,
+            "size": 18694,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\flap\\fl-01\\natural.mp3",
+          "metaRelPath": "audio\\natural\\flap\\fl-01\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "Water",
+            "generatedAt": "2026-07-17T05:45:19.738Z",
+            "contentHash": "7ca7dea906800f87091b819132ecf2aa2b7ea14c9841fa18b9db121d3bbe82dc",
+            "fileHash": "ded365d4c3fc95beebf783783e6bd424ec5ee58b6f397c2334683bfddee86d97",
+            "duration": 0.99,
+            "size": 15814,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 8,
+      "lessonId": "flap",
+      "sentenceId": "fl-04",
+      "category": "闪音",
+      "writtenText": "Get it",
+      "naturalText": "Get it",
+      "clearText": "Get it",
+      "expectedChanges": [
+        "t 在两元音间闪音 → ge'it"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\flap\\fl-04\\clear.mp3",
+          "metaRelPath": "audio\\natural\\flap\\fl-04\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "Get it",
+            "generatedAt": "2026-07-17T05:45:19.776Z",
+            "contentHash": "4028fde31ed0a484498030d80674fb875ab023fe9121ee3c0efb4611daa714b0",
+            "fileHash": "c5c4cbab86d5b611741fd9fe4db5483333bee90a83c4cc406110da9d5bc212e7",
+            "duration": 1.1,
+            "size": 17542,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\flap\\fl-04\\natural.mp3",
+          "metaRelPath": "audio\\natural\\flap\\fl-04\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "Get it",
+            "generatedAt": "2026-07-17T05:45:19.805Z",
+            "contentHash": "4028fde31ed0a484498030d80674fb875ab023fe9121ee3c0efb4611daa714b0",
+            "fileHash": "3424bdfc6fa3e44a16c380c34198fd2d5b04bfd95f50c38adfc65ffb53937796",
+            "duration": 1.13,
+            "size": 18118,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 9,
+      "lessonId": "assimilation",
+      "sentenceId": "as-01",
+      "category": "同化",
+      "writtenText": "Did you see it",
+      "naturalText": "Didja see it",
+      "clearText": "Did you see it",
+      "expectedChanges": [
+        "did + you → didja (d+ʒ 同化)"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\assimilation\\as-01\\clear.mp3",
+          "metaRelPath": "audio\\natural\\assimilation\\as-01\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "Did you see it",
+            "generatedAt": "2026-07-17T05:45:34.719Z",
+            "contentHash": "7d6f2d43a81a2da7bc26f6f22e7eb9587d601c4010f4f91b739dd9bdcaa4ce4e",
+            "fileHash": "1389b0a7abe6ea748e9026283712420cb5f284e5d98c2a343de2f39b57f9acb1",
+            "duration": 1.31,
+            "size": 20998,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\assimilation\\as-01\\natural.mp3",
+          "metaRelPath": "audio\\natural\\assimilation\\as-01\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "Didja see it",
+            "generatedAt": "2026-07-17T05:45:34.744Z",
+            "contentHash": "78e423f540446b7e809afad96465db631592cd149c513049aed58a36902af0c3",
+            "fileHash": "c6992db2370ff958406f595e95583a5f36bf96800f423d4fd369cd6de9e1b4fd",
+            "duration": 1.13,
+            "size": 18118,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 10,
+      "lessonId": "assimilation",
+      "sentenceId": "as-09",
+      "category": "同化",
+      "writtenText": "Meet you",
+      "naturalText": "Meetcha",
+      "clearText": "Meet you",
+      "expectedChanges": [
+        "meet + you → meetcha (t+ʃ 同化)"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\assimilation\\as-09\\clear.mp3",
+          "metaRelPath": "audio\\natural\\assimilation\\as-09\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "Meet you",
+            "generatedAt": "2026-07-17T05:45:34.763Z",
+            "contentHash": "cc929b9b3e9b5a211a88500b4a488b4c9e9d50e7dbddcd4b3f9cbb83225ce79d",
+            "fileHash": "74bc6f3deda61b1413502d750f03426b57dce8b9aa413d4c0256be44d087c83a",
+            "duration": 1.06,
+            "size": 16966,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\assimilation\\as-09\\natural.mp3",
+          "metaRelPath": "audio\\natural\\assimilation\\as-09\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "Meetcha",
+            "generatedAt": "2026-07-17T05:45:34.781Z",
+            "contentHash": "6a63d710d15f1674f8ebe2c14b9f2fa3ffb2604f624e1a98716acbe679d5a253",
+            "fileHash": "b70709a7875ce60127a12e5629c10a601b890641d2689e151f7aa824d52b3f8a",
+            "duration": 0.92,
+            "size": 14662,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 11,
+      "lessonId": "stress",
+      "sentenceId": "st-01",
+      "category": "句子重音",
+      "writtenText": "I want to go",
+      "naturalText": "I WANna go",
+      "clearText": "I want to go",
+      "expectedChanges": [
+        "重音: want, go",
+        "弱读: I, to"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\stress\\st-01\\clear.mp3",
+          "metaRelPath": "audio\\natural\\stress\\st-01\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "I want to go",
+            "generatedAt": "2026-07-17T05:45:34.804Z",
+            "contentHash": "26593ba0b37e622298938b69dd8a21d1100f386c4138375d18bd7cde7de7c8f8",
+            "fileHash": "66807ddafc021c00df0b9ca7775c0079068b87133d947e7380fbebe542338c96",
+            "duration": 1.31,
+            "size": 20998,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\stress\\st-01\\natural.mp3",
+          "metaRelPath": "audio\\natural\\stress\\st-01\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "I WANna go",
+            "generatedAt": "2026-07-17T05:45:34.824Z",
+            "contentHash": "16b9489b20e414abbaa468a985f8e513f78d405e86dd3e0d2244a2fa091adde0",
+            "fileHash": "c43042542e7b533b02e3b06c57e655b65e30dbdd7fbfc978b67caa0a13b1e8b4",
+            "duration": 1.6,
+            "size": 25606,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    },
+    {
+      "no": 12,
+      "lessonId": "rhythm",
+      "sentenceId": "rh-01",
+      "category": "节奏与意群",
+      "writtenText": "I need to talk to him about it",
+      "naturalText": "I NEEDta TALKta him aBOUT it",
+      "clearText": "I need to talk to him about it",
+      "expectedChanges": [
+        "3 个意群: I need to | talk to him | about it",
+        "重音: need, talk, about"
+      ],
+      "files": {
+        "clear": {
+          "relPath": "audio\\natural\\rhythm\\rh-01\\clear.mp3",
+          "metaRelPath": "audio\\natural\\rhythm\\rh-01\\clear.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Trustworthy_Man",
+            "model": "speech-01",
+            "speed": 0.85,
+            "instructions": "neutral American, deliberate pace, no IPA-driven compression",
+            "outputFormat": "mp3",
+            "sourceText": "I need to talk to him about it",
+            "generatedAt": "2026-07-17T05:45:34.858Z",
+            "contentHash": "0c07a4f4273404464ea094dad647571a139ce53e058582b61e04a800f7d55680",
+            "fileHash": "d7a37a50e226c6f1e53b0185f0f2444938ff02b0e91c09e241cd5691306c04f4",
+            "duration": 2,
+            "size": 31942,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        },
+        "natural": {
+          "relPath": "audio\\natural\\rhythm\\rh-01\\natural.mp3",
+          "metaRelPath": "audio\\natural\\rhythm\\rh-01\\natural.meta.json",
+          "meta": {
+            "provider": "MiniMax-tts",
+            "voice": "English_Diligent_Man",
+            "model": "speech-01",
+            "speed": 1.05,
+            "instructions": "casual American, IPA features realized via naturalText spelling compression (e.g. didja, wanna, lemme)",
+            "outputFormat": "mp3",
+            "sourceText": "I NEEDta TALKta him aBOUT it",
+            "generatedAt": "2026-07-17T05:45:34.883Z",
+            "contentHash": "44807d12519e621ac1d13b74fb047651169e45d5b4ac9d4e39a5498c4fe253c5",
+            "fileHash": "addd5ec18742149d285ead2195b70a1a7d8aa7577438b034d3983c243689c0ee",
+            "duration": 1.78,
+            "size": 28486,
+            "generationStatus": "success",
+            "errorMessage": null
+          }
+        }
+      }
+    }
+  ],
+  "avgSize": 20110,
+  "avgDuration": 1.26,
+  "totalSizeMB": 0.46
+}
