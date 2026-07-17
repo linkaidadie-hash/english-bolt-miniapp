@@ -1,4 +1,11 @@
 <view class="page">
+  <!-- 错误显示 -->
+  <view class="error-box" wx:if="{{loadError}}">
+    <text class="error-title">⚠️ 加载失败</text>
+    <text class="error-msg">{{loadError}}</text>
+    <text class="error-hint">请打开调试器 Console 看具体错误堆栈</text>
+  </view>
+
   <!-- 顶部状态 -->
   <view class="hero" wx:if="{{summary}}">
     <view class="hero-title">自然口语解码</view>
