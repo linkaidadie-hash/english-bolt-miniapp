@@ -8,7 +8,7 @@ const tts = require('./utils/tts.js');
 
 App({
   globalData: {
-    buildTag: 'phase4b-part2-segments-2026-07-17',
+    buildTag: 'phase4b-fix-chunks-2026-07-17',
     // v2 阶段二会替换为正式 audio base + 完整 word/sentence 库
     audioBase: 'https://english.wujiong.cn/audio/',
   },
