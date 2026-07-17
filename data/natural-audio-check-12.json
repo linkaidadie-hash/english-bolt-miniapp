@@ -1,0 +1,225 @@
+{
+  "checkedAt": "2026-07-17T05:49:34.340Z",
+  "base": "https://english.wujiong.cn/audio/natural",
+  "total": 24,
+  "passed": 24,
+  "failed": 0,
+  "items": [
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-01/clear.mp3",
+      "status": 200,
+      "size": 19846,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-01/natural.mp3",
+      "status": 200,
+      "size": 20422,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-08/clear.mp3",
+      "status": 200,
+      "size": 27334,
+      "error": null
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/weak-form/wf-08/natural.mp3",
+      "status": 200,
+      "size": 24454,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-01/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-01/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-04/clear.mp3",
+      "status": 200,
+      "size": 21574,
+      "error": null
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-04/natural.mp3",
+      "status": 200,
+      "size": 14662,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-01/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-01/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-08",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-08/clear.mp3",
+      "status": 200,
+      "size": 19270,
+      "error": null
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-08",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-08/natural.mp3",
+      "status": 200,
+      "size": 15238,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-01/clear.mp3",
+      "status": 200,
+      "size": 18694,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-01/natural.mp3",
+      "status": 200,
+      "size": 15814,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-04",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-04/clear.mp3",
+      "status": 200,
+      "size": 17542,
+      "error": null
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-04",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-04/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-01/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-01/natural.mp3",
+      "status": 200,
+      "size": 18118,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-09",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-09/clear.mp3",
+      "status": 200,
+      "size": 16966,
+      "error": null
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-09",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-09/natural.mp3",
+      "status": 200,
+      "size": 14662,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-01/clear.mp3",
+      "status": 200,
+      "size": 20998,
+      "error": null
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/stress/st-01/natural.mp3",
+      "status": 200,
+      "size": 25606,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-01",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-01/clear.mp3",
+      "status": 200,
+      "size": 31942,
+      "error": null
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-01",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/rhythm/rh-01/natural.mp3",
+      "status": 200,
+      "size": 28486,
+      "error": null
+    }
+  ]
+}
