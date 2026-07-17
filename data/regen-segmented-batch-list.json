@@ -1,0 +1,3332 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-17T11:50:44.636Z",
+    "reason": "speechChunks 修复后, audioSegmented 重建",
+    "totalRequests": 276,
+    "totalBatches": 35,
+    "batchSize": 8,
+    "provider": "MiniMax-tts",
+    "model": "speech-01",
+    "base": "https://english.wujiong.cn/audio/natural",
+    "totalChars": 1768,
+    "totalSecEstimate": 156.83
+  },
+  "batches": [
+    {
+      "batchId": "regen-batch-001",
+      "startIndex": 0,
+      "endIndex": 7,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "linking",
+          "sentenceId": "lk-12",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Far",
+          "outputPath": "audio/natural/linking/lk-12/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "linking",
+          "sentenceId": "lk-12",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Far",
+          "outputPath": "audio/natural/linking/lk-12/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "linking",
+          "sentenceId": "lk-12",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "away",
+          "outputPath": "audio/natural/linking/lk-12/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "linking",
+          "sentenceId": "lk-12",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "away",
+          "outputPath": "audio/natural/linking/lk-12/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "elision",
+          "sentenceId": "el-03",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Friendship",
+          "outputPath": "audio/natural/elision/el-03/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "elision",
+          "sentenceId": "el-03",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Friendship",
+          "outputPath": "audio/natural/elision/el-03/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "elision",
+          "sentenceId": "el-06",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Handsome",
+          "outputPath": "audio/natural/elision/el-06/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "elision",
+          "sentenceId": "el-06",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Handsome",
+          "outputPath": "audio/natural/elision/el-06/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-002",
+      "startIndex": 8,
+      "endIndex": 15,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-01",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Water",
+          "outputPath": "audio/natural/flap/fl-01/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-01",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Water",
+          "outputPath": "audio/natural/flap/fl-01/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-02",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Better",
+          "outputPath": "audio/natural/flap/fl-02/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-02",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Better",
+          "outputPath": "audio/natural/flap/fl-02/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-03",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Pretty",
+          "outputPath": "audio/natural/flap/fl-03/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-03",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Pretty",
+          "outputPath": "audio/natural/flap/fl-03/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-04",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Get",
+          "outputPath": "audio/natural/flap/fl-04/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-04",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Get",
+          "outputPath": "audio/natural/flap/fl-04/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-003",
+      "startIndex": 16,
+      "endIndex": 23,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-04",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "it",
+          "outputPath": "audio/natural/flap/fl-04/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-04",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "it",
+          "outputPath": "audio/natural/flap/fl-04/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-05",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "City",
+          "outputPath": "audio/natural/flap/fl-05/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-05",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "City",
+          "outputPath": "audio/natural/flap/fl-05/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-06",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Letter",
+          "outputPath": "audio/natural/flap/fl-06/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-06",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Letter",
+          "outputPath": "audio/natural/flap/fl-06/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-07",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Matter",
+          "outputPath": "audio/natural/flap/fl-07/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-07",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Matter",
+          "outputPath": "audio/natural/flap/fl-07/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-004",
+      "startIndex": 24,
+      "endIndex": 31,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-08",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Little",
+          "outputPath": "audio/natural/flap/fl-08/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-08",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Little",
+          "outputPath": "audio/natural/flap/fl-08/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-09",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Bottle",
+          "outputPath": "audio/natural/flap/fl-09/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-09",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Bottle",
+          "outputPath": "audio/natural/flap/fl-09/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-10",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Title",
+          "outputPath": "audio/natural/flap/fl-10/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-10",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Title",
+          "outputPath": "audio/natural/flap/fl-10/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-11",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Forty",
+          "outputPath": "audio/natural/flap/fl-11/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-11",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Forty",
+          "outputPath": "audio/natural/flap/fl-11/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-005",
+      "startIndex": 32,
+      "endIndex": 39,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-12",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Saturday",
+          "outputPath": "audio/natural/flap/fl-12/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-12",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Saturday",
+          "outputPath": "audio/natural/flap/fl-12/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-13",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "Not",
+          "outputPath": "audio/natural/flap/fl-13/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-13",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "Not",
+          "outputPath": "audio/natural/flap/fl-13/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-13",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "at",
+          "outputPath": "audio/natural/flap/fl-13/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-13",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "at",
+          "outputPath": "audio/natural/flap/fl-13/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-13",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "all",
+          "outputPath": "audio/natural/flap/fl-13/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-13",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "all",
+          "outputPath": "audio/natural/flap/fl-13/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-006",
+      "startIndex": 40,
+      "endIndex": 47,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-14",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "Put",
+          "outputPath": "audio/natural/flap/fl-14/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-14",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "Put",
+          "outputPath": "audio/natural/flap/fl-14/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-14",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "it",
+          "outputPath": "audio/natural/flap/fl-14/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-14",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "it",
+          "outputPath": "audio/natural/flap/fl-14/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-14",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "down",
+          "outputPath": "audio/natural/flap/fl-14/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-14",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "down",
+          "outputPath": "audio/natural/flap/fl-14/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-15",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I'm",
+          "outputPath": "audio/natural/flap/fl-15/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-15",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I'm",
+          "outputPath": "audio/natural/flap/fl-15/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-007",
+      "startIndex": 48,
+      "endIndex": 55,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-15",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "going",
+          "outputPath": "audio/natural/flap/fl-15/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-15",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "going",
+          "outputPath": "audio/natural/flap/fl-15/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-15",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "to",
+          "outputPath": "audio/natural/flap/fl-15/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-15",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "to",
+          "outputPath": "audio/natural/flap/fl-15/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-16",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Bet",
+          "outputPath": "audio/natural/flap/fl-16/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-16",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Bet",
+          "outputPath": "audio/natural/flap/fl-16/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-16",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "you",
+          "outputPath": "audio/natural/flap/fl-16/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-16",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "you",
+          "outputPath": "audio/natural/flap/fl-16/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-008",
+      "startIndex": 56,
+      "endIndex": 63,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-17",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I",
+          "outputPath": "audio/natural/flap/fl-17/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-17",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I",
+          "outputPath": "audio/natural/flap/fl-17/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-17",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "gotta",
+          "outputPath": "audio/natural/flap/fl-17/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-17",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "gotta",
+          "outputPath": "audio/natural/flap/fl-17/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-17",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "go",
+          "outputPath": "audio/natural/flap/fl-17/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-17",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "go",
+          "outputPath": "audio/natural/flap/fl-17/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-18",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Don't",
+          "outputPath": "audio/natural/flap/fl-18/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-18",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Don't",
+          "outputPath": "audio/natural/flap/fl-18/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-009",
+      "startIndex": 64,
+      "endIndex": 71,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-18",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "forget",
+          "outputPath": "audio/natural/flap/fl-18/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-18",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "forget",
+          "outputPath": "audio/natural/flap/fl-18/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-19",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Right",
+          "outputPath": "audio/natural/flap/fl-19/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-19",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Right",
+          "outputPath": "audio/natural/flap/fl-19/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-19",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "there",
+          "outputPath": "audio/natural/flap/fl-19/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-19",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "there",
+          "outputPath": "audio/natural/flap/fl-19/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-20",
+          "chunkIndex": 0,
+          "totalChunks": 4,
+          "version": "clear",
+          "text": "What",
+          "outputPath": "audio/natural/flap/fl-20/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-20",
+          "chunkIndex": 0,
+          "totalChunks": 4,
+          "version": "natural",
+          "text": "What",
+          "outputPath": "audio/natural/flap/fl-20/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-010",
+      "startIndex": 72,
+      "endIndex": 79,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-20",
+          "chunkIndex": 1,
+          "totalChunks": 4,
+          "version": "clear",
+          "text": "time",
+          "outputPath": "audio/natural/flap/fl-20/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-20",
+          "chunkIndex": 1,
+          "totalChunks": 4,
+          "version": "natural",
+          "text": "time",
+          "outputPath": "audio/natural/flap/fl-20/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-20",
+          "chunkIndex": 2,
+          "totalChunks": 4,
+          "version": "clear",
+          "text": "is",
+          "outputPath": "audio/natural/flap/fl-20/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-20",
+          "chunkIndex": 2,
+          "totalChunks": 4,
+          "version": "natural",
+          "text": "is",
+          "outputPath": "audio/natural/flap/fl-20/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-20",
+          "chunkIndex": 3,
+          "totalChunks": 4,
+          "version": "clear",
+          "text": "it",
+          "outputPath": "audio/natural/flap/fl-20/clear-seg3.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "flap",
+          "sentenceId": "fl-20",
+          "chunkIndex": 3,
+          "totalChunks": 4,
+          "version": "natural",
+          "text": "it",
+          "outputPath": "audio/natural/flap/fl-20/natural-seg3.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "stress",
+          "sentenceId": "st-13",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "We",
+          "outputPath": "audio/natural/stress/st-13/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "stress",
+          "sentenceId": "st-13",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "We",
+          "outputPath": "audio/natural/stress/st-13/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-011",
+      "startIndex": 80,
+      "endIndex": 87,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "stress",
+          "sentenceId": "st-13",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "leave",
+          "outputPath": "audio/natural/stress/st-13/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "stress",
+          "sentenceId": "st-13",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "leave",
+          "outputPath": "audio/natural/stress/st-13/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "stress",
+          "sentenceId": "st-13",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "tomorrow",
+          "outputPath": "audio/natural/stress/st-13/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "stress",
+          "sentenceId": "st-13",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "tomorrow",
+          "outputPath": "audio/natural/stress/st-13/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-01",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I need to",
+          "outputPath": "audio/natural/rhythm/rh-01/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-01",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I need to",
+          "outputPath": "audio/natural/rhythm/rh-01/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-01",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "talk to him",
+          "outputPath": "audio/natural/rhythm/rh-01/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-01",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "talk to him",
+          "outputPath": "audio/natural/rhythm/rh-01/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-012",
+      "startIndex": 88,
+      "endIndex": 95,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-01",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "about it",
+          "outputPath": "audio/natural/rhythm/rh-01/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-01",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "about it",
+          "outputPath": "audio/natural/rhythm/rh-01/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-02",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "Give me",
+          "outputPath": "audio/natural/rhythm/rh-02/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-02",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "Give me",
+          "outputPath": "audio/natural/rhythm/rh-02/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-02",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "a cup of",
+          "outputPath": "audio/natural/rhythm/rh-02/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-02",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "a cup of",
+          "outputPath": "audio/natural/rhythm/rh-02/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-02",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "coffee",
+          "outputPath": "audio/natural/rhythm/rh-02/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-02",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "coffee",
+          "outputPath": "audio/natural/rhythm/rh-02/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-013",
+      "startIndex": 96,
+      "endIndex": 103,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-03",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "Take it",
+          "outputPath": "audio/natural/rhythm/rh-03/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-03",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "Take it",
+          "outputPath": "audio/natural/rhythm/rh-03/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-03",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "to the",
+          "outputPath": "audio/natural/rhythm/rh-03/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-03",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "to the",
+          "outputPath": "audio/natural/rhythm/rh-03/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-03",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "office",
+          "outputPath": "audio/natural/rhythm/rh-03/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-03",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "office",
+          "outputPath": "audio/natural/rhythm/rh-03/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-04",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Look at",
+          "outputPath": "audio/natural/rhythm/rh-04/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-04",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Look at",
+          "outputPath": "audio/natural/rhythm/rh-04/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-014",
+      "startIndex": 104,
+      "endIndex": 111,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-04",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "this picture",
+          "outputPath": "audio/natural/rhythm/rh-04/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-04",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "this picture",
+          "outputPath": "audio/natural/rhythm/rh-04/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-05",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "Tell me",
+          "outputPath": "audio/natural/rhythm/rh-05/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-05",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "Tell me",
+          "outputPath": "audio/natural/rhythm/rh-05/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-05",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "what you",
+          "outputPath": "audio/natural/rhythm/rh-05/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-05",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "what you",
+          "outputPath": "audio/natural/rhythm/rh-05/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-05",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "think",
+          "outputPath": "audio/natural/rhythm/rh-05/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-05",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "think",
+          "outputPath": "audio/natural/rhythm/rh-05/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-015",
+      "startIndex": 112,
+      "endIndex": 119,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-06",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "I went to the store",
+          "outputPath": "audio/natural/rhythm/rh-06/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-06",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "I went to the store",
+          "outputPath": "audio/natural/rhythm/rh-06/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-06",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "yesterday",
+          "outputPath": "audio/natural/rhythm/rh-06/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-06",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "yesterday",
+          "outputPath": "audio/natural/rhythm/rh-06/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-07",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "He's working",
+          "outputPath": "audio/natural/rhythm/rh-07/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-07",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "He's working",
+          "outputPath": "audio/natural/rhythm/rh-07/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-07",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "on a new",
+          "outputPath": "audio/natural/rhythm/rh-07/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-07",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "on a new",
+          "outputPath": "audio/natural/rhythm/rh-07/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-016",
+      "startIndex": 120,
+      "endIndex": 127,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-07",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "project",
+          "outputPath": "audio/natural/rhythm/rh-07/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-07",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "project",
+          "outputPath": "audio/natural/rhythm/rh-07/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-08",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "I want to be a",
+          "outputPath": "audio/natural/rhythm/rh-08/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-08",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "I want to be a",
+          "outputPath": "audio/natural/rhythm/rh-08/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-08",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "doctor",
+          "outputPath": "audio/natural/rhythm/rh-08/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-08",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "doctor",
+          "outputPath": "audio/natural/rhythm/rh-08/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-09",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "She's from",
+          "outputPath": "audio/natural/rhythm/rh-09/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-09",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "She's from",
+          "outputPath": "audio/natural/rhythm/rh-09/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-017",
+      "startIndex": 128,
+      "endIndex": 135,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-09",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "a small",
+          "outputPath": "audio/natural/rhythm/rh-09/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-09",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "a small",
+          "outputPath": "audio/natural/rhythm/rh-09/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-09",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "town",
+          "outputPath": "audio/natural/rhythm/rh-09/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-09",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "town",
+          "outputPath": "audio/natural/rhythm/rh-09/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-10",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I'll meet you",
+          "outputPath": "audio/natural/rhythm/rh-10/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-10",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I'll meet you",
+          "outputPath": "audio/natural/rhythm/rh-10/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-10",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "at the",
+          "outputPath": "audio/natural/rhythm/rh-10/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-10",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "at the",
+          "outputPath": "audio/natural/rhythm/rh-10/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-018",
+      "startIndex": 136,
+      "endIndex": 143,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-10",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "airport",
+          "outputPath": "audio/natural/rhythm/rh-10/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-10",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "airport",
+          "outputPath": "audio/natural/rhythm/rh-10/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-11",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "We had a",
+          "outputPath": "audio/natural/rhythm/rh-11/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-11",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "We had a",
+          "outputPath": "audio/natural/rhythm/rh-11/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-11",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "great",
+          "outputPath": "audio/natural/rhythm/rh-11/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-11",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "great",
+          "outputPath": "audio/natural/rhythm/rh-11/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-11",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "time",
+          "outputPath": "audio/natural/rhythm/rh-11/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-11",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "time",
+          "outputPath": "audio/natural/rhythm/rh-11/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-019",
+      "startIndex": 144,
+      "endIndex": 151,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-12",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I'm looking",
+          "outputPath": "audio/natural/rhythm/rh-12/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-12",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I'm looking",
+          "outputPath": "audio/natural/rhythm/rh-12/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-12",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "for a new",
+          "outputPath": "audio/natural/rhythm/rh-12/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-12",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "for a new",
+          "outputPath": "audio/natural/rhythm/rh-12/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-12",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "job",
+          "outputPath": "audio/natural/rhythm/rh-12/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-12",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "job",
+          "outputPath": "audio/natural/rhythm/rh-12/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-13",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I just",
+          "outputPath": "audio/natural/rhythm/rh-13/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-13",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I just",
+          "outputPath": "audio/natural/rhythm/rh-13/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-020",
+      "startIndex": 152,
+      "endIndex": 159,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-13",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "got back",
+          "outputPath": "audio/natural/rhythm/rh-13/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-13",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "got back",
+          "outputPath": "audio/natural/rhythm/rh-13/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-13",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "from vacation",
+          "outputPath": "audio/natural/rhythm/rh-13/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-13",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "from vacation",
+          "outputPath": "audio/natural/rhythm/rh-13/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-14",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "They live in",
+          "outputPath": "audio/natural/rhythm/rh-14/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-14",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "They live in",
+          "outputPath": "audio/natural/rhythm/rh-14/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-14",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "a big",
+          "outputPath": "audio/natural/rhythm/rh-14/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-14",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "a big",
+          "outputPath": "audio/natural/rhythm/rh-14/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-021",
+      "startIndex": 160,
+      "endIndex": 167,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-14",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "house",
+          "outputPath": "audio/natural/rhythm/rh-14/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-14",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "house",
+          "outputPath": "audio/natural/rhythm/rh-14/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-15",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "I read a book",
+          "outputPath": "audio/natural/rhythm/rh-15/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-15",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "I read a book",
+          "outputPath": "audio/natural/rhythm/rh-15/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-15",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "last night",
+          "outputPath": "audio/natural/rhythm/rh-15/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-15",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "last night",
+          "outputPath": "audio/natural/rhythm/rh-15/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-16",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "She plays the piano",
+          "outputPath": "audio/natural/rhythm/rh-16/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-16",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "She plays the piano",
+          "outputPath": "audio/natural/rhythm/rh-16/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-022",
+      "startIndex": 168,
+      "endIndex": 175,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-16",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "very well",
+          "outputPath": "audio/natural/rhythm/rh-16/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-16",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "very well",
+          "outputPath": "audio/natural/rhythm/rh-16/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-17",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I want",
+          "outputPath": "audio/natural/rhythm/rh-17/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-17",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I want",
+          "outputPath": "audio/natural/rhythm/rh-17/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-17",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "some",
+          "outputPath": "audio/natural/rhythm/rh-17/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-17",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "some",
+          "outputPath": "audio/natural/rhythm/rh-17/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-17",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "ice cream",
+          "outputPath": "audio/natural/rhythm/rh-17/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-17",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "ice cream",
+          "outputPath": "audio/natural/rhythm/rh-17/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-023",
+      "startIndex": 176,
+      "endIndex": 183,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-18",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "He works",
+          "outputPath": "audio/natural/rhythm/rh-18/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-18",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "He works",
+          "outputPath": "audio/natural/rhythm/rh-18/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-18",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "at a",
+          "outputPath": "audio/natural/rhythm/rh-18/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-18",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "at a",
+          "outputPath": "audio/natural/rhythm/rh-18/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-18",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "bank",
+          "outputPath": "audio/natural/rhythm/rh-18/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-18",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "bank",
+          "outputPath": "audio/natural/rhythm/rh-18/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-19",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "I'm going to the",
+          "outputPath": "audio/natural/rhythm/rh-19/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-19",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "I'm going to the",
+          "outputPath": "audio/natural/rhythm/rh-19/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-024",
+      "startIndex": 184,
+      "endIndex": 191,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-19",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "movies",
+          "outputPath": "audio/natural/rhythm/rh-19/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-19",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "movies",
+          "outputPath": "audio/natural/rhythm/rh-19/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-20",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "I'll see you",
+          "outputPath": "audio/natural/rhythm/rh-20/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-20",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "I'll see you",
+          "outputPath": "audio/natural/rhythm/rh-20/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-20",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "on Monday",
+          "outputPath": "audio/natural/rhythm/rh-20/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "rhythm",
+          "sentenceId": "rh-20",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "on Monday",
+          "outputPath": "audio/natural/rhythm/rh-20/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-01",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I",
+          "outputPath": "audio/natural/informal/if-01/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-01",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I",
+          "outputPath": "audio/natural/informal/if-01/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-025",
+      "startIndex": 192,
+      "endIndex": 199,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-01",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "want to",
+          "outputPath": "audio/natural/informal/if-01/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-01",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "want to",
+          "outputPath": "audio/natural/informal/if-01/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-01",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "go",
+          "outputPath": "audio/natural/informal/if-01/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-01",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "go",
+          "outputPath": "audio/natural/informal/if-01/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-02",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I'm",
+          "outputPath": "audio/natural/informal/if-02/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-02",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I'm",
+          "outputPath": "audio/natural/informal/if-02/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-02",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "going to",
+          "outputPath": "audio/natural/informal/if-02/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-02",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "going to",
+          "outputPath": "audio/natural/informal/if-02/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-026",
+      "startIndex": 200,
+      "endIndex": 207,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-02",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "tell him",
+          "outputPath": "audio/natural/informal/if-02/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-02",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "tell him",
+          "outputPath": "audio/natural/informal/if-02/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-03",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I",
+          "outputPath": "audio/natural/informal/if-03/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-03",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I",
+          "outputPath": "audio/natural/informal/if-03/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-03",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "have to",
+          "outputPath": "audio/natural/informal/if-03/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-03",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "have to",
+          "outputPath": "audio/natural/informal/if-03/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-03",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "work",
+          "outputPath": "audio/natural/informal/if-03/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-03",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "work",
+          "outputPath": "audio/natural/informal/if-03/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-027",
+      "startIndex": 208,
+      "endIndex": 215,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-04",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Let me",
+          "outputPath": "audio/natural/informal/if-04/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-04",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Let me",
+          "outputPath": "audio/natural/informal/if-04/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-04",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "see",
+          "outputPath": "audio/natural/informal/if-04/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-04",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "see",
+          "outputPath": "audio/natural/informal/if-04/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-05",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Give me",
+          "outputPath": "audio/natural/informal/if-05/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-05",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Give me",
+          "outputPath": "audio/natural/informal/if-05/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-05",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "that",
+          "outputPath": "audio/natural/informal/if-05/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-05",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "that",
+          "outputPath": "audio/natural/informal/if-05/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-028",
+      "startIndex": 216,
+      "endIndex": 223,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-06",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "What are you",
+          "outputPath": "audio/natural/informal/if-06/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-06",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "What are you",
+          "outputPath": "audio/natural/informal/if-06/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-06",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "doing",
+          "outputPath": "audio/natural/informal/if-06/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-06",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "doing",
+          "outputPath": "audio/natural/informal/if-06/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-07",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Do you",
+          "outputPath": "audio/natural/informal/if-07/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-07",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Do you",
+          "outputPath": "audio/natural/informal/if-07/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-07",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "know what",
+          "outputPath": "audio/natural/informal/if-07/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-07",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "know what",
+          "outputPath": "audio/natural/informal/if-07/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-029",
+      "startIndex": 224,
+      "endIndex": 231,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-08",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "Got you",
+          "outputPath": "audio/natural/informal/if-08/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-08",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "Got you",
+          "outputPath": "audio/natural/informal/if-08/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-09",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I",
+          "outputPath": "audio/natural/informal/if-09/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-09",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I",
+          "outputPath": "audio/natural/informal/if-09/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-09",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "don't",
+          "outputPath": "audio/natural/informal/if-09/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-09",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "don't",
+          "outputPath": "audio/natural/informal/if-09/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-09",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "know",
+          "outputPath": "audio/natural/informal/if-09/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-09",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "know",
+          "outputPath": "audio/natural/informal/if-09/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-030",
+      "startIndex": 232,
+      "endIndex": 239,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-10",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Could you",
+          "outputPath": "audio/natural/informal/if-10/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-10",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Could you",
+          "outputPath": "audio/natural/informal/if-10/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-10",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "help me",
+          "outputPath": "audio/natural/informal/if-10/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-10",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "help me",
+          "outputPath": "audio/natural/informal/if-10/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-11",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "What are you",
+          "outputPath": "audio/natural/informal/if-11/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-11",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "What are you",
+          "outputPath": "audio/natural/informal/if-11/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-11",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "going to",
+          "outputPath": "audio/natural/informal/if-11/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-11",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "going to",
+          "outputPath": "audio/natural/informal/if-11/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-031",
+      "startIndex": 240,
+      "endIndex": 247,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-11",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "do",
+          "outputPath": "audio/natural/informal/if-11/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-11",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "do",
+          "outputPath": "audio/natural/informal/if-11/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-12",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "You all",
+          "outputPath": "audio/natural/informal/if-12/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-12",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "You all",
+          "outputPath": "audio/natural/informal/if-12/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-12",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "come back",
+          "outputPath": "audio/natural/informal/if-12/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-12",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "come back",
+          "outputPath": "audio/natural/informal/if-12/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-13",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "What you may call it",
+          "outputPath": "audio/natural/informal/if-13/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-13",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "What you may call it",
+          "outputPath": "audio/natural/informal/if-13/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-032",
+      "startIndex": 248,
+      "endIndex": 255,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-14",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "You",
+          "outputPath": "audio/natural/informal/if-14/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-14",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "You",
+          "outputPath": "audio/natural/informal/if-14/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-14",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "got it",
+          "outputPath": "audio/natural/informal/if-14/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-14",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "got it",
+          "outputPath": "audio/natural/informal/if-14/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-15",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "No",
+          "outputPath": "audio/natural/informal/if-15/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-15",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "No",
+          "outputPath": "audio/natural/informal/if-15/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-15",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "problem",
+          "outputPath": "audio/natural/informal/if-15/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-15",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "problem",
+          "outputPath": "audio/natural/informal/if-15/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-033",
+      "startIndex": 256,
+      "endIndex": 263,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-16",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "I",
+          "outputPath": "audio/natural/informal/if-16/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-16",
+          "chunkIndex": 0,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "I",
+          "outputPath": "audio/natural/informal/if-16/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-16",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "have got to",
+          "outputPath": "audio/natural/informal/if-16/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-16",
+          "chunkIndex": 1,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "have got to",
+          "outputPath": "audio/natural/informal/if-16/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-16",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "clear",
+          "text": "run",
+          "outputPath": "audio/natural/informal/if-16/clear-seg2.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-16",
+          "chunkIndex": 2,
+          "totalChunks": 3,
+          "version": "natural",
+          "text": "run",
+          "outputPath": "audio/natural/informal/if-16/natural-seg2.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-17",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "See you",
+          "outputPath": "audio/natural/informal/if-17/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-17",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "See you",
+          "outputPath": "audio/natural/informal/if-17/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-034",
+      "startIndex": 264,
+      "endIndex": 271,
+      "count": 8,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-17",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "later",
+          "outputPath": "audio/natural/informal/if-17/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-17",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "later",
+          "outputPath": "audio/natural/informal/if-17/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-18",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "Take it",
+          "outputPath": "audio/natural/informal/if-18/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-18",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "Take it",
+          "outputPath": "audio/natural/informal/if-18/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-18",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "easy",
+          "outputPath": "audio/natural/informal/if-18/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-18",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "easy",
+          "outputPath": "audio/natural/informal/if-18/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-19",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "clear",
+          "text": "What is up",
+          "outputPath": "audio/natural/informal/if-19/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-19",
+          "chunkIndex": 0,
+          "totalChunks": 1,
+          "version": "natural",
+          "text": "What is up",
+          "outputPath": "audio/natural/informal/if-19/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    },
+    {
+      "batchId": "regen-batch-035",
+      "startIndex": 272,
+      "endIndex": 275,
+      "count": 4,
+      "items": [
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-20",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "I",
+          "outputPath": "audio/natural/informal/if-20/clear-seg0.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-20",
+          "chunkIndex": 0,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "I",
+          "outputPath": "audio/natural/informal/if-20/natural-seg0.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-20",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "clear",
+          "text": "said",
+          "outputPath": "audio/natural/informal/if-20/clear-seg1.mp3",
+          "voice": "English_Trustworthy_Man",
+          "speed": 0.85
+        },
+        {
+          "lessonId": "informal",
+          "sentenceId": "if-20",
+          "chunkIndex": 1,
+          "totalChunks": 2,
+          "version": "natural",
+          "text": "said",
+          "outputPath": "audio/natural/informal/if-20/natural-seg1.mp3",
+          "voice": "English_Diligent_Man",
+          "speed": 1.05
+        }
+      ]
+    }
+  ]
+}
