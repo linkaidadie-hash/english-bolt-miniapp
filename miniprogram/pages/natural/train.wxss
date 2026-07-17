@@ -47,20 +47,29 @@
 .opt-wrong { border-color: #ef4444; background: #fee2e2; }
 .opt-wrong .opt-letter { background: #ef4444; }
 .opt-correct-show { border-color: #10b981; }
+.opt-hover { transform: scale(0.98); background: #f3f4f6; }
+.btn-hover { opacity: 0.85; transform: scale(0.99); }
+.btn-audio-hover { opacity: 0.85; transform: scale(0.98); }
+.chunk-hover { transform: scale(0.95); background: #dbeafe; }
 
 .chunks-pool { display: flex; flex-wrap: wrap; gap: 12rpx; margin-bottom: 16rpx; }
 .chunk-card {
   display: flex; align-items: center; gap: 8rpx;
-  background: #fff; padding: 16rpx 20rpx; border-radius: 12rpx;
+  background: #fff; padding: 20rpx 28rpx; border-radius: 12rpx;
   box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.04);
   border: 2rpx solid #4A90E2;
+  min-height: 72rpx;  /* 大点击区 */
+  transition: transform 0.05s, background 0.1s;
 }
-.chunk-text { font-size: 26rpx; color: #1f2937; }
+.chunk-text { font-size: 28rpx; color: #1f2937; font-weight: 500; }
 .chunk-play { font-size: 20rpx; }
 .chunk-used { opacity: 0.35; border-color: #d1d5db; background: #f9fafb; }
 
 .selected-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8rpx; padding: 12rpx 16rpx; background: #f9fafb; border-radius: 12rpx; margin-bottom: 16rpx; font-size: 24rpx; }
 .sel-token { padding: 4rpx 12rpx; background: #4A90E2; color: #fff; border-radius: 8rpx; font-weight: 600; }
+.sel-token-wrong { background: #ef4444; color: #fff; text-decoration: line-through; }
+.sel-token-correct { background: #10b981; color: #fff; }
+.correct-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8rpx; padding: 12rpx 16rpx; background: #d1fae5; border-radius: 12rpx; margin: 8rpx 0; font-size: 24rpx; }
 
 .action-row { display: flex; gap: 12rpx; margin-bottom: 16rpx; }
 .btn {
