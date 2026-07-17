@@ -27,6 +27,12 @@ Page({
     });
   },
 
+  onOpenSampleReview() {
+    wx.navigateTo({
+      url: '/pages/natural/sample-review',
+    });
+  },
+
   onShareAppMessage() {
     return {
       title: '英语快充 · 自然口语解码',
