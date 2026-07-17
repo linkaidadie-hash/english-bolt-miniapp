@@ -61,6 +61,9 @@ const FILES = [
   'data/natural-audio-backfill-12.json',
   'data/natural-audio-cost-12.json',
   'data/audit-natural-sentences.json',
+  'data/natural-audio-check-all.json',
+  'data/natural-audio-check-fast.json',
+  'data/natural-audio-backfill-all.json',
   // 数据底层（v2 数据访问层）
   'data/audio-files.txt',
   'data/audio-vps-words.txt',
@@ -80,6 +83,10 @@ const FILES = [
   'tools/backfill-natural-audio.mjs',
   'tools/calc-audio-cost.mjs',
   'tools/push-to-github.mjs',
+  'tools/check-natural-audio-all.mjs',
+  'tools/check-natural-audio-fast.mjs',
+  'tools/gen-part1-batch-list.mjs',
+  'tools/backfill-natural-audio-all.mjs',
   'tools/top100-words.txt',
   // 小程序源代码
   'miniprogram/app.js',
