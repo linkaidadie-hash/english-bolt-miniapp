@@ -43,3 +43,9 @@
 
 .muted { color: #6b7280; }
 .footer-note { font-size: 22rpx; text-align: center; margin-top: 40rpx; }
+
+.dev-link {
+  margin-top: 32rpx; padding: 16rpx; text-align: center;
+  background: #f3f4f6; border-radius: 8rpx;
+  font-size: 22rpx; color: #4b5563; border: 2rpx dashed #d1d5db;
+}
