@@ -1,0 +1,656 @@
+{
+  "fixedAt": "2026-07-17T11:43:59.578Z",
+  "applied": [
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-12",
+      "newClearText": "Far away",
+      "newChunks": [
+        "Far",
+        "away"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-03",
+      "newClearText": "Friendship",
+      "newChunks": [
+        "Friendship"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-06",
+      "newClearText": "Handsome",
+      "newChunks": [
+        "Handsome"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-01",
+      "newClearText": "Water",
+      "newChunks": [
+        "Water"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-02",
+      "newClearText": "Better",
+      "newChunks": [
+        "Better"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-03",
+      "newClearText": "Pretty",
+      "newChunks": [
+        "Pretty"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-04",
+      "newClearText": "Get it",
+      "newChunks": [
+        "Get",
+        "it"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-05",
+      "newClearText": "City",
+      "newChunks": [
+        "City"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-06",
+      "newClearText": "Letter",
+      "newChunks": [
+        "Letter"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-07",
+      "newClearText": "Matter",
+      "newChunks": [
+        "Matter"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-08",
+      "newClearText": "Little",
+      "newChunks": [
+        "Little"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-09",
+      "newClearText": "Bottle",
+      "newChunks": [
+        "Bottle"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-10",
+      "newClearText": "Title",
+      "newChunks": [
+        "Title"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-11",
+      "newClearText": "Forty",
+      "newChunks": [
+        "Forty"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-12",
+      "newClearText": "Saturday",
+      "newChunks": [
+        "Saturday"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-13",
+      "newClearText": "Not at all",
+      "newChunks": [
+        "Not",
+        "at",
+        "all"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-14",
+      "newClearText": "Put it down",
+      "newChunks": [
+        "Put",
+        "it",
+        "down"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-15",
+      "newClearText": "I'm going to",
+      "newChunks": [
+        "I'm",
+        "going",
+        "to"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-16",
+      "newClearText": "Bet you",
+      "newChunks": [
+        "Bet",
+        "you"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-17",
+      "newClearText": "I gotta go",
+      "newChunks": [
+        "I",
+        "gotta",
+        "go"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-18",
+      "newClearText": "Don't forget",
+      "newChunks": [
+        "Don't",
+        "forget"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-19",
+      "newClearText": "Right there",
+      "newChunks": [
+        "Right",
+        "there"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-20",
+      "newClearText": "What time is it",
+      "newChunks": [
+        "What",
+        "time",
+        "is",
+        "it"
+      ],
+      "audioSegmentedCount": 4
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-13",
+      "newClearText": "We leave tomorrow",
+      "newChunks": [
+        "We",
+        "leave",
+        "tomorrow"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-01",
+      "newClearText": "I need to talk to him about it",
+      "newChunks": [
+        "I need to",
+        "talk to him",
+        "about it"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-02",
+      "newClearText": "Give me a cup of coffee",
+      "newChunks": [
+        "Give me",
+        "a cup of",
+        "coffee"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-03",
+      "newClearText": "Take it to the office",
+      "newChunks": [
+        "Take it",
+        "to the",
+        "office"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-04",
+      "newClearText": "Look at this picture",
+      "newChunks": [
+        "Look at",
+        "this picture"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-05",
+      "newClearText": "Tell me what you think",
+      "newChunks": [
+        "Tell me",
+        "what you",
+        "think"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-06",
+      "newClearText": "I went to the store yesterday",
+      "newChunks": [
+        "I went to the store",
+        "yesterday"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-07",
+      "newClearText": "He's working on a new project",
+      "newChunks": [
+        "He's working",
+        "on a new",
+        "project"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-08",
+      "newClearText": "I want to be a doctor",
+      "newChunks": [
+        "I want to be a",
+        "doctor"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-09",
+      "newClearText": "She's from a small town",
+      "newChunks": [
+        "She's from",
+        "a small",
+        "town"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-10",
+      "newClearText": "I'll meet you at the airport",
+      "newChunks": [
+        "I'll meet you",
+        "at the",
+        "airport"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-11",
+      "newClearText": "We had a great time",
+      "newChunks": [
+        "We had a",
+        "great",
+        "time"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-12",
+      "newClearText": "I'm looking for a new job",
+      "newChunks": [
+        "I'm looking",
+        "for a new",
+        "job"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-13",
+      "newClearText": "I just got back from vacation",
+      "newChunks": [
+        "I just",
+        "got back",
+        "from vacation"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-14",
+      "newClearText": "They live in a big house",
+      "newChunks": [
+        "They live in",
+        "a big",
+        "house"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-15",
+      "newClearText": "I read a book last night",
+      "newChunks": [
+        "I read a book",
+        "last night"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-16",
+      "newClearText": "She plays the piano very well",
+      "newChunks": [
+        "She plays the piano",
+        "very well"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-17",
+      "newClearText": "I want some ice cream",
+      "newChunks": [
+        "I want",
+        "some",
+        "ice cream"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-18",
+      "newClearText": "He works at a bank",
+      "newChunks": [
+        "He works",
+        "at a",
+        "bank"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-19",
+      "newClearText": "I'm going to the movies",
+      "newChunks": [
+        "I'm going to the",
+        "movies"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-20",
+      "newClearText": "I'll see you on Monday",
+      "newChunks": [
+        "I'll see you",
+        "on Monday"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-01",
+      "newClearText": "I want to go",
+      "newChunks": [
+        "I",
+        "want to",
+        "go"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-02",
+      "newClearText": "I'm going to tell him",
+      "newChunks": [
+        "I'm",
+        "going to",
+        "tell him"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-03",
+      "newClearText": "I have to work",
+      "newChunks": [
+        "I",
+        "have to",
+        "work"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-04",
+      "newClearText": "Let me see",
+      "newChunks": [
+        "Let me",
+        "see"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-05",
+      "newClearText": "Give me that",
+      "newChunks": [
+        "Give me",
+        "that"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-06",
+      "newClearText": "What are you doing",
+      "newChunks": [
+        "What are you",
+        "doing"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-07",
+      "newClearText": "Do you know what",
+      "newChunks": [
+        "Do you",
+        "know what"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-08",
+      "newClearText": "Got you",
+      "newChunks": [
+        "Got you"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-09",
+      "newClearText": "I don't know",
+      "newChunks": [
+        "I",
+        "don't",
+        "know"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-10",
+      "newClearText": "Could you help me",
+      "newChunks": [
+        "Could you",
+        "help me"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-11",
+      "newClearText": "What are you going to do",
+      "newChunks": [
+        "What are you",
+        "going to",
+        "do"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-12",
+      "newClearText": "You all come back",
+      "newChunks": [
+        "You all",
+        "come back"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-13",
+      "newClearText": "What you may call it",
+      "newChunks": [
+        "What you may call it"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-14",
+      "newClearText": "You got it",
+      "newChunks": [
+        "You",
+        "got it"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-15",
+      "newClearText": "No problem",
+      "newChunks": [
+        "No",
+        "problem"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-16",
+      "newClearText": "I have got to run",
+      "newChunks": [
+        "I",
+        "have got to",
+        "run"
+      ],
+      "audioSegmentedCount": 3
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-17",
+      "newClearText": "See you later",
+      "newChunks": [
+        "See you",
+        "later"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-18",
+      "newClearText": "Take it easy",
+      "newChunks": [
+        "Take it",
+        "easy"
+      ],
+      "audioSegmentedCount": 2
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-19",
+      "newClearText": "What is up",
+      "newChunks": [
+        "What is up"
+      ],
+      "audioSegmentedCount": 1
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-20",
+      "newClearText": "I said",
+      "newChunks": [
+        "I",
+        "said"
+      ],
+      "audioSegmentedCount": 2
+    }
+  ],
+  "skipped": []
+}
