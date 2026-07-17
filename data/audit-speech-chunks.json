@@ -1,0 +1,581 @@
+{
+  "auditedAt": "2026-07-17T12:23:06.580Z",
+  "totalChecked": 180,
+  "checks": {
+    "concatOk": 180,
+    "chunkQualityOk": 155,
+    "nonEmptyOk": 180,
+    "lengthOk": 180,
+    "audioSegTextOk": 180
+  },
+  "anomalyCount": 25,
+  "anomalies": [
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-04",
+      "clearText": "Do you have a pen",
+      "naturalText": "D'you have a pen",
+      "speechChunks": [
+        "Do you",
+        "have a",
+        "pen"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 2,
+              "text": "pen",
+              "reason": "truncated_token:pen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-11",
+      "clearText": "I'm looking for a job",
+      "naturalText": "I'm lookin' for a job",
+      "speechChunks": [
+        "I'm",
+        "looking for a",
+        "job"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "looking for a",
+              "reason": "truncated_token:for"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-17",
+      "clearText": "That was nice",
+      "naturalText": "That was nice",
+      "speechChunks": [
+        "That",
+        "was nice"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "was nice",
+              "reason": "truncated_token:was"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "weak-form",
+      "sentenceId": "wf-19",
+      "clearText": "What are you doing",
+      "naturalText": "Whatcha doin'",
+      "speechChunks": [
+        "What are you",
+        "doing"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 0,
+              "text": "What are you",
+              "reason": "truncated_token:are"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-05",
+      "clearText": "It's a good day",
+      "naturalText": "It's a good day",
+      "speechChunks": [
+        "It's a",
+        "good day"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "good day",
+              "reason": "truncated_token:day"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-19",
+      "clearText": "I'm not sure",
+      "naturalText": "I'm not sure",
+      "speechChunks": [
+        "I'm",
+        "not sure"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "not sure",
+              "reason": "truncated_token:not"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "contraction",
+      "sentenceId": "ct-20",
+      "clearText": "Where's the key",
+      "naturalText": "Where's the key",
+      "speechChunks": [
+        "Where's",
+        "the key"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "the key",
+              "reason": "truncated_token:key"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-03",
+      "clearText": "Help you out",
+      "naturalText": "Help you out",
+      "speechChunks": [
+        "Help you",
+        "out"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "out",
+              "reason": "truncated_token:out"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-06",
+      "clearText": "Check it out",
+      "naturalText": "Check it out",
+      "speechChunks": [
+        "Check it",
+        "out"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "out",
+              "reason": "truncated_token:out"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-11",
+      "clearText": "Not at all",
+      "naturalText": "Not at all",
+      "speechChunks": [
+        "Not at",
+        "all"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "all",
+              "reason": "truncated_token:all"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-14",
+      "clearText": "Get out of here",
+      "naturalText": "Get out of here",
+      "speechChunks": [
+        "Get out of",
+        "here"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 0,
+              "text": "Get out of",
+              "reason": "truncated_token:out"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-01",
+      "clearText": "Next day",
+      "naturalText": "Nex day",
+      "speechChunks": [
+        "Next",
+        "day"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "day",
+              "reason": "truncated_token:day"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-14",
+      "clearText": "And the cat",
+      "naturalText": "An' the cat",
+      "speechChunks": [
+        "And the",
+        "cat"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "cat",
+              "reason": "truncated_token:cat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-13",
+      "clearText": "Not at all",
+      "naturalText": "Not at all",
+      "speechChunks": [
+        "Not",
+        "at",
+        "all"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 2,
+              "text": "all",
+              "reason": "truncated_token:all"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-05",
+      "clearText": "We work and they rest",
+      "naturalText": "We WORK n' they REST",
+      "speechChunks": [
+        "We",
+        "work and they",
+        "rest"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "work and they",
+              "reason": "truncated_token:and"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-12",
+      "clearText": "I want coffee, not tea",
+      "naturalText": "I want COFfee, not TEA",
+      "speechChunks": [
+        "I want",
+        "coffee, not",
+        "tea"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "coffee, not",
+              "reason": "truncated_token:not"
+            },
+            {
+              "chunkIndex": 2,
+              "text": "tea",
+              "reason": "truncated_token:tea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "stress",
+      "sentenceId": "st-18",
+      "clearText": "She won the game",
+      "naturalText": "She WON the GAME",
+      "speechChunks": [
+        "She",
+        "won the",
+        "game"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "won the",
+              "reason": "truncated_token:won"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-02",
+      "clearText": "Give me a cup of coffee",
+      "naturalText": "GIVme / a CUPa / COFfee",
+      "speechChunks": [
+        "Give me",
+        "a cup of",
+        "coffee"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "a cup of",
+              "reason": "truncated_token:cup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-12",
+      "clearText": "I'm looking for a new job",
+      "naturalText": "I'm LOOKing / fora NEW / JOB",
+      "speechChunks": [
+        "I'm looking",
+        "for a new",
+        "job"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "for a new",
+              "reason": "truncated_token:for"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-14",
+      "clearText": "They live in a big house",
+      "naturalText": "They LIVE in / a BIG / HOUSE",
+      "speechChunks": [
+        "They live in",
+        "a big",
+        "house"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 1,
+              "text": "a big",
+              "reason": "truncated_token:big"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "rhythm",
+      "sentenceId": "rh-17",
+      "clearText": "I want some ice cream",
+      "naturalText": "I want / some / ICE cream",
+      "speechChunks": [
+        "I want",
+        "some",
+        "ice cream"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 2,
+              "text": "ice cream",
+              "reason": "truncated_token:ice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-06",
+      "clearText": "What are you doing",
+      "naturalText": "Whatcha doing",
+      "speechChunks": [
+        "What are you",
+        "doing"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 0,
+              "text": "What are you",
+              "reason": "truncated_token:are"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-11",
+      "clearText": "What are you going to do",
+      "naturalText": "Watcha gonna do",
+      "speechChunks": [
+        "What are you",
+        "going to",
+        "do"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 0,
+              "text": "What are you",
+              "reason": "truncated_token:are"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-12",
+      "clearText": "You all come back",
+      "naturalText": "Y'all come back",
+      "speechChunks": [
+        "You all",
+        "come back"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 0,
+              "text": "You all",
+              "reason": "truncated_token:all"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "informal",
+      "sentenceId": "if-16",
+      "clearText": "I have got to run",
+      "naturalText": "I gotta run",
+      "speechChunks": [
+        "I",
+        "have got to",
+        "run"
+      ],
+      "issues": [
+        {
+          "type": "truncated_chunks",
+          "items": [
+            {
+              "chunkIndex": 2,
+              "text": "run",
+              "reason": "truncated_token:run"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
