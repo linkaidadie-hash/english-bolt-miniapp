@@ -28,6 +28,26 @@
     <text class="stage-banner-text">真实音频待阶段四 B 生成后开放播放与训练,本阶段仅展示内容与变化规则。</text>
   </view>
 
+  <!-- 训练入口 -->
+  <view class="train-entry" wx:if="{{audioReadyCount === sentences.length}}">
+    <view class="train-entry-title">🎯 进入训练</view>
+    <view class="train-entry-sub muted">3 种训练模式, 任选其一</view>
+    <view class="train-entry-btns">
+      <button class="te-btn te-btn-listen" bindtap="onOpenTrain" data-mode="listen-and-guess">
+        <text class="te-btn-icon">👂</text>
+        <text class="te-btn-label">听自然猜原句</text>
+      </button>
+      <button class="te-btn te-btn-words" bindtap="onOpenTrain" data-mode="sound-to-words">
+        <text class="te-btn-icon">🔪</text>
+        <text class="te-btn-label">声音切词</text>
+      </button>
+      <button class="te-btn te-btn-slow" bindtap="onOpenTrain" data-mode="slow-vs-natural">
+        <text class="te-btn-icon">⚖️</text>
+        <text class="te-btn-label">慢速 vs 自然</text>
+      </button>
+    </view>
+  </view>
+
   <!-- 20 条重点句 -->
   <view class="section-title">{{sentences.length}} 条重点句</view>
   <view class="sentence-list">
@@ -46,10 +66,12 @@
       <view class="s-row">
         <view class="s-label">慢速</view>
         <view class="s-text">{{s.clearText}}</view>
+        <button wx:if="{{s.audioClear.status === 'ready'}}" class="s-audio-btn" bindtap="onPlayClear" data-id="{{s.id}}">▶</button>
       </view>
       <view class="s-row">
         <view class="s-label">自然</view>
         <view class="s-text s-text-natural">{{s.naturalText}}</view>
+        <button wx:if="{{s.audioNatural.status === 'ready'}}" class="s-audio-btn s-audio-btn-natural" bindtap="onPlayNatural" data-id="{{s.id}}">▶</button>
       </view>
 
       <view class="s-ipa-block">
