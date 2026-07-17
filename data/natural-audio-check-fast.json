@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-07-17T08:53:34.964Z",
+  "base": "https://english.wujiong.cn/audio/natural",
+  "total": 360,
+  "passed": 356,
+  "failed": 4,
+  "durationMs": 33931,
+  "concurrency": 16,
+  "failures": [
+    {
+      "lessonId": "linking",
+      "sentenceId": "lk-03",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/linking/lk-03/clear.mp3",
+      "status": "EXCEPTION",
+      "error": "fetch failed"
+    },
+    {
+      "lessonId": "assimilation",
+      "sentenceId": "as-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/assimilation/as-10/natural.mp3",
+      "status": "EXCEPTION",
+      "error": "fetch failed"
+    },
+    {
+      "lessonId": "elision",
+      "sentenceId": "el-10",
+      "version": "natural",
+      "url": "https://english.wujiong.cn/audio/natural/elision/el-10/natural.mp3",
+      "status": "EXCEPTION",
+      "error": "fetch failed"
+    },
+    {
+      "lessonId": "flap",
+      "sentenceId": "fl-13",
+      "version": "clear",
+      "url": "https://english.wujiong.cn/audio/natural/flap/fl-13/clear.mp3",
+      "status": "EXCEPTION",
+      "error": "fetch failed"
+    }
+  ]
+}
