@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-07-17T05:49:34.340Z",
+  "checkedAt": "2026-07-17T08:37:30.468Z",
   "base": "https://english.wujiong.cn/audio/natural",
   "total": 24,
-  "passed": 24,
-  "failed": 0,
+  "passed": 23,
+  "failed": 1,
   "items": [
     {
       "lessonId": "weak-form",
@@ -46,9 +46,9 @@
       "sentenceId": "lk-01",
       "version": "clear",
       "url": "https://english.wujiong.cn/audio/natural/linking/lk-01/clear.mp3",
-      "status": 200,
-      "size": 18694,
-      "error": null
+      "status": "EXCEPTION",
+      "size": null,
+      "error": "fetch failed"
     },
     {
       "lessonId": "linking",
