@@ -67,9 +67,4 @@
   <view class="footer-note muted">
     阶段四 A: 仅内容骨架 · 无训练入口
   </view>
-
-  <!-- 内部验收入口 (仅开发可见) -->
-  <view class="dev-link" bindtap="onOpenSampleReview">
-    <text>🔧 内部样板验收 (12 条)</text>
-  </view>
 </view>
