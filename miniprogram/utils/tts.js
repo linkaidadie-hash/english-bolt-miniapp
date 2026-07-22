@@ -1,4 +1,4 @@
-// utils/tts.js — 英语快充 v2 全局音频管理器（阶段三加固版 v3）
+// utils/tts.js — Vocora 全局音频管理器（阶段三加固版 v3）
 //
 // 修原项目三大坑 + 阶段三加固：
 //   1) InnerAudioContext.onCanplay 不可靠 → 不 await onCanplay
