@@ -43,12 +43,6 @@ Page({
     });
   },
 
-  onOpenSampleReview() {
-    wx.navigateTo({
-      url: '/pages/natural/sample-review',
-    });
-  },
-
   onOpenTrain(e) {
     const mode = e.currentTarget.dataset.mode;
     wx.navigateTo({ url: `/pages/natural/train?mode=${mode}` });
@@ -56,7 +50,7 @@ Page({
 
   onShareAppMessage() {
     return {
-      title: '英语快充 · 自然口语解码',
+      title: 'Vocora · 自然口语解码',
       path: '/pages/natural/index',
     };
   },
