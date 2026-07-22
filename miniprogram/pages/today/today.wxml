@@ -1,17 +1,27 @@
 <view class="page">
   <!-- 数据元信息（阶段二新加） -->
-  <view class="meta-bar muted">
+  <view class="meta-bar muted" wx:if="{{meta}}">
     <text>{{meta.source}} · v{{meta.version}}</text>
     <text class="dot">·</text>
-    <text>共 {{audioStats.total}} 词</text>
-    <text class="dot">·</text>
-    <text class="ok">已就绪 {{audioStats.ready}}</text>
-    <text class="dot">·</text>
-    <text class="warn">缺失 {{audioStats.missing}}</text>
+    <text wx:if="{{audioStats}}">共 {{audioStats.total}} 词</text>
+    <text wx:elif="{{loading}}">词库加载中…</text>
+    <text class="dot" wx:if="{{audioStats}}">·</text>
+    <text class="ok" wx:if="{{audioStats}}">已就绪 {{audioStats.ready}}</text>
+    <text class="dot" wx:if="{{audioStats}}">·</text>
+    <text class="warn" wx:if="{{audioStats}}">缺失 {{audioStats.missing}}</text>
+  </view>
+
+  <!-- 阶段八: 首屏骨架 (3000 词索引加载中) -->
+  <view wx:if="{{loading}}" class="card skeleton-card">
+    <view class="skel-line skel-line-xl"></view>
+    <view class="skel-line skel-line-sm"></view>
+    <view class="skel-line skel-line-md"></view>
+    <view class="skel-line skel-line-sm"></view>
+    <view class="skel-block">📚 正在加载 3000 词库…</view>
   </view>
 
   <!-- 当前词卡 -->
-  <view class="card word-card" wx:if="{{currentWord}}">
+  <view class="card word-card" wx:if="{{currentWord && !loading}}">
     <view class="counter muted">{{currentIndex + 1}} / {{batch.size}}</view>
     <view class="word-row">
       <text class="word">{{currentWord.word}}</text>
@@ -62,7 +72,7 @@
   </view>
 
   <!-- 阶段二：左右切词 -->
-  <view class="card nav-card">
+  <view class="card nav-card" wx:if="{{batch && !loading}}">
     <view class="nav-row">
       <button class="plain" bindtap="onPrev" disabled="{{currentIndex <= 0}}">‹ 上一词</button>
       <text class="muted">{{currentIndex + 1}} / {{batch.size}}</text>
@@ -71,8 +81,8 @@
   </view>
 
   <!-- 阶段三：今日训练入口 -->
-  <view class="card training-card">
-    <view class="card-title">今日训练（仅 830 ready 词）</view>
+  <view class="card training-card" wx:if="{{!loading}}">
+    <view class="card-title">今日训练（仅 ready 词）</view>
     <view class="training-row">
       <button class="training-btn" bindtap="onGoListening" data-type="listening">🎧 听音辨词</button>
       <button class="training-btn" bindtap="onGoSpelling" data-type="spelling">✏️ 拼写检测</button>
@@ -80,8 +90,26 @@
     </view>
   </view>
 
+  <!-- 阶段四：自然口语解码 (180 句 × 5 训练模式) -->
+  <view class="card natural-card">
+    <view class="card-title">🗣️ 自然口语解码</view>
+    <view class="muted small">{{naturalStatus}}</view>
+    <view class="training-row" style="margin-top: 16rpx;">
+      <button class="training-btn training-btn-natural" bindtap="onOpenNatural" data-id="weak-form">w 弱读</button>
+      <button class="training-btn training-btn-natural" bindtap="onOpenNatural" data-id="contraction">c 缩写</button>
+      <button class="training-btn training-btn-natural" bindtap="onOpenNatural" data-id="linking">l 连读</button>
+      <button class="training-btn training-btn-natural" bindtap="onOpenNatural" data-id="assimilation">a 同化</button>
+      <button class="training-btn training-btn-natural" bindtap="onOpenNatural" data-id="elision">e 吞音</button>
+      <button class="training-btn training-btn-natural" bindtap="onOpenNatural" data-id="flap">f 闪音</button>
+      <button class="training-btn training-btn-natural" bindtap="onOpenNatural" data-id="rhythm">r 节奏</button>
+      <button class="training-btn training-btn-natural" bindtap="onOpenNatural" data-id="stress">s 重音</button>
+      <button class="training-btn training-btn-natural" bindtap="onOpenNatural" data-id="informal">i 非正式</button>
+    </view>
+    <view class="muted small" style="margin-top: 8rpx;">点课程进入 20 句 + 5 种训练模式 (听自然猜原句 / 声音切词 / 慢速 vs 自然 / 标注变化 / 跟读模仿 / 隐藏字幕复述)</view>
+  </view>
+
   <!-- 阶段二：词列表（点击跳） -->
-  <view class="card">
+  <view class="card" wx:if="{{batch && !loading}}">
     <view class="card-title">今日 {{batch.size}} 词（按 BNC 词频）</view>
     <view class="word-list">
       <view
@@ -128,10 +156,20 @@
     <view class="card-title">阶段二验收清单</view>
     <view class="check-item">加载 3000 核心词（ECDICT / BNC 词频）</view>
     <view class="check-item">左右切词流畅，无 tts 状态污染</view>
-    <view class="check-item">830 ready 词能播放真音频</view>
+    <view class="check-item">1330 ready 词能播放真音频</view>
     <view class="check-item">2170 missing 词显示「发音待补充」（不假占位、按钮禁用）</view>
     <view class="check-item">形变（过去式/分词/第三人称）正确显示</view>
     <view class="check-item">Collins/Oxford 星级 + 考试标签 (cet4/gk) 显示</view>
     <view class="check-item">设置项持久化（杀进程再进）</view>
+  </view>
+
+  <!-- 阶段四: 自然口语入口 + 阶段六: 场景入口 + 阶段五/七/八: 沉浸/任务 -->
+  <view class="card">
+    <view class="card-title">阶段四 - 自然口语解码</view>
+    <view class="check-item">9 类 × 20 句 = 180 句重点句</view>
+    <view class="check-item">5 种训练模式 (听自然猜原句 / 声音切词 / 慢速 vs 自然 / 标注变化 / 跟读模仿 / 隐藏字幕复述)</view>
+    <view class="check-item">6 类音频: clear / natural / clear-seg / natural-seg / 句子 audio</view>
+    <view class="check-item">1146 个 URL 全部 HTTP 200</view>
+    <view class="check-item">录音权限按需申请, 拒绝后可继续"听"训练 (优雅降级)</view>
   </view>
 </view>
