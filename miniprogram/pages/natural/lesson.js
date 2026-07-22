@@ -42,7 +42,7 @@ Page({
     const l = this.data.lesson;
     if (!l) return {};
     return {
-      title: `英语快充 · ${l.name}`,
+      title: `Vocora · ${l.name}`,
       path: `/pages/natural/lesson?id=${encodeURIComponent(l.id)}`,
     };
   },
@@ -75,6 +75,15 @@ Page({
     if (!l) return;
     wx.navigateTo({
       url: `/pages/natural/train?mode=${mode}&lesson=${l.id}`,
+    });
+  },
+
+  // P1 修复 2026-07-19: 通关测试入口 (10 题跨 5 模式)
+  onOpenFinalTest() {
+    const l = this.data.lesson;
+    if (!l) return;
+    wx.navigateTo({
+      url: `/pages/natural/final-test?lesson=${l.id}`,
     });
   },
 });
