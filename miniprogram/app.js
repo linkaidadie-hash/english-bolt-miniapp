@@ -1,15 +1,19 @@
-// app.js  — 英语快充 v2 入口
-// 阶段一职责：
+// app.js  — Vocora 入口
+// 职责：
 //   - onLaunch: tts.prewarm()（app 一启动就把 audio context 预热掉）
-//   - 全局错误兜底（v2 不让任何 JS 报错白屏）
+//   - 全局错误兜底（不让任何 JS 报错白屏）
 //   - 输出 build 标记（联调时一眼看出哪个版本）
+//
+// 设计说明：
+//   - buildTag 保持为通用公开版本号（不包含内部阶段名 / 日期 / 调试名），
+//     避免泄露开发节奏。CI/release 流程如需更细粒度，请改用环境变量注入。
+//   - audioBase 指向公开 CDN（wujiong.cn 是面向用户的资源域名），保留。
 
 const tts = require('./utils/tts.js');
 
 App({
   globalData: {
-    buildTag: 'phase4b-fix-chunks-2026-07-17',
-    // v2 阶段二会替换为正式 audio base + 完整 word/sentence 库
+    buildTag: 'vocora-public-v1',
     audioBase: 'https://english.wujiong.cn/audio/',
   },
 
