@@ -1,7 +1,7 @@
 // pages/listening/listening.js — 听音辨词训练
 //
 // 阶段三 MVP：
-//   - 仅 830 ready 词
+//   - 仅 1330 ready 词
 //   - 10 题 / 4 选 1
 //   - 5 档评分（forgot/vague/remembered/proficient/fluent）
 //   - 自动记 wordProgress + push trainingLog
