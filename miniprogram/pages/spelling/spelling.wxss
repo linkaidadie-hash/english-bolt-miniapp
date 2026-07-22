@@ -9,6 +9,62 @@
 }
 .hint-meaning { font-size: 32rpx; color: #333; line-height: 1.6; }
 
+/* P0-2 2026-07-19: 词性 / 释义 / 音标 独立展示样式 */
+.hint-pos {
+  margin-bottom: 16rpx;
+  text-align: center;
+}
+.pos-label {
+  display: inline-block;
+  padding: 4rpx 16rpx;
+  background: #4A90E2;
+  color: #fff;
+  font-size: 22rpx;
+  border-radius: 8rpx;
+  font-weight: 600;
+  letter-spacing: 0.5rpx;
+}
+.hint-meanings {
+  display: flex; flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin: 16rpx 0;
+  padding: 0 16rpx;
+}
+.hint-meaning-line {
+  font-size: 28rpx;
+  color: #333;
+  line-height: 1.7;
+  margin: 2rpx 0;
+}
+.hint-ipa {
+  margin-top: 12rpx;
+  text-align: center;
+  padding-top: 12rpx;
+  border-top: 1rpx dashed #b8d4f0;
+}
+.ipa-text {
+  font-size: 26rpx;
+  color: #4A90E2;
+  font-style: italic;
+  font-family: "Times New Roman", serif;
+  letter-spacing: 1rpx;
+}
+
+.feedback-detail {
+  display: flex; flex-direction: column;
+  margin-top: 12rpx;
+  padding: 16rpx;
+  background: #f9fafb;
+  border-radius: 8rpx;
+  font-size: 22rpx;
+  line-height: 1.7;
+}
+.feedback-meaning-line {
+  display: block;
+  padding-left: 16rpx;
+}
+
 .spell-input {
   width: 100%; height: 96rpx; font-size: 36rpx;
   border: 2rpx solid #ddd; border-radius: 12rpx;
