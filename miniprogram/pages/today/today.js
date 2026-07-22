@@ -8,6 +8,11 @@
 //   - 保留阶段一的所有设置/播放
 //
 // 阶段三扩展：到期间隔复习 / 听音辨词 / 自然口语解码 / 错题回炉
+//
+// 阶段八性能优化 (2026-07-20):
+//   - 骨架优先: onLoad 立即 setData({ loading: true }), 显示骨架
+//   - then setTimeout(0) 异步加载 batch + audioStats, 完整数据再 setData
+//   - 避免 1MB 词库同步迭代导致首屏卡顿
 
 const tts = require('../../utils/tts.js');
 const cdn = require('../../utils/audio-cdn.js');
@@ -24,24 +29,45 @@ Page({
     audioStatus: 'missing',  // 'missing' | 'ready' | 'loading' | 'playing' | 'ended' | 'error'
     audioError: '',
     settings: null,
+    naturalStatus: '',       // 阶段四 B: 180 句 audio ready 状态
+    loading: true,           // 阶段八: 首屏骨架标志
   },
 
   onLoad() {
-    const meta = repo.getMeta();
-    const audioStats = repo.getAudioStats();
-    const batch = repo.getTodayBatch({ size: 10, preferLevels: [1, 2, 3] });
+    // 阶段八: 立即显示骨架 (元数据已就绪, batch 待异步加载)
+    this.setData({ meta: repo.getMeta(), loading: true });
     const settings = userData.get(userData.KEYS.settings);
+    this.setData({ settings });
 
-    this.setData({
-      meta,
-      audioStats,
-      batch,
-      currentWord: batch.words[0] || null,
-      currentIndex: 0,
-      settings,
-    });
+    // 阶段四 B: 自然口语 ready 状态 (轻量, 同步可读)
+    let naturalStatus = '';
+    try {
+      const naturalData = require('../../utils/natural-data.js');
+      const sum = naturalData.getAudioStatusSummary();
+      naturalStatus = `已就绪 ${sum.audioReady}/${sum.total} 句 (${sum.audioReadyPct}%)`;
+    } catch (e) {
+      naturalStatus = '自然口语模块未加载';
+    }
+    this.setData({ naturalStatus });
 
-    if (batch.words[0]) this._refreshCurrentAudio();
+    // 异步加载完整数据 (词库索引走 setTimeout(0), 不阻塞首屏)
+    setTimeout(() => {
+      try {
+        const audioStats = repo.getAudioStats();
+        const batch = repo.getTodayBatch({ size: 10, preferLevels: [1, 2, 3] });
+        this.setData({
+          audioStats,
+          batch,
+          currentWord: batch.words[0] || null,
+          currentIndex: 0,
+          loading: false,
+        });
+        if (batch.words[0]) this._refreshCurrentAudio();
+      } catch (e) {
+        console.warn('[today] async load failed:', e?.message || e);
+        this.setData({ loading: false });
+      }
+    }, 0);
 
     this._unsub = tts.onEvent((evt) => {
       const map = { play: 'playing', ended: 'ended', error: 'error' };
@@ -146,5 +172,10 @@ Page({
   },
   onGoReview() {
     wx.navigateTo({ url: '/pages/review/review' });
+  },
+  onOpenNatural(e) {
+    const id = e.currentTarget.dataset.id;
+    if (!id) return;
+    wx.navigateTo({ url: `/pages/natural/lesson?id=${encodeURIComponent(id)}` });
   },
 });
