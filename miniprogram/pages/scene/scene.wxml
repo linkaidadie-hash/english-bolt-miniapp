@@ -1,13 +1,50 @@
 <view class="page">
-  <view class="card">
-    <view class="card-title">16 个首发场景</view>
-    <view class="group" wx:for="{{groups}}" wx:key="id"
-          bindtap="onSceneTap" data-id="{{item.id}}">
-      <view>
-        <view class="g-name">{{item.name}}</view>
-        <view class="g-count muted">{{item.count}} 个场景</view>
+  <view wx:if="{{!currentGroup}}">
+    <view class="card">
+      <view class="card-title">16 个首发场景</view>
+      <view class="muted small">按分类浏览, 点开进入完整学习流程</view>
+    </view>
+
+    <view class="card">
+      <view class="card-title">分类</view>
+      <view wx:for="{{groups}}" wx:key="id"
+        class="group-row"
+        hover-class="group-hover"
+        bindtap="onCategoryTap" data-id="{{item.id}}">
+        <view class="group-icon">
+          <text wx:if="{{item.id === 'life'}}">🏠</text>
+          <text wx:elif="{{item.id === 'travel'}}">✈️</text>
+          <text wx:elif="{{item.id === 'work'}}">💼</text>
+          <text wx:elif="{{item.id === 'biz'}}">📦</text>
+          <text wx:elif="{{item.id === 'urgent'}}">🚨</text>
+        </view>
+        <view class="group-meta">
+          <view class="group-name">{{item.name}}</view>
+          <view class="group-count muted">{{item.count}} 个场景</view>
+        </view>
+        <text class="muted">›</text>
       </view>
-      <text class="muted">›</text>
+    </view>
+  </view>
+
+  <view wx:else>
+    <view class="card back-row">
+      <view class="back-btn" hover-class="back-hover" bindtap="onBackToGroups">‹ 返回分类</view>
+    </view>
+
+    <view class="card">
+      <view class="card-title">场景列表</view>
+      <view wx:for="{{currentGroup.list}}" wx:key="id"
+        class="scene-row"
+        hover-class="scene-hover"
+        bindtap="onSceneTap" data-id="{{item.id}}">
+        <view class="scene-icon">{{item.icon}}</view>
+        <view class="scene-meta">
+          <view class="scene-name">{{item.name}}</view>
+          <view class="scene-sub muted">{{item.subtitle}}</view>
+        </view>
+        <text class="muted">›</text>
+      </view>
     </view>
   </view>
 </view>
