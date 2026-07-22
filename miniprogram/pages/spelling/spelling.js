@@ -1,7 +1,7 @@
 // pages/spelling/spelling.js — 拼写检测训练
 //
 // 阶段三 MVP：
-//   - 仅 830 ready 词
+//   - 仅 1330 ready 词
 //   - 10 题
 //   - 显示中文释义 + IPA → user 输入
 //   - 大小写不敏感 / 拼写允许 1 字符 typo（vague）
