@@ -1,39 +1,107 @@
-// tools/push-to-github.mjs — 把 v2 项目 push 到新建 GitHub repo
+// tools/push-to-github.mjs — 把仓库 push 到 GitHub（用 Contents API，不依赖 git 客户端）
 //
-// 用 Contents API (PUT /repos/{o}/r}/contents/{path})，不依赖 git 客户端。
-// 绕过 Windows 网络 / 代理不稳，token 在内存使用，绝不 print。
+// 设计目标（user 2026-07-23 安全审计要求）：
+//   - 不在仓库里硬编码任何本机路径 / 用户名 / vault 位置
+//   - vault 路径从 MAVIS_VAULT_PATH 读；若未设，尝试从用户主目录拼接
+//     $USERPROFILE/.mavis/vault/secrets.env (Windows) 或
+//     $HOME/.mavis/vault/secrets.env (Unix)
+//   - 也可以直接用 GITHUB_TOKEN + GITHUB_OWNER + GITHUB_REPO env，跳过 vault
+//   - token 缺失时安全失败，绝不打印 token 内容
+//   - 不在仓库里出现具体用户名；OWNER/REPO 可被环境变量覆盖
 //
-// 用法：node tools/push-to-github.mjs
-// 前置：
-//   - vault [GITHUB].token 有效
-//   - vault [GITHUB].repo_url 已知 owner (=linkaidadie-hash)
+// 用法：
+//   node tools/push-to-github.mjs
+// 前置（任选其一）：
+//   A) MAVIS_VAULT_PATH 指向 vault 文件，文件内 [GITHUB] 段含 token / repo_url
+//   B) GITHUB_TOKEN + GITHUB_OWNER + GITHUB_REPO 直接设环境变量
 
 import fs from 'node:fs';
 import path from 'node:path';
+import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const VAULT = 'C:\\Users\\Administrator\\.mavis\\vault\\secrets.env';
 
-// === 读 vault 拿 token + owner ===
-const text = fs.readFileSync(VAULT, 'utf8');
-let cur = null; const sec = {};
-for (const raw of text.split(/\r?\n/)) {
-  const line = raw.trim();
-  if (!line || line.startsWith('#')) continue;
-  if (line.startsWith('[') && line.endsWith(']')) { cur = line.slice(1, -1); sec[cur] = {}; continue; }
-  if (cur && line.includes('=')) {
-    const i = line.indexOf('=');
-    sec[cur][line.slice(0, i).trim()] = line.slice(i + 1).trim();
+function defaultVaultPath() {
+  if (process.platform === 'win32') {
+    const home = process.env.USERPROFILE || os.homedir();
+    return path.join(home, '.mavis', 'vault', 'secrets.env');
+  }
+  const home = process.env.HOME || os.homedir();
+  return path.join(home, '.mavis', 'vault', 'secrets.env');
+}
+
+function parseVault(text) {
+  const sec = {};
+  let cur = null;
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line || line.startsWith('#')) continue;
+    if (line.startsWith('[') && line.endsWith(']')) { cur = line.slice(1, -1); sec[cur] = sec[cur] || {}; continue; }
+    if (cur && line.includes('=')) {
+      const i = line.indexOf('=');
+      sec[cur][line.slice(0, i).trim()] = line.slice(i + 1).trim();
+    }
+  }
+  return sec;
+}
+
+// === 解析 token / owner / repo ===
+let TOKEN = process.env.GITHUB_TOKEN || '';
+let OWNER = process.env.GITHUB_OWNER || '';
+let REPO  = process.env.GITHUB_REPO  || '';
+let REPO_URL = process.env.GITHUB_REPO_URL || '';
+
+if (!TOKEN) {
+  // fallback 到 vault
+  const vaultPath = process.env.MAVIS_VAULT_PATH || defaultVaultPath();
+  if (fs.existsSync(vaultPath)) {
+    try {
+      const sec = parseVault(fs.readFileSync(vaultPath, 'utf8'));
+      TOKEN = TOKEN || sec.GITHUB?.token || '';
+      REPO_URL = REPO_URL || sec.GITHUB?.repo_url || '';
+    } catch (e) {
+      console.error('[gh] FATAL: failed to parse vault at', vaultPath, '-', e?.message || e);
+      process.exit(2);
+    }
   }
 }
-const TOKEN = sec.GITHUB?.token;
-const REPO_URL = sec.GITHUB?.repo_url || 'https://github.com/linkaidadie-hash/';
-const OWNER = 'linkaidadie-hash';
-const REPO = 'english-bolt-miniapp';
 
-if (!TOKEN) { console.error('NO_TOKEN'); process.exit(1); }
+if (!TOKEN) {
+  console.error('[gh] FATAL: no GITHUB_TOKEN (env) and no [GITHUB].token in vault. Set one of: GITHUB_TOKEN, MAVIS_VAULT_PATH.');
+  process.exit(1);
+}
+
+// OWNER / REPO 优先 env；其次从 REPO_URL 解析；否则需要显式设置
+if (!OWNER || !REPO) {
+  if (REPO_URL) {
+    try {
+      const u = new URL(REPO_URL);
+      // https://github.com/<owner>/<repo>(.git)?/
+      const parts = u.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean);
+      if (parts.length >= 2) {
+        OWNER = OWNER || parts[0];
+        REPO  = REPO  || parts[1].replace(/\.git$/, '');
+      } else if (parts.length === 1) {
+        // owner-only URL (e.g. https://github.com/<owner>/), require explicit GITHUB_REPO
+        OWNER = OWNER || parts[0];
+      }
+    } catch (e) {
+      console.error('[gh] FATAL: GITHUB_REPO_URL is not a valid URL:', REPO_URL);
+      process.exit(1);
+    }
+  }
+}
+
+if (!OWNER || !REPO) {
+  console.error('[gh] FATAL: GITHUB_OWNER and GITHUB_REPO required.');
+  console.error('         Set them via env (GITHUB_OWNER, GITHUB_REPO)');
+  console.error('         or via vault [GITHUB] section (repo_url must include /<owner>/<repo>)');
+  process.exit(1);
+}
+
+// 不打印 token / 完整 REPO_URL（仅打印 owner/repo）
 
 // === 要 push 的文件清单（白名单：源代码 + 文档 + 关键数据） ===
 // 显式列：不 push 过程 audit / 临时 ssh probe / _gh-list.mjs / _ecdict-*.py
@@ -82,6 +150,7 @@ const FILES = [
   // 工具脚本
   'tools/audit-audio.mjs',
   'tools/audit-vps.py',
+  'tools/security-scan.mjs',
   'tools/build-data-js.mjs',
   'tools/build-word-list.mjs',
   'tools/gen-icons.mjs',
@@ -180,26 +249,48 @@ const FILES = [
 
 const GH_API = 'https://api.github.com';
 
+async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
 async function gh(method, path, body) {
-  const r = await fetch(`${GH_API}${path}`, {
-    method,
-    headers: {
-      'Authorization': `Bearer ${TOKEN}`,
-      'Accept': 'application/vnd.github+json',
-      'User-Agent': 'mavis-english-bolt',
-    },
-    body: body ? JSON.stringify(body) : undefined,
-  });
-  const text = await r.text();
-  let json; try { json = JSON.parse(text); } catch { json = text; }
-  return { ok: r.ok, status: r.status, data: json };
+  // 简单重试: 指数退避 3 次, 仅对 transient (fetch 异常 / 5xx) 重试
+  const url = `${GH_API}${path}`;
+  const headers = {
+    'Authorization': `Bearer ${TOKEN}`,
+    'Accept': 'application/vnd.github+json',
+    'User-Agent': 'mavis-english-bolt',
+  };
+  const init = { method, headers };
+  if (body) init.body = JSON.stringify(body);
+
+  let lastErr = null;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const r = await fetch(url, init);
+      const text = await r.text();
+      let json; try { json = JSON.parse(text); } catch { json = text; }
+      if (r.status >= 500 && attempt < 2) {
+        // 5xx transient, 重试
+        await sleep(800 * (1 << attempt));
+        continue;
+      }
+      return { ok: r.ok, status: r.status, data: json };
+    } catch (e) {
+      lastErr = e;
+      // fetch failed (network blip / DNS / etc), 重试
+      if (attempt < 2) {
+        await sleep(800 * (1 << attempt));
+        continue;
+      }
+    }
+  }
+  return { ok: false, status: 0, data: lastErr ? String(lastErr?.message || lastErr) : 'fetch failed (retried)' };
 }
 
 async function createRepo() {
   console.log(`[gh] creating repo ${OWNER}/${REPO} ...`);
   const r = await gh('POST', '/user/repos', {
     name: REPO,
-    description: '英语快充 v2 - 微信小程序，大词库 + 自然口语解码 + 场景学习。v2 of english-trainer (PWA).',
+    description: 'Vocora - 微信小程序，大词库 + 自然口语解码 + 场景学习。v2 of english-trainer (PWA).',
     private: false,
     auto_init: true,
   });
