@@ -33,7 +33,6 @@
 </view>
 
 <view class="page" wx:elif="{{pool.length > 0 && pool[idx]}}">
-  <!-- 顶部进度条 -->
   <view class="top-bar">
     <view class="top-bar-text muted">{{modeMeta.icon}} {{modeMeta.name}} · {{idx + 1}}/{{progress.total}}</view>
     <view class="top-bar-progress">
@@ -41,12 +40,12 @@
     </view>
   </view>
 
-  <!-- ============== mode 1: listen-and-guess ============== -->
-  <block wx:if="{{mode === 'listen-and-guess'}}">
-    <view class="card mode-hero">
-      <view class="mode-desc">{{modeMeta.desc}}</view>
-    </view>
+  <view class="card mode-hero">
+    <view class="mode-desc">{{modeMeta.desc}}</view>
+  </view>
 
+  <!-- ========== mode 1: listen-and-guess ========== -->
+  <block wx:if="{{mode === 'listen-and-guess'}}">
     <view class="card audio-card">
       <view class="audio-row">
         <button class="btn-audio" hover-class="btn-audio-hover" bindtap="onReplayGuess">🔊 听自然</button>
@@ -56,16 +55,10 @@
 
     <view class="section-title">4 选 1 · 选原句</view>
     <view class="options-list">
-      <view
-        wx:for="{{options}}"
-        wx:key="idx"
-        wx:for-item="opt"
+      <view wx:for="{{options}}" wx:key="idx" wx:for-item="opt"
         class="opt-card {{picked === opt.idx ? (opt.isCorrect ? 'opt-correct' : 'opt-wrong') : ''}} {{picked !== null && opt.isCorrect ? 'opt-correct-show' : ''}}"
-        hover-class="opt-hover"
-        hover-stay-time="100"
-        bindtap="onPickOption"
-        data-idx="{{opt.idx}}"
-      >
+        hover-class="opt-hover" hover-stay-time="100"
+        bindtap="onPickOption" data-idx="{{opt.idx}}">
         <text class="opt-letter">{{['A','B','C','D'][opt.idx]}}</text>
         <text class="opt-text">{{opt.text}}</text>
         <text wx:if="{{picked !== null && opt.isCorrect}}" class="opt-mark">✓</text>
@@ -76,36 +69,24 @@
     <view wx:if="{{guessResult}}" class="result-card {{guessResult === 'correct' ? 'result-ok' : 'result-bad'}}">
       <text wx:if="{{guessResult === 'correct'}}" class="result-text">🎉 答对了！</text>
       <text wx:else class="result-text">😅 正确答案已标出，再听一遍</text>
-      <button class="btn" hover-class="btn-hover" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一题'}}</button>
+      <button class="btn" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一题'}}</button>
     </view>
   </block>
 
-  <!-- ============== mode 2: sound-to-words ============== -->
+  <!-- ========== mode 2: sound-to-words ========== -->
   <block wx:elif="{{mode === 'sound-to-words'}}">
-    <view class="card mode-hero">
-      <view class="mode-desc">{{modeMeta.desc}}</view>
-    </view>
-
     <view class="card audio-card">
       <view class="audio-row">
-        <button class="btn-audio" hover-class="btn-audio-hover" bindtap="onReplayNatural" data-when="intro">🔊 听自然</button>
+        <button class="btn-audio" bindtap="onReplayNatural">🔊 听自然</button>
         <text class="audio-hint muted">先听自然, 然后听慢速分段, 拼回原句</text>
       </view>
     </view>
 
     <view class="section-title">慢速分段 · 点选拼句</view>
     <view class="chunks-pool">
-      <view
-        wx:for="{{chunks}}"
-        wx:key="idx"
-        wx:for-item="c"
+      <view wx:for="{{chunks}}" wx:key="idx" wx:for-item="c"
         class="chunk-card {{c.used ? 'chunk-used' : ''}}"
-        hover-class="chunk-hover"
-        hover-stay-time="100"
-        bindtap="onPickWord"
-        bindlongtap="onPlayWordOnly"
-        data-idx="{{index}}"
-      >
+        bindtap="onPickWord" bindlongtap="onPlayWordOnly" data-idx="{{index}}">
         <text class="chunk-text">{{c.text}}</text>
       </view>
     </view>
@@ -118,16 +99,15 @@
     </view>
 
     <view class="action-row" wx:if="{{wordResult === null}}">
-      <button class="btn btn-secondary" hover-class="btn-hover" bindtap="onClearWords" disabled="{{selectedWords.length === 0}}">🗑 清空</button>
-      <button class="btn btn-secondary" hover-class="btn-hover" bindtap="onUndoWord" disabled="{{selectedWords.length === 0}}">↩ 撤销</button>
-      <button class="btn" hover-class="btn-hover" bindtap="onConfirmWords" disabled="{{selectedWords.length !== chunks.length}}">确认</button>
+      <button class="btn btn-secondary" bindtap="onClearWords" disabled="{{selectedWords.length === 0}}">🗑 清空</button>
+      <button class="btn btn-secondary" bindtap="onUndoWord" disabled="{{selectedWords.length === 0}}">↩ 撤销</button>
+      <button class="btn" bindtap="onConfirmWords" disabled="{{selectedWords.length !== chunks.length}}">确认</button>
     </view>
 
-    <!-- 提交后: 错题显示正确答案 + 播放 natural + 变化点 -->
     <view wx:if="{{wordResult === 'correct'}}" class="result-card result-ok">
       <text class="result-text">🎉 拼对了！</text>
-      <button class="btn-audio" hover-class="btn-audio-hover" bindtap="onReplayNatural">🔊 再听自然</button>
-      <button class="btn" hover-class="btn-hover" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一题'}}</button>
+      <button class="btn-audio" bindtap="onReplayNatural">🔊 再听自然</button>
+      <button class="btn" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一题'}}</button>
     </view>
 
     <view wx:elif="{{wordResult === 'wrong'}}" class="result-card result-bad">
@@ -138,33 +118,28 @@
           <text class="sel-token sel-token-correct">{{chunks[oi].text}}</text>
         </block>
       </view>
-      <button class="btn-audio" hover-class="btn-audio-hover" bindtap="onReplayNatural">🔊 听自然</button>
-      <button class="btn" hover-class="btn-hover" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一题'}}</button>
+      <button class="btn-audio" bindtap="onReplayNatural">🔊 听自然</button>
+      <button class="btn" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一题'}}</button>
     </view>
 
-    <!-- 错题时显示变化点 (提交后) -->
     <view wx:if="{{wordResult && pool[idx].pronunciationNotes && pool[idx].pronunciationNotes.length}}" class="card notes-card">
       <view class="notes-label">🎯 自然语速变化点</view>
       <view wx:for="{{pool[idx].pronunciationNotes}}" wx:key="*this" wx:for-item="n" class="note-line">• {{n}}</view>
     </view>
   </block>
 
-  <!-- ============== mode 3: slow-vs-natural ============== -->
+  <!-- ========== mode 3: slow-vs-natural ========== -->
   <block wx:elif="{{mode === 'slow-vs-natural'}}">
-    <view class="card mode-hero">
-      <view class="mode-desc">{{modeMeta.desc}}</view>
-    </view>
-
     <view class="compare-grid">
       <view class="compare-card">
         <view class="compare-label">🐢 慢速</view>
         <view class="compare-text">{{pool[idx].clearText}}</view>
-        <button class="btn-audio" hover-class="btn-audio-hover" bindtap="onPlayClear">▶ 播放</button>
+        <button class="btn-audio" bindtap="onPlayClear">▶ 播放</button>
       </view>
       <view class="compare-card">
         <view class="compare-label">🐇 自然</view>
         <view class="compare-text compare-natural">{{pool[idx].naturalText}}</view>
-        <button class="btn-audio" hover-class="btn-audio-hover" bindtap="onPlayNatural">▶ 播放</button>
+        <button class="btn-audio" bindtap="onPlayNatural">▶ 播放</button>
       </view>
     </view>
 
@@ -185,17 +160,174 @@
     </view>
 
     <view class="action-row">
-      <button class="btn" hover-class="btn-hover" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一句'}}</button>
+      <button class="btn" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一句'}}</button>
+    </view>
+  </block>
+
+  <!-- ========== mode 4: mark-changes (标注口语变化) ========== -->
+  <block wx:elif="{{mode === 'mark-changes'}}">
+    <view class="card audio-card">
+      <view class="audio-row">
+        <button class="btn-audio" bindtap="onShadowPlayNatural">🔊 听自然</button>
+        <text class="audio-hint muted">先听自然, 然后在原句上点选变化类型</text>
+      </view>
+    </view>
+
+    <view class="section-title">变化类型</view>
+    <view class="change-types">
+      <view wx:for="{{changeTypes}}" wx:key="id" wx:for-item="ct"
+        class="change-pill {{activeChange === ct.id ? 'change-active' : ''}}"
+        bindtap="onSelectChangeType" data-id="{{ct.id}}">
+        <text class="change-emoji">{{ct.emoji}}</text>
+        <text class="change-label">{{ct.label}}</text>
+      </view>
+    </view>
+
+    <view class="section-title">原句 · 点词标变化</view>
+    <view wx:if="{{markWords}}">
+      <view class="mark-sentence">
+        <view wx:for="{{markWords}}" wx:key="idx" wx:for-item="w"
+          class="mark-word {{wordMarks[w.idx] && wordMarks[w.idx].length ? 'mark-word-marked' : ''}} {{markResult !== null ? (markFeedback[w.idx] && markFeedback[w.idx].correct ? 'mark-word-correct' : 'mark-word-wrong') : ''}}"
+          bindtap="onToggleMarkWord" data-wi="{{w.idx}}">
+          <text class="mark-word-text">{{w.text}}</text>
+          <view wx:if="{{wordMarks[w.idx] && wordMarks[w.idx].length}}" class="mark-word-tags">
+            <text wx:for="{{wordMarks[w.idx]}}" wx:key="*this" wx:for-item="cid" class="mark-tag">{{cid}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="action-row" wx:if="{{markResult === null}}">
+      <button class="btn btn-secondary" bindtap="onClearMarks">🗑 清空</button>
+      <button class="btn" bindtap="onSubmitMark">提交标注</button>
+    </view>
+
+    <view wx:if="{{markResult === 'correct'}}" class="result-card result-ok">
+      <text class="result-text">🎉 标对了！</text>
+      <view wx:if="{{pool[idx].pronunciationNotes && pool[idx].pronunciationNotes.length}}" class="notes-card">
+        <view class="notes-label">🎯 变化点</view>
+        <view wx:for="{{pool[idx].pronunciationNotes}}" wx:key="*this" wx:for-item="n" class="note-line">• {{n}}</view>
+      </view>
+      <button class="btn" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一题'}}</button>
+    </view>
+
+    <view wx:elif="{{markResult === 'wrong'}}" class="result-card result-bad">
+      <text class="result-text">😅 没标对。再听一遍, 重点关注弱读/连读/吞音位置</text>
+      <view wx:if="{{pool[idx].pronunciationNotes && pool[idx].pronunciationNotes.length}}" class="notes-card">
+        <view class="notes-label">🎯 正确变化点</view>
+        <view wx:for="{{pool[idx].pronunciationNotes}}" wx:key="*this" wx:for-item="n" class="note-line">• {{n}}</view>
+      </view>
+      <button class="btn" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一题'}}</button>
+    </view>
+  </block>
+
+  <!-- ========== mode 5: shadow (跟读录音) ========== -->
+  <block wx:elif="{{mode === 'shadow'}}">
+    <view class="card audio-card">
+      <view class="audio-row">
+        <button class="btn-audio" bindtap="onShadowPlayNatural">🔊 听自然</button>
+        <button class="btn-audio btn-audio-2" bindtap="onShadowPlayOriginal">🐢 慢速</button>
+      </view>
+    </view>
+
+    <view class="card shadow-card">
+      <view class="shadow-title">🎙️ 跟读模仿</view>
+      <view class="shadow-status">
+        <block wx:if="{{recordStatus === 'idle'}}">
+          <text class="muted">准备就绪, 点击下方按钮开始录音</text>
+        </block>
+        <block wx:elif="{{recordStatus === 'preparing'}}">
+          <text class="muted">准备中…</text>
+        </block>
+        <block wx:elif="{{recordStatus === 'recording'}}">
+          <text class="shadow-recording">● 正在录音</text>
+        </block>
+        <block wx:elif="{{recordStatus === 'recorded'}}">
+          <text class="shadow-ok">✅ 录音完成 ({{recordDuration}}ms)</text>
+        </block>
+        <block wx:elif="{{recordStatus === 'denied'}}">
+          <text class="shadow-warn">⚠️ 未授权录音, 可继续"听"训练</text>
+        </block>
+        <block wx:elif="{{recordStatus === 'error'}}">
+          <text class="shadow-warn">⚠️ 录音出错, 可继续"听"训练</text>
+        </block>
+      </view>
+
+      <view class="shadow-controls">
+        <block wx:if="{{recordStatus === 'idle' || recordStatus === 'denied' || recordStatus === 'error' || recordStatus === 'recorded'}}">
+          <button class="btn btn-record" bindtap="onShadowStartRecord">🎙️ 开始录音</button>
+        </block>
+        <block wx:elif="{{recordStatus === 'recording'}}">
+          <button class="btn btn-stop" bindtap="onShadowStopRecord">⏹ 停止录音</button>
+        </block>
+        <block wx:if="{{recordStatus === 'denied'}}">
+          <button class="btn btn-secondary" bindtap="onShadowOpenSettings">⚙️ 去设置开启权限</button>
+        </block>
+      </view>
+
+      <view wx:if="{{recordPath}}" class="shadow-replay">
+        <view class="shadow-replay-row">
+          <button class="btn-audio" bindtap="onShadowPlayOriginal">▶ 听原音</button>
+          <button class="btn-audio" bindtap="onShadowPlayMine">▶ 听我的</button>
+        </view>
+
+        <view class="self-rating">
+          <text class="muted">自评：</text>
+          <view class="rate-row">
+            <view class="rate-pill {{selfRating === 1 ? 'rate-active' : ''}}" bindtap="onShadowRate" data-v="1">不像</view>
+            <view class="rate-pill {{selfRating === 2 ? 'rate-active' : ''}}" bindtap="onShadowRate" data-v="2">一般</view>
+            <view class="rate-pill {{selfRating === 3 ? 'rate-active' : ''}}" bindtap="onShadowRate" data-v="3">接近</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="action-row" wx:if="{{selfRating !== null}}">
+      <button class="btn" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一句'}}</button>
+    </view>
+  </block>
+
+  <!-- ========== mode 6: caption-repeat (隐藏字幕复述) ========== -->
+  <block wx:elif="{{mode === 'caption-repeat'}}">
+    <view class="card audio-card">
+      <view class="audio-row">
+        <button class="btn-audio" bindtap="onCaptionPlayNatural">🔊 听自然</button>
+        <text class="audio-hint muted">先听, 尝试复述, 主动揭晓看原文</text>
+      </view>
+    </view>
+
+    <view class="section-title">复述 (隐藏字幕)</view>
+    <view class="card cap-card">
+      <textarea
+        class="cap-input"
+        placeholder="尝试用英语复述听到的句子…"
+        value="{{captionSelfText}}"
+        bindinput="onCaptionInput"
+        wx:if="{{!reveal}}"
+      />
+      <view wx:if="{{reveal}}" class="cap-reveal">
+        <view class="cap-reveal-line"><text class="muted">原句：</text><text class="cap-text">{{pool[idx].writtenText}}</text></view>
+        <view class="cap-reveal-line"><text class="muted">中文：</text><text class="cap-text">{{pool[idx].translation}}</text></view>
+        <view wx:if="{{pool[idx].pronunciationNotes && pool[idx].pronunciationNotes.length}}" class="cap-notes">
+          <view class="notes-label">🎯 自然语速变化点</view>
+          <view wx:for="{{pool[idx].pronunciationNotes}}" wx:key="*this" wx:for-item="n" class="note-line">• {{n}}</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="action-row" wx:if="{{!reveal}}">
+      <button class="btn" bindtap="onCaptionReveal">👀 揭晓答案</button>
+    </view>
+
+    <view class="action-row" wx:if="{{reveal}}">
+      <button class="btn-audio" bindtap="onCaptionPlayNatural">🔊 再听自然</button>
+      <button class="btn" bindtap="onNext">{{idx + 1 >= progress.total ? '完成' : '下一句'}}</button>
     </view>
   </block>
 
   <!-- 公共: 翻译 -->
-  <view class="card trans-card">
+  <view wx:if="{{mode !== 'caption-repeat' && mode !== 'mark-changes'}}" class="card trans-card">
     <view class="trans-label muted">中文</view>
     <view class="trans-text">{{pool[idx].translation}}</view>
-  </view>
-
-  <view class="footer-note muted">
-    阶段四 B · 训练模式 v2
   </view>
 </view>
