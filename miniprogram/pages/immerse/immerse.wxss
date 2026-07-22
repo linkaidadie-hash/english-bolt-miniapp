@@ -1,19 +1,70 @@
-.ph-title { font-size: 36rpx; font-weight: 600; margin-bottom: 12rpx; }
-.ph-sub { font-size: 26rpx; line-height: 1.7; }
+.page { padding: 24rpx 32rpx 80rpx; }
+.hero { padding: 32rpx 0; text-align: center; }
+.hero-title { font-size: 40rpx; font-weight: 700; color: #1f2937; }
+.hero-sub { font-size: 24rpx; margin-top: 8rpx; }
 
-.card-title {
-  font-size: 28rpx;
-  font-weight: 600;
-  margin-bottom: 12rpx;
+.card {
+  background: #fff; padding: 20rpx 24rpx; border-radius: 16rpx; margin-bottom: 16rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.04);
 }
-.channel {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20rpx 0;
-  border-bottom: 1rpx solid var(--c-border);
+.card-title { font-size: 28rpx; font-weight: 700; color: #1f2937; margin-bottom: 16rpx; }
+
+.channel-row {
+  display: flex; align-items: center; gap: 16rpx;
+  padding: 20rpx 16rpx; border-radius: 12rpx; margin-bottom: 8rpx;
+  background: #F9FAFB;
 }
-.channel:last-child { border-bottom: none; }
-.ch-name { font-size: 30rpx; font-weight: 500; }
-.ch-desc { font-size: 22rpx; margin-top: 4rpx; }
-.ch-status { font-size: 22rpx; }
+.channel-hover { background: #E8F1FC; }
+.channel-active { background: #E8F1FC; border: 2rpx solid #4A90E2; }
+.channel-icon {
+  width: 64rpx; height: 64rpx; line-height: 64rpx; text-align: center;
+  background: #4A90E2; color: #fff; border-radius: 12rpx; font-size: 32rpx;
+}
+.channel-meta { flex: 1; }
+.channel-name { font-size: 28rpx; font-weight: 600; color: #1f2937; }
+.channel-desc { font-size: 22rpx; margin-top: 4rpx; }
+.channel-arrow { font-size: 32rpx; color: #9CA3AF; }
+
+.player-hero { padding: 32rpx 0; text-align: center; }
+.player-channel { font-size: 24rpx; }
+.player-title { font-size: 36rpx; font-weight: 700; color: #1f2937; margin: 12rpx 0; }
+.player-counter { font-size: 22rpx; }
+
+.player-card { padding: 32rpx 24rpx; }
+.progress-row { display: flex; align-items: center; gap: 12rpx; }
+.progress-time { font-size: 22rpx; color: #6B7280; min-width: 60rpx; }
+.progress-slider { flex: 1; }
+
+.player-controls { display: flex; justify-content: center; align-items: center; gap: 32rpx; margin: 24rpx 0; }
+.ctrl-btn {
+  width: 96rpx; height: 96rpx; line-height: 96rpx; text-align: center;
+  background: #F3F4F6; border-radius: 50%; font-size: 36rpx;
+  color: #1f2937;
+}
+.ctrl-main { background: #4A90E2; color: #fff; width: 120rpx; height: 120rpx; line-height: 120rpx; font-size: 48rpx; }
+.ctrl-hover { opacity: 0.85; }
+
+.player-secondary { display: flex; gap: 12rpx; margin-top: 16rpx; }
+.sec-btn {
+  flex: 1; text-align: center; padding: 12rpx 0; border-radius: 8rpx;
+  background: #F3F4F6; font-size: 24rpx; color: #1f2937;
+}
+.sec-hover { background: #E5E7EB; }
+.player-state { text-align: center; margin-top: 16rpx; font-size: 22rpx; }
+
+.hint-line { font-size: 24rpx; color: #6B7280; line-height: 1.8; }
+
+.sheet-mask {
+  position: fixed; left: 0; right: 0; top: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex; align-items: flex-end; z-index: 999;
+}
+.sheet {
+  background: #fff; width: 100%; border-radius: 24rpx 24rpx 0 0;
+  padding: 24rpx 0;
+}
+.sheet-title { text-align: center; font-size: 28rpx; font-weight: 700; color: #1f2937; padding: 16rpx 0; }
+.sheet-row { padding: 24rpx 32rpx; font-size: 28rpx; color: #1f2937; border-bottom: 1rpx solid #F3F4F6; }
+.sheet-hover { background: #F9FAFB; }
+.sheet-clear { color: #EF4444; }
+.sheet-cancel { padding: 24rpx 32rpx; font-size: 28rpx; color: #6B7280; text-align: center; }
