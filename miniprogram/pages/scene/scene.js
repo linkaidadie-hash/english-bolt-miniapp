@@ -1,17 +1,35 @@
-// pages/scene/scene.js — 场景页（阶段一占位）
+// pages/scene/scene.js — 场景首页 (16 个首发场景)
+const scenes = require('../../data/scenes.js');
+const tts = require('../../utils/tts.js');
+
 Page({
   data: {
-    groups: [
-      { id: 'life',   name: '生活', count: 4 },
-      { id: 'travel', name: '旅行', count: 4 },
-      { id: 'work',   name: '工作', count: 3 },
-      { id: 'biz',    name: '外贸', count: 2 },
-      { id: 'social', name: '社交', count: 2 },
-      { id: 'urgent', name: '紧急', count: 1 },
-    ],
+    groups: [],
+    allScenes: [],
+    currentGroup: null,
   },
+
+  onLoad() {
+    const groups = scenes.getCategories();
+    this.setData({ groups, allScenes: scenes.getAll() });
+  },
+
+  onUnload() { try { tts.stop(); } catch (e) {} },
+
+  // 选分类 → 显示场景列表
+  onCategoryTap(e) {
+    const id = e.currentTarget.dataset.id;
+    const list = scenes.getByCategory(id);
+    this.setData({ currentGroup: { id, list } });
+  },
+
+  onBackToGroups() {
+    this.setData({ currentGroup: null });
+  },
+
   onSceneTap(e) {
     const id = e.currentTarget.dataset.id;
-    wx.showToast({ title: `场景 ${id} 在阶段六实现`, icon: 'none' });
+    if (!id) return;
+    wx.navigateTo({ url: `/pages/scene/learn?id=${id}` });
   },
 });
