@@ -253,6 +253,7 @@ async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function gh(method, path, body) {
   // 简单重试: 指数退避 3 次, 仅对 transient (fetch 异常 / 5xx) 重试
+  // 401/403 立即终止, 不重试 (P0 2026-07-23 Vocora 401 调查结论: 不能用 retry 掩盖认证失败)
   const url = `${GH_API}${path}`;
   const headers = {
     'Authorization': `Bearer ${TOKEN}`,
@@ -268,6 +269,31 @@ async function gh(method, path, body) {
       const r = await fetch(url, init);
       const text = await r.text();
       let json; try { json = JSON.parse(text); } catch { json = text; }
+      if (r.status === 401 || r.status === 403) {
+        // 401/403 立即终止, 输出不含 Token 的认证阶段诊断
+        // 不重试! 重试只会让认证失败被指数退避掩盖
+        const tokenFp = TOKEN ? sha256Short(TOKEN) : '(none)';
+        const tokenSrc = tokenSource();
+        const diag = {
+          request: { method, url, userAgent: headers['User-Agent'] },
+          auth: { token_source: tokenSrc, token_fingerprint: tokenFp, token_present: !!TOKEN, auth_header_set: !!headers['Authorization'] },
+          resolved: { owner: OWNER, repo: REPO },
+          response: { status: r.status, body_excerpt: text.slice(0, 400) },
+          hint: '运行 `node tools/push-to-github.mjs inspect` 单独验证 Token 是否有效. 如果 inspect 返回 200, 说明原 push 时网络/TLS 异常; 如果 inspect 也 401, 说明 Token 失效, 需在 GitHub Settings > Developer settings 重新签发.',
+        };
+        process.stderr.write(`[gh] FATAL 401/403 — 立即终止, 不重试\n${JSON.stringify(diag, null, 2)}\n`);
+        return { ok: false, status: r.status, data: json, _fatal: true };
+      }
+      if (r.status === 429) {
+        // rate limit, 尊重 Retry-After header
+        const retryAfter = parseInt(r.headers.get('Retry-After') || '5', 10);
+        if (attempt < 2) {
+          process.stderr.write(`[gh] 429 rate limit, retry after ${retryAfter}s\n`);
+          await sleep(Math.min(retryAfter, 30) * 1000);
+          continue;
+        }
+        return { ok: false, status: 429, data: json };
+      }
       if (r.status >= 500 && attempt < 2) {
         // 5xx transient, 重试
         await sleep(800 * (1 << attempt));
@@ -284,6 +310,58 @@ async function gh(method, path, body) {
     }
   }
   return { ok: false, status: 0, data: lastErr ? String(lastErr?.message || lastErr) : 'fetch failed (retried)' };
+}
+
+// 诊断 helper: 不打印 token, 只输出 sha256(token)[:8]
+import { createHash } from 'node:crypto';
+function sha256Short(s) {
+  return createHash('sha256').update(String(s)).digest('hex').slice(0, 8);
+}
+
+// 诊断 helper: 报告 token 来源
+function tokenSource() {
+  if (process.env.GITHUB_TOKEN) return 'env:GITHUB_TOKEN';
+  if (process.env.MAVIS_VAULT_PATH) return `vault:${process.env.MAVIS_VAULT_PATH}`;
+  if (process.platform === 'win32') return 'vault-default:<USERPROFILE>/.mavis/vault/secrets.env';
+  return 'vault-default:$HOME/.mavis/vault/secrets.env';
+}
+
+// inspect 子命令: 单独调用 GitHub API 验证 token 有效性 (不重试, 不带 body)
+//   用法: node tools/push-to-github.mjs inspect
+//   退出码 0 = token 有效; 1 = 401/403; 2 = 其他错误
+async function inspectToken() {
+  if (!TOKEN) { console.error('[inspect] no token'); process.exit(2); }
+  const url = `${GH_API}/user`;
+  const r = await fetch(url, {
+    headers: {
+      'Authorization': `Bearer ${TOKEN}`,
+      'Accept': 'application/vnd.github+json',
+      'User-Agent': 'mavis-english-bolt-inspect',
+    },
+  });
+  const text = await r.text();
+  let json; try { json = JSON.parse(text); } catch {}
+  if (r.status === 200) {
+    console.log(JSON.stringify({
+      status: 'ok',
+      login: json?.login,
+      id: json?.id,
+      name: json?.name,
+      scopes: json?.scopes ?? 'unknown (fine-grained PAT may not report)',
+      token_source: tokenSource(),
+      token_fingerprint: sha256Short(TOKEN),
+    }, null, 2));
+    process.exit(0);
+  } else {
+    console.log(JSON.stringify({
+      status: 'fail',
+      http_status: r.status,
+      body_excerpt: text.slice(0, 300),
+      token_source: tokenSource(),
+      token_fingerprint: sha256Short(TOKEN),
+    }, null, 2));
+    process.exit(1);
+  }
 }
 
 async function createRepo() {
@@ -328,6 +406,12 @@ function toBase64(buffer) {
 }
 
 async function main() {
+  // 子命令: inspect — 单独验证 token 有效性 (不重试, 不带 body)
+  //   P0 2026-07-23 Vocora 401 调查: 用户跑这个能区分"Token 失效"和"网络异常"
+  if (process.argv.includes('inspect')) {
+    await inspectToken();
+    return;
+  }
   if (!await createRepo()) process.exit(1);
   // 等 2s 让 repo init 完
   await new Promise(r => setTimeout(r, 2000));
@@ -381,6 +465,11 @@ async function main() {
     } else {
       console.error(`[fail] ${rel}  ${r.status}  ${JSON.stringify(r.data).slice(0, 200)}`);
       fail++;
+      // P0 2026-07-23: 401/403 立即终止整个 push, 不允许继续触发
+      if (r._fatal) {
+        console.error(`[push] FATAL 401/403 detected, 立即停止 push. 剩余 ${FILES.length - ok - fail - skip} 个文件未推送.`);
+        process.exit(1);
+      }
     }
     // 节流，避免触发 rate limit
     await new Promise(r => setTimeout(r, 150));
