@@ -1,4 +1,4 @@
-/* app.wxss — 英语快充 v2 全局样式
+/* app.wxss — Vocora 全局样式
  * 阶段一：reset + 基础 token。后续阶段会拆出 theme.wxss。
  */
 
