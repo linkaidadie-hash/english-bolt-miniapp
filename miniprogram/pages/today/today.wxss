@@ -191,3 +191,33 @@
   font-size: 36rpx;
   line-height: 1;
 }
+
+/* 阶段八: 首屏骨架 */
+.skeleton-card {
+  padding: 32rpx 24rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+  min-height: 360rpx;
+  justify-content: center;
+}
+.skel-line {
+  height: 24rpx;
+  background: linear-gradient(90deg, #f0f0f0 0%, #f8f8f8 50%, #f0f0f0 100%);
+  background-size: 200% 100%;
+  border-radius: 8rpx;
+  animation: skel-shimmer 1.4s ease-in-out infinite;
+}
+.skel-line-xl { height: 64rpx; width: 60%; }
+.skel-line-md { height: 28rpx; width: 80%; }
+.skel-line-sm { height: 22rpx; width: 50%; }
+.skel-block {
+  text-align: center;
+  font-size: 24rpx;
+  color: var(--c-text-faint);
+  padding: 24rpx 0 8rpx;
+}
+@keyframes skel-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
