@@ -4,21 +4,26 @@
     "pages/immerse/immerse",
     "pages/scene/scene",
     "pages/mine/mine",
-    "pages/natural/index",
     "pages/natural/lesson",
-    "pages/natural/sample-review",
     "pages/natural/train",
+    "pages/natural/final-test",
     "pages/listening/listening",
     "pages/spelling/spelling",
-    "pages/review/review"
+    "pages/review/review",
+    "pages/scene/learn",
+    "pages/task/task",
+    "pages/settings/about",
+    "pages/settings/privacy",
+    "pages/settings/record-permission"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "英语快充",
+    "navigationBarTitleText": "Vocora",
     "backgroundColor": "#f7f7f7",
     "backgroundTextStyle": "dark"
   },
+  "requiredBackgroundModes": ["audio"],
   "tabBar": {
     "color": "#999999",
     "selectedColor": "#4A90E2",
@@ -36,12 +41,6 @@
         "text": "沉浸",
         "iconPath": "assets/tab/immerse-inactive.png",
         "selectedIconPath": "assets/tab/immerse-active.png"
-      },
-      {
-        "pagePath": "pages/natural/index",
-        "text": "自然",
-        "iconPath": "assets/tab/natural-inactive.png",
-        "selectedIconPath": "assets/tab/natural-active.png"
       },
       {
         "pagePath": "pages/scene/scene",
