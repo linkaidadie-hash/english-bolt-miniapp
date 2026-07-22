@@ -22,16 +22,16 @@
     <view class="card-text">{{lesson.tip}}</view>
   </view>
 
-  <!-- 阶段四 A 提示 -->
+  <!-- 阶段四 A 提示 (audio pending 时显示) -->
   <view class="stage-banner" wx:if="{{audioReadyCount < sentences.length}}">
-    <text class="stage-banner-title">阶段四 A · 内容骨架</text>
-    <text class="stage-banner-text">真实音频待阶段四 B 生成后开放播放与训练,本阶段仅展示内容与变化规则。</text>
+    <text class="stage-banner-title">音频部分就绪</text>
+    <text class="stage-banner-text">本课程共 {{sentences.length}} 句, 已就绪 {{audioReadyCount}} 句, 其余待生成。</text>
   </view>
 
   <!-- 训练入口 -->
   <view class="train-entry" wx:if="{{audioReadyCount === sentences.length}}">
     <view class="train-entry-title">🎯 进入训练</view>
-    <view class="train-entry-sub muted">3 种训练模式, 任选其一</view>
+    <view class="train-entry-sub muted">6 种训练模式, 任选其一</view>
     <view class="train-entry-btns">
       <button class="te-btn te-btn-listen" bindtap="onOpenTrain" data-mode="listen-and-guess">
         <text class="te-btn-icon">👂</text>
@@ -45,6 +45,21 @@
         <text class="te-btn-icon">⚖️</text>
         <text class="te-btn-label">慢速 vs 自然</text>
       </button>
+      <button class="te-btn te-btn-mark" bindtap="onOpenTrain" data-mode="mark-changes">
+        <text class="te-btn-icon">🎯</text>
+        <text class="te-btn-label">标注口语变化</text>
+      </button>
+      <button class="te-btn te-btn-shadow" bindtap="onOpenTrain" data-mode="shadow">
+        <text class="te-btn-icon">🎙️</text>
+        <text class="te-btn-label">跟读模仿</text>
+      </button>
+      <button class="te-btn te-btn-caption" bindtap="onOpenTrain" data-mode="caption-repeat">
+        <text class="te-btn-icon">👀</text>
+        <text class="te-btn-label">隐藏字幕复述</text>
+      </button>
+    </view>
+    <view class="train-entry-bonus">
+      <button class="te-btn te-btn-bonus" bindtap="onOpenFinalTest">🏆 通关测试 (10 题跨 5 模式)</button>
     </view>
   </view>
 
@@ -107,6 +122,6 @@
   </view>
 
   <view class="footer-note muted">
-    通用 lesson 详情页 · 阶段四 A 不含训练入口
+    Vocora · 自然口语课程
   </view>
 </view>
