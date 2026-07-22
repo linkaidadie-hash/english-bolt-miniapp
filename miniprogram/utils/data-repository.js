@@ -9,6 +9,11 @@
 //   - 加 user progress (wordProgress) 关联
 //   - 加 interval-repetition 算法
 //   - 加场景 / 句子 / 跟读记录
+//
+// 阶段八性能优化 (2026-07-20):
+//   - _index() 拆成轻量 (meta) 和完整 (3000 词索引) 两步
+//   - 轻量同步 (meta + 计数), 完整异步 (setTimeout(0))
+//   - 避免 onLoad 首屏卡顿 (1MB 词库同步迭代 ~150-200ms)
 
 const wordsCore = require('../data/words-core.js');
 
@@ -17,25 +22,59 @@ let _byId = null;
 let _byText = null;
 let _byLevel = null;
 let _loaded = false;
+let _indexing = false;
+let _pendingCallbacks = [];
+
+function _indexSync() {
+  if (_meta) return;
+  _meta = wordsCore.meta;
+}
+
+function _indexAsync() {
+  if (_loaded || _indexing) return;
+  _indexing = true;
+  // setTimeout(0) 推到下一个 tick, 不阻塞当前 onLoad 渲染
+  setTimeout(() => {
+    try {
+      _byId = Object.create(null);
+      _byText = Object.create(null);
+      _byLevel = Object.create(null);
+      for (const w of wordsCore.words) {
+        _byId[w.id] = w;
+        _byText[w.word.toLowerCase()] = w;
+        const arr = _byLevel[w.level] || (_byLevel[w.level] = []);
+        arr.push(w);
+      }
+      _loaded = true;
+    } finally {
+      _indexing = false;
+      const cbs = _pendingCallbacks;
+      _pendingCallbacks = [];
+      for (const cb of cbs) { try { cb(); } catch (e) {} }
+    }
+  }, 0);
+}
 
 function _index() {
-  if (_loaded) return;
-  _meta = wordsCore.meta;
-  _byId = Object.create(null);
-  _byText = Object.create(null);
-  _byLevel = Object.create(null);
-  for (const w of wordsCore.words) {
-    _byId[w.id] = w;
-    _byText[w.word.toLowerCase()] = w;
-    const arr = _byLevel[w.level] || (_byLevel[w.level] = []);
-    arr.push(w);
-  }
-  _loaded = true;
+  _indexSync();
+  _indexAsync();
 }
 
 function _assertLoaded() {
   _index();
-  if (!_loaded) throw new Error('data-repository: load failed');
+  // 允许 meta 立即可用, 完整词库异步加载
+  if (!_meta) throw new Error('data-repository: meta load failed');
+}
+
+/**
+ * 等待完整词库索引完成 (供今日训练等需要完整数据的场景使用)
+ */
+function whenReady() {
+  return new Promise((resolve) => {
+    if (_loaded) { resolve(true); return; }
+    _pendingCallbacks.push(resolve);
+    _indexAsync();
+  });
 }
 
 // === Meta ===
@@ -165,4 +204,8 @@ module.exports = {
   getAudioStats,
   getTodayBatch,
   searchWords,
+  whenReady,
+  isReady() { return _loaded; },
+  // 显式触发预加载 (异步, 推到下一个 tick)
+  preload() { _index(); },
 };
