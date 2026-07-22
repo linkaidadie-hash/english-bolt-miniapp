@@ -1,20 +1,94 @@
 <view class="page">
-  <view class="placeholder">
-    <view>
-      <view class="ph-title">沉浸频道</view>
-      <view class="ph-sub muted">阶段一骨架：tabBar 跳转 + 数据流通</view>
-      <view class="ph-sub muted">实际播放逻辑在阶段五（后台/前台音频焦点）</view>
+  <!-- 频道列表 (未播放时显示) -->
+  <view wx:if="{{showChannelList || !current}}" class="channel-list-wrap">
+    <view class="hero">
+      <view class="hero-title">🎧 沉浸播放</view>
+      <view class="hero-sub muted">10 频道 · 切后台继续 · 锁屏继续 · 定时停止</view>
+    </view>
+
+    <view class="card">
+      <view class="card-title">选择频道</view>
+      <view wx:for="{{channelList}}" wx:key="id"
+        class="channel-row {{item.id === current.channel ? 'channel-active' : ''}}"
+        hover-class="channel-hover"
+        bindtap="onPickChannel"
+        data-id="{{item.id}}">
+        <text class="channel-icon">{{item.icon}}</text>
+        <view class="channel-meta">
+          <view class="channel-name">{{item.name}}</view>
+          <view class="channel-desc muted">{{item.desc}}</view>
+        </view>
+        <text class="channel-arrow">›</text>
+      </view>
     </view>
   </view>
 
-  <view class="card">
-    <view class="card-title">规划频道</view>
-    <view class="channel" wx:for="{{channels}}" wx:key="id">
-      <view>
-        <view class="ch-name">{{item.name}}</view>
-        <view class="ch-desc muted">{{item.desc}}</view>
+  <!-- 播放控制 (有 current 时显示) -->
+  <view wx:elif="{{current}}" class="player-wrap">
+    <view class="player-hero">
+      <view class="player-channel muted">{{channelLabel}}</view>
+      <view class="player-title">{{current.title}}</view>
+      <view class="player-counter muted">第 {{current.idx + 1}} 首</view>
+    </view>
+
+    <view class="card player-card">
+      <view class="progress-row">
+        <text class="progress-time">{{fmtTime(position)}}</text>
+        <slider class="progress-slider" min="0" max="{{duration || 100}}" value="{{position}}" bindchange="onSeek" block-size="16" activeColor="#4A90E2" />
+        <text class="progress-time">{{fmtTime(duration)}}</text>
       </view>
-      <text class="ch-status muted">未开始</text>
+
+      <view class="player-controls">
+        <view class="ctrl-btn" hover-class="ctrl-hover" bindtap="onPrev">⏮</view>
+        <view class="ctrl-btn ctrl-main" hover-class="ctrl-hover" bindtap="onTogglePlay">
+          <text wx:if="{{state === 'playing'}}">⏸</text>
+          <text wx:elif="{{state === 'loading'}}">…</text>
+          <text wx:else>▶</text>
+        </view>
+        <view class="ctrl-btn" hover-class="ctrl-hover" bindtap="onNext">⏭</view>
+      </view>
+
+      <view class="player-secondary">
+        <view class="sec-btn" hover-class="sec-hover" bindtap="onOpenSleep">
+          <text wx:if="{{currentSleep}}">⏰ {{fmtTime(currentSleep / 1000)}}</text>
+          <text wx:else>⏰ 定时</text>
+        </view>
+        <view class="sec-btn" hover-class="sec-hover" bindtap="onBackToChannels">📋 切频道</view>
+        <view class="sec-btn" hover-class="sec-hover" bindtap="onStop">⏹ 停止</view>
+      </view>
+
+      <view class="player-state muted">
+        <text wx:if="{{state === 'playing'}}">▶ 播放中</text>
+        <text wx:elif="{{state === 'paused'}}">⏸ 暂停</text>
+        <text wx:elif="{{state === 'loading'}}">加载中…</text>
+        <text wx:elif="{{state === 'error'}}">⚠️ 播放出错, 3s 后重试</text>
+        <text wx:else>{{state}}</text>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="card-title">使用提示</view>
+      <view class="hint-line">• 切到后台或锁屏, 音频继续播放</view>
+      <view class="hint-line">• 微信顶部胶囊会显示控制条</view>
+      <view class="hint-line">• 定时关闭, 适合睡前 / 通勤</view>
+      <view class="hint-line">• 断网 3 秒自动重连</view>
+    </view>
+  </view>
+
+  <!-- 定时 sheet -->
+  <view wx:if="{{showSleepSheet}}" class="sheet-mask" bindtap="onCloseSleep">
+    <view class="sheet" catchtap="onCloseSleep">
+      <view class="sheet-title">定时停止</view>
+      <view wx:for="{{sleepOptions}}" wx:key="label"
+        class="sheet-row"
+        hover-class="sheet-hover"
+        bindtap="onPickSleep" data-m="{{item.minutes}}">
+        <text>{{item.label}}</text>
+      </view>
+      <view wx:if="{{currentSleep}}" class="sheet-row sheet-clear" hover-class="sheet-hover" bindtap="onClearSleep">
+        <text>清除定时</text>
+      </view>
+      <view class="sheet-cancel" hover-class="sheet-hover" bindtap="onCloseSleep">取消</view>
     </view>
   </view>
 </view>
