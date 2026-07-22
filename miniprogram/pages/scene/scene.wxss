@@ -1,15 +1,23 @@
-.card-title {
-  font-size: 28rpx;
-  font-weight: 600;
-  margin-bottom: 12rpx;
-}
-.group {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24rpx 0;
-  border-bottom: 1rpx solid var(--c-border);
-}
-.group:last-child { border-bottom: none; }
-.g-name { font-size: 30rpx; font-weight: 500; }
-.g-count { font-size: 22rpx; margin-top: 4rpx; }
+.page { padding: 24rpx 32rpx 80rpx; }
+.card { background: #fff; padding: 20rpx 24rpx; border-radius: 16rpx; margin-bottom: 16rpx; box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.04); }
+.card-title { font-size: 30rpx; font-weight: 700; color: #1f2937; margin-bottom: 12rpx; }
+.small { font-size: 24rpx; }
+.muted { color: #6B7280; }
+
+.group-row { display: flex; align-items: center; gap: 16rpx; padding: 24rpx 16rpx; background: #F9FAFB; border-radius: 12rpx; margin-bottom: 12rpx; }
+.group-hover { background: #E8F1FC; }
+.group-icon { width: 72rpx; height: 72rpx; line-height: 72rpx; text-align: center; background: #4A90E2; color: #fff; border-radius: 12rpx; font-size: 40rpx; }
+.group-meta { flex: 1; }
+.group-name { font-size: 30rpx; font-weight: 600; color: #1f2937; }
+.group-count { font-size: 24rpx; margin-top: 4rpx; }
+
+.back-row { padding: 12rpx 24rpx; }
+.back-btn { font-size: 28rpx; color: #4A90E2; font-weight: 600; padding: 16rpx 0; }
+.back-hover { color: #2563EB; }
+
+.scene-row { display: flex; align-items: center; gap: 16rpx; padding: 20rpx 16rpx; background: #F9FAFB; border-radius: 12rpx; margin-bottom: 12rpx; }
+.scene-hover { background: #E8F1FC; }
+.scene-icon { font-size: 40rpx; width: 64rpx; text-align: center; }
+.scene-meta { flex: 1; }
+.scene-name { font-size: 28rpx; font-weight: 600; color: #1f2937; }
+.scene-sub { font-size: 22rpx; margin-top: 4rpx; }
