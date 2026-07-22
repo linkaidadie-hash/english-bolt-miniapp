@@ -1,4 +1,4 @@
-# 英语快充 v2 — 阶段三交付报告
+# Vocora — 阶段三交付报告
 
 > 交付日期：2026-07-17
 > build tag: `phase3-train-engine-2026-07-17`
