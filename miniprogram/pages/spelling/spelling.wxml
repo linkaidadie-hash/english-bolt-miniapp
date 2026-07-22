@@ -8,8 +8,29 @@
     <view class="card" wx:if="{{quiz.length > 0}}">
       <view class="quiz-meta muted">拼写检测 · 根据释义拼单词</view>
 
+      <!-- P0-2 修复 2026-07-19: 释义 / 词性 / 音标 独立展示, 不再混合 -->
       <view class="hint-block">
-        <text class="hint-meaning">{{quiz[currentIndex].hint}}</text>
+        <!-- 词性独立显示 (在释义之上) -->
+        <view class="hint-pos" wx:if="{{quiz[currentIndex].posLabel}}">
+          <text class="pos-label">{{quiz[currentIndex].posLabel}}</text>
+        </view>
+
+        <!-- 中文释义: 多义项逐条列出 (≥2 高频义项) -->
+        <view class="hint-meanings">
+          <text wx:if="{{quiz[currentIndex].meanings.length === 0}}" class="muted">（暂无中文释义）</text>
+          <text
+            wx:for="{{quiz[currentIndex].meanings}}"
+            wx:key="*this"
+            wx:for-item="m"
+            wx:for-index="mi"
+            class="hint-meaning-line"
+          >• {{m}}</text>
+        </view>
+
+        <!-- 音标独立显示 (在释义之下, 用斜体) -->
+        <view class="hint-ipa" wx:if="{{quiz[currentIndex].ipa}}">
+          <text class="ipa-text">/{{quiz[currentIndex].ipa}}/</text>
+        </view>
       </view>
 
       <input
@@ -32,7 +53,18 @@
       <view class="feedback" wx:if="{{showFeedback}}">
         <text class="muted">{{quality === 'remembered' ? '✅ 拼写正确' : (quality === 'vague' ? '⚠️ 接近正确（1 字符内）' : '❌ 拼错了')}}</text>
         <text class="muted">正确: <text class="ok">{{quiz[currentIndex].expected}}</text></text>
-        <text class="muted">释义: {{quiz[currentIndex].hint}}</text>
+        <!-- 反馈区: 同样独立显示词性/释义/音标 -->
+        <view class="feedback-detail">
+          <text wx:if="{{quiz[currentIndex].posLabel}}" class="muted">词性: {{quiz[currentIndex].posLabel}}</text>
+          <text class="muted">释义:</text>
+          <text
+            wx:for="{{quiz[currentIndex].meanings}}"
+            wx:key="*this"
+            wx:for-item="m"
+            class="muted feedback-meaning-line"
+          >  • {{m}}</text>
+          <text wx:if="{{quiz[currentIndex].ipa}}" class="muted">音标: /{{quiz[currentIndex].ipa}}/</text>
+        </view>
       </view>
     </view>
   </block>
