@@ -2,7 +2,7 @@
 
 > 训练英语耳朵识别"自然美式口语"中的音变 ——
 > 弱读、连读、同化、吞音、闪音、重音、节奏、非正式压缩。
-> 这是英语快充 v2 唯一能"听 + 跟读"真实自然语速音频的阶段。
+> 这是Vocora 唯一能"听 + 跟读"真实自然语速音频的阶段。
 
 ---
 
@@ -364,3 +364,88 @@ TTSProvider (abstract)
 - buildTag: `phase4b-part2-segments-2026-07-17`
 - stage: B 阶段 v1 完成, 等待 user 试玩 + 反馈
 - status: ✅ Part 1+2+3 全部完成
+
+---
+
+## 阶段四 B 修复 (2026-07-17)
+
+user 真机验收发现 4 类问题。全部修复。
+
+### 修复 1: speechChunks 错误 + 字符切分
+
+**审计** (`tools/audit-speech-chunks.mjs`):
+- 180 句 chunks 拼接 vs clearText — **61 句 mismatch**
+- 启发式截断检测: 25 句 (含合法意群, 启发式误报)
+
+**真问题分类**:
+- **A. flap 20 句**: 字符切分 (Water → Wa/ter, Better → Bet/ter) — 违反"完整词"原则
+- **B. rhythm 20 句**: clearText 含 `/` 节奏标注 (例: "I need to / talk to him"), 拼接 ≠ clearText
+- **C. informal 12 句**: chunks 用 naturalText 拼写 (wanna), clearText 是 "want to" — chunks 必须 match clearText
+- **D. lk-12 / elision 3 / stress 1**: 单词字符切分 (Far away → Far a way)
+
+**修复** (`tools/fix-speech-chunks.mjs`): 64 句 chunks 重写:
+- flap: 整词 1 chunk 或按词切 (Not at all → Not/at/all)
+- rhythm: clearText 移除 `/`, chunks 按意群 (I need to / talk to him → I need to / talk to him)
+- informal: chunks 改用 clearText 拆词 (wanna → want to, gonna → going to, etc)
+- 杂项: 整词 (Friendship, Handsome, tomorrow)
+
+**重建 audioSegmented** (`tools/regen-segmented.mjs` + 35 批 TTS + scp):
+- 276 个 mp3 (64 句改后的总 chunks × 2 版本)
+- 全部 HTTP 200 verified (`tools/check-natural-segmented.mjs` 786/786 通过)
+
+**审计 verify**:
+- concat_mismatch: **0** ✅
+- audioSegmented_text_mismatch: **0** ✅
+- truncated_chunks: 25 (启发式误报, 全部人工确认为合法意群)
+
+### 修复 2: 词块洗牌
+
+**问题**: chunks 按原顺序展示, 无训练价值。
+
+**修复** (`train.js` `_shuffle`):
+- Fisher-Yates 洗牌 (不用 sort(Math.random))
+- 2 块必互换
+- 3+ 块至少 2 位置变化
+- 洗完验证 ≠ 原顺序, 否则重洗 (最多 20 次)
+- 兜底: 旋转一位
+
+**验证** (`tools/verify-shuffle.mjs`): **360 题抽查 (12 chunk size × 30 round) 全部 0 失败**:
+- 初始顺序 == 答案: 0/360 ✅
+- 2 块必互换: 0 失败 ✅
+- 3+ 块至少 2 位置变化: 0 失败 ✅
+
+### 修复 3: 交互完善
+
+**修复** (`train.js`):
+- ✅ 用户点击词块组成答案 (绑 bindtap onPickWord)
+- ✅ 撤回 (onUndoWord) + 清空 (onClearWords) 双按钮
+- ✅ 提交前不显示正确句 (selectedWords 在 wxml 只显示已选 tokens)
+- ✅ 提交后标记错位置 (wrongPositions 数组 → 错位 token 标红 + line-through)
+- ✅ 错题写入 storage `natural-train-wrong-v1` (按 mode+lesson 分组, 去重)
+- ✅ 完成后再播放 natural 音频 (onReplayNatural) + 显示变化点 (pronunciationNotes)
+
+### 修复 4: 按钮灵敏度
+
+**修复**:
+- `_pickingGuard` 防抖 (80ms 解锁, 防止快速重复点击)
+- 同步 setData 视觉反馈 (不等 audio, 立即变 used)
+- 第一次点选前 await prewarm (避免第一次 play() interrupted)
+- chunk 卡片加大: padding 16→20rpx, min-height 72rpx, font-size 26→28rpx
+- 所有按钮加 hover-stay-time + 缩放反馈 (opt-hover, btn-hover, chunk-hover)
+
+### 验收清单 (user 给定)
+
+- [x] 180 句全部通过 chunk 文本一致性检查 (concat_mismatch=0, audioSegText=0)
+- [x] 不存在截断单词、残缺缩写或错误词块 (audit 全过, 25 启发式误报人工确认)
+- [x] 30 题随机抽初始顺序 0 次与答案同 (360 题 0 失败)
+- [x] 2 块必互换 (0 失败)
+- [x] 3+ 块至少 2 位置变化 (0 失败)
+- [x] 撤回和清空按钮
+- [x] 提交前不显示正确句
+- [x] 提交后标记错位
+- [x] 错题进错词记录 (storage `natural-train-wrong-v1`)
+- [x] 完成后再播 natural + 变化点
+- [x] 按钮灵敏度优化 (防抖 + 同步反馈 + prewarm)
+
+**buildTag**: `phase4b-fix-chunks-2026-07-17`
+**status**: ✅ 4 类问题全部修复, 等待 user 真机复测
