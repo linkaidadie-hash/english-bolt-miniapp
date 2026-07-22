@@ -1,7 +1,7 @@
 // utils/trainer.js — 训练任务生成器
 //
 // 阶段三职责：
-//   - 拉 ready 词（仅 830，避免依赖 2170 missing）
+//   - 拉 ready 词（仅 1330, 避免依赖 1670 missing）
 //   - 拉 new 词（userProgress 里没见过的）
 //   - 拉 due 词（间隔复习到期）
 //   - 组装 3 类训练任务：听音辨词 / 拼写检测 / 错题回炉
@@ -13,6 +13,50 @@ const userData = require('./user-data.js');
 const srs = require('./srs.js');
 
 const READY_LEVELS = [1, 2, 3, 4];  // 阶段三只用 1-4 ready 词训练 (避开部分 5/6 missing)
+
+// 词性缩写 → 全称 (用于拼写训练释义展示, P0-2 2026-07-19)
+// ECDICT 用单字母/双字母缩写, UI 展示需要全称 (modal/noun/verb)
+const POS_FULL = {
+  n: 'noun',
+  v: 'verb',
+  vt: 'verb (transitive)',
+  vi: 'verb (intransitive)',
+  aux: 'auxiliary verb',
+  modal: 'modal verb',
+  adj: 'adjective',
+  adv: 'adverb',
+  pron: 'pronoun',
+  prep: 'preposition',
+  conj: 'conjunction',
+  num: 'numeral',
+  art: 'article',
+  int: 'interjection',
+  pl: 'plural',
+};
+
+/**
+ * 把单个 pos 缩写扩展成全称 (用户要求 "modal / noun / verb" 格式, 多 pos 用 / 分隔)
+ */
+function expandPos(pos) {
+  if (!pos) return '';
+  // 多种 pos 用 / 隔开 (有些词如 can = modal v + noun, 但 ECDICT 只存一种)
+  const parts = String(pos).split('/').map(s => s.trim()).filter(Boolean);
+  return parts.map(p => POS_FULL[p] || p).join(' / ');
+}
+
+/**
+ * 把 ECDICT 的 meaning 字符串 (逗号/分号/斜杠分隔的中文释义) 拆成结构化 sense 数组
+ * P0-2 修复 2026-07-19:
+ *   - 不再用 `${meaning} · ${ipa}` 拼一个 hint
+ *   - 拆成 meanings[] (释义数组), posLabel (词性全称), ipa (音标) 三个独立字段
+ *   - UI 端分开渲染, 不再出现 "装罐 · kæn" 这种混合显示
+ */
+function parseMeanings(meaning) {
+  if (!meaning) return [];
+  // 常见分隔符: 中英文逗号、中英文分号、斜杠
+  const raw = String(meaning).split(/[,，;；\/]+/).map(s => s.trim()).filter(Boolean);
+  return raw;
+}
 
 /**
  * 拉 ready 词列表（阶段三训练源）
@@ -55,18 +99,25 @@ function buildListeningQuiz(count = 10) {
 }
 
 /**
- * 拼写训练题：给一个 word + 中文释义 + IPA 提示
+ * 拼写训练题：结构化 hint (P0-2 修复)
  * @param {number} count
- * @returns {Array<{ wordId, word, hint, expected }>}
+ * @returns {Array<{
+ *   wordId, word, expected,
+ *   meanings: string[],  // 中文释义数组, 多个 sense 分开
+ *   posLabel: string,     // 词性全称 (e.g. "modal verb / noun")
+ *   ipa: string,          // 音标 (e.g. "kæn")
+ * }>}
  */
 function buildSpellingQuiz(count = 10) {
   const pool = getReadyWords(200);
   const shuffled = pool.slice().sort(() => Math.random() - 0.5);
   return shuffled.slice(0, count).map(w => ({
-    wordId: w.id,                 // 关键：让 review 能拉到错题
+    wordId: w.id,
     word: w.word,
-    hint: `${w.meaning} · ${w.ipa || ''}`,
     expected: w.word,
+    meanings: parseMeanings(w.meaning),
+    posLabel: expandPos(w.pos),
+    ipa: w.ipa || '',
   }));
 }
 
