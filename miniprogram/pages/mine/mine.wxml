@@ -1,14 +1,25 @@
 <view class="page">
   <view class="card profile">
-    <view class="avatar"></view>
+    <view class="avatar">📘</view>
     <view class="meta">
-      <view class="name">英语快充 v2</view>
-      <view class="muted">build: {{buildTag}}</view>
+      <view class="name">Vocora</view>
+      <view class="muted small">build: {{buildTag}}</view>
+    </view>
+  </view>
+
+  <view class="card" bindtap="onGoTask" hover-class="card-hover">
+    <view class="task-row">
+      <view class="task-icon">🎯</view>
+      <view class="task-meta">
+        <view class="task-name">今日现实任务</view>
+        <view class="task-sub muted">每天 1 个 · 连续 {{taskStreak}} 天</view>
+      </view>
+      <text class="muted">›</text>
     </view>
   </view>
 
   <view class="card">
-    <view class="card-title">能力进度（5 维度）</view>
+    <view class="card-title">能力进度 (5 维度)</view>
     <view class="stat-grid">
       <view class="stat">
         <view class="stat-num">{{stats.known}}</view>
@@ -35,36 +46,47 @@
         <view class="stat-label">已掌握</view>
       </view>
     </view>
-    <view class="muted small">答对一次计入对应维度；间隔复习按 SRS 自动调度</view>
   </view>
 
   <view class="card">
-    <view class="card-title">训练统计</view>
-    <view class="stat-row">
-      <view class="stat">
-        <view class="stat-num">{{trainingCount}}</view>
-        <view class="stat-label">总答题数</view>
-      </view>
-      <view class="stat">
-        <view class="stat-num">{{stats.total}}</view>
-        <view class="stat-label">已学词数</view>
-      </view>
+    <view class="card-title">学习进度</view>
+    <view class="data-row">
+      <text>训练总答题数</text>
+      <text class="muted">{{trainingCount}}</text>
+    </view>
+    <view class="data-row">
+      <text>已学词数</text>
+      <text class="muted">{{stats.total}}</text>
+    </view>
+    <view class="data-row">
+      <text>场景通关</text>
+      <text class="muted">{{sceneDone}} / {{sceneTotal}}</text>
+    </view>
+    <view class="data-row" wx:if="{{storageStats}}">
+      <text>本地存储</text>
+      <text class="muted">{{storageStats.totalSizeKB}} KB / {{storageStats.limitKB}} KB</text>
     </view>
   </view>
 
   <view class="card">
-    <view class="card-title">数据</view>
-    <view class="data-row">
-      <text>词库来源</text>
-      <text class="muted">ECDICT 1.0.3 (CC-BY-SA 4.0) · BNC 词频</text>
+    <view class="card-title">设置与法律</view>
+    <view class="link-row" hover-class="link-hover" bindtap="onGoPrivacy">
+      <text>📄 隐私说明</text>
+      <text class="muted">›</text>
     </view>
-    <view class="data-row">
-      <text>音频</text>
-      <text class="muted">已就绪 830 / 缺失 2170</text>
+    <view class="link-row" hover-class="link-hover" bindtap="onGoRecordPerm">
+      <text>🎙️ 录音权限用途</text>
+      <text class="muted">›</text>
     </view>
-    <view class="data-row">
-      <text>训练源</text>
-      <text class="muted">仅 830 ready 词（阶段三）</text>
+    <view class="link-row" hover-class="link-hover" bindtap="onGoAbout">
+      <text>ℹ️ 关于</text>
+      <text class="muted">›</text>
     </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">数据管理</view>
+    <view class="muted small">清除所有学习数据, 词库本身不受影响。不可恢复。</view>
+    <button class="btn btn-danger" bindtap="onClearData">🗑 清除所有学习数据</button>
   </view>
 </view>
